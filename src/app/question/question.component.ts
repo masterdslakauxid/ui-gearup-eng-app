@@ -23,7 +23,7 @@ export class QuestionComponent implements OnInit {
   }
 
   loadQuestions(): void {
-    this.http.get<{ question: string, hint: string, answer: string }[]>('/assets/questions.json')
+    this.http.get<{ question: string, hint: string, answer: string }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/questions-plural-alltenses.json')
       .subscribe(data => {
         this.questionsAndAnswers = data;
         this.loadRandomQuestion();

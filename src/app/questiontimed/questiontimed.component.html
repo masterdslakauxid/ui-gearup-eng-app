@@ -22,9 +22,9 @@
     <div *ngIf="activeTab === 'selection'">
         <h3>Select the tense you want to test</h3>
         <div *ngFor="let array of jsonArrays; let i = index">
-            <input type="radio" [id]="'array' + i" name="questionArray" [value]="i" (change)="onArraySelectionChange(i)"
-                [checked]="i === selectedArrayIndex" />
-            <label [for]="'array' + i">{{ typeOfQuestions[i].name }}</label>
+            <input *ngIf="typeOfQuestions[i].enabled" type="radio" [id]="'array' + i" name="questionArray" [value]="i"
+                (change)="onArraySelectionChange(i)" [checked]="i === selectedArrayIndex" />
+            <label *ngIf="typeOfQuestions[i].enabled" [for]="'array' + i">{{ typeOfQuestions[i].name }}</label>
         </div>
     </div>
 
