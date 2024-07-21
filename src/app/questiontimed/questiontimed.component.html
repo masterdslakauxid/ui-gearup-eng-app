@@ -1,0 +1,38 @@
+<!-- question.component.html -->
+<div>
+    <p><strong>Question:</strong> {{ currentQuestion }}</p>
+    <p><strong>Hint:</strong> {{ currentHint }}</p>
+    <button (click)="revealAnswer()">Show Answer</button>
+    <p *ngIf="showAnswer"><strong>Answer:</strong> {{ currentAnswer }}</p> &nbsp;&nbsp;
+    <button (click)="loadRandomQuestion()">Load Another Question</button>
+</div>
+
+
+<hr>
+
+<!-- question.component.html -->
+<div>
+    <!-- Tab Navigation -->
+    <ul class="tab-nav">
+        <li (click)="setActiveTab('selection')" [class.active]="activeTab === 'selection'">Select Array</li>
+        <li (click)="setActiveTab('questions')" [class.active]="activeTab === 'questions'">Questions</li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div *ngIf="activeTab === 'selection'">
+        <h3>Select the tense you want to test</h3>
+        <div *ngFor="let array of jsonArrays; let i = index">
+            <input type="radio" [id]="'array' + i" name="questionArray" [value]="i" (change)="onArraySelectionChange(i)"
+                [checked]="i === selectedArrayIndex" />
+            <label [for]="'array' + i">{{ typeOfQuestions[i].name }}</label>
+        </div>
+    </div>
+
+    <div *ngIf="activeTab === 'questions'">
+        <h3>Questions</h3>
+        <p><strong>Question:</strong> {{ currentQuestion }}</p>
+        <p><strong>Hint:</strong> {{ currentHint }}</p>
+        <button (click)="revealAnswer()">Show Answer</button>
+        <p *ngIf="showAnswer"><strong>Answer:</strong> {{ currentAnswer }}</p>
+    </div>
+</div>

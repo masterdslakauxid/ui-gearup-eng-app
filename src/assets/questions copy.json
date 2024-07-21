@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is your name?",
+        "hint": "It starts with K.",
+        "answer": "My name is Kumaravel."
+    },
+    {
+        "question": "What is your age?",
+        "hint": "I am in my thirties.",
+        "answer": "I am 30 years old."
+    },
+    {
+        "question": "What is your favorite color?",
+        "hint": "It is the color of the sky.",
+        "answer": "My favorite color is blue."
+    },
+    {
+        "question": "Where do you live?",
+        "hint": "It is a city in India.",
+        "answer": "I live in Chennai."
+    },
+    {
+        "question": "What is your profession?",
+        "hint": "I work in IT.",
+        "answer": "I am an IT architect."
+    }
+]

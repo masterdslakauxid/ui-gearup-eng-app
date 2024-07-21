@@ -1,0 +1,8 @@
+<!-- question.component.html -->
+<div>
+    <p><strong>Question:</strong> {{ currentQuestion }}</p>
+    <p><strong>Hint:</strong> {{ currentHint }}</p>
+    <button (click)="revealAnswer()">Show Answer</button>
+    <p *ngIf="showAnswer"><strong>Answer:</strong> {{ currentAnswer }}</p>
+    <button (click)="loadRandomQuestion()">Load Another Question</button>
+</div>
