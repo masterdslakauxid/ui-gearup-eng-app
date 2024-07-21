@@ -1,0 +1,39 @@
+<div>
+    <!-- Tab Navigation -->
+    <ul class="tab-nav">
+        <li (click)="setActiveTab('selection')" [class.active]="activeTab === 'selection'">Select Category</li>
+        <li (click)="setActiveTab('questions')" [class.active]="activeTab === 'questions'">Questions</li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div *ngIf="activeTab === 'selection'">
+        <h3>Select a Category</h3>
+        <div *ngFor="let array of labeledJsonArrays">
+            <input type="radio" [id]="array.label" name="questionArray" [value]="array.label"
+                (change)="onArraySelectionChange(array.label)" [checked]="array.label === selectedLabel" />
+            <label [for]="array.label">{{ array.label }}</label>
+        </div>
+
+        <h3>Select Interval (Seconds)</h3>
+        <select (change)="onIntervalChange($event)" [value]="selectedInterval">
+            <option *ngFor="let interval of [5, 10, 15, 20, 30]" [value]="interval">{{ interval }}</option>
+        </select>
+        Current Interval - {{selectedInterval}}
+
+        <h3>Select Answer (Seconds)</h3>
+        <select (change)="onShowAnswerChange($event)" [value]="showAnswerOption">
+            <option [value]="true">Yes</option>
+            <option [value]="false">No</option>
+        </select>
+        Current show answer value - {{showAnswerOption}}
+    </div>
+
+    <div *ngIf="activeTab === 'questions'">
+        <h3>Questions</h3>
+        <p><strong>Question:</strong> {{ currentQuestion }}</p>
+        <p><strong>Hint:</strong> {{ currentHint }}</p>
+        <button (click)="revealAnswer()">Show Answer</button>&nbsp;&nbsp;&nbsp;
+        <button (click)="loadRandomQuestion()">Load Another Question</button>
+        <p *ngIf="showAnswer"><strong>Answer:</strong> {{ currentAnswer }}</p>
+    </div>
+</div>

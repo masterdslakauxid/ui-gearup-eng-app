@@ -1,0 +1,807 @@
+[
+    {
+        "label": "PresentTense-YesOrNo-questions",
+        "questions": [
+            {
+                "question": "Do I exercise every day?",
+                "hint": "exercise",
+                "answer": "Yes, I do. / Yes, I exercise every day."
+            },
+            {
+                "question": "Do I not exercise every day?",
+                "hint": "exercise",
+                "answer": "No, I don't. / No, I do not exercise every day."
+            },
+            {
+                "question": "Do you visit your parents every month?",
+                "hint": "visit",
+                "answer": "Yes, I do. / Yes, I visit my parents every month."
+            },
+            {
+                "question": "Do you not visit your parents every month?",
+                "hint": "visit",
+                "answer": "No, I don't. / No, I do not visit my parents every month."
+            },
+            {
+                "question": "Does he celebrate his birthday every year?",
+                "hint": "celebrate",
+                "answer": "Yes, he does. / Yes, he celebrates his birthday every year."
+            },
+            {
+                "question": "Does he not celebrate his birthday every year?",
+                "hint": "celebrate",
+                "answer": "No, he doesn't. / No, he does not celebrate his birthday every year."
+            },
+            {
+                "question": "Does she go to the dentist every two months?",
+                "hint": "dentist",
+                "answer": "Yes, she does. / Yes, she goes to the dentist every two months."
+            },
+            {
+                "question": "Does she not go to the dentist every two months?",
+                "hint": "dentist",
+                "answer": "No, she doesn't. / No, she does not go to the dentist every two months."
+            },
+            {
+                "question": "Does it always rain here?",
+                "hint": "rain",
+                "answer": "Yes, it does. / Yes, it always rains here."
+            },
+            {
+                "question": "Does it not always rain here?",
+                "hint": "rain",
+                "answer": "No, it doesn't. / No, it does not always rain here."
+            },
+            {
+                "question": "Do I usually have coffee in the morning?",
+                "hint": "coffee",
+                "answer": "Yes, I do. / Yes, I usually have coffee in the morning."
+            },
+            {
+                "question": "Do I not usually have coffee in the morning?",
+                "hint": "coffee",
+                "answer": "No, I don't. / No, I do not usually have coffee in the morning."
+            },
+            {
+                "question": "Do you often read books on weekends?",
+                "hint": "read",
+                "answer": "Yes, I do. / Yes, I often read books on weekends."
+            },
+            {
+                "question": "Do you not often read books on weekends?",
+                "hint": "read",
+                "answer": "No, I don't. / No, I do not often read books on weekends."
+            },
+            {
+                "question": "Does he sometimes play soccer?",
+                "hint": "play",
+                "answer": "Yes, he does. / Yes, he sometimes plays soccer."
+            },
+            {
+                "question": "Does he not sometimes play soccer?",
+                "hint": "play",
+                "answer": "No, he doesn't. / No, he does not sometimes play soccer."
+            },
+            {
+                "question": "Does she rarely eat out at restaurants?",
+                "hint": "eat",
+                "answer": "Yes, she does. / Yes, she rarely eats out at restaurants."
+            },
+            {
+                "question": "Does she not rarely eat out at restaurants?",
+                "hint": "eat",
+                "answer": "No, she doesn't. / No, she does not rarely eat out at restaurants."
+            },
+            {
+                "question": "Does it never snow here?",
+                "hint": "snow",
+                "answer": "Yes, it does. / Yes, it never snows here."
+            },
+            {
+                "question": "Does it not never snow here?",
+                "hint": "snow",
+                "answer": "No, it doesn't. / No, it does not never snow here."
+            },
+            {
+                "question": "Do we exercise every day?",
+                "hint": "exercise",
+                "answer": "Yes, we do. / Yes, we exercise every day."
+            },
+            {
+                "question": "Do we not exercise every day?",
+                "hint": "exercise",
+                "answer": "No, we don't. / No, we do not exercise every day."
+            },
+            {
+                "question": "Do you visit your friends every month?",
+                "hint": "visit",
+                "answer": "Yes, we do. / Yes, we visit our friends every month."
+            },
+            {
+                "question": "Do you not visit your friends every month?",
+                "hint": "visit",
+                "answer": "No, we don't. / No, we do not visit our friends every month."
+            },
+            {
+                "question": "Do they celebrate their birthdays every year?",
+                "hint": "celebrate",
+                "answer": "Yes, they do. / Yes, they celebrate their birthdays every year."
+            },
+            {
+                "question": "Do they not celebrate their birthdays every year?",
+                "hint": "celebrate",
+                "answer": "No, they don't. / No, they do not celebrate their birthdays every year."
+            },
+            {
+                "question": "Do we go to the dentist every two months?",
+                "hint": "dentist",
+                "answer": "Yes, we do. / Yes, we go to the dentist every two months."
+            },
+            {
+                "question": "Do we not go to the dentist every two months?",
+                "hint": "dentist",
+                "answer": "No, we don't. / No, we do not go to the dentist every two months."
+            },
+            {
+                "question": "Do you always arrive on time?",
+                "hint": "arrive",
+                "answer": "Yes, we do. / Yes, we always arrive on time."
+            },
+            {
+                "question": "Do you not always arrive on time?",
+                "hint": "arrive",
+                "answer": "No, we don't. / No, we do not always arrive on time."
+            },
+            {
+                "question": "Do they usually have meetings on Fridays?",
+                "hint": "meetings",
+                "answer": "Yes, they do. / Yes, they usually have meetings on Fridays."
+            },
+            {
+                "question": "Do they not usually have meetings on Fridays?",
+                "hint": "meetings",
+                "answer": "No, they don't. / No, they do not usually have meetings on Fridays."
+            },
+            {
+                "question": "Do we often travel during holidays?",
+                "hint": "travel",
+                "answer": "Yes, we do. / Yes, we often travel during holidays."
+            },
+            {
+                "question": "Do we not often travel during holidays?",
+                "hint": "travel",
+                "answer": "No, we don't. / No, we do not often travel during holidays."
+            },
+            {
+                "question": "Do you sometimes go to the cinema?",
+                "hint": "cinema",
+                "answer": "Yes, we do. / Yes, we sometimes go to the cinema."
+            },
+            {
+                "question": "Do you not sometimes go to the cinema?",
+                "hint": "cinema",
+                "answer": "No, we don't. / No, we do not sometimes go to the cinema."
+            },
+            {
+                "question": "Do they rarely eat junk food?",
+                "hint": "junk food",
+                "answer": "Yes, they do. / Yes, they rarely eat junk food."
+            },
+            {
+                "question": "Do they not rarely eat junk food?",
+                "hint": "junk food",
+                "answer": "No, they don't. / No, they do not rarely eat junk food."
+            },
+            {
+                "question": "Do we never miss our deadlines?",
+                "hint": "miss",
+                "answer": "Yes, we do. / Yes, we never miss our deadlines."
+            },
+            {
+                "question": "Do we not never miss our deadlines?",
+                "hint": "miss",
+                "answer": "No, we don't. / No, we do not never miss our deadlines."
+            }
+        ]
+    },
+    {
+        "label": "PresentTense-Wh-questions",
+        "questions": [
+            {
+                "question": "What does he do every day?",
+                "hint": "exercise",
+                "answer": "He exercises every day."
+            },
+            {
+                "question": "What does he not do every day?",
+                "hint": "go to the gym",
+                "answer": "He does not go to the gym every day."
+            },
+            {
+                "question": "What does she do every month?",
+                "hint": "visit her parents",
+                "answer": "She visits her parents every month."
+            },
+            {
+                "question": "What does she not do every month?",
+                "hint": "travel abroad",
+                "answer": "She does not travel abroad every month."
+            },
+            {
+                "question": "What does he do every year?",
+                "hint": "celebrate his birthday",
+                "answer": "He celebrates his birthday every year."
+            },
+            {
+                "question": "What does he not do every year?",
+                "hint": "go skiing",
+                "answer": "He does not go skiing every year."
+            },
+            {
+                "question": "How often does she go to the dentist?",
+                "hint": "every two months",
+                "answer": "She goes to the dentist every two months."
+            },
+            {
+                "question": "How often does she not go to the dentist?",
+                "hint": "every two months",
+                "answer": "She does not go to the dentist every two months."
+            },
+            {
+                "question": "How often does he arrive early?",
+                "hint": "work",
+                "answer": "He always arrives early at work."
+            },
+            {
+                "question": "How often does he arrive early?",
+                "hint": "work",
+                "answer": "He never arrives early at work."
+            },
+            {
+                "question": "How often does she have coffee in the morning?",
+                "hint": "morning",
+                "answer": "She usually has coffee in the morning."
+            },
+            {
+                "question": "How often does she have coffee in the morning?",
+                "hint": "morning",
+                "answer": "She rarely has coffee in the morning."
+            },
+            {
+                "question": "How often does he read books?",
+                "hint": "weekends",
+                "answer": "He often reads books on weekends."
+            },
+            {
+                "question": "How often does he read books?",
+                "hint": "weekends",
+                "answer": "He sometimes reads books on weekends."
+            },
+            {
+                "question": "How often does she eat out?",
+                "hint": "restaurants",
+                "answer": "She never eats out at restaurants."
+            },
+            {
+                "question": "How often does she eat out?",
+                "hint": "restaurants",
+                "answer": "She always eats out at restaurants."
+            },
+            {
+                "question": "What do they do every day?",
+                "hint": "exercise",
+                "answer": "They exercise every day."
+            },
+            {
+                "question": "What do they not do every day?",
+                "hint": "go to the gym",
+                "answer": "They do not go to the gym every day."
+            },
+            {
+                "question": "What do they do every month?",
+                "hint": "visit their parents",
+                "answer": "They visit their parents every month."
+            },
+            {
+                "question": "What do they not do every month?",
+                "hint": "travel abroad",
+                "answer": "They do not travel abroad every month."
+            },
+            {
+                "question": "What do they do every year?",
+                "hint": "celebrate their birthdays",
+                "answer": "They celebrate their birthdays every year."
+            },
+            {
+                "question": "What do they not do every year?",
+                "hint": "go skiing",
+                "answer": "They do not go skiing every year."
+            },
+            {
+                "question": "How often do they go to the dentist?",
+                "hint": "every two months",
+                "answer": "They go to the dentist every two months."
+            },
+            {
+                "question": "How often do they not go to the dentist?",
+                "hint": "every two months",
+                "answer": "They do not go to the dentist every two months."
+            },
+            {
+                "question": "How often do they arrive early?",
+                "hint": "work",
+                "answer": "They always arrive early at work."
+            },
+            {
+                "question": "How often do they arrive early?",
+                "hint": "work",
+                "answer": "They never arrive early at work."
+            },
+            {
+                "question": "How often do they have coffee in the morning?",
+                "hint": "morning",
+                "answer": "They usually have coffee in the morning."
+            },
+            {
+                "question": "How often do they have coffee in the morning?",
+                "hint": "morning",
+                "answer": "They rarely have coffee in the morning."
+            },
+            {
+                "question": "How often do they read books?",
+                "hint": "weekends",
+                "answer": "They often read books on weekends."
+            },
+            {
+                "question": "How often do they read books?",
+                "hint": "weekends",
+                "answer": "They sometimes read books on weekends."
+            },
+            {
+                "question": "How often do they eat out?",
+                "hint": "restaurants",
+                "answer": "They never eat out at restaurants."
+            },
+            {
+                "question": "How often do they eat out?",
+                "hint": "restaurants",
+                "answer": "They always eat out at restaurants."
+            }
+        ]
+    },
+    {
+        "label": "PresentContinuousTense-Wh-questions",
+        "questions": [
+            {
+                "question": "What is he doing now?",
+                "hint": "working",
+                "answer": "He is working now."
+            },
+            {
+                "question": "What is he not doing now?",
+                "hint": "sleeping",
+                "answer": "He is not sleeping now."
+            },
+            {
+                "question": "What is she doing at the moment?",
+                "hint": "reading",
+                "answer": "She is reading at the moment."
+            },
+            {
+                "question": "What is she not doing at the moment?",
+                "hint": "cooking",
+                "answer": "She is not cooking at the moment."
+            },
+            {
+                "question": "What is he doing at present?",
+                "hint": "studying",
+                "answer": "He is studying at present."
+            },
+            {
+                "question": "What is he not doing at present?",
+                "hint": "traveling",
+                "answer": "He is not traveling at present."
+            },
+            {
+                "question": "What is she doing today?",
+                "hint": "shopping",
+                "answer": "She is shopping today."
+            },
+            {
+                "question": "What is she not doing today?",
+                "hint": "working",
+                "answer": "She is not working today."
+            },
+            {
+                "question": "What are they doing tonight?",
+                "hint": "watching TV",
+                "answer": "They are watching TV tonight."
+            },
+            {
+                "question": "What are they not doing tonight?",
+                "hint": "reading",
+                "answer": "They are not reading tonight."
+            },
+            {
+                "question": "What is he doing this morning?",
+                "hint": "exercising",
+                "answer": "He is exercising this morning."
+            },
+            {
+                "question": "What is he not doing this morning?",
+                "hint": "sleeping",
+                "answer": "He is not sleeping this morning."
+            },
+            {
+                "question": "What is she doing this afternoon?",
+                "hint": "working",
+                "answer": "She is working this afternoon."
+            },
+            {
+                "question": "What is she not doing this afternoon?",
+                "hint": "relaxing",
+                "answer": "She is not relaxing this afternoon."
+            },
+            {
+                "question": "What is he doing this week?",
+                "hint": "attending meetings",
+                "answer": "He is attending meetings this week."
+            },
+            {
+                "question": "What is he not doing this week?",
+                "hint": "vacationing",
+                "answer": "He is not vacationing this week."
+            },
+            {
+                "question": "What is she doing this month?",
+                "hint": "renovating her house",
+                "answer": "She is renovating her house this month."
+            },
+            {
+                "question": "What is she not doing this month?",
+                "hint": "traveling",
+                "answer": "She is not traveling this month."
+            },
+            {
+                "question": "What is he doing this year?",
+                "hint": "learning a new skill",
+                "answer": "He is learning a new skill this year."
+            },
+            {
+                "question": "What is he not doing this year?",
+                "hint": "taking a break",
+                "answer": "He is not taking a break this year."
+            },
+            {
+                "question": "What are they doing while they are on vacation?",
+                "hint": "exploring new places",
+                "answer": "They are exploring new places while they are on vacation."
+            },
+            {
+                "question": "What are they not doing while they are on vacation?",
+                "hint": "working",
+                "answer": "They are not working while they are on vacation."
+            },
+            {
+                "question": "What are they doing now?",
+                "hint": "studying",
+                "answer": "They are studying now."
+            },
+            {
+                "question": "What are they not doing now?",
+                "hint": "playing",
+                "answer": "They are not playing now."
+            },
+            {
+                "question": "What are they doing at the moment?",
+                "hint": "eating",
+                "answer": "They are eating at the moment."
+            },
+            {
+                "question": "What are they not doing at the moment?",
+                "hint": "sleeping",
+                "answer": "They are not sleeping at the moment."
+            },
+            {
+                "question": "What are they doing at present?",
+                "hint": "discussing",
+                "answer": "They are discussing at present."
+            },
+            {
+                "question": "What are they not doing at present?",
+                "hint": "listening",
+                "answer": "They are not listening at present."
+            },
+            {
+                "question": "What are they doing today?",
+                "hint": "shopping",
+                "answer": "They are shopping today."
+            },
+            {
+                "question": "What are they not doing today?",
+                "hint": "working",
+                "answer": "They are not working today."
+            },
+            {
+                "question": "What are they doing tonight?",
+                "hint": "having dinner",
+                "answer": "They are having dinner tonight."
+            },
+            {
+                "question": "What are they not doing tonight?",
+                "hint": "going out",
+                "answer": "They are not going out tonight."
+            },
+            {
+                "question": "What are they doing this morning?",
+                "hint": "exercising",
+                "answer": "They are exercising this morning."
+            },
+            {
+                "question": "What are they not doing this morning?",
+                "hint": "sleeping",
+                "answer": "They are not sleeping this morning."
+            },
+            {
+                "question": "What are they doing this afternoon?",
+                "hint": "working",
+                "answer": "They are working this afternoon."
+            },
+            {
+                "question": "What are they not doing this afternoon?",
+                "hint": "resting",
+                "answer": "They are not resting this afternoon."
+            },
+            {
+                "question": "What are they doing this week?",
+                "hint": "meeting clients",
+                "answer": "They are meeting clients this week."
+            },
+            {
+                "question": "What are they not doing this week?",
+                "hint": "vacationing",
+                "answer": "They are not vacationing this week."
+            },
+            {
+                "question": "What are they doing this month?",
+                "hint": "launching a new product",
+                "answer": "They are launching a new product this month."
+            },
+            {
+                "question": "What are they not doing this month?",
+                "hint": "taking a break",
+                "answer": "They are not taking a break this month."
+            },
+            {
+                "question": "What are they doing this year?",
+                "hint": "expanding their business",
+                "answer": "They are expanding their business this year."
+            },
+            {
+                "question": "What are they not doing this year?",
+                "hint": "staying idle",
+                "answer": "They are not staying idle this year."
+            },
+            {
+                "question": "What are they doing while they are on vacation?",
+                "hint": "exploring new destinations",
+                "answer": "They are exploring new destinations while they are on vacation."
+            },
+            {
+                "question": "What are they not doing while they are on vacation?",
+                "hint": "working",
+                "answer": "They are not working while they are on vacation."
+            }
+        ]
+    },
+    {
+        "label": "PresentPerfectTense-Wh-questions",
+        "questions": [
+            {
+                "question": "Has he just finished reading his book?",
+                "hint": "finished",
+                "answer": "Yes, he has just finished reading his book."
+            },
+            {
+                "question": "Has he not just finished reading his book?",
+                "hint": "not finished",
+                "answer": "No, he has not just finished reading his book."
+            },
+            {
+                "question": "Has she already completed her work?",
+                "hint": "completed",
+                "answer": "Yes, she has already completed her work."
+            },
+            {
+                "question": "Has she not already completed her work?",
+                "hint": "not completed",
+                "answer": "No, she has not already completed her work."
+            },
+            {
+                "question": "Has he finished his work yet?",
+                "hint": "finished",
+                "answer": "Yes, he has finished his work already."
+            },
+            {
+                "question": "Has he not finished his work yet?",
+                "hint": "not finished",
+                "answer": "No, he has not finished his work yet."
+            },
+            {
+                "question": "Has she been working here for three years?",
+                "hint": "three years",
+                "answer": "Yes, she has been working here for three years."
+            },
+            {
+                "question": "Has she not been working here for three years?",
+                "hint": "not three years",
+                "answer": "No, she has not been working here for three years."
+            },
+            {
+                "question": "Has he lived in this city since 2015?",
+                "hint": "2015",
+                "answer": "Yes, he has lived in this city since 2015."
+            },
+            {
+                "question": "Has he not lived in this city since 2015?",
+                "hint": "not 2015",
+                "answer": "No, he has not lived in this city since 2015."
+            },
+            {
+                "question": "Have they just finished reading their books?",
+                "hint": "finished",
+                "answer": "Yes, they have just finished reading their books."
+            },
+            {
+                "question": "Have they not just finished reading their books?",
+                "hint": "not finished",
+                "answer": "No, they have not just finished reading their books."
+            },
+            {
+                "question": "Have they already completed their work?",
+                "hint": "completed",
+                "answer": "Yes, they have already completed their work."
+            },
+            {
+                "question": "Have they not already completed their work?",
+                "hint": "not completed",
+                "answer": "No, they have not already completed their work."
+            },
+            {
+                "question": "Have they finished their work yet?",
+                "hint": "finished",
+                "answer": "Yes, they have finished their work already."
+            },
+            {
+                "question": "Have they not finished their work yet?",
+                "hint": "not finished",
+                "answer": "No, they have not finished their work yet."
+            },
+            {
+                "question": "Have they been working here for five years?",
+                "hint": "five years",
+                "answer": "Yes, they have been working here for five years."
+            },
+            {
+                "question": "Have they not been working here for five years?",
+                "hint": "not five years",
+                "answer": "No, they have not been working here for five years."
+            },
+            {
+                "question": "Have they lived in this city since 2010?",
+                "hint": "2010",
+                "answer": "Yes, they have lived in this city since 2010."
+            },
+            {
+                "question": "Have they not lived in this city since 2010?",
+                "hint": "not 2010",
+                "answer": "No, they have not lived in this city since 2010."
+            }
+        ]
+    },
+    {
+        "label": "PresentPerfectContinuousTense-Wh-questions",
+        "questions": [
+            {
+                "question": "Where has his book been staying for the last two weeks?",
+                "hint": "shelf",
+                "answer": "His book has been staying on the shelf for the last two weeks."
+            },
+            {
+                "question": "Where has his book not been staying for the last two weeks?",
+                "hint": "table",
+                "answer": "His book has not been staying on the table for the last two weeks."
+            },
+            {
+                "question": "What activity has she been enjoying since last summer?",
+                "hint": "hiking",
+                "answer": "She has been enjoying hiking since last summer."
+            },
+            {
+                "question": "What activity has she not been enjoying since last summer?",
+                "hint": "running",
+                "answer": "She has not been enjoying running since last summer."
+            },
+            {
+                "question": "Where has her cat been sleeping all day?",
+                "hint": "bed",
+                "answer": "Her cat has been sleeping on the bed all day."
+            },
+            {
+                "question": "Where has her cat not been sleeping all day?",
+                "hint": "sofa",
+                "answer": "Her cat has not been sleeping on the sofa all day."
+            },
+            {
+                "question": "Where have you been parking your car recently?",
+                "hint": "garage",
+                "answer": "I have been parking my car in the garage recently."
+            },
+            {
+                "question": "Where have you not been parking your car recently?",
+                "hint": "street",
+                "answer": "I have not been parking my car on the street recently."
+            },
+            {
+                "question": "Where has it been raining lately?",
+                "hint": "city",
+                "answer": "It has been raining in the city lately."
+            },
+            {
+                "question": "Where has it not been raining lately?",
+                "hint": "desert",
+                "answer": "It has not been raining in the desert lately."
+            },
+            {
+                "question": "Where have their books been staying for the past month?",
+                "hint": "shelves",
+                "answer": "Their books have been staying on the shelves for the past month."
+            },
+            {
+                "question": "Where have their books not been staying for the past month?",
+                "hint": "table",
+                "answer": "Their books have not been staying on the table for the past month."
+            },
+            {
+                "question": "What activities have we been enjoying since last year?",
+                "hint": "hiking",
+                "answer": "We have been enjoying hiking since last year."
+            },
+            {
+                "question": "What activities have we not been enjoying since last year?",
+                "hint": "running",
+                "answer": "We have not been enjoying running since last year."
+            },
+            {
+                "question": "Where have our cats been sleeping all day?",
+                "hint": "beds",
+                "answer": "Our cats have been sleeping on the beds all day."
+            },
+            {
+                "question": "Where have our cats not been sleeping all day?",
+                "hint": "sofas",
+                "answer": "Our cats have not been sleeping on the sofas all day."
+            },
+            {
+                "question": "Where have you been parking your cars recently?",
+                "hint": "garages",
+                "answer": "We have been parking our cars in the garages recently."
+            },
+            {
+                "question": "Where have you not been parking your cars recently?",
+                "hint": "street",
+                "answer": "We have not been parking our cars on the street recently."
+            },
+            {
+                "question": "Where have they been eating dinner lately?",
+                "hint": "restaurants",
+                "answer": "They have been eating dinner at restaurants lately."
+            },
+            {
+                "question": "Where have they not been eating dinner lately?",
+                "hint": "home",
+                "answer": "They have not been eating dinner at home lately."
+            }
+        ]
+    }
+]

@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question/question.component';
 import { QuestionTimedComponent } from './questiontimed/questiontimed.component';
+import { QuestionLabeledComponent } from './questionlabeled/questionlabeled.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuestionComponent,
-    QuestionTimedComponent
+    QuestionTimedComponent,
+    QuestionLabeledComponent
   ],
   imports: [
     BrowserModule,
