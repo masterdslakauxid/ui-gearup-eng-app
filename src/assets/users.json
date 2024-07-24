@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "User A",
+        "modules": [
+            "module1",
+            "module2"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "User B",
+        "modules": [
+            "module2",
+            "module3"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "User C",
+        "modules": [
+            "module1",
+            "module3"
+        ]
+    }
+]

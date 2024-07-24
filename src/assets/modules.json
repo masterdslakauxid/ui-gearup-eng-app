@@ -1,0 +1,14 @@
+{
+    "module1": {
+        "name": "Module 1",
+        "description": "This is module 1"
+    },
+    "module2": {
+        "name": "Module 2",
+        "description": "This is module 2"
+    },
+    "module3": {
+        "name": "Module 3",
+        "description": "This is module 3"
+    }
+}

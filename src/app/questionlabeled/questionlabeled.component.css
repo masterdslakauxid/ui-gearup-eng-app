@@ -27,3 +27,8 @@
     border: 1px solid #ccc;
     border-top: none;
 }
+
+div {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+}

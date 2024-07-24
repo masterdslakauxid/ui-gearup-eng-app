@@ -1,0 +1,57 @@
+[
+    {
+        "label": "PresentTense-YesOrNo-questions",
+        "visibility": true,
+        "questions": [
+            {
+                "Simple form": "I like this band a lot",
+                "Negative form": "I do not like this band a lot",
+                "question": "Do I like this bank a lot?",
+                "answer": "Yes, I do. / No, I don't",
+                "hint": "states",
+                "description": "To talk about states and situations that we expect to stay the same"
+            },
+            {
+                "Simple form": "Ram wants to be an engineer",
+                "Negative form": "Ram does not want to be an engineer",
+                "question": "Does Ram want to be an engineer?",
+                "answer": "Yes, He does. / No, I does not",
+                "hint": "states",
+                "description": "To talk about states and situations that we expect to stay the same"
+            }
+        ]
+    },
+    {
+        "label": "PresentTense-Wh-questions",
+        "visibility": true,
+        "questions": [
+            {
+                "question": "What does he do every day?",
+                "hint": "exercise",
+                "answer": "He exercises every day."
+            }
+        ]
+    },
+    {
+        "label": "PresentPerfectTense-Wh-questions",
+        "visibility": true,
+        "questions": [
+            {
+                "question": "Has he just finished reading his book?",
+                "hint": "finished",
+                "answer": "Yes, he has just finished reading his book."
+            }
+        ]
+    },
+    {
+        "label": "PresentPerfectContinuousTense-Wh-questions",
+        "visibility": true,
+        "questions": [
+            {
+                "question": "Where has his book been staying for the last two weeks?",
+                "hint": "shelf",
+                "answer": "His book has been staying on the shelf for the last two weeks."
+            }
+        ]
+    }
+]

@@ -1,6 +1,8 @@
 [
     {
-        "label": "PresentTense-YesOrNo-questions",
+        "key": "PresentTense-YesOrNo-questions",
+        "label": "PresentTense with Yes Or No questions",
+        "visibility": true,
         "questions": [
             {
                 "question": "Do I exercise every day?",
@@ -205,7 +207,9 @@
         ]
     },
     {
-        "label": "PresentTense-Wh-questions",
+        "key": "PresentTense-Wh-questions",
+        "label": "PresentTense with Wh questions",
+        "visibility": true,
         "questions": [
             {
                 "question": "What does he do every day?",
@@ -370,7 +374,9 @@
         ]
     },
     {
-        "label": "PresentContinuousTense-Wh-questions",
+        "key": "PresentContinuousTense-Wh-questions",
+        "label": "Present Continuous Tense with Wh questions",
+        "visibility": true,
         "questions": [
             {
                 "question": "What is he doing now?",
@@ -595,7 +601,9 @@
         ]
     },
     {
-        "label": "PresentPerfectTense-Wh-questions",
+        "key": "PresentPerfectTense-Wh-questions",
+        "label": "Present Perfect Tense with Wh questions",
+        "visibility": true,
         "questions": [
             {
                 "question": "Has he just finished reading his book?",
@@ -700,7 +708,9 @@
         ]
     },
     {
-        "label": "PresentPerfectContinuousTense-Wh-questions",
+        "key": "PresentPerfectContinuousTense-Wh-questions",
+        "label": "Present Perfect continuous Tense with Wh questions",
+        "visibility": true,
         "questions": [
             {
                 "question": "Where has his book been staying for the last two weeks?",

@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #FFFACD;
+    /* Lemon Chiffon */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}

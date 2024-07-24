@@ -1,0 +1,35 @@
+[
+    {
+        "moduleId": "m001",
+        "users": [
+            {
+                "userId": "u001"
+            },
+            {
+                "userId": "u002"
+            }
+        ]
+    },
+    {
+        "moduleId": "m002",
+        "users": [
+            {
+                "userId": "u001"
+            }
+        ]
+    },
+    {
+        "moduleId": "m003",
+        "users": [
+            {
+                "userId": "u001"
+            },
+            {
+                "userId": "u002"
+            },
+            {
+                "userId": "u003"
+            }
+        ]
+    }
+]
