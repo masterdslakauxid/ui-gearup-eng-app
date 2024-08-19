@@ -11,10 +11,11 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 })
 export class QuestionLabeledComponent implements OnInit {
 
-  labeledJsonArrays: { key: string, label: string, visibility: boolean, questions: { question: string, hint: string, answer: string }[] }[] = [];
+  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, questions: { question: string, hint: string, answer: string }[] }[] = [];
   jsonArrays: { question: string, hint: string, answer: string }[][] = [];
   previousQuestions: number[] = [];
   questionsAndAnswers: { question: string, hint: string, answer: string }[] = [];
+  skipWordHighlighting: boolean | undefined;
 
   //To highlight the auxillary verbs and pronouns
   auxiliaryVerbs = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We', 'they', 'you'];
@@ -30,14 +31,27 @@ export class QuestionLabeledComponent implements OnInit {
   selectedInterval: number = 5; // Default interval in seconds
   showAnswerOption: boolean = false;
   showHint: boolean = false;
+   
+  displayPatterns: string[] = ['Sequential', 'Random'];
+  selecteddisplayPattern: string = '';  // To store the selected option
 
   sentence: string | undefined;
   boldWord: string | undefined;
   processedSentence: SafeHtml | undefined;
   processedCurrentQuestion: SafeHtml | undefined;
   processedCurrentAnswer: SafeHtml | undefined;
+  questionStartIndex!: number;
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer) { }
+  constructor(private http: HttpClient, private sanitizer: DomSanitizer) { 
+    this.questionStartIndex = 0;
+      // Load the selection from sessionStorage if it exists
+      const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
+      if (localSelectedDisplayPattern) {
+        this.selecteddisplayPattern = localSelectedDisplayPattern;
+      } else {
+        this.selecteddisplayPattern = "Sequential";
+      }
+  }
 
   ngOnInit(): void {
     this.loadQuestions();
@@ -60,6 +74,10 @@ export class QuestionLabeledComponent implements OnInit {
     const selectedArray = this.labeledJsonArrays.find(array => array.key === this.selectedKey);
     if (selectedArray) {
       this.questionsAndAnswers = selectedArray.questions;
+      this.skipWordHighlighting = selectedArray.skipWordHighlighting;
+      // console.log("failed to get the value .....selectedArray.Label ", selectedArray.label);
+      // console.log("failed to get the value .....selectedArray.visibility ", selectedArray.visibility);
+      // console.log("failed to get the value .....selectedArray.skipWordHighlighting ", selectedArray.skipWordHighlighting);
       this.loadRandomQuestion();
     }
   }
@@ -67,6 +85,7 @@ export class QuestionLabeledComponent implements OnInit {
   onArraySelectionChange(label: string): void {
     console.log("Clearing the previous question because it's a new selection");
     this.previousQuestions = [];
+    this.questionStartIndex = 0;
     this.selectedKey = label;
     sessionStorage.setItem('selectedLabel', label);
     this.loadSelectedJson();
@@ -77,7 +96,12 @@ export class QuestionLabeledComponent implements OnInit {
     if (storedLabel) {
       this.selectedKey = storedLabel;
     }
-  }
+  } 
+
+   onDisplayPatternChange(event: any): void {
+    this.questionStartIndex = 0;
+    sessionStorage.setItem('selectedOption', this.selecteddisplayPattern);
+   }
 
   onShowAnswerChange(event: any): void {
     this.showAnswerOption = event.target.value;
@@ -88,7 +112,6 @@ export class QuestionLabeledComponent implements OnInit {
     this.showHint = event.target.value;
     sessionStorage.setItem('showHint', this.showHint.toString());
   }
-
 
   retrieveShowAnswer(): void {
     const showAnswerOption = sessionStorage.getItem('showAnswerOption');
@@ -103,7 +126,6 @@ export class QuestionLabeledComponent implements OnInit {
       this.showHint = JSON.parse(showHint);
     }
   }
-
 
   onIntervalChange(event: any): void {
     this.selectedInterval = event.target.value;
@@ -126,8 +148,8 @@ export class QuestionLabeledComponent implements OnInit {
 
 
   loadQuestions(): void {  // uncomment this to load from database.
-    this.http.get<{ key: string, label: string, visibility: boolean, questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-      //this.http.get<{ key: string, label: string, visibility: boolean, questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
+      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
       .subscribe(data => {
         this.labeledJsonArrays = data;
         this.loadSelectedJson();
@@ -141,17 +163,41 @@ export class QuestionLabeledComponent implements OnInit {
 
     if (this.questionsAndAnswers.length == this.previousQuestions.length) {
       this.previousQuestions = [];
+      this.questionStartIndex = 0;
       console.log("Completed all questions.. starting again");
     }
-    const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);
+
+    let randomIndex:number;
+    let num!: number;
+
+    console.log("Selected display pattern..................>", this.selecteddisplayPattern);
+    if(this.selecteddisplayPattern == "Sequential") {
+      num = this.questionStartIndex;
+      console.log(" I'm Sequential block", num);
+      this.questionStartIndex = this.questionStartIndex + 1;
+    } else if (this.selecteddisplayPattern == "Random") {
+      this.questionStartIndex = 0;
+      num = Math.floor(Math.random() * this.questionsAndAnswers.length);
+      console.log(" I'm Random block", num);
+    }
+    randomIndex = num;
+    //const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);
     if (!this.previousQuestions.includes(randomIndex)) {
-      this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
+      if (this.skipWordHighlighting == false) {
+        this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
+      } else {
+        this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
+      }
       this.retrieveShowHint();
       if (this.showHint) {
         this.currentHint = this.questionsAndAnswers[randomIndex].hint;
       }
       if (this.showAnswerOption) {
-        this.processedCurrentAnswer = this.processSentence(this.questionsAndAnswers[randomIndex].answer);
+        if (this.skipWordHighlighting == false) {
+          this.processedCurrentAnswer = this.processSentence(this.questionsAndAnswers[randomIndex].answer);
+        } else {
+          this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer;
+        }
       }
       this.retrieveShowAnswer();
       this.showAnswer = this.showAnswerOption; // Hide the answer initially
@@ -160,6 +206,7 @@ export class QuestionLabeledComponent implements OnInit {
     } else {
       this.loadRandomQuestion();
     }
+    
   }
 
 

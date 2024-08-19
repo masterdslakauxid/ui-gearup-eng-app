@@ -3,6 +3,7 @@
         "key": "PresentTense-YesOrNo-questions",
         "label": "PresentTense with Yes Or No questions",
         "visibility": true,
+        "skipWordHighlighting": false,
         "questions": [
             {
                 "question": "Do I exercise every day?",
@@ -210,6 +211,7 @@
         "key": "PresentTense-Wh-questions",
         "label": "PresentTense with Wh questions",
         "visibility": true,
+        "skipWordHighlighting": false,
         "questions": [
             {
                 "question": "What does he do every day?",
@@ -377,6 +379,7 @@
         "key": "PresentContinuousTense-Wh-questions",
         "label": "Present Continuous Tense with Wh questions",
         "visibility": true,
+        "skipWordHighlighting": false,
         "questions": [
             {
                 "question": "What is he doing now?",
@@ -604,6 +607,7 @@
         "key": "PresentPerfectTense-Wh-questions",
         "label": "Present Perfect Tense with Wh questions",
         "visibility": true,
+        "skipWordHighlighting": false,
         "questions": [
             {
                 "question": "Has he just finished reading his book?",
@@ -711,6 +715,7 @@
         "key": "PresentPerfectContinuousTense-Wh-questions",
         "label": "Present Perfect continuous Tense with Wh questions",
         "visibility": true,
+        "skipWordHighlighting": false,
         "questions": [
             {
                 "question": "Where has his book been staying for the last two weeks?",
@@ -813,5 +818,80 @@
                 "answer": "They have not been eating dinner at home lately."
             }
         ]
+    },
+    {
+        "key": "TongueTwisters",
+        "label": "Tongue Twisters",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where’s the peck of pickled peppers Peter Piper picked?",
+                "hint": "Plosive sounds like /p/ and /k/, and /l/ sounds.",
+                "answer": "-"
+            },
+            {
+                "question": "Betty Botter bought some butter. But she said the butter’s bitter. If I put it in my batter, it will make my batter bitter. But a bit of better butter will make my batter better. So ‘twas better Betty Botter bought a bit of better butter",
+                "hint": "The /b/ sound, the /t/ sound, and the contrast between 'bitter' and 'better'",
+                "answer": "-."
+            },
+            {
+                "question": "How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck, he would, as much as he could, and chuck as much wood. As a woodchuck would if a woodchuck could chuck wood",
+                "hint": "The /w/ and /ch/ sounds, and the rhythm of repeated words",
+                "answer": "-"
+            },
+            {
+                "question": "She sells seashells by the seashore",
+                "hint": "The /s/ and /ʃ/ (sh) sounds",
+                "answer": "-"
+            },
+            {
+                "question": "I scream, you scream, we all scream for ice cream",
+                "hint": "Vowel sounds and the /s/ and /kr/ clusters.",
+                "answer": "-"
+            },
+            {
+                "question": "I saw Susie sitting in a shoeshine shop.Susie works in a shoeshine shop. Where she shines she sits, and where she sits she shines.",
+                "hint": "The /s/ and /ʃ/ sounds in quick succession",
+                "answer": "-"
+            },
+            {
+                "question": "You know New York, you need New York, you know you need unique New York",
+                "hint": "The /n/ and /j/ sounds, and the rhythm of repetition",
+                "answer": "-"
+            },
+            {
+                "question": "If a dog chews shoes, whose shoes does he choose?",
+                "hint": "The /ʃ/ (sh) and /z/ sounds.",
+                "answer": "-"
+            },
+            {
+                "question": "Red lorry, yellow lorry",
+                "hint": "The /r/ and /l/ sounds",
+                "answer": "-"
+            },
+            {
+                "question": "Which wristwatches are Swiss wristwatches?",
+                "hint": "The /w/ and /r/ sounds, and the challenging combination of 'wristwatches'",
+                "answer": "-"
+            },
+            {
+                "question": "Lesser leather never weathered wetter weather better",
+                "hint": "The /l/, /n/, and /w/ sounds, and the rhythm of similar-sounding words",
+                "answer": "-"
+            },
+            {
+                "question": "Good blood, bad blood",
+                "hint": "The contrast between /g/ and /b/ sounds",
+                "answer": "-"
+            },
+            {
+                "question": "The sixth sick sheikh's sixth sheep's sick",
+                "hint": "/s/ and /ʃ/ sounds (e.g., 'sixth', 'sheikh's,' 'sheep's')  - #2 /k/ and /ks/ sounds (e.g., 'sick','sixth') #3 The /θ/ (th) sound (e.g., 'sixth'), #4 Vowel combinations that vary in length and pronunciation",
+                "answer": "-"
+            }
+        ]
     }
+
+
 ]

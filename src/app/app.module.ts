@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { QuestionComponent } from './question/question.component';
 import { QuestionTimedComponent } from './questiontimed/questiontimed.component';
 import { QuestionLabeledComponent } from './questionlabeled/questionlabeled.component';
+import { FormsModule } from '@angular/forms';  // Import FormsModule
+
 
 @NgModule({
   declarations: [
@@ -15,6 +17,7 @@ import { QuestionLabeledComponent } from './questionlabeled/questionlabeled.comp
     QuestionLabeledComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule // Add HttpClientModule to imports

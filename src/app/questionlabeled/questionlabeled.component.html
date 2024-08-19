@@ -15,6 +15,19 @@
             <label *ngIf="array.visibility" [for]="array.label">{{ array.label }}</label>
         </div>
 
+        <h3>Select display pattern (Sequential or Random)</h3>
+        <select [(ngModel)]="selecteddisplayPattern" (change)="onDisplayPatternChange($event)">
+            <option *ngFor="let displayPattern of displayPatterns" [value]="displayPattern">{{ displayPattern }}</option>
+          </select>
+          
+        <!-- <select (change)="onDisplayPatternChange($event)" [value]="selecteddisplayPattern">
+            <option [value]="Sequential">Sequential</option>
+            <option [value]="Random">Random</option>
+            <option [value]="Random">Random</option> 
+        </select>-->
+        Current display pattern - {{selecteddisplayPattern}}
+
+
         <h3>Select speed (Seconds)</h3>
         <select (change)="onIntervalChange($event)" [value]="selectedInterval">
             <option *ngFor="let interval of [5, 10, 15, 20, 30]" [value]="interval">{{ interval }}</option>
