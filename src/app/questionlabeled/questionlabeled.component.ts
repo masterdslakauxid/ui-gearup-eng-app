@@ -11,14 +11,15 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 })
 export class QuestionLabeledComponent implements OnInit {
 
-  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, questions: { question: string, hint: string, answer: string }[] }[] = [];
+  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted:string[],  questions: { question: string, hint: string, answer: string }[] }[] = [];
   jsonArrays: { question: string, hint: string, answer: string }[][] = [];
   previousQuestions: number[] = [];
   questionsAndAnswers: { question: string, hint: string, answer: string }[] = [];
   skipWordHighlighting: boolean | undefined;
+  wordsToBeHighlighted:string[] = ["Consider bringing:","Avoid eating:","finished writing:"];
 
   //To highlight the auxillary verbs and pronouns
-  auxiliaryVerbs = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We', 'they', 'you'];
+  wordsToBeHighlightedGlbl = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We', 'they', 'you'];
 
   currentQuestion: string | undefined;
   currentHint: string | undefined;
@@ -70,11 +71,24 @@ export class QuestionLabeledComponent implements OnInit {
     this.boldWord = data.boldWord;
   }
 
+  loadQuestions(): void {  // uncomment this to load from database.
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean,  wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
+    //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+      .subscribe(data => {
+        this.labeledJsonArrays = data;
+        this.loadSelectedJson();
+        this.retrieveSelectedLabel();
+        this.startTimer();
+      });
+  }
+
   loadSelectedJson(): void {
     const selectedArray = this.labeledJsonArrays.find(array => array.key === this.selectedKey);
     if (selectedArray) {
       this.questionsAndAnswers = selectedArray.questions;
       this.skipWordHighlighting = selectedArray.skipWordHighlighting;
+      //this.wordsToBeHighlighted = selectedArray.wordsToBeHighlighted;
+      console.log("failed to get the value .....wordsToBeHighlighted ", this.wordsToBeHighlighted);
       // console.log("failed to get the value .....selectedArray.Label ", selectedArray.label);
       // console.log("failed to get the value .....selectedArray.visibility ", selectedArray.visibility);
       // console.log("failed to get the value .....selectedArray.skipWordHighlighting ", selectedArray.skipWordHighlighting);
@@ -148,16 +162,6 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
 
-  loadQuestions(): void {  // uncomment this to load from database.
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
-      .subscribe(data => {
-        this.labeledJsonArrays = data;
-        this.loadSelectedJson();
-        this.retrieveSelectedLabel();
-        this.startTimer();
-      });
-  }
 
   loadRandomQuestion(): void {
     if (this.questionsAndAnswers.length === 0) return;
@@ -232,13 +236,23 @@ export class QuestionLabeledComponent implements OnInit {
     this.loadSelectedJson();
   }
 
-
+  // processSentence1(str: any) {
+  //   let processed: string;
+  //   this.auxiliaryVerbs.forEach(word => {
+  //     const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+  //     str = str.replace(regex, '<strong>$1</strong>');
+  //   });
+  //   return this.sanitizer.bypassSecurityTrustHtml(str);
+  // }
 
   processSentence(str: any) {
     let processed: string;
-    this.auxiliaryVerbs.forEach(word => {
+    console.log("Before processing ", this.wordsToBeHighlighted);
+    this.wordsToBeHighlightedGlbl.forEach(word => {
+      //console.log(" word to be replaced.......................", word);
       const regex = new RegExp(`\\b(${word})\\b`, 'gi');
       str = str.replace(regex, '<strong>$1</strong>');
+      //console.log(" After replacement .......................", str);
     });
     return this.sanitizer.bypassSecurityTrustHtml(str);
   }

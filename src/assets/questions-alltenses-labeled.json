@@ -891,7 +891,325 @@
                 "answer": "-"
             }
         ]
+    },
+    {
+        "key": "Gerunds",
+        "label": "Gerunds",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "wordsToBeHighlighted": [
+            "Consider bringing:",
+            "Avoid eating:",
+            "finished writing:",
+            "suggested going:",
+            "discuss implementing:",
+            "recommend arriving:",
+            "practice speaking:",
+            "reading books:",
+            "delay making:",
+            "Imagine living:",
+            "Enjoy cooking:",
+            "Avoiding conflicts:",
+            "Consider swimming:",
+            "Start exercising:",
+            "Finish reading:",
+            "Keep studying:",
+            "Love dancing:",
+            "Hate waiting:",
+            "Practice writing:",
+            "Imagine traveling:",
+            "Mind working:",
+            "Suggesting going:",
+            "Admitting mistakes:",
+            "Recommend watching:",
+            "Regret leaving:",
+            "Risk losing:",
+            "Keep trying:",
+            "Discussing options:",
+            "Delaying decisions:",
+            "Appreciate helping:",
+            "Finish painting:",
+            "Avoiding gossiping:",
+            "Imagine exploring:",
+            "Keep running:",
+            "Start learning:",
+            "Consider trying:",
+            "Enjoy traveling:",
+            "Love singing:",
+            "Hate cleaning:",
+            "Practice playing:",
+            "Being:",
+            "Having:",
+            "Doing:",
+            "Making:",
+            "Getting:",
+            "Using:",
+            "Seeing:",
+            "Saying:",
+            "Going:",
+            "Thinking:",
+            "Wanting:",
+            "Knowing:",
+            "Trying:",
+            "Taking:",
+            "Giving:",
+            "Working:",
+            "Writing:",
+            "Reading:",
+            "Speaking:",
+            "Understanding:"
+        ],
+        "questions": [
+            {
+                "question": "Enjoy cooking: She enjoys cooking Italian dishes.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Avoiding conflicts: He's very good at avoiding conflicts.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Consider swimming: You should consider swimming to stay fit.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Start exercising: I need to start exercising more regularly.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Finish reading: I plan to finish reading this book by the weekend.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Keep studying: If you keep studying, you'll do well on the test.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Love dancing: They love dancing to salsa music.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Hate waiting: I hate waiting in long lines.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Practice writing: You should practice writing every day to improve.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Imagine traveling: Can you imagine traveling around the world?",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Mind working: Would you mind working late tonight?",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Suggesting going: She's suggesting going to the new restaurant.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Admitting mistakes: Admitting mistakes is a sign of strength.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Recommend watching: I recommend watching this movie.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Regret leaving: She began to regret leaving her hometown.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Risk losing: By delaying, you risk losing the opportunity.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Keep trying: Even when it's tough, keep trying your best.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Discussing options: We spent hours discussing options for the project.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Delaying decisions: Delaying decisions can sometimes lead to missed opportunities.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Appreciate helping: I really appreciate you helping me out.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Finish painting: He needs to finish painting the fence before the rain starts.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Avoiding gossiping: She believes in avoiding gossiping about others.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Imagine exploring: Imagine exploring the uncharted regions of the Amazon.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Keep running: If you keep running at this pace, you'll break your record.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Start learning: It's never too late to start learning a new language.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Consider trying: You should consider trying a different approach.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Enjoy traveling: They enjoy traveling to exotic destinations.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Love singing: I love singing in the shower.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Hate cleaning: He really hates cleaning the bathroom.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Practice playing: You should practice playing the piano every day.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Being: Being punctual is important in a professional environment.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Having: Having a good attitude can make a big difference.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Doing: Doing your best is all that anyone can ask for.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Making: Making mistakes is a part of learning.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Getting: Getting enough sleep is crucial for your health.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Using: Using a planner helps me stay organized.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Seeing: Seeing is believing.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Saying: Saying 'thank you' shows appreciation.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Going: Going to the gym regularly improves your fitness.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Thinking: Thinking positively can change your outlook on life.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Wanting: Wanting more isn't always a bad thing.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Knowing: Knowing the answer gives you confidence.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Trying: Trying new foods can be an adventure.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Taking: Taking time to relax is important.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Giving: Giving back to the community feels rewarding.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Working: Working late isn't always the best solution.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Writing: Writing daily improves your skills.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Reading: Reading expands your knowledge.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Speaking: Speaking clearly helps others understand you.",
+                "hint": "-",
+                "answer": "-"
+            },
+            {
+                "question": "Understanding: Understanding different perspectives is valuable.",
+                "hint": "-",
+                "answer": "-"
+            }            
+        ]
     }
-
-
 ]

@@ -1,0 +1,24 @@
+div {
+    font-family: 'Helvetica', Arial, sans-serif;
+    /* background-color: #F5F5DC; */
+    /*background-color: #FFFACD;*
+    /* Light grey background */
+    color: #333333;
+    /* Dark grey text */
+    font-size: 16px;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /*background-color: #556B2F;*/
+    background-color:#6F4E37;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
