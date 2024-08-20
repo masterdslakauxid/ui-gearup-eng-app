@@ -1,9 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #FFFACD;
+    background-color: wheat;
+    /*background-color: #FFFACD;
+    background-image: url("/../../../assets/warmup2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;*/
     /* Lemon Chiffon */
     margin: 0;
     /* Remove default margin */
     padding: 0;
     /* Remove default padding */
+}
+
+
+footer {
+       /*background-color: #FFFACD;*/
+       background-image: url("/../../../assets/warmup2.jpg");
+       background-repeat: no-repeat;
+       /*background-size: cover;*/
+       background-position: center bottom;
+       /* Lemon Chiffon */
+       margin: 0;
+       /* Remove default margin */
+       padding: 0;
+       /* Remove default padding */
 }

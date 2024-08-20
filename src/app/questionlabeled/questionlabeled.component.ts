@@ -88,7 +88,8 @@ export class QuestionLabeledComponent implements OnInit {
     this.questionStartIndex = 0;
     this.selectedKey = label;
     sessionStorage.setItem('selectedLabel', label);
-    this.loadSelectedJson();
+    this.stopTimer();
+    //this.loadSelectedJson();  //moved to setActive tab methods    
   }
 
   retrieveSelectedLabel(): void {
@@ -100,7 +101,7 @@ export class QuestionLabeledComponent implements OnInit {
 
    onDisplayPatternChange(event: any): void {
     this.questionStartIndex = 0;
-    sessionStorage.setItem('selectedOption', this.selecteddisplayPattern);
+    sessionStorage.setItem('selecteddisplayPattern', this.selecteddisplayPattern);
    }
 
   onShowAnswerChange(event: any): void {
@@ -225,8 +226,10 @@ export class QuestionLabeledComponent implements OnInit {
     }
   }
 
-  setActiveTab(tab: string): void {
-    this.activeTab = tab;
+  setActiveTab(tab: string): void {    
+    this.activeTab = tab;   
+    this.startTimer(); 
+    this.loadSelectedJson();
   }
 
 
