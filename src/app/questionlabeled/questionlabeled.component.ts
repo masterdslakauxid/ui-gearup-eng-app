@@ -11,12 +11,12 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 })
 export class QuestionLabeledComponent implements OnInit {
 
-  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted:string[],  questions: { question: string, hint: string, answer: string }[] }[] = [];
+  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[] = [];
   jsonArrays: { question: string, hint: string, answer: string }[][] = [];
   previousQuestions: number[] = [];
   questionsAndAnswers: { question: string, hint: string, answer: string }[] = [];
   skipWordHighlighting: boolean | undefined;
-  wordsToBeHighlighted:string[] = ["Consider bringing:","Avoid eating:","finished writing:"];
+  wordsToBeHighlighted: string[] = ["Consider bringing:", "Avoid eating:", "finished writing:"];
 
   //To highlight the auxillary verbs and pronouns
   wordsToBeHighlightedGlbl = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We', 'they', 'you'];
@@ -32,7 +32,7 @@ export class QuestionLabeledComponent implements OnInit {
   selectedInterval: number = 5; // Default interval in seconds
   showAnswerOption: boolean = false;
   showHint: boolean = false;
-   
+
   displayPatterns: string[] = ['Sequential', 'Random'];
   selecteddisplayPattern: string = '';  // To store the selected option
 
@@ -43,15 +43,16 @@ export class QuestionLabeledComponent implements OnInit {
   processedCurrentAnswer: SafeHtml | undefined;
   questionStartIndex!: number;
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer) { 
+
+  constructor(private http: HttpClient, private sanitizer: DomSanitizer) {
     this.questionStartIndex = 0;
-      // Load the selection from sessionStorage if it exists
-      const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
-      if (localSelectedDisplayPattern) {
-        this.selecteddisplayPattern = localSelectedDisplayPattern;
-      } else {
-        this.selecteddisplayPattern = "Sequential";
-      }
+    // Load the selection from sessionStorage if it exists
+    const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
+    if (localSelectedDisplayPattern) {
+      this.selecteddisplayPattern = localSelectedDisplayPattern;
+    } else {
+      this.selecteddisplayPattern = "Sequential";
+    }
   }
 
   ngOnInit(): void {
@@ -72,8 +73,8 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
   loadQuestions(): void {  // uncomment this to load from database.
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean,  wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-    //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
+      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
       .subscribe(data => {
         this.labeledJsonArrays = data;
         this.loadSelectedJson();
@@ -103,6 +104,8 @@ export class QuestionLabeledComponent implements OnInit {
     this.selectedKey = label;
     sessionStorage.setItem('selectedLabel', label);
     this.stopTimer();
+    this.startTimer();
+    this.loadSelectedJson();
     //this.loadSelectedJson();  //moved to setActive tab methods    
   }
 
@@ -111,12 +114,12 @@ export class QuestionLabeledComponent implements OnInit {
     if (storedLabel) {
       this.selectedKey = storedLabel;
     }
-  } 
+  }
 
-   onDisplayPatternChange(event: any): void {
+  onDisplayPatternChange(event: any): void {
     this.questionStartIndex = 0;
     sessionStorage.setItem('selecteddisplayPattern', this.selecteddisplayPattern);
-   }
+  }
 
   onShowAnswerChange(event: any): void {
     this.showAnswerOption = event.target.value;
@@ -172,11 +175,11 @@ export class QuestionLabeledComponent implements OnInit {
       console.log("Completed all questions.. starting again");
     }
 
-    let randomIndex:number;
+    let randomIndex: number;
     let num!: number;
 
     console.log("Selected display pattern..................>", this.selecteddisplayPattern);
-    if(this.selecteddisplayPattern == "Sequential") {
+    if (this.selecteddisplayPattern == "Sequential") {
       num = this.questionStartIndex;
       console.log(" I'm Sequential block", num);
       this.questionStartIndex = this.questionStartIndex + 1;
@@ -211,7 +214,7 @@ export class QuestionLabeledComponent implements OnInit {
     } else {
       this.loadRandomQuestion();
     }
-    
+
   }
 
 
@@ -230,10 +233,10 @@ export class QuestionLabeledComponent implements OnInit {
     }
   }
 
-  setActiveTab(tab: string): void {    
-    this.activeTab = tab;   
-    this.startTimer(); 
-    this.loadSelectedJson();
+  setActiveTab(tab: string): void {
+    this.activeTab = tab;
+    // this.startTimer(); 
+    // this.loadSelectedJson();
   }
 
   // processSentence1(str: any) {
