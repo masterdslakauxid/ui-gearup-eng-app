@@ -1,26 +1,22 @@
 [
     {
-        "id": 1,
-        "name": "User A",
-        "modules": [
-            "module1",
-            "module2"
-        ]
+        "userid": "u001",
+        "name": "Jagan",
+        "email": "jagan@gmail.com"
     },
     {
-        "id": 2,
-        "name": "User B",
-        "modules": [
-            "module2",
-            "module3"
-        ]
+        "userid": "u002",
+        "name": "Durga",
+        "email": "durga@gmail.com"
     },
     {
-        "id": 3,
-        "name": "User C",
-        "modules": [
-            "module1",
-            "module3"
-        ]
+        "userid": "u003",
+        "name": "Santhosh",
+        "email": "santhosh@gmail.com"
+    },
+    {
+        "userid": "u004",
+        "name": "Kumaravel",
+        "email": "lakumaravel@gmail.com"
     }
 ]

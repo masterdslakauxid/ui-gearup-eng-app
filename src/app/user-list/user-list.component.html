@@ -1,0 +1,6 @@
+test
+{{usersWithGroups.length}}
+<div *ngFor="let user of usersWithGroups">
+    <h3>{{ user.name }} ({{ user.email }})</h3>
+    <p>Groups: {{ user.groups.join(', ') || 'No groups assigned' }}</p>
+</div>

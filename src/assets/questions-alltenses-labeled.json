@@ -1,7 +1,7 @@
 [
     {
-        "key": "PresentTense-YesOrNo-questions",
-        "label": "PresentTense with Yes Or No questions",
+        "key": "Present-001",
+        "label": "Present Tense with Yes Or No questions",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
@@ -208,8 +208,8 @@
         ]
     },
     {
-        "key": "PresentTense-Wh-questions",
-        "label": "PresentTense with Wh questions",
+        "key": "Present-002",
+        "label": "Present Tense with Wh questions",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
@@ -376,9 +376,9 @@
         ]
     },
     {
-        "key": "PresentContinuousTense-Wh-questions",
+        "key": "Present-003",
         "label": "Present Continuous Tense with Wh questions",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -604,9 +604,9 @@
         ]
     },
     {
-        "key": "PresentPerfectTense-Wh-questions",
+        "key": "Present-004",
         "label": "Present Perfect Tense with Wh questions",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -712,9 +712,9 @@
         ]
     },
     {
-        "key": "PresentPerfectContinuousTense-Wh-questions",
+        "key": "Present-005",
         "label": "Present Perfect continuous Tense with Wh questions",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -822,7 +822,7 @@
     {
         "key": "TongueTwisters",
         "label": "Tongue Twisters",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -895,7 +895,7 @@
     {
         "key": "Gerunds",
         "label": "Gerunds",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": true,
         "wordsToBeHighlighted": [
             "Consider bringing:",

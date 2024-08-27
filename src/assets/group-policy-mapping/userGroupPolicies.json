@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "userGroupname": "adminUsers",
+        "policies": [
+            "admin-policy"
+        ]
+    },
+    {
+        "id": 2,
+        "userGroupName": "regularUsers",
+        "policies": [
+            "generic-user-policy"
+        ]
+    },
+    {
+        "id": 3,
+        "userGroupName": "tmUsers",
+        "policies": [
+            "tm-policy"
+        ]
+    }
+]

@@ -1,0 +1,51 @@
+{
+    "Version": "2012-10-17",
+    "moduleName": "tm",
+    "Resources": [
+        {
+            "mid": "PresentTense",
+            "Resource": [
+                "Simple Present",
+                "Present Continuous tense",
+                "Present Perfect tense",
+                "Present perfect continuous tense"
+            ]
+        },
+        {
+            "mid": "PastTense",
+            "Resource": [
+                "Simple Past",
+                "Past Continuous tense",
+                "Past Perfect tense",
+                "Past perfect continuous tense"
+            ]
+        },
+        {
+            "mid": "FutureTense",
+            "Resource": [
+                "Simple Future",
+                "Future Continuous tense",
+                "Future Perfect tense",
+                "Future perfect continuous tense"
+            ]
+        },
+        {
+            "mid": "Gerunds",
+            "Resource": [
+                "Simple Future",
+                "Future Continuous tense",
+                "Future Perfect tense",
+                "Future perfect continuous tense"
+            ]
+        },
+        {
+            "mid": "TongueTwisters",
+            "Resource": [
+                "Simple Future",
+                "Future Continuous tense",
+                "Future Perfect tense",
+                "Future perfect continuous tense"
+            ]
+        }
+    ]
+}

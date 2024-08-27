@@ -1,0 +1,15 @@
+[
+    {
+        "user": "u001",
+        "usersGroups": [
+            "adminUsers",
+            "tmUsers"
+        ]
+    },
+    {
+        "user": "u002",
+        "usersGroups": [
+            "regularUsers"
+        ]
+    }
+]

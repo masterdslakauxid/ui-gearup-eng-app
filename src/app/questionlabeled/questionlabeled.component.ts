@@ -42,6 +42,7 @@ export class QuestionLabeledComponent implements OnInit {
   processedCurrentQuestion: SafeHtml | undefined;
   processedCurrentAnswer: SafeHtml | undefined;
   questionStartIndex!: number;
+  // enableModules!: string[];
 
 
   constructor(private http: HttpClient, private sanitizer: DomSanitizer) {
@@ -56,6 +57,7 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     this.loadQuestions();
     this.loadSelectedJson();
     this.retrieveSelectedArrayIndex();
@@ -73,10 +75,21 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
   loadQuestions(): void {  // uncomment this to load from database.
+    // Assuming enableModules is stored as a string array in session storage
+    const enableModules = JSON.parse(sessionStorage.getItem('enableModules') || '[]') as string[];
+    console.log(" ----->enableModules", enableModules);
+    console.log(" ----->this.enableModules.includes(item.key)", enableModules.includes("Present-002"));
+
     this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting:boolean, wordsToBeHighlighted:string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
       .subscribe(data => {
-        this.labeledJsonArrays = data;
+        this.labeledJsonArrays = data.filter(item => {
+          const isVisible = item.visibility;
+          const isInEnabledModules = enableModules.includes(item.key);
+          console.log('Item:', item, 'isVisible:', isVisible, 'isInEnabledModules:', isInEnabledModules);
+          console.log('isVisible || isInEnabledModules', (isVisible || isInEnabledModules));
+          return isVisible || isInEnabledModules || enableModules.includes("all");
+        });
         this.loadSelectedJson();
         this.retrieveSelectedLabel();
         this.startTimer();
@@ -86,6 +99,7 @@ export class QuestionLabeledComponent implements OnInit {
   loadSelectedJson(): void {
     const selectedArray = this.labeledJsonArrays.find(array => array.key === this.selectedKey);
     if (selectedArray) {
+      //if (selectedArray.visibility == true) {
       this.questionsAndAnswers = selectedArray.questions;
       this.skipWordHighlighting = selectedArray.skipWordHighlighting;
       //this.wordsToBeHighlighted = selectedArray.wordsToBeHighlighted;
@@ -94,6 +108,7 @@ export class QuestionLabeledComponent implements OnInit {
       // console.log("failed to get the value .....selectedArray.visibility ", selectedArray.visibility);
       // console.log("failed to get the value .....selectedArray.skipWordHighlighting ", selectedArray.skipWordHighlighting);
       this.loadRandomQuestion();
+      //}
     }
   }
 

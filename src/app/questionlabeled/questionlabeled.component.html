@@ -11,10 +11,9 @@
             <h3>Select a category to practice</h3>
             <div class="radio-group">
                 <div *ngFor="let array of labeledJsonArrays" class="radio-option">
-                    <input *ngIf="array.visibility" type="radio" [id]="array.key" name="questionArray"
-                        [value]="array.label" (change)="onArraySelectionChange(array.key)"
-                        [checked]="array.key === selectedKey" />
-                    <label *ngIf="array.visibility" [for]="array.label">{{ array.label }}</label>
+                    <input type="radio" [id]="array.key" name="questionArray" [value]="array.label"
+                        (change)="onArraySelectionChange(array.key)" [checked]="array.key === selectedKey" />
+                    <label [for]="array.label">{{ array.label }}</label>
                 </div>
             </div>
             <Br>
@@ -34,8 +33,6 @@
 
         <!-- Questions Tab Content -->
         <div *ngIf="activeTab === 'questions'">
-
-
             <h3>Select display pattern (Sequential or Random)</h3>
             <select [(ngModel)]="selecteddisplayPattern" (change)="onDisplayPatternChange($event)">
                 <option *ngFor="let displayPattern of displayPatterns" [value]="displayPattern">{{ displayPattern }}
