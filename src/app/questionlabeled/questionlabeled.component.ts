@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Subscription, interval } from 'rxjs';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-questionlabeled',
@@ -45,7 +46,7 @@ export class QuestionLabeledComponent implements OnInit {
   // enableModules!: string[];
 
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer) {
+  constructor(private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
     this.questionStartIndex = 0;
     // Load the selection from sessionStorage if it exists
     const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
@@ -57,6 +58,16 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    // Retrieve 'isasmin' query parameter
+    this.route.queryParams.subscribe(params => {
+      const isasmin = params['isadmin'];
+
+      // Store in session storage
+      if (isasmin) {
+        sessionStorage.setItem('isadmin', isasmin);
+      }
+    });
 
     this.loadQuestions();
     this.loadSelectedJson();
@@ -72,6 +83,8 @@ export class QuestionLabeledComponent implements OnInit {
 
     this.sentence = data.sentence;
     this.boldWord = data.boldWord;
+
+
   }
 
   loadQuestions(): void {  // uncomment this to load from database.
@@ -79,6 +92,9 @@ export class QuestionLabeledComponent implements OnInit {
     const enableModules = JSON.parse(sessionStorage.getItem('enableModules') || '[]') as string[];
     console.log(" ----->enableModules", enableModules);
     console.log(" ----->this.enableModules.includes(item.key)", enableModules.includes("Present-002"));
+
+    const isadminValue = sessionStorage.getItem('isadmin');
+    console.log(isadminValue); // Logs the value of 'isasmin'
 
     this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
       //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
@@ -88,7 +104,7 @@ export class QuestionLabeledComponent implements OnInit {
           const isInEnabledModules = enableModules.includes(item.key);
           console.log('Item:', item, 'isVisible:', isVisible, 'isInEnabledModules:', isInEnabledModules);
           console.log('isVisible || isInEnabledModules', (isVisible || isInEnabledModules));
-          return isVisible || isInEnabledModules || enableModules.includes("all");
+          return isVisible || isInEnabledModules || enableModules.includes("all") || isadminValue;
         });
         this.loadSelectedJson();
         this.retrieveSelectedLabel();
