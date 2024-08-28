@@ -101,10 +101,11 @@ export class QuestionLabeledComponent implements OnInit {
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
           const isVisible = item.visibility;
-          const isInEnabledModules = enableModules.includes(item.key);
-          console.log('Item:', item, 'isVisible:', isVisible, 'isInEnabledModules:', isInEnabledModules);
-          console.log('isVisible || isInEnabledModules', (isVisible || isInEnabledModules));
-          return isVisible || isInEnabledModules || enableModules.includes("all") || isadminValue;
+          //const isInEnabledModules = enableModules.includes(item.key);
+          //  console.log('Item:', item, 'isVisible:', isVisible, 'isInEnabledModules:', isInEnabledModules);
+          //  console.log('isVisible || isInEnabledModules', (isVisible || isInEnabledModules));
+          //return isVisible || isInEnabledModules || enableModules.includes("all") || isadminValue;
+          return isVisible || isadminValue;
         });
         this.loadSelectedJson();
         this.retrieveSelectedLabel();
@@ -235,7 +236,13 @@ export class QuestionLabeledComponent implements OnInit {
         if (this.skipWordHighlighting == false) {
           this.processedCurrentAnswer = this.processSentence(this.questionsAndAnswers[randomIndex].answer);
         } else {
-          this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer;
+          if (this.questionsAndAnswers[randomIndex].answer.length > 0) {
+            console.log(" No. of elemnet", this.questionsAndAnswers[randomIndex].answer.length);
+            this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer[0];
+          } else {
+            this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer;
+          }
+
         }
       }
       this.retrieveShowAnswer();

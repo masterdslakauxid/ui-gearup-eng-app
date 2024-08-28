@@ -1211,5 +1211,454 @@
                 "answer": "-"
             }
         ]
+    },
+    {
+        "key": "Extras-005",
+        "label": "Transitional words and Phrases",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Besides",
+                "hint": "Addition",
+                "answer": [
+                    "She is a skilled pianist. Besides, she can play the violin.",
+                    "The company offers a competitive salary. Besides, it provides excellent benefits and career development opportunities.",
+                    "He completed the marathon. Besides, he also set a personal best time."
+                ]
+            },
+            {
+                "question": "Moreover",
+                "hint": "Addition",
+                "answer": [
+                    "The new software improves efficiency. Moreover, it enhances data security.",
+                    "The project was completed ahead of schedule. Moreover, it was finished under budget.",
+                    "The course covers essential topics. Moreover, it provides practical exercises to apply the concepts."
+                ]
+            },
+            {
+                "question": "Besides",
+                "hint": "Addition",
+                "answer": [
+                    "She is a skilled pianist. Besides, she can play the violin.",
+                    "The company offers a competitive salary. Besides, it provides excellent benefits and career development opportunities.",
+                    "He completed the marathon. Besides, he also set a personal best time."
+                ]
+            },
+            {
+                "question": "In Addition",
+                "hint": "Addition",
+                "answer": [
+                    "The new policy will increase employee satisfaction. In addition, it will reduce turnover rates.",
+                    "She is fluent in French. In addition, she has a working knowledge of Spanish.",
+                    "The product is environmentally friendly. In addition, it offers cost savings through energy efficiency."
+                ]
+            },
+            {
+                "question": "Also",
+                "hint": "Addition",
+                "answer": [
+                    "The event was a great success. Also, it provided valuable networking opportunities for all attendees.",
+                    "He completed the project on time. Also, he managed to improve the overall quality.",
+                    "The course covers advanced topics in physics. Also, it includes hands-on laboratory work to reinforce learning."
+                ]
+            },
+            {
+                "question": "However",
+                "hint": "Contrast",
+                "answer": [
+                    "The team was well-prepared for the presentation. However, technical difficulties caused delays.",
+                    "The new policy aims to improve productivity. However, it may face resistance from employees.",
+                    "She prefers to work independently. However, she collaborates effectively when required."
+                ]
+            },
+            {
+                "question": "Nevertheless",
+                "hint": "Contrast",
+                "answer": [
+                    "The project faced numerous challenges. Nevertheless, the team delivered it on time.",
+                    "He was not feeling well. Nevertheless, he attended the important meeting.",
+                    "The road conditions were poor. Nevertheless, we reached our destination safely."
+                ]
+            },
+            {
+                "question": "On the Other Hand",
+                "hint": "Contrast",
+                "answer": [
+                    "The new software is more efficient. On the other hand, it requires a steep learning curve.",
+                    "She enjoys working in a fast-paced environment. On the other hand, he prefers a more relaxed setting.",
+                    "The city offers numerous job opportunities. On the other hand, the cost of living is quite high."
+                ]
+            },
+            {
+                "question": "Still",
+                "hint": "Contrast",
+                "answer": [
+                    "The weather was unfavorable. Still, the event proceeded as planned.",
+                    "She faced many obstacles. Still, she remained committed to her goals.",
+                    "The results were not as expected. Still, the team appreciated the effort put in."
+                ]
+            },
+            {
+                "question": "Yet",
+                "hint": "Contrast",
+                "answer": [
+                    "The new design was innovative. Yet, it did not meet the practical needs of the users.",
+                    "He had limited experience. Yet, he performed exceptionally well in the role.",
+                    "The budget was constrained. Yet, the project was completed successfully."
+                ]
+            },
+            {
+                "question": "In Contrast",
+                "hint": "Contrast",
+                "answer": [
+                    "The new policy promotes flexibility. In contrast, the old policy was rigid and restrictive.",
+                    "Her previous job involved a lot of travel. In contrast, her current job is office-based.",
+                    "The northern region experiences harsh winters. In contrast, the southern region enjoys a mild climate year-round."
+                ]
+            },
+            {
+                "question": "Therefore",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The team exceeded their sales targets. Therefore, they received a substantial bonus.",
+                    "The software update introduced several bugs. Therefore, a patch was released to fix the issues.",
+                    "The company implemented new safety measures. Therefore, the number of workplace accidents decreased."
+                ]
+            },
+            {
+                "question": "Thus",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The data was inconclusive. Thus, further research was needed to draw reliable conclusions.",
+                    "The campaign was highly effective. Thus, the brand saw a significant increase in market share.",
+                    "The meeting was rescheduled. Thus, the project deadlines were extended."
+                ]
+            },
+            {
+                "question": "Consequently",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The company faced severe financial losses. Consequently, it had to lay off several employees.",
+                    "The project requirements changed midway. Consequently, the timeline was adjusted.",
+                    "She missed the deadline for the application. Consequently, she was not considered for the position."
+                ]
+            },
+            {
+                "question": "Hence",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The new policy improved employee satisfaction. Hence, there was a noticeable increase in productivity.",
+                    "The experiment yielded positive results. Hence, the research team decided to proceed with the next phase.",
+                    "The store's sale attracted many customers. Hence, the revenue for the month was significantly higher."
+                ]
+            },
+            {
+                "question": "As a Result",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The company invested in advanced technology. As a result, its production efficiency improved.",
+                    "The students studied hard for the exams. As a result, their overall grades significantly improved.",
+                    "The team conducted thorough market research. As a result, they launched a successful product."
+                ]
+            },
+            {
+                "question": "Because of This",
+                "hint": "Cause and Effect",
+                "answer": [
+                    "The project was completed ahead of schedule. Because of this, the client was very pleased.",
+                    "The new strategy led to increased customer engagement. Because of this, sales numbers rose dramatically.",
+                    "The company faced unexpected challenges. Because of this, additional resources were allocated to the project."
+                ]
+            },
+            {
+                "question": "Similarly",
+                "hint": "Comparison",
+                "answer": [
+                    "She loves classical music. Similarly, her brother enjoys it.",
+                    "The company promotes a healthy work-life balance. Similarly, it offers flexible working hours to employees.",
+                    "The novel explores themes of resilience and determination. Similarly, the film adaptation portrays these themes vividly."
+                ]
+            },
+            {
+                "question": "Likewise",
+                "hint": "Comparison",
+                "answer": [
+                    "He is an excellent chef. Likewise, his partner is a talented baker.",
+                    "The company values innovation and creativity. Likewise, it supports employees in pursuing new ideas.",
+                    "The project's first phase was successful. Likewise, the subsequent phases are expected to achieve similar results."
+                ]
+            },
+            {
+                "question": "In the Same Way",
+                "hint": "Comparison",
+                "answer": [
+                    "She manages her time efficiently at work. In the same way, she organizes her personal life to maintain balance.",
+                    "The training program enhances skills in communication. In the same way, it develops leadership abilities.",
+                    "The new software improves data analysis. In the same way, the updated hardware boosts overall system performance."
+                ]
+            },
+            {
+                "question": "In Comparison",
+                "hint": "Comparison",
+                "answer": [
+                    "The new model is more energy-efficient. In comparison, the old model consumed more power.",
+                    "Her previous job required frequent travel. In comparison, her current role allows her to work from home.",
+                    "The novel provides a detailed historical account. In comparison, the documentary focuses on contemporary issues."
+                ]
+            },
+            {
+                "question": "First",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "First, we need to gather all the necessary materials for the project.",
+                    "First, the team will conduct research to understand the market needs.",
+                    "First, complete the initial draft of the report before moving on to the review process."
+                ]
+            },
+            {
+                "question": "Then",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "Prepare the ingredients for the recipe. Then, mix them according to the instructions.",
+                    "Complete the training session. Then, apply the learned skills in real-life scenarios.",
+                    "Finish the preliminary analysis. Then, present the findings to the stakeholders."
+                ]
+            },
+            {
+                "question": "Next",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "Start by drafting the outline. Next, develop the content based on the outline.",
+                    "Submit the application form. Next, wait for the confirmation email with further instructions.",
+                    "Complete the design phase. Next, begin the development phase based on the finalized design."
+                ]
+            },
+            {
+                "question": "Finally",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "Complete all the revisions. Finally, submit the final version of the report.",
+                    "Finish the construction of the building. Finally, perform a thorough inspection before opening.",
+                    "Conduct the experiments. Finally, analyze the results and draw conclusions."
+                ]
+            },
+            {
+                "question": "Meanwhile",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "Prepare the presentation slides. Meanwhile, the team will finalize the content.",
+                    "Start the installation of the software. Meanwhile, ensure that all system requirements are met.",
+                    "The chef is preparing the main course. Meanwhile, the guests are being seated at their tables."
+                ]
+            },
+            {
+                "question": "Subsequently",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "The research was conducted. Subsequently, the data was analyzed to derive conclusions.",
+                    "The proposal was submitted for review. Subsequently, feedback was collected from the stakeholders.",
+                    "The initial training was completed. Subsequently, employees began applying the new techniques in their work."
+                ]
+            },
+            {
+                "question": "Afterward",
+                "hint": "Time/Sequence",
+                "answer": [
+                    "Complete the coding of the software. Afterward, test it thoroughly for any bugs.",
+                    "Attend the workshop. Afterward, apply the new skills in your daily tasks.",
+                    "Finish the meeting. Afterward, send out the meeting minutes to all participants."
+                ]
+            },
+            {
+                "question": "In Conclusion",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "In conclusion, the data supports our initial hypothesis.",
+                    "In conclusion, the research findings highlight the importance of early intervention in improving student outcomes.",
+                    "In conclusion, the project was completed successfully, meeting all the specified requirements and deadlines."
+                ]
+            },
+            {
+                "question": "To Sum Up",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "To sum up, the benefits of regular exercise include improved physical health, mental well-being, and increased energy levels.",
+                    "To sum up, the proposal addresses the key issues identified and offers practical solutions to enhance operational efficiency.",
+                    "To sum up, the company's financial performance was strong, with notable increases in revenue and profitability over the past year."
+                ]
+            },
+            {
+                "question": "In Summary",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "In summary, the evidence clearly indicates that the new policy has been effective in reducing operational costs.",
+                    "In summary, the workshop provided valuable insights into effective leadership and team management strategies.",
+                    "In summary, the findings suggest that a balanced diet combined with regular physical activity is essential for maintaining good health."
+                ]
+            },
+            {
+                "question": "Finally",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "Finally, the team's hard work and dedication have resulted in a successful product launch.",
+                    "Finally, the analysis confirms that the proposed changes will lead to significant improvements in performance.",
+                    "Finally, after considering all the options, the decision was made to move forward with the most feasible solution."
+                ]
+            },
+            {
+                "question": "Therefore",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "The results of the study are conclusive. Therefore, we can proceed with the implementation of the recommended strategies.",
+                    "The project objectives have been met successfully. Therefore, it is appropriate to consider it a completed success.",
+                    "The evidence supports the proposed hypothesis. Therefore, further research will be conducted to explore its implications."
+                ]
+            },
+            {
+                "question": "All in All",
+                "hint": "Summary/Conclusion",
+                "answer": [
+                    "All in all, the new system has significantly improved our workflow and efficiency.",
+                    "All in all, the feedback from the workshop was positive, indicating that it met the participants' expectations.",
+                    "All in all, the year's performance was strong, with growth in key metrics and successful completion of major projects."
+                ]
+            },
+            {
+                "question": "For Example",
+                "hint": "Illustration",
+                "answer": [
+                    "There are many ways to improve your health; for example, regular exercise and a balanced diet.",
+                    "Several factors contribute to successful project management; for example, clear communication and effective planning.",
+                    "Various species have adapted to their environments; for example, camels have evolved to survive in desert conditions."
+                ]
+            },
+            {
+                "question": "For Instance",
+                "hint": "Illustration",
+                "answer": [
+                    "To enhance productivity, consider implementing time management techniques; for instance, using a task prioritization method.",
+                    "There are numerous renewable energy sources available; for instance, solar, wind, and hydropower.",
+                    "In promoting healthy habits, regular physical activity is crucial; for instance, walking or jogging daily can improve cardiovascular health."
+                ]
+            },
+            {
+                "question": "Namely",
+                "hint": "Illustration",
+                "answer": [
+                    "Several strategies can boost team morale, namely, recognizing achievements, providing constructive feedback, and fostering a positive work environment.",
+                    "The company has implemented new policies, namely, flexible working hours and remote work options, to improve employee satisfaction.",
+                    "The recipe calls for basic ingredients, namely, flour, sugar, and eggs, which are essential for baking a cake."
+                ]
+            },
+            {
+                "question": "Specifically",
+                "hint": "Illustration",
+                "answer": [
+                    "The training program covers various skills, specifically, leadership development, project management, and effective communication.",
+                    "To achieve your fitness goals, you should focus on specific exercises, specifically, strength training and cardiovascular workouts.",
+                    "The job requirements include specific qualifications, specifically, a degree in computer science and proficiency in programming languages."
+                ]
+            },
+            {
+                "question": "To Illustrate",
+                "hint": "Illustration",
+                "answer": [
+                    "There are many approaches to solve this problem. To illustrate, consider both the algorithmic method and the heuristic approach.",
+                    "Effective communication can improve team dynamics. To illustrate, regular meetings and transparent feedback channels are key.",
+                    "Different types of renewable energy sources are available. To illustrate, solar panels harness energy from the sun, while wind turbines use wind power."
+                ]
+            },
+            {
+                "question": "Indeed",
+                "hint": "Emphasis",
+                "answer": [
+                    "The project was a success. Indeed, it surpassed all our expectations.",
+                    "She is a talented musician. Indeed, her performance left the audience in awe.",
+                    "The technology is innovative. Indeed, it represents a significant breakthrough in the field."
+                ]
+            },
+            {
+                "question": "In Fact",
+                "hint": "Emphasis",
+                "answer": [
+                    "The policy changes will benefit the employees. In fact, they will improve overall job satisfaction.",
+                    "The new software is user-friendly. In fact, it has received high praise from industry experts.",
+                    "He is an experienced leader. In fact, he has successfully managed multiple large-scale projects."
+                ]
+            },
+            {
+                "question": "Certainly",
+                "hint": "Emphasis",
+                "answer": [
+                    "The results are impressive. Certainly, they reflect the hard work and dedication of the team.",
+                    "The decision was the right one. Certainly, it has led to significant improvements in our processes.",
+                    "Her dedication is unmatched. Certainly, she is an asset to the organization."
+                ]
+            },
+            {
+                "question": "Of Course",
+                "hint": "Emphasis",
+                "answer": [
+                    "We will meet the deadline. Of course, we are committed to delivering high-quality work.",
+                    "The training is essential. Of course, it will help improve overall performance.",
+                    "Her contribution was valuable. Of course, her insights greatly influenced the project's success."
+                ]
+            },
+            {
+                "question": "Surely",
+                "hint": "Emphasis",
+                "answer": [
+                    "The new policy will streamline operations. Surely, it will lead to greater efficiency.",
+                    "The candidate is highly qualified. Surely, he is the best fit for the position.",
+                    "The results speak for themselves. Surely, they validate the effectiveness of the strategy."
+                ]
+            },
+            {
+                "question": "Although",
+                "hint": "Concession",
+                "answer": [
+                    "Although the weather was unfavorable, the event proceeded as planned.",
+                    "Although the task was difficult, she completed it with determination.",
+                    "Although he was tired, he stayed up late to finish the report."
+                ]
+            },
+            {
+                "question": "Though",
+                "hint": "Concession",
+                "answer": [
+                    "She was excited about the trip; though, she was concerned about the long journey.",
+                    "He enjoys playing sports; though, he finds them challenging sometimes.",
+                    "The presentation was well-prepared; though, it faced technical issues during delivery."
+                ]
+            },
+            {
+                "question": "Even Though",
+                "hint": "Concession",
+                "answer": [
+                    "Even though the team faced numerous obstacles, they succeeded in completing the project.",
+                    "Even though the instructions were clear, some participants still had difficulties understanding them.",
+                    "Even though the price was high, the product was worth the investment."
+                ]
+            },
+            {
+                "question": "Granted",
+                "hint": "Concession",
+                "answer": [
+                    "Granted, the solution is not perfect, but it is the best option available at the moment.",
+                    "Granted, he has less experience, but his enthusiasm and willingness to learn are commendable.",
+                    "Granted, the report is lengthy, but it covers all the necessary details comprehensively."
+                ]
+            },
+            {
+                "question": "Admittedly",
+                "hint": "Concession",
+                "answer": [
+                    "Admittedly, the project was challenging, but it was worth the effort.",
+                    "Admittedly, the budget was tight, yet the team managed to deliver impressive results.",
+                    "Admittedly, the initial proposal had flaws, but it was refined and improved over time."
+                ]
+            }
+        ]
     }
 ]
