@@ -30,8 +30,8 @@ export class QuestionLabeledComponent implements OnInit {
   selectedArrayIndex: number = 0; // Default selection
   activeTab: string = 'selection'; // Default active tab
   selectedKey: string = 'PresentTense-YesOrNo-questions'; // Default selection
-  selectedInterval: number = 5; // Default interval in seconds
-  showAnswerOption: boolean = false;
+  selectedInterval: number = 10; // Default interval in seconds
+  showAnswerOption: boolean = true;
   showHint: boolean = false;
 
   displayPatterns: string[] = ['Sequential', 'Random'];
@@ -96,8 +96,8 @@ export class QuestionLabeledComponent implements OnInit {
     const isadminValue = sessionStorage.getItem('isadmin');
     console.log(isadminValue); // Logs the value of 'isasmin'
 
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-      //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+    //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
           const isVisible = item.visibility;

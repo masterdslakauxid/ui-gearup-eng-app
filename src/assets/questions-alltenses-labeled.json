@@ -1215,7 +1215,7 @@
     {
         "key": "Extras-005",
         "label": "Transitional words and Phrases",
-        "visibility": true,
+        "visibility": false,
         "skipWordHighlighting": true,
         "questions": [
             {
