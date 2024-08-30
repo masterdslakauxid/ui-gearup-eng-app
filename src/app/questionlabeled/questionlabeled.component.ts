@@ -45,6 +45,9 @@ export class QuestionLabeledComponent implements OnInit {
   questionStartIndex!: number;
   // enableModules!: string[];
 
+  loadInputFileFromServer: boolean = true;
+  loadInputFileFromLocal: boolean = false;
+
 
   constructor(private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
     this.questionStartIndex = 0;
@@ -83,8 +86,11 @@ export class QuestionLabeledComponent implements OnInit {
 
     this.sentence = data.sentence;
     this.boldWord = data.boldWord;
+  }
 
-
+  isLocalhost(): boolean {
+    const hostname = window.location.hostname;
+    return hostname === 'localhost' || hostname === '127.0.0.1';
   }
 
   loadQuestions(): void {  // uncomment this to load from database.
@@ -96,8 +102,15 @@ export class QuestionLabeledComponent implements OnInit {
     const isadminValue = sessionStorage.getItem('isadmin');
     console.log(isadminValue); // Logs the value of 'isasmin'
 
-    //this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json')
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+    let path = "";
+    if (this.isLocalhost()) {
+      path = 'assets/questions-alltenses-labeled.json';
+    } else {
+      path = 'https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json';
+    }
+    //   this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
+    // } else {
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>(path)
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
           const isVisible = item.visibility;

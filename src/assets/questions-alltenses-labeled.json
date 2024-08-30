@@ -1660,5 +1660,722 @@
                 ]
             }
         ]
+    },
+    {
+        "key": "Extras-006",
+        "label": "Most used antonyms",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "The room is very clean.",
+                "hint": "clean, dirty",
+                "answer": [
+                    "The room is very dirty."
+                ]
+            },
+            {
+                "question": "The water is hot.",
+                "hint": "hot, cold",
+                "answer": [
+                    "The water is cold."
+                ]
+            },
+            {
+                "question": "The book is interesting.",
+                "hint": "interesting, boring",
+                "answer": [
+                    "The book is boring."
+                ]
+            },
+            {
+                "question": "The weather is warm today.",
+                "hint": "warm, cool",
+                "answer": [
+                    "The weather is cool today."
+                ]
+            },
+            {
+                "question": "She feels happy.",
+                "hint": "happy, sad",
+                "answer": [
+                    "She feels sad."
+                ]
+            },
+            {
+                "question": "The answer is right.",
+                "hint": "right, wrong",
+                "answer": [
+                    "The answer is wrong."
+                ]
+            },
+            {
+                "question": "The task was easy.",
+                "hint": "easy, difficult",
+                "answer": [
+                    "The task was difficult."
+                ]
+            },
+            {
+                "question": "He is always early.",
+                "hint": "early, late",
+                "answer": [
+                    "He is always late."
+                ]
+            },
+            {
+                "question": "The box is empty.",
+                "hint": "empty, full",
+                "answer": [
+                    "The box is full."
+                ]
+            },
+            {
+                "question": "The room is bright.",
+                "hint": "bright, dark",
+                "answer": [
+                    "The room is dark."
+                ]
+            },
+            {
+                "question": "She spoke softly.",
+                "hint": "softly, loudly",
+                "answer": [
+                    "She spoke loudly."
+                ]
+            },
+            {
+                "question": "The road is narrow.",
+                "hint": "narrow, wide",
+                "answer": [
+                    "The road is wide."
+                ]
+            },
+            {
+                "question": "The test was simple.",
+                "hint": "simple, complex",
+                "answer": [
+                    "The test was complex."
+                ]
+            },
+            {
+                "question": "The surface is smooth.",
+                "hint": "smooth, rough",
+                "answer": [
+                    "The surface is rough."
+                ]
+            },
+            {
+                "question": "He is very strong.",
+                "hint": "strong, weak",
+                "answer": [
+                    "He is very weak."
+                ]
+            },
+            {
+                "question": "The movie was funny.",
+                "hint": "funny, serious",
+                "answer": [
+                    "The movie was serious."
+                ]
+            },
+            {
+                "question": "He is a generous person.",
+                "hint": "generous, stingy",
+                "answer": [
+                    "He is a stingy person."
+                ]
+            },
+            {
+                "question": "The lake is deep.",
+                "hint": "deep, shallow",
+                "answer": [
+                    "The lake is shallow."
+                ]
+            },
+            {
+                "question": "The tree is tall.",
+                "hint": "tall, short",
+                "answer": [
+                    "The tree is short."
+                ]
+            },
+            {
+                "question": "The box is heavy.",
+                "hint": "heavy, light",
+                "answer": [
+                    "The box is light."
+                ]
+            },
+            {
+                "question": "The project is urgent.",
+                "hint": "urgent, non-urgent",
+                "answer": [
+                    "The project is non-urgent."
+                ]
+            },
+            {
+                "question": "He is always calm.",
+                "hint": "calm, anxious",
+                "answer": [
+                    "He is always anxious."
+                ]
+            },
+            {
+                "question": "The soup is thick.",
+                "hint": "thick, thin",
+                "answer": [
+                    "The soup is thin."
+                ]
+            },
+            {
+                "question": "The cat is very quiet.",
+                "hint": "quiet, noisy",
+                "answer": [
+                    "The cat is very noisy."
+                ]
+            },
+            {
+                "question": "The task is important.",
+                "hint": "important, trivial",
+                "answer": [
+                    "The task is trivial."
+                ]
+            },
+            {
+                "question": "He is a kind person.",
+                "hint": "kind, cruel",
+                "answer": [
+                    "He is a cruel person."
+                ]
+            },
+            {
+                "question": "She gave an honest answer.",
+                "hint": "honest, dishonest",
+                "answer": [
+                    "She gave a dishonest answer."
+                ]
+            },
+            {
+                "question": "The floor is wet.",
+                "hint": "wet, dry",
+                "answer": [
+                    "The floor is dry."
+                ]
+            },
+            {
+                "question": "The fabric is soft.",
+                "hint": "soft, hard",
+                "answer": [
+                    "The fabric is hard."
+                ]
+            },
+            {
+                "question": "The path is straight.",
+                "hint": "straight, crooked",
+                "answer": [
+                    "The path is crooked."
+                ]
+            },
+            {
+                "question": "The door is open.",
+                "hint": "open, closed",
+                "answer": [
+                    "The door is closed."
+                ]
+            },
+            {
+                "question": "The instructions were clear.",
+                "hint": "clear, confusing",
+                "answer": [
+                    "The instructions were confusing."
+                ]
+            },
+            {
+                "question": "The child is obedient.",
+                "hint": "obedient, disobedient",
+                "answer": [
+                    "The child is disobedient."
+                ]
+            },
+            {
+                "question": "He is a brave soldier.",
+                "hint": "brave, cowardly",
+                "answer": [
+                    "He is a cowardly soldier."
+                ]
+            },
+            {
+                "question": "The results are positive.",
+                "hint": "positive, negative",
+                "answer": [
+                    "The results are negative."
+                ]
+            },
+            {
+                "question": "The day was pleasant.",
+                "hint": "pleasant, unpleasant",
+                "answer": [
+                    "The day was unpleasant."
+                ]
+            },
+            {
+                "question": "The item is new.",
+                "hint": "new, old",
+                "answer": [
+                    "The item is old."
+                ]
+            },
+            {
+                "question": "The road is smooth.",
+                "hint": "smooth, rough",
+                "answer": [
+                    "The road is rough."
+                ]
+            },
+            {
+                "question": "She is always polite.",
+                "hint": "polite, rude",
+                "answer": [
+                    "She is always rude."
+                ]
+            },
+            {
+                "question": "The glass is fragile.",
+                "hint": "fragile, sturdy",
+                "answer": [
+                    "The glass is sturdy."
+                ]
+            },
+            {
+                "question": "The solution is permanent.",
+                "hint": "permanent, temporary",
+                "answer": [
+                    "The solution is temporary."
+                ]
+            },
+            {
+                "question": "The meeting was formal.",
+                "hint": "formal, informal",
+                "answer": [
+                    "The meeting was informal."
+                ]
+            },
+            {
+                "question": "She is optimistic about the future.",
+                "hint": "optimistic, pessimistic",
+                "answer": [
+                    "She is pessimistic about the future."
+                ]
+            },
+            {
+                "question": "The task is complex.",
+                "hint": "complex, simple",
+                "answer": [
+                    "The task is simple."
+                ]
+            },
+            {
+                "question": "He made a generous donation.",
+                "hint": "generous, stingy",
+                "answer": [
+                    "He made a stingy donation."
+                ]
+            },
+            {
+                "question": "She wore a plain dress.",
+                "hint": "plain, fancy",
+                "answer": [
+                    "She wore a fancy dress."
+                ]
+            },
+            {
+                "question": "The area is safe.",
+                "hint": "safe, dangerous",
+                "answer": [
+                    "The area is dangerous."
+                ]
+            },
+            {
+                "question": "The movie was entertaining.",
+                "hint": "entertaining, dull",
+                "answer": [
+                    "The movie was dull."
+                ]
+            },
+            {
+                "question": "The material is flexible.",
+                "hint": "flexible, rigid",
+                "answer": [
+                    "The material is rigid."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-007",
+        "label": "Singular and Plural - Workplace",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "The report is ready.",
+                "hint": "report, reports",
+                "answer": [
+                    "The reports are ready."
+                ]
+            },
+            {
+                "question": "The file is missing.",
+                "hint": "file, files",
+                "answer": [
+                    "The files are missing."
+                ]
+            },
+            {
+                "question": "The task is completed.",
+                "hint": "task, tasks",
+                "answer": [
+                    "The tasks are completed."
+                ]
+            },
+            {
+                "question": "The employee is absent.",
+                "hint": "employee, employees",
+                "answer": [
+                    "The employees are absent."
+                ]
+            },
+            {
+                "question": "The document is signed.",
+                "hint": "document, documents",
+                "answer": [
+                    "The documents are signed."
+                ]
+            },
+            {
+                "question": "The meeting is scheduled.",
+                "hint": "meeting, meetings",
+                "answer": [
+                    "The meetings are scheduled."
+                ]
+            },
+            {
+                "question": "The client is happy.",
+                "hint": "client, clients",
+                "answer": [
+                    "The clients are happy."
+                ]
+            },
+            {
+                "question": "The project is delayed.",
+                "hint": "project, projects",
+                "answer": [
+                    "The projects are delayed."
+                ]
+            },
+            {
+                "question": "The proposal is approved.",
+                "hint": "proposal, proposals",
+                "answer": [
+                    "The proposals are approved."
+                ]
+            },
+            {
+                "question": "The system is down.",
+                "hint": "system, systems",
+                "answer": [
+                    "The systems are down."
+                ]
+            },
+            {
+                "question": "The team is prepared.",
+                "hint": "team, teams",
+                "answer": [
+                    "The teams are prepared."
+                ]
+            },
+            {
+                "question": "The analysis is complete.",
+                "hint": "analysis, analyses",
+                "answer": [
+                    "The analyses are complete."
+                ]
+            },
+            {
+                "question": "The item is out of stock.",
+                "hint": "item, items",
+                "answer": [
+                    "The items are out of stock."
+                ]
+            },
+            {
+                "question": "The department is expanding.",
+                "hint": "department, departments",
+                "answer": [
+                    "The departments are expanding."
+                ]
+            },
+            {
+                "question": "The manager is in a meeting.",
+                "hint": "manager, managers",
+                "answer": [
+                    "The managers are in a meeting."
+                ]
+            },
+            {
+                "question": "The budget is approved.",
+                "hint": "budget, budgets",
+                "answer": [
+                    "The budgets are approved."
+                ]
+            },
+            {
+                "question": "The office is closed.",
+                "hint": "office, offices",
+                "answer": [
+                    "The offices are closed."
+                ]
+            },
+            {
+                "question": "The deadline is tomorrow.",
+                "hint": "deadline, deadlines",
+                "answer": [
+                    "The deadlines are tomorrow."
+                ]
+            },
+            {
+                "question": "The contract is signed.",
+                "hint": "contract, contracts",
+                "answer": [
+                    "The contracts are signed."
+                ]
+            },
+            {
+                "question": "The result is impressive.",
+                "hint": "result, results",
+                "answer": [
+                    "The results are impressive."
+                ]
+            },
+            {
+                "question": "The customer is satisfied.",
+                "hint": "customer, customers",
+                "answer": [
+                    "The customers are satisfied."
+                ]
+            },
+            {
+                "question": "The invoice is paid.",
+                "hint": "invoice, invoices",
+                "answer": [
+                    "The invoices are paid."
+                ]
+            },
+            {
+                "question": "The policy is updated.",
+                "hint": "policy, policies",
+                "answer": [
+                    "The policies are updated."
+                ]
+            },
+            {
+                "question": "The error is corrected.",
+                "hint": "error, errors",
+                "answer": [
+                    "The errors are corrected."
+                ]
+            },
+            {
+                "question": "The machine is broken.",
+                "hint": "machine, machines",
+                "answer": [
+                    "The machines are broken."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-008",
+        "label": "Singular and Plural - General",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "The dog is barking loudly.",
+                "hint": "dog",
+                "answer": [
+                    "The dogs are barking loudly."
+                ]
+            },
+            {
+                "question": "The chair is broken.",
+                "hint": "chair",
+                "answer": [
+                    "The chairs are broken."
+                ]
+            },
+            {
+                "question": "The book is on the table.",
+                "hint": "book",
+                "answer": [
+                    "The books are on the table."
+                ]
+            },
+            {
+                "question": "The student is reading.",
+                "hint": "student",
+                "answer": [
+                    "The students are reading."
+                ]
+            },
+            {
+                "question": "The apple is fresh.",
+                "hint": "apple",
+                "answer": [
+                    "The apples are fresh."
+                ]
+            },
+            {
+                "question": "The car is parked outside.",
+                "hint": "car",
+                "answer": [
+                    "The cars are parked outside."
+                ]
+            },
+            {
+                "question": "The flower is blooming.",
+                "hint": "flower",
+                "answer": [
+                    "The flowers are blooming."
+                ]
+            },
+            {
+                "question": "The cat is sleeping.",
+                "hint": "cat",
+                "answer": [
+                    "The cats are sleeping."
+                ]
+            },
+            {
+                "question": "The tree is tall.",
+                "hint": "tree",
+                "answer": [
+                    "The trees are tall."
+                ]
+            },
+            {
+                "question": "The teacher is explaining the lesson.",
+                "hint": "teacher",
+                "answer": [
+                    "The teachers are explaining the lesson."
+                ]
+            },
+            {
+                "question": "The bottle is full.",
+                "hint": "bottle",
+                "answer": [
+                    "The bottles are full."
+                ]
+            },
+            {
+                "question": "The house is big.",
+                "hint": "house",
+                "answer": [
+                    "The houses are big."
+                ]
+            },
+            {
+                "question": "The bird is singing.",
+                "hint": "bird",
+                "answer": [
+                    "The birds are singing."
+                ]
+            },
+            {
+                "question": "The window is open.",
+                "hint": "window",
+                "answer": [
+                    "The windows are open."
+                ]
+            },
+            {
+                "question": "The dish is delicious.",
+                "hint": "dish",
+                "answer": [
+                    "The dishes are delicious."
+                ]
+            },
+            {
+                "question": "The boy is playing outside.",
+                "hint": "boy",
+                "answer": [
+                    "The boys are playing outside."
+                ]
+            },
+            {
+                "question": "The box is heavy.",
+                "hint": "box",
+                "answer": [
+                    "The boxes are heavy."
+                ]
+            },
+            {
+                "question": "The pen is on the desk.",
+                "hint": "pen",
+                "answer": [
+                    "The pens are on the desk."
+                ]
+            },
+            {
+                "question": "The child is crying.",
+                "hint": "child",
+                "answer": [
+                    "The children are crying."
+                ]
+            },
+            {
+                "question": "The leaf is green.",
+                "hint": "leaf",
+                "answer": [
+                    "The leaves are green."
+                ]
+            },
+            {
+                "question": "The dress is beautiful.",
+                "hint": "dress",
+                "answer": [
+                    "The dresses are beautiful."
+                ]
+            },
+            {
+                "question": "The key is on the table.",
+                "hint": "key",
+                "answer": [
+                    "The keys are on the table."
+                ]
+            },
+            {
+                "question": "The mouse is small.",
+                "hint": "mouse",
+                "answer": [
+                    "The mice are small."
+                ]
+            },
+            {
+                "question": "The woman is speaking.",
+                "hint": "woman",
+                "answer": [
+                    "The women are speaking."
+                ]
+            },
+            {
+                "question": "The goose is flying.",
+                "hint": "goose",
+                "answer": [
+                    "The geese are flying."
+                ]
+            }
+        ]
     }
 ]
