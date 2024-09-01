@@ -8,202 +8,282 @@
             {
                 "question": "Do I exercise every day?",
                 "hint": "exercise",
-                "answer": "Yes, I do. / Yes, I exercise every day."
+                "answer": [
+                    "Yes, I do. / Yes, I exercise every day."
+                ]
             },
             {
                 "question": "Do I not exercise every day?",
                 "hint": "exercise",
-                "answer": "No, I don't. / No, I do not exercise every day."
+                "answer": [
+                    "No, I don't. / No, I do not exercise every day."
+                ]
             },
             {
                 "question": "Do you visit your parents every month?",
                 "hint": "visit",
-                "answer": "Yes, I do. / Yes, I visit my parents every month."
+                "answer": [
+                    "Yes, I do. / Yes, I visit my parents every month."
+                ]
             },
             {
                 "question": "Do you not visit your parents every month?",
                 "hint": "visit",
-                "answer": "No, I don't. / No, I do not visit my parents every month."
+                "answer": [
+                    "No, I don't. / No, I do not visit my parents every month."
+                ]
             },
             {
                 "question": "Does he celebrate his birthday every year?",
                 "hint": "celebrate",
-                "answer": "Yes, he does. / Yes, he celebrates his birthday every year."
+                "answer": [
+                    "Yes, he does. / Yes, he celebrates his birthday every year."
+                ]
             },
             {
                 "question": "Does he not celebrate his birthday every year?",
                 "hint": "celebrate",
-                "answer": "No, he doesn't. / No, he does not celebrate his birthday every year."
+                "answer": [
+                    "No, he doesn't. / No, he does not celebrate his birthday every year."
+                ]
             },
             {
                 "question": "Does she go to the dentist every two months?",
                 "hint": "dentist",
-                "answer": "Yes, she does. / Yes, she goes to the dentist every two months."
+                "answer": [
+                    "Yes, she does. / Yes, she goes to the dentist every two months."
+                ]
             },
             {
                 "question": "Does she not go to the dentist every two months?",
                 "hint": "dentist",
-                "answer": "No, she doesn't. / No, she does not go to the dentist every two months."
+                "answer": [
+                    "No, she doesn't. / No, she does not go to the dentist every two months."
+                ]
             },
             {
                 "question": "Does it always rain here?",
                 "hint": "rain",
-                "answer": "Yes, it does. / Yes, it always rains here."
+                "answer": [
+                    "Yes, it does. / Yes, it always rains here."
+                ]
             },
             {
                 "question": "Does it not always rain here?",
                 "hint": "rain",
-                "answer": "No, it doesn't. / No, it does not always rain here."
+                "answer": [
+                    "No, it doesn't. / No, it does not always rain here."
+                ]
             },
             {
                 "question": "Do I usually have coffee in the morning?",
                 "hint": "coffee",
-                "answer": "Yes, I do. / Yes, I usually have coffee in the morning."
+                "answer": [
+                    "Yes, I do. / Yes, I usually have coffee in the morning."
+                ]
             },
             {
                 "question": "Do I not usually have coffee in the morning?",
                 "hint": "coffee",
-                "answer": "No, I don't. / No, I do not usually have coffee in the morning."
+                "answer": [
+                    "No, I don't. / No, I do not usually have coffee in the morning."
+                ]
             },
             {
                 "question": "Do you often read books on weekends?",
                 "hint": "read",
-                "answer": "Yes, I do. / Yes, I often read books on weekends."
+                "answer": [
+                    "Yes, I do. / Yes, I often read books on weekends."
+                ]
             },
             {
                 "question": "Do you not often read books on weekends?",
                 "hint": "read",
-                "answer": "No, I don't. / No, I do not often read books on weekends."
+                "answer": [
+                    "No, I don't. / No, I do not often read books on weekends."
+                ]
             },
             {
                 "question": "Does he sometimes play soccer?",
                 "hint": "play",
-                "answer": "Yes, he does. / Yes, he sometimes plays soccer."
+                "answer": [
+                    "Yes, he does. / Yes, he sometimes plays soccer."
+                ]
             },
             {
                 "question": "Does he not sometimes play soccer?",
                 "hint": "play",
-                "answer": "No, he doesn't. / No, he does not sometimes play soccer."
+                "answer": [
+                    "No, he doesn't. / No, he does not sometimes play soccer."
+                ]
             },
             {
                 "question": "Does she rarely eat out at restaurants?",
                 "hint": "eat",
-                "answer": "Yes, she does. / Yes, she rarely eats out at restaurants."
+                "answer": [
+                    "Yes, she does. / Yes, she rarely eats out at restaurants."
+                ]
             },
             {
                 "question": "Does she not rarely eat out at restaurants?",
                 "hint": "eat",
-                "answer": "No, she doesn't. / No, she does not rarely eat out at restaurants."
+                "answer": [
+                    "No, she doesn't. / No, she does not rarely eat out at restaurants."
+                ]
             },
             {
                 "question": "Does it never snow here?",
                 "hint": "snow",
-                "answer": "Yes, it does. / Yes, it never snows here."
+                "answer": [
+                    "Yes, it does. / Yes, it never snows here."
+                ]
             },
             {
                 "question": "Does it not never snow here?",
                 "hint": "snow",
-                "answer": "No, it doesn't. / No, it does not never snow here."
+                "answer": [
+                    "No, it doesn't. / No, it does not never snow here."
+                ]
             },
             {
                 "question": "Do we exercise every day?",
                 "hint": "exercise",
-                "answer": "Yes, we do. / Yes, we exercise every day."
+                "answer": [
+                    "Yes, we do. / Yes, we exercise every day."
+                ]
             },
             {
                 "question": "Do we not exercise every day?",
                 "hint": "exercise",
-                "answer": "No, we don't. / No, we do not exercise every day."
+                "answer": [
+                    "No, we don't. / No, we do not exercise every day."
+                ]
             },
             {
                 "question": "Do you visit your friends every month?",
                 "hint": "visit",
-                "answer": "Yes, we do. / Yes, we visit our friends every month."
+                "answer": [
+                    "Yes, we do. / Yes, we visit our friends every month."
+                ]
             },
             {
                 "question": "Do you not visit your friends every month?",
                 "hint": "visit",
-                "answer": "No, we don't. / No, we do not visit our friends every month."
+                "answer": [
+                    "No, we don't. / No, we do not visit our friends every month."
+                ]
             },
             {
                 "question": "Do they celebrate their birthdays every year?",
                 "hint": "celebrate",
-                "answer": "Yes, they do. / Yes, they celebrate their birthdays every year."
+                "answer": [
+                    "Yes, they do. / Yes, they celebrate their birthdays every year."
+                ]
             },
             {
                 "question": "Do they not celebrate their birthdays every year?",
                 "hint": "celebrate",
-                "answer": "No, they don't. / No, they do not celebrate their birthdays every year."
+                "answer": [
+                    "No, they don't. / No, they do not celebrate their birthdays every year."
+                ]
             },
             {
                 "question": "Do we go to the dentist every two months?",
                 "hint": "dentist",
-                "answer": "Yes, we do. / Yes, we go to the dentist every two months."
+                "answer": [
+                    "Yes, we do. / Yes, we go to the dentist every two months."
+                ]
             },
             {
                 "question": "Do we not go to the dentist every two months?",
                 "hint": "dentist",
-                "answer": "No, we don't. / No, we do not go to the dentist every two months."
+                "answer": [
+                    "No, we don't. / No, we do not go to the dentist every two months."
+                ]
             },
             {
                 "question": "Do you always arrive on time?",
                 "hint": "arrive",
-                "answer": "Yes, we do. / Yes, we always arrive on time."
+                "answer": [
+                    "Yes, we do. / Yes, we always arrive on time."
+                ]
             },
             {
                 "question": "Do you not always arrive on time?",
                 "hint": "arrive",
-                "answer": "No, we don't. / No, we do not always arrive on time."
+                "answer": [
+                    "No, we don't. / No, we do not always arrive on time."
+                ]
             },
             {
                 "question": "Do they usually have meetings on Fridays?",
                 "hint": "meetings",
-                "answer": "Yes, they do. / Yes, they usually have meetings on Fridays."
+                "answer": [
+                    "Yes, they do. / Yes, they usually have meetings on Fridays."
+                ]
             },
             {
                 "question": "Do they not usually have meetings on Fridays?",
                 "hint": "meetings",
-                "answer": "No, they don't. / No, they do not usually have meetings on Fridays."
+                "answer": [
+                    "No, they don't. / No, they do not usually have meetings on Fridays."
+                ]
             },
             {
                 "question": "Do we often travel during holidays?",
                 "hint": "travel",
-                "answer": "Yes, we do. / Yes, we often travel during holidays."
+                "answer": [
+                    "Yes, we do. / Yes, we often travel during holidays."
+                ]
             },
             {
                 "question": "Do we not often travel during holidays?",
                 "hint": "travel",
-                "answer": "No, we don't. / No, we do not often travel during holidays."
+                "answer": [
+                    "No, we don't. / No, we do not often travel during holidays."
+                ]
             },
             {
                 "question": "Do you sometimes go to the cinema?",
                 "hint": "cinema",
-                "answer": "Yes, we do. / Yes, we sometimes go to the cinema."
+                "answer": [
+                    "Yes, we do. / Yes, we sometimes go to the cinema."
+                ]
             },
             {
                 "question": "Do you not sometimes go to the cinema?",
                 "hint": "cinema",
-                "answer": "No, we don't. / No, we do not sometimes go to the cinema."
+                "answer": [
+                    "No, we don't. / No, we do not sometimes go to the cinema."
+                ]
             },
             {
                 "question": "Do they rarely eat junk food?",
                 "hint": "junk food",
-                "answer": "Yes, they do. / Yes, they rarely eat junk food."
+                "answer": [
+                    "Yes, they do. / Yes, they rarely eat junk food."
+                ]
             },
             {
                 "question": "Do they not rarely eat junk food?",
                 "hint": "junk food",
-                "answer": "No, they don't. / No, they do not rarely eat junk food."
+                "answer": [
+                    "No, they don't. / No, they do not rarely eat junk food."
+                ]
             },
             {
                 "question": "Do we never miss our deadlines?",
                 "hint": "miss",
-                "answer": "Yes, we do. / Yes, we never miss our deadlines."
+                "answer": [
+                    "Yes, we do. / Yes, we never miss our deadlines."
+                ]
             },
             {
                 "question": "Do we not never miss our deadlines?",
                 "hint": "miss",
-                "answer": "No, we don't. / No, we do not never miss our deadlines."
+                "answer": [
+                    "No, we don't. / No, we do not never miss our deadlines."
+                ]
             }
         ]
     },
@@ -216,162 +296,226 @@
             {
                 "question": "What does he do every day?",
                 "hint": "exercise",
-                "answer": "He exercises every day."
+                "answer": [
+                    "He exercises every day."
+                ]
             },
             {
                 "question": "What does he not do every day?",
                 "hint": "go to the gym",
-                "answer": "He does not go to the gym every day."
+                "answer": [
+                    "He does not go to the gym every day."
+                ]
             },
             {
                 "question": "What does she do every month?",
                 "hint": "visit her parents",
-                "answer": "She visits her parents every month."
+                "answer": [
+                    "She visits her parents every month."
+                ]
             },
             {
                 "question": "What does she not do every month?",
                 "hint": "travel abroad",
-                "answer": "She does not travel abroad every month."
+                "answer": [
+                    "She does not travel abroad every month."
+                ]
             },
             {
                 "question": "What does he do every year?",
                 "hint": "celebrate his birthday",
-                "answer": "He celebrates his birthday every year."
+                "answer": [
+                    "He celebrates his birthday every year."
+                ]
             },
             {
                 "question": "What does he not do every year?",
                 "hint": "go skiing",
-                "answer": "He does not go skiing every year."
+                "answer": [
+                    "He does not go skiing every year."
+                ]
             },
             {
                 "question": "How often does she go to the dentist?",
                 "hint": "every two months",
-                "answer": "She goes to the dentist every two months."
+                "answer": [
+                    "She goes to the dentist every two months."
+                ]
             },
             {
                 "question": "How often does she not go to the dentist?",
                 "hint": "every two months",
-                "answer": "She does not go to the dentist every two months."
+                "answer": [
+                    "She does not go to the dentist every two months."
+                ]
             },
             {
                 "question": "How often does he arrive early?",
                 "hint": "work",
-                "answer": "He always arrives early at work."
+                "answer": [
+                    "He always arrives early at work."
+                ]
             },
             {
                 "question": "How often does he arrive early?",
                 "hint": "work",
-                "answer": "He never arrives early at work."
+                "answer": [
+                    "He never arrives early at work."
+                ]
             },
             {
                 "question": "How often does she have coffee in the morning?",
                 "hint": "morning",
-                "answer": "She usually has coffee in the morning."
+                "answer": [
+                    "She usually has coffee in the morning."
+                ]
             },
             {
                 "question": "How often does she have coffee in the morning?",
                 "hint": "morning",
-                "answer": "She rarely has coffee in the morning."
+                "answer": [
+                    "She rarely has coffee in the morning."
+                ]
             },
             {
                 "question": "How often does he read books?",
                 "hint": "weekends",
-                "answer": "He often reads books on weekends."
+                "answer": [
+                    "He often reads books on weekends."
+                ]
             },
             {
                 "question": "How often does he read books?",
                 "hint": "weekends",
-                "answer": "He sometimes reads books on weekends."
+                "answer": [
+                    "He sometimes reads books on weekends."
+                ]
             },
             {
                 "question": "How often does she eat out?",
                 "hint": "restaurants",
-                "answer": "She never eats out at restaurants."
+                "answer": [
+                    "She never eats out at restaurants."
+                ]
             },
             {
                 "question": "How often does she eat out?",
                 "hint": "restaurants",
-                "answer": "She always eats out at restaurants."
+                "answer": [
+                    "She always eats out at restaurants."
+                ]
             },
             {
                 "question": "What do they do every day?",
                 "hint": "exercise",
-                "answer": "They exercise every day."
+                "answer": [
+                    "They exercise every day."
+                ]
             },
             {
                 "question": "What do they not do every day?",
                 "hint": "go to the gym",
-                "answer": "They do not go to the gym every day."
+                "answer": [
+                    "They do not go to the gym every day."
+                ]
             },
             {
                 "question": "What do they do every month?",
                 "hint": "visit their parents",
-                "answer": "They visit their parents every month."
+                "answer": [
+                    "They visit their parents every month."
+                ]
             },
             {
                 "question": "What do they not do every month?",
                 "hint": "travel abroad",
-                "answer": "They do not travel abroad every month."
+                "answer": [
+                    "They do not travel abroad every month."
+                ]
             },
             {
                 "question": "What do they do every year?",
                 "hint": "celebrate their birthdays",
-                "answer": "They celebrate their birthdays every year."
+                "answer": [
+                    "They celebrate their birthdays every year."
+                ]
             },
             {
                 "question": "What do they not do every year?",
                 "hint": "go skiing",
-                "answer": "They do not go skiing every year."
+                "answer": [
+                    "They do not go skiing every year."
+                ]
             },
             {
                 "question": "How often do they go to the dentist?",
                 "hint": "every two months",
-                "answer": "They go to the dentist every two months."
+                "answer": [
+                    "They go to the dentist every two months."
+                ]
             },
             {
                 "question": "How often do they not go to the dentist?",
                 "hint": "every two months",
-                "answer": "They do not go to the dentist every two months."
+                "answer": [
+                    "They do not go to the dentist every two months."
+                ]
             },
             {
                 "question": "How often do they arrive early?",
                 "hint": "work",
-                "answer": "They always arrive early at work."
+                "answer": [
+                    "They always arrive early at work."
+                ]
             },
             {
                 "question": "How often do they arrive early?",
                 "hint": "work",
-                "answer": "They never arrive early at work."
+                "answer": [
+                    "They never arrive early at work."
+                ]
             },
             {
                 "question": "How often do they have coffee in the morning?",
                 "hint": "morning",
-                "answer": "They usually have coffee in the morning."
+                "answer": [
+                    "They usually have coffee in the morning."
+                ]
             },
             {
                 "question": "How often do they have coffee in the morning?",
                 "hint": "morning",
-                "answer": "They rarely have coffee in the morning."
+                "answer": [
+                    "They rarely have coffee in the morning."
+                ]
             },
             {
                 "question": "How often do they read books?",
                 "hint": "weekends",
-                "answer": "They often read books on weekends."
+                "answer": [
+                    "They often read books on weekends."
+                ]
             },
             {
                 "question": "How often do they read books?",
                 "hint": "weekends",
-                "answer": "They sometimes read books on weekends."
+                "answer": [
+                    "They sometimes read books on weekends."
+                ]
             },
             {
                 "question": "How often do they eat out?",
                 "hint": "restaurants",
-                "answer": "They never eat out at restaurants."
+                "answer": [
+                    "They never eat out at restaurants."
+                ]
             },
             {
                 "question": "How often do they eat out?",
                 "hint": "restaurants",
-                "answer": "They always eat out at restaurants."
+                "answer": [
+                    "They always eat out at restaurants."
+                ]
             }
         ]
     },
@@ -384,222 +528,310 @@
             {
                 "question": "What is he doing now?",
                 "hint": "working",
-                "answer": "He is working now."
+                "answer": [
+                    "He is working now."
+                ]
             },
             {
                 "question": "What is he not doing now?",
                 "hint": "sleeping",
-                "answer": "He is not sleeping now."
+                "answer": [
+                    "He is not sleeping now."
+                ]
             },
             {
                 "question": "What is she doing at the moment?",
                 "hint": "reading",
-                "answer": "She is reading at the moment."
+                "answer": [
+                    "She is reading at the moment."
+                ]
             },
             {
                 "question": "What is she not doing at the moment?",
                 "hint": "cooking",
-                "answer": "She is not cooking at the moment."
+                "answer": [
+                    "She is not cooking at the moment."
+                ]
             },
             {
                 "question": "What is he doing at present?",
                 "hint": "studying",
-                "answer": "He is studying at present."
+                "answer": [
+                    "He is studying at present."
+                ]
             },
             {
                 "question": "What is he not doing at present?",
                 "hint": "traveling",
-                "answer": "He is not traveling at present."
+                "answer": [
+                    "He is not traveling at present."
+                ]
             },
             {
                 "question": "What is she doing today?",
                 "hint": "shopping",
-                "answer": "She is shopping today."
+                "answer": [
+                    "She is shopping today."
+                ]
             },
             {
                 "question": "What is she not doing today?",
                 "hint": "working",
-                "answer": "She is not working today."
+                "answer": [
+                    "She is not working today."
+                ]
             },
             {
                 "question": "What are they doing tonight?",
                 "hint": "watching TV",
-                "answer": "They are watching TV tonight."
+                "answer": [
+                    "They are watching TV tonight."
+                ]
             },
             {
                 "question": "What are they not doing tonight?",
                 "hint": "reading",
-                "answer": "They are not reading tonight."
+                "answer": [
+                    "They are not reading tonight."
+                ]
             },
             {
                 "question": "What is he doing this morning?",
                 "hint": "exercising",
-                "answer": "He is exercising this morning."
+                "answer": [
+                    "He is exercising this morning."
+                ]
             },
             {
                 "question": "What is he not doing this morning?",
                 "hint": "sleeping",
-                "answer": "He is not sleeping this morning."
+                "answer": [
+                    "He is not sleeping this morning."
+                ]
             },
             {
                 "question": "What is she doing this afternoon?",
                 "hint": "working",
-                "answer": "She is working this afternoon."
+                "answer": [
+                    "She is working this afternoon."
+                ]
             },
             {
                 "question": "What is she not doing this afternoon?",
                 "hint": "relaxing",
-                "answer": "She is not relaxing this afternoon."
+                "answer": [
+                    "She is not relaxing this afternoon."
+                ]
             },
             {
                 "question": "What is he doing this week?",
                 "hint": "attending meetings",
-                "answer": "He is attending meetings this week."
+                "answer": [
+                    "He is attending meetings this week."
+                ]
             },
             {
                 "question": "What is he not doing this week?",
                 "hint": "vacationing",
-                "answer": "He is not vacationing this week."
+                "answer": [
+                    "He is not vacationing this week."
+                ]
             },
             {
                 "question": "What is she doing this month?",
                 "hint": "renovating her house",
-                "answer": "She is renovating her house this month."
+                "answer": [
+                    "She is renovating her house this month."
+                ]
             },
             {
                 "question": "What is she not doing this month?",
                 "hint": "traveling",
-                "answer": "She is not traveling this month."
+                "answer": [
+                    "She is not traveling this month."
+                ]
             },
             {
                 "question": "What is he doing this year?",
                 "hint": "learning a new skill",
-                "answer": "He is learning a new skill this year."
+                "answer": [
+                    "He is learning a new skill this year."
+                ]
             },
             {
                 "question": "What is he not doing this year?",
                 "hint": "taking a break",
-                "answer": "He is not taking a break this year."
+                "answer": [
+                    "He is not taking a break this year."
+                ]
             },
             {
                 "question": "What are they doing while they are on vacation?",
                 "hint": "exploring new places",
-                "answer": "They are exploring new places while they are on vacation."
+                "answer": [
+                    "They are exploring new places while they are on vacation."
+                ]
             },
             {
                 "question": "What are they not doing while they are on vacation?",
                 "hint": "working",
-                "answer": "They are not working while they are on vacation."
+                "answer": [
+                    "They are not working while they are on vacation."
+                ]
             },
             {
                 "question": "What are they doing now?",
                 "hint": "studying",
-                "answer": "They are studying now."
+                "answer": [
+                    "They are studying now."
+                ]
             },
             {
                 "question": "What are they not doing now?",
                 "hint": "playing",
-                "answer": "They are not playing now."
+                "answer": [
+                    "They are not playing now."
+                ]
             },
             {
                 "question": "What are they doing at the moment?",
                 "hint": "eating",
-                "answer": "They are eating at the moment."
+                "answer": [
+                    "They are eating at the moment."
+                ]
             },
             {
                 "question": "What are they not doing at the moment?",
                 "hint": "sleeping",
-                "answer": "They are not sleeping at the moment."
+                "answer": [
+                    "They are not sleeping at the moment."
+                ]
             },
             {
                 "question": "What are they doing at present?",
                 "hint": "discussing",
-                "answer": "They are discussing at present."
+                "answer": [
+                    "They are discussing at present."
+                ]
             },
             {
                 "question": "What are they not doing at present?",
                 "hint": "listening",
-                "answer": "They are not listening at present."
+                "answer": [
+                    "They are not listening at present."
+                ]
             },
             {
                 "question": "What are they doing today?",
                 "hint": "shopping",
-                "answer": "They are shopping today."
+                "answer": [
+                    "They are shopping today."
+                ]
             },
             {
                 "question": "What are they not doing today?",
                 "hint": "working",
-                "answer": "They are not working today."
+                "answer": [
+                    "They are not working today."
+                ]
             },
             {
                 "question": "What are they doing tonight?",
                 "hint": "having dinner",
-                "answer": "They are having dinner tonight."
+                "answer": [
+                    "They are having dinner tonight."
+                ]
             },
             {
                 "question": "What are they not doing tonight?",
                 "hint": "going out",
-                "answer": "They are not going out tonight."
+                "answer": [
+                    "They are not going out tonight."
+                ]
             },
             {
                 "question": "What are they doing this morning?",
                 "hint": "exercising",
-                "answer": "They are exercising this morning."
+                "answer": [
+                    "They are exercising this morning."
+                ]
             },
             {
                 "question": "What are they not doing this morning?",
                 "hint": "sleeping",
-                "answer": "They are not sleeping this morning."
+                "answer": [
+                    "They are not sleeping this morning."
+                ]
             },
             {
                 "question": "What are they doing this afternoon?",
                 "hint": "working",
-                "answer": "They are working this afternoon."
+                "answer": [
+                    "They are working this afternoon."
+                ]
             },
             {
                 "question": "What are they not doing this afternoon?",
                 "hint": "resting",
-                "answer": "They are not resting this afternoon."
+                "answer": [
+                    "They are not resting this afternoon."
+                ]
             },
             {
                 "question": "What are they doing this week?",
                 "hint": "meeting clients",
-                "answer": "They are meeting clients this week."
+                "answer": [
+                    "They are meeting clients this week."
+                ]
             },
             {
                 "question": "What are they not doing this week?",
                 "hint": "vacationing",
-                "answer": "They are not vacationing this week."
+                "answer": [
+                    "They are not vacationing this week."
+                ]
             },
             {
                 "question": "What are they doing this month?",
                 "hint": "launching a new product",
-                "answer": "They are launching a new product this month."
+                "answer": [
+                    "They are launching a new product this month."
+                ]
             },
             {
                 "question": "What are they not doing this month?",
                 "hint": "taking a break",
-                "answer": "They are not taking a break this month."
+                "answer": [
+                    "They are not taking a break this month."
+                ]
             },
             {
                 "question": "What are they doing this year?",
                 "hint": "expanding their business",
-                "answer": "They are expanding their business this year."
+                "answer": [
+                    "They are expanding their business this year."
+                ]
             },
             {
                 "question": "What are they not doing this year?",
                 "hint": "staying idle",
-                "answer": "They are not staying idle this year."
+                "answer": [
+                    "They are not staying idle this year."
+                ]
             },
             {
                 "question": "What are they doing while they are on vacation?",
                 "hint": "exploring new destinations",
-                "answer": "They are exploring new destinations while they are on vacation."
+                "answer": [
+                    "They are exploring new destinations while they are on vacation."
+                ]
             },
             {
                 "question": "What are they not doing while they are on vacation?",
                 "hint": "working",
-                "answer": "They are not working while they are on vacation."
+                "answer": [
+                    "They are not working while they are on vacation."
+                ]
             }
         ]
     },
@@ -612,102 +844,142 @@
             {
                 "question": "Has he just finished reading his book?",
                 "hint": "finished",
-                "answer": "Yes, he has just finished reading his book."
+                "answer": [
+                    "Yes, he has just finished reading his book."
+                ]
             },
             {
                 "question": "Has he not just finished reading his book?",
                 "hint": "not finished",
-                "answer": "No, he has not just finished reading his book."
+                "answer": [
+                    "No, he has not just finished reading his book."
+                ]
             },
             {
                 "question": "Has she already completed her work?",
                 "hint": "completed",
-                "answer": "Yes, she has already completed her work."
+                "answer": [
+                    "Yes, she has already completed her work."
+                ]
             },
             {
                 "question": "Has she not already completed her work?",
                 "hint": "not completed",
-                "answer": "No, she has not already completed her work."
+                "answer": [
+                    "No, she has not already completed her work."
+                ]
             },
             {
                 "question": "Has he finished his work yet?",
                 "hint": "finished",
-                "answer": "Yes, he has finished his work already."
+                "answer": [
+                    "Yes, he has finished his work already."
+                ]
             },
             {
                 "question": "Has he not finished his work yet?",
                 "hint": "not finished",
-                "answer": "No, he has not finished his work yet."
+                "answer": [
+                    "No, he has not finished his work yet."
+                ]
             },
             {
                 "question": "Has she been working here for three years?",
                 "hint": "three years",
-                "answer": "Yes, she has been working here for three years."
+                "answer": [
+                    "Yes, she has been working here for three years."
+                ]
             },
             {
                 "question": "Has she not been working here for three years?",
                 "hint": "not three years",
-                "answer": "No, she has not been working here for three years."
+                "answer": [
+                    "No, she has not been working here for three years."
+                ]
             },
             {
                 "question": "Has he lived in this city since 2015?",
                 "hint": "2015",
-                "answer": "Yes, he has lived in this city since 2015."
+                "answer": [
+                    "Yes, he has lived in this city since 2015."
+                ]
             },
             {
                 "question": "Has he not lived in this city since 2015?",
                 "hint": "not 2015",
-                "answer": "No, he has not lived in this city since 2015."
+                "answer": [
+                    "No, he has not lived in this city since 2015."
+                ]
             },
             {
                 "question": "Have they just finished reading their books?",
                 "hint": "finished",
-                "answer": "Yes, they have just finished reading their books."
+                "answer": [
+                    "Yes, they have just finished reading their books."
+                ]
             },
             {
                 "question": "Have they not just finished reading their books?",
                 "hint": "not finished",
-                "answer": "No, they have not just finished reading their books."
+                "answer": [
+                    "No, they have not just finished reading their books."
+                ]
             },
             {
                 "question": "Have they already completed their work?",
                 "hint": "completed",
-                "answer": "Yes, they have already completed their work."
+                "answer": [
+                    "Yes, they have already completed their work."
+                ]
             },
             {
                 "question": "Have they not already completed their work?",
                 "hint": "not completed",
-                "answer": "No, they have not already completed their work."
+                "answer": [
+                    "No, they have not already completed their work."
+                ]
             },
             {
                 "question": "Have they finished their work yet?",
                 "hint": "finished",
-                "answer": "Yes, they have finished their work already."
+                "answer": [
+                    "Yes, they have finished their work already."
+                ]
             },
             {
                 "question": "Have they not finished their work yet?",
                 "hint": "not finished",
-                "answer": "No, they have not finished their work yet."
+                "answer": [
+                    "No, they have not finished their work yet."
+                ]
             },
             {
                 "question": "Have they been working here for five years?",
                 "hint": "five years",
-                "answer": "Yes, they have been working here for five years."
+                "answer": [
+                    "Yes, they have been working here for five years."
+                ]
             },
             {
                 "question": "Have they not been working here for five years?",
                 "hint": "not five years",
-                "answer": "No, they have not been working here for five years."
+                "answer": [
+                    "No, they have not been working here for five years."
+                ]
             },
             {
                 "question": "Have they lived in this city since 2010?",
                 "hint": "2010",
-                "answer": "Yes, they have lived in this city since 2010."
+                "answer": [
+                    "Yes, they have lived in this city since 2010."
+                ]
             },
             {
                 "question": "Have they not lived in this city since 2010?",
                 "hint": "not 2010",
-                "answer": "No, they have not lived in this city since 2010."
+                "answer": [
+                    "No, they have not lived in this city since 2010."
+                ]
             }
         ]
     },
@@ -720,102 +992,142 @@
             {
                 "question": "Where has his book been staying for the last two weeks?",
                 "hint": "shelf",
-                "answer": "His book has been staying on the shelf for the last two weeks."
+                "answer": [
+                    "His book has been staying on the shelf for the last two weeks."
+                ]
             },
             {
                 "question": "Where has his book not been staying for the last two weeks?",
                 "hint": "table",
-                "answer": "His book has not been staying on the table for the last two weeks."
+                "answer": [
+                    "His book has not been staying on the table for the last two weeks."
+                ]
             },
             {
                 "question": "What activity has she been enjoying since last summer?",
                 "hint": "hiking",
-                "answer": "She has been enjoying hiking since last summer."
+                "answer": [
+                    "She has been enjoying hiking since last summer."
+                ]
             },
             {
                 "question": "What activity has she not been enjoying since last summer?",
                 "hint": "running",
-                "answer": "She has not been enjoying running since last summer."
+                "answer": [
+                    "She has not been enjoying running since last summer."
+                ]
             },
             {
                 "question": "Where has her cat been sleeping all day?",
                 "hint": "bed",
-                "answer": "Her cat has been sleeping on the bed all day."
+                "answer": [
+                    "Her cat has been sleeping on the bed all day."
+                ]
             },
             {
                 "question": "Where has her cat not been sleeping all day?",
                 "hint": "sofa",
-                "answer": "Her cat has not been sleeping on the sofa all day."
+                "answer": [
+                    "Her cat has not been sleeping on the sofa all day."
+                ]
             },
             {
                 "question": "Where have you been parking your car recently?",
                 "hint": "garage",
-                "answer": "I have been parking my car in the garage recently."
+                "answer": [
+                    "I have been parking my car in the garage recently."
+                ]
             },
             {
                 "question": "Where have you not been parking your car recently?",
                 "hint": "street",
-                "answer": "I have not been parking my car on the street recently."
+                "answer": [
+                    "I have not been parking my car on the street recently."
+                ]
             },
             {
                 "question": "Where has it been raining lately?",
                 "hint": "city",
-                "answer": "It has been raining in the city lately."
+                "answer": [
+                    "It has been raining in the city lately."
+                ]
             },
             {
                 "question": "Where has it not been raining lately?",
                 "hint": "desert",
-                "answer": "It has not been raining in the desert lately."
+                "answer": [
+                    "It has not been raining in the desert lately."
+                ]
             },
             {
                 "question": "Where have their books been staying for the past month?",
                 "hint": "shelves",
-                "answer": "Their books have been staying on the shelves for the past month."
+                "answer": [
+                    "Their books have been staying on the shelves for the past month."
+                ]
             },
             {
                 "question": "Where have their books not been staying for the past month?",
                 "hint": "table",
-                "answer": "Their books have not been staying on the table for the past month."
+                "answer": [
+                    "Their books have not been staying on the table for the past month."
+                ]
             },
             {
                 "question": "What activities have we been enjoying since last year?",
                 "hint": "hiking",
-                "answer": "We have been enjoying hiking since last year."
+                "answer": [
+                    "We have been enjoying hiking since last year."
+                ]
             },
             {
                 "question": "What activities have we not been enjoying since last year?",
                 "hint": "running",
-                "answer": "We have not been enjoying running since last year."
+                "answer": [
+                    "We have not been enjoying running since last year."
+                ]
             },
             {
                 "question": "Where have our cats been sleeping all day?",
                 "hint": "beds",
-                "answer": "Our cats have been sleeping on the beds all day."
+                "answer": [
+                    "Our cats have been sleeping on the beds all day."
+                ]
             },
             {
                 "question": "Where have our cats not been sleeping all day?",
                 "hint": "sofas",
-                "answer": "Our cats have not been sleeping on the sofas all day."
+                "answer": [
+                    "Our cats have not been sleeping on the sofas all day."
+                ]
             },
             {
                 "question": "Where have you been parking your cars recently?",
                 "hint": "garages",
-                "answer": "We have been parking our cars in the garages recently."
+                "answer": [
+                    "We have been parking our cars in the garages recently."
+                ]
             },
             {
                 "question": "Where have you not been parking your cars recently?",
                 "hint": "street",
-                "answer": "We have not been parking our cars on the street recently."
+                "answer": [
+                    "We have not been parking our cars on the street recently."
+                ]
             },
             {
                 "question": "Where have they been eating dinner lately?",
                 "hint": "restaurants",
-                "answer": "They have been eating dinner at restaurants lately."
+                "answer": [
+                    "They have been eating dinner at restaurants lately."
+                ]
             },
             {
                 "question": "Where have they not been eating dinner lately?",
                 "hint": "home",
-                "answer": "They have not been eating dinner at home lately."
+                "answer": [
+                    "They have not been eating dinner at home lately."
+                ]
             }
         ]
     },
@@ -828,67 +1140,93 @@
             {
                 "question": "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where’s the peck of pickled peppers Peter Piper picked?",
                 "hint": "Plosive sounds like /p/ and /k/, and /l/ sounds.",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Betty Botter bought some butter. But she said the butter’s bitter. If I put it in my batter, it will make my batter bitter. But a bit of better butter will make my batter better. So ‘twas better Betty Botter bought a bit of better butter",
                 "hint": "The /b/ sound, the /t/ sound, and the contrast between 'bitter' and 'better'",
-                "answer": "-."
+                "answer": [
+                    "-."
+                ]
             },
             {
                 "question": "How much wood would a woodchuck chuck if a woodchuck could chuck wood? He would chuck, he would, as much as he could, and chuck as much wood. As a woodchuck would if a woodchuck could chuck wood",
                 "hint": "The /w/ and /ch/ sounds, and the rhythm of repeated words",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "She sells seashells by the seashore",
                 "hint": "The /s/ and /ʃ/ (sh) sounds",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "I scream, you scream, we all scream for ice cream",
                 "hint": "Vowel sounds and the /s/ and /kr/ clusters.",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "I saw Susie sitting in a shoeshine shop.Susie works in a shoeshine shop. Where she shines she sits, and where she sits she shines.",
                 "hint": "The /s/ and /ʃ/ sounds in quick succession",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "You know New York, you need New York, you know you need unique New York",
                 "hint": "The /n/ and /j/ sounds, and the rhythm of repetition",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "If a dog chews shoes, whose shoes does he choose?",
                 "hint": "The /ʃ/ (sh) and /z/ sounds.",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Red lorry, yellow lorry",
                 "hint": "The /r/ and /l/ sounds",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Which wristwatches are Swiss wristwatches?",
                 "hint": "The /w/ and /r/ sounds, and the challenging combination of 'wristwatches'",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Lesser leather never weathered wetter weather better",
                 "hint": "The /l/, /n/, and /w/ sounds, and the rhythm of similar-sounding words",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Good blood, bad blood",
                 "hint": "The contrast between /g/ and /b/ sounds",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "The sixth sick sheikh's sixth sheep's sick",
                 "hint": "/s/ and /ʃ/ sounds (e.g., 'sixth', 'sheikh's,' 'sheep's')  - #2 /k/ and /ks/ sounds (e.g., 'sick','sixth') #3 The /θ/ (th) sound (e.g., 'sixth'), #4 Vowel combinations that vary in length and pronunciation",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             }
         ]
     },
@@ -963,252 +1301,352 @@
             {
                 "question": "Enjoy cooking: She enjoys cooking Italian dishes.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Avoiding conflicts: He's very good at avoiding conflicts.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Consider swimming: You should consider swimming to stay fit.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Start exercising: I need to start exercising more regularly.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Finish reading: I plan to finish reading this book by the weekend.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Keep studying: If you keep studying, you'll do well on the test.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Love dancing: They love dancing to salsa music.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Hate waiting: I hate waiting in long lines.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Practice writing: You should practice writing every day to improve.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Imagine traveling: Can you imagine traveling around the world?",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Mind working: Would you mind working late tonight?",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Suggesting going: She's suggesting going to the new restaurant.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Admitting mistakes: Admitting mistakes is a sign of strength.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Recommend watching: I recommend watching this movie.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Regret leaving: She began to regret leaving her hometown.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Risk losing: By delaying, you risk losing the opportunity.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Keep trying: Even when it's tough, keep trying your best.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Discussing options: We spent hours discussing options for the project.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Delaying decisions: Delaying decisions can sometimes lead to missed opportunities.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Appreciate helping: I really appreciate you helping me out.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Finish painting: He needs to finish painting the fence before the rain starts.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Avoiding gossiping: She believes in avoiding gossiping about others.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Imagine exploring: Imagine exploring the uncharted regions of the Amazon.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Keep running: If you keep running at this pace, you'll break your record.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Start learning: It's never too late to start learning a new language.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Consider trying: You should consider trying a different approach.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Enjoy traveling: They enjoy traveling to exotic destinations.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Love singing: I love singing in the shower.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Hate cleaning: He really hates cleaning the bathroom.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Practice playing: You should practice playing the piano every day.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Being: Being punctual is important in a professional environment.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Having: Having a good attitude can make a big difference.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Doing: Doing your best is all that anyone can ask for.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Making: Making mistakes is a part of learning.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Getting: Getting enough sleep is crucial for your health.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Using: Using a planner helps me stay organized.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Seeing: Seeing is believing.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Saying: Saying 'thank you' shows appreciation.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Going: Going to the gym regularly improves your fitness.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Thinking: Thinking positively can change your outlook on life.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Wanting: Wanting more isn't always a bad thing.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Knowing: Knowing the answer gives you confidence.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Trying: Trying new foods can be an adventure.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Taking: Taking time to relax is important.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Giving: Giving back to the community feels rewarding.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Working: Working late isn't always the best solution.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Writing: Writing daily improves your skills.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Reading: Reading expands your knowledge.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Speaking: Speaking clearly helps others understand you.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             },
             {
                 "question": "Understanding: Understanding different perspectives is valuable.",
                 "hint": "-",
-                "answer": "-"
+                "answer": [
+                    "-"
+                ]
             }
         ]
     },
@@ -2374,6 +2812,47 @@
                 "hint": "goose",
                 "answer": [
                     "The geese are flying."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-009",
+        "label": "Special case - Type of, Sort of, Kind of",
+        "visibility": false,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Type of",
+                "hint": "Used to categorize or classify something into a specific group or category.",
+                "answer": [
+                    "What type of music do you like? I'm into classical and jazz.",
+                    "This is a type of software designed for data analysis.",
+                    "He prefers a type of exercise that's low-impact, like swimming or yoga.",
+                    "There are several types of cuisines available at this restaurant, including Italian and Thai.",
+                    "She collects a type of artwork known for its abstract style."
+                ]
+            },
+            {
+                "question": "Sort of",
+                "hint": "Used to express a degree of uncertainty or to describe something that is not exactly one thing but somewhat similar.",
+                "answer": [
+                    "It's sort of chilly today; you might need a light jacket.",
+                    "He's sort of new to the job, so he might need some guidance.",
+                    "The movie was sort of interesting but not exactly captivating.",
+                    "This recipe is sort of like the one my grandmother used to make.",
+                    "She's sort of an expert in the field, though not officially certified."
+                ]
+            },
+            {
+                "question": "Kind of",
+                "hint": "Used to indicate a general or approximate description, often expressing something that is not precisely one thing but close to it.",
+                "answer": [
+                    "I'm kind of tired today; I didn't sleep well last night.",
+                    "That restaurant has a kind of rustic charm that's quite appealing.",
+                    "He's kind of upset about the news, though he's trying to stay calm.",
+                    "The new policy is kind of confusing, but I'm sure we'll get used to it.",
+                    "Her dress is kind of similar to the one I saw at the boutique last week."
                 ]
             }
         ]

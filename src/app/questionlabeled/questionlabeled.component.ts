@@ -12,10 +12,10 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class QuestionLabeledComponent implements OnInit {
 
-  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[] = [];
-  jsonArrays: { question: string, hint: string, answer: string }[][] = [];
+  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[] = [];
+  jsonArrays: { question: string, hint: string, answer: string[] }[][] = [];
   previousQuestions: number[] = [];
-  questionsAndAnswers: { question: string, hint: string, answer: string }[] = [];
+  questionsAndAnswers: { question: string, hint: string, answer: string[] }[] = [];
   skipWordHighlighting: boolean | undefined;
   wordsToBeHighlighted: string[] = ["Consider bringing:", "Avoid eating:", "finished writing:"];
 
@@ -42,6 +42,7 @@ export class QuestionLabeledComponent implements OnInit {
   processedSentence: SafeHtml | undefined;
   processedCurrentQuestion: SafeHtml | undefined;
   processedCurrentAnswer: SafeHtml | undefined;
+  processedCurrentAnswerNew: SafeHtml | undefined;
   questionStartIndex!: number;
   // enableModules!: string[];
 
@@ -96,8 +97,8 @@ export class QuestionLabeledComponent implements OnInit {
   loadQuestions(): void {  // uncomment this to load from database.
     // Assuming enableModules is stored as a string array in session storage
     const enableModules = JSON.parse(sessionStorage.getItem('enableModules') || '[]') as string[];
-    console.log(" ----->enableModules", enableModules);
-    console.log(" ----->this.enableModules.includes(item.key)", enableModules.includes("Present-002"));
+    // console.log(" ----->enableModules", enableModules);
+    // console.log(" ----->this.enableModules.includes(item.key)", enableModules.includes("Present-002"));
 
     const isadminValue = sessionStorage.getItem('isadmin');
     console.log(isadminValue); // Logs the value of 'isasmin'
@@ -110,7 +111,7 @@ export class QuestionLabeledComponent implements OnInit {
     }
     //   this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
     // } else {
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>(path)
+    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[]>(path)
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
           const isVisible = item.visibility;
@@ -133,7 +134,7 @@ export class QuestionLabeledComponent implements OnInit {
       this.questionsAndAnswers = selectedArray.questions;
       this.skipWordHighlighting = selectedArray.skipWordHighlighting;
       //this.wordsToBeHighlighted = selectedArray.wordsToBeHighlighted;
-      console.log("failed to get the value .....wordsToBeHighlighted ", this.wordsToBeHighlighted);
+      //console.log("failed to get the value .....wordsToBeHighlighted ", this.wordsToBeHighlighted);
       // console.log("failed to get the value .....selectedArray.Label ", selectedArray.label);
       // console.log("failed to get the value .....selectedArray.visibility ", selectedArray.visibility);
       // console.log("failed to get the value .....selectedArray.skipWordHighlighting ", selectedArray.skipWordHighlighting);
@@ -223,10 +224,10 @@ export class QuestionLabeledComponent implements OnInit {
     let randomIndex: number;
     let num!: number;
 
-    console.log("Selected display pattern..................>", this.selecteddisplayPattern);
+    //console.log("Selected display pattern..................>", this.selecteddisplayPattern);
     if (this.selecteddisplayPattern == "Sequential") {
       num = this.questionStartIndex;
-      console.log(" I'm Sequential block", num);
+      //console.log(" I'm Sequential block", num);
       this.questionStartIndex = this.questionStartIndex + 1;
     } else if (this.selecteddisplayPattern == "Random") {
       this.questionStartIndex = 0;
@@ -247,15 +248,9 @@ export class QuestionLabeledComponent implements OnInit {
       }
       if (this.showAnswerOption) {
         if (this.skipWordHighlighting == false) {
-          this.processedCurrentAnswer = this.processSentence(this.questionsAndAnswers[randomIndex].answer);
+          this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
         } else {
-          if (this.questionsAndAnswers[randomIndex].answer.length > 0) {
-            console.log(" No. of elemnet", this.questionsAndAnswers[randomIndex].answer.length);
-            this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer[0];
-          } else {
-            this.processedCurrentAnswer = this.questionsAndAnswers[randomIndex].answer;
-          }
-
+          this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
         }
       }
       this.retrieveShowAnswer();
@@ -301,7 +296,7 @@ export class QuestionLabeledComponent implements OnInit {
 
   processSentence(str: any) {
     let processed: string;
-    console.log("Before processing ", this.wordsToBeHighlighted);
+    //console.log("Before processing ", this.wordsToBeHighlighted);
     this.wordsToBeHighlightedGlbl.forEach(word => {
       //console.log(" word to be replaced.......................", word);
       const regex = new RegExp(`\\b(${word})\\b`, 'gi');
@@ -309,6 +304,47 @@ export class QuestionLabeledComponent implements OnInit {
       //console.log(" After replacement .......................", str);
     });
     return this.sanitizer.bypassSecurityTrustHtml(str);
+  }
+
+  processSentenceArrayNoHiglighting(arr: string[]) {
+    let finalStr: string = "";
+    for (let str of arr) {
+
+      // let processed: string;
+      // //console.log("Before processing ", this.wordsToBeHighlighted);
+      // this.wordsToBeHighlightedGlbl.forEach(word => {
+      //   //console.log(" word to be replaced.......................", word);
+      //   const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+      //   str = str.replace(regex, '<strong>$1</strong>');
+      //   //console.log(" After replacement .......................", str);
+      // });
+      // console.log(" Before processing ", str);
+      finalStr = finalStr + str + "<BR>";
+    }
+    return finalStr;
+    // console.log("------------------------------------->", finalStr);
+    // console.log("------------------------------------->", this.sanitizer.bypassSecurityTrustHtml(finalStr));
+    // return this.sanitizer.bypassSecurityTrustHtml(finalStr);
+  }
+
+  processSentenceArray(arr: string[]) {
+    let finalStr: string = "";
+    for (let str of arr) {
+
+      let processed: string;
+      //console.log("Before processing ", this.wordsToBeHighlighted);
+      this.wordsToBeHighlightedGlbl.forEach(word => {
+        //console.log(" word to be replaced.......................", word);
+        const regex = new RegExp(`\\b(${word})\\b`, 'gi');
+        str = str.replace(regex, '<strong>$1</strong>');
+        //console.log(" After replacement .......................", str);
+      });
+      console.log(" Before processing ", str);
+      finalStr = finalStr + str + "<BR>";
+    }
+    console.log("------------------------------------->", finalStr);
+    console.log("------------------------------------->", this.sanitizer.bypassSecurityTrustHtml(finalStr));
+    return this.sanitizer.bypassSecurityTrustHtml(finalStr);
   }
 
 }
