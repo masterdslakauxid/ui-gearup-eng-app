@@ -1,7 +1,7 @@
 [
     {
         "key": "Present-001",
-        "label": "Present Tense with Yes Or No questions",
+        "label": "Simple Present- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
@@ -289,7 +289,7 @@
     },
     {
         "key": "Present-002",
-        "label": "Present Tense with Wh questions",
+        "label": "Simple Present- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
@@ -520,9 +520,117 @@
         ]
     },
     {
+        "key": "Present-003-1",
+        "label": "Present Continuous- Yes/No questions",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Are you studying for the exam right now?",
+                "hint": "study",
+                "answer": [
+                    "Yes, I am.",
+                    "Yes, I am studying for the exam right now.",
+                    "No, I'm not.",
+                    "No, I'm not studying for the exam right now."
+                ]
+            },
+            {
+                "question": "Is she cooking dinner at the moment?",
+                "hint": "cook",
+                "answer": [
+                    "Yes, she is.",
+                    "Yes, she is cooking dinner at the moment.",
+                    "No, she isn't.",
+                    "No, she isn't cooking dinner at the moment."
+                ]
+            },
+            {
+                "question": "Are they playing soccer in the park?",
+                "hint": "play",
+                "answer": [
+                    "Yes, they are.",
+                    "Yes, they are playing soccer in the park.",
+                    "No, they aren't.",
+                    "No, they aren't playing soccer in the park."
+                ]
+            },
+            {
+                "question": "Is he watching TV right now?",
+                "hint": "watch",
+                "answer": [
+                    "Yes, he is.",
+                    "Yes, he is watching TV right now.",
+                    "No, he isn't.",
+                    "No, he isn't watching TV right now."
+                ]
+            },
+            {
+                "question": "Are we going to the concert tonight?",
+                "hint": "go",
+                "answer": [
+                    "Yes, we are.",
+                    "Yes, we are going to the concert tonight.",
+                    "No, we aren't.",
+                    "No, we aren't going to the concert tonight."
+                ]
+            },
+            {
+                "question": "Is it raining outside?",
+                "hint": "rain",
+                "answer": [
+                    "Yes, it is.",
+                    "Yes, it is raining outside.",
+                    "No, it isn't.",
+                    "No, it isn't raining outside."
+                ]
+            },
+            {
+                "question": "Are you working on a new project?",
+                "hint": "work",
+                "answer": [
+                    "Yes, I am.",
+                    "Yes, I am working on a new project.",
+                    "No, I'm not.",
+                    "No, I'm not working on a new project."
+                ]
+            },
+            {
+                "question": "Is the dog barking at the neighbors?",
+                "hint": "bark",
+                "answer": [
+                    "Yes, it is.",
+                    "Yes, the dog is barking at the neighbors.",
+                    "No, it isn't.",
+                    "No, the dog isn't barking at the neighbors."
+                ]
+            },
+            {
+                "question": "Are they traveling to New York next week?",
+                "hint": "travel",
+                "answer": [
+                    "Yes, they are.",
+                    "Yes, they are traveling to New York next week.",
+                    "No, they aren't.",
+                    "No, they aren't traveling to New York next week."
+                ]
+            },
+            {
+                "question": "Is she taking a nap right now?",
+                "hint": "take",
+                "answer": [
+                    "Yes, she is.",
+                    "Yes, she is taking a nap right now.",
+                    "No, she isn't.",
+                    "No, she isn't taking a nap right now."
+                ]
+            }
+        ]
+    },
+    {
         "key": "Present-003",
-        "label": "Present Continuous Tense with Wh questions",
-        "visibility": false,
+        "label": "Present Continuous- Wh-form questions",
+        "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -836,9 +944,87 @@
         ]
     },
     {
+        "key": "Present-004-1",
+        "label": "Present Perfect- Yes/No questions",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Have I completed the assignment?",
+                "hint": "complete",
+                "answer": [
+                    "Yes, you have.",
+                    "Yes, you have completed the assignment.",
+                    "No, you haven't.",
+                    "No, you haven't completed the assignment."
+                ]
+            },
+            {
+                "question": "Have we visited the new museum?",
+                "hint": "visit",
+                "answer": [
+                    "Yes, we have.",
+                    "Yes, we have visited the new museum.",
+                    "No, we haven't.",
+                    "No, we haven't visited the new museum."
+                ]
+            },
+            {
+                "question": "Have you read the book?",
+                "hint": "read",
+                "answer": [
+                    "Yes, I have.",
+                    "Yes, I have read the book.",
+                    "No, I haven't.",
+                    "No, I haven't read the book."
+                ]
+            },
+            {
+                "question": "Has he finished his homework?",
+                "hint": "finish",
+                "answer": [
+                    "Yes, he has.",
+                    "Yes, he has finished his homework.",
+                    "No, he hasn't.",
+                    "No, he hasn't finished his homework."
+                ]
+            },
+            {
+                "question": "Has she cooked dinner?",
+                "hint": "cook",
+                "answer": [
+                    "Yes, she has.",
+                    "Yes, she has cooked dinner.",
+                    "No, she hasn't.",
+                    "No, she hasn't cooked dinner."
+                ]
+            },
+            {
+                "question": "Has it stopped raining?",
+                "hint": "stop",
+                "answer": [
+                    "Yes, it has.",
+                    "Yes, it has stopped raining.",
+                    "No, it hasn't.",
+                    "No, it hasn't stopped raining."
+                ]
+            },
+            {
+                "question": "Have they cleaned the house?",
+                "hint": "clean",
+                "answer": [
+                    "Yes, they have.",
+                    "Yes, they have cleaned the house.",
+                    "No, they haven't.",
+                    "No, they haven't cleaned the house."
+                ]
+            }
+        ]
+    },
+    {
         "key": "Present-004",
-        "label": "Present Perfect Tense with Wh questions",
-        "visibility": false,
+        "label": "Present Perfect- Wh-form questions",
+        "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -984,9 +1170,117 @@
         ]
     },
     {
+        "key": "Present-005-1",
+        "label": "Present Perfect continuous- Yes/No questions",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Have I been studying French since last year?",
+                "hint": "study",
+                "answer": [
+                    "Yes, you have.",
+                    "Yes, you have been studying French since last year.",
+                    "No, you haven't.",
+                    "No, you haven't been studying French since last year."
+                ]
+            },
+            {
+                "question": "Have we been working on the software for six months?",
+                "hint": "work",
+                "answer": [
+                    "Yes, we have.",
+                    "Yes, we have been working on the software for six months.",
+                    "No, we haven't.",
+                    "No, we haven't been working on the software for six months."
+                ]
+            },
+            {
+                "question": "Have you been waiting for the results since yesterday?",
+                "hint": "wait",
+                "answer": [
+                    "Yes, I have.",
+                    "Yes, I have been waiting for the results since yesterday.",
+                    "No, I haven't.",
+                    "No, I haven't been waiting for the results since yesterday."
+                ]
+            },
+            {
+                "question": "Has John been working on his thesis for a year?",
+                "hint": "work",
+                "answer": [
+                    "Yes, he has.",
+                    "Yes, John has been working on his thesis for a year.",
+                    "No, he hasn't.",
+                    "No, John hasn't been working on his thesis for a year."
+                ]
+            },
+            {
+                "question": "Has she been practicing yoga since the start of the year?",
+                "hint": "practice",
+                "answer": [
+                    "Yes, she has.",
+                    "Yes, she has been practicing yoga since the start of the year.",
+                    "No, she hasn't.",
+                    "No, she hasn't been practicing yoga since the start of the year."
+                ]
+            },
+            {
+                "question": "Has it been raining for several hours?",
+                "hint": "rain",
+                "answer": [
+                    "Yes, it has.",
+                    "Yes, it has been raining for several hours.",
+                    "No, it hasn't.",
+                    "No, it hasn't been raining for several hours."
+                ]
+            },
+            {
+                "question": "Have they been playing basketball since the season began?",
+                "hint": "play",
+                "answer": [
+                    "Yes, they have.",
+                    "Yes, they have been playing basketball since the season began.",
+                    "No, they haven't.",
+                    "No, they haven't been playing basketball since the season began."
+                ]
+            },
+            {
+                "question": "Has Sarah been studying for the test for the last two weeks?",
+                "hint": "study",
+                "answer": [
+                    "Yes, she has.",
+                    "Yes, Sarah has been studying for the test for the last two weeks.",
+                    "No, she hasn't.",
+                    "No, Sarah hasn't been studying for the test for the last two weeks."
+                ]
+            },
+            {
+                "question": "Have you and Mark been discussing the new project since Monday?",
+                "hint": "discuss",
+                "answer": [
+                    "Yes, we have.",
+                    "Yes, we have been discussing the new project since Monday.",
+                    "No, we haven't.",
+                    "No, we haven't been discussing the new project since Monday."
+                ]
+            },
+            {
+                "question": "Has the team been meeting for the past few weeks?",
+                "hint": "meet",
+                "answer": [
+                    "Yes, it has.",
+                    "Yes, the team has been meeting for the past few weeks.",
+                    "No, it hasn't.",
+                    "No, the team hasn't been meeting for the past few weeks."
+                ]
+            }
+        ]
+    },
+    {
         "key": "Present-005",
-        "label": "Present Perfect continuous Tense with Wh questions",
-        "visibility": false,
+        "label": "Present Perfect continuous- Wh-form questions",
+        "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
             {
@@ -2853,6 +3147,398 @@
                     "He's kind of upset about the news, though he's trying to stay calm.",
                     "The new policy is kind of confusing, but I'm sure we'll get used to it.",
                     "Her dress is kind of similar to the one I saw at the boutique last week."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-010",
+        "label": "Simple Past- Yes/No questions",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Did you watch the movie last night?",
+                "hint": "watch",
+                "answer": [
+                    "Yes, I did.",
+                    "Yes, I watched the movie last night.",
+                    "No, I didn't.",
+                    "No, I didn't watch the movie last night."
+                ]
+            },
+            {
+                "question": "Did they attend the meeting yesterday?",
+                "hint": "attend",
+                "answer": [
+                    "Yes, they did.",
+                    "Yes, they attended the meeting yesterday.",
+                    "No, they didn't.",
+                    "No, they didn't attend the meeting yesterday."
+                ]
+            },
+            {
+                "question": "Did she call you after the event?",
+                "hint": "call",
+                "answer": [
+                    "Yes, she did.",
+                    "Yes, she called me after the event.",
+                    "No, she didn't.",
+                    "No, she didn't call me after the event."
+                ]
+            },
+            {
+                "question": "Did he finish the report on time?",
+                "hint": "finish",
+                "answer": [
+                    "Yes, he did.",
+                    "Yes, he finished the report on time.",
+                    "No, he didn't.",
+                    "No, he didn't finish the report on time."
+                ]
+            },
+            {
+                "question": "Did you travel to New York last month?",
+                "hint": "travel",
+                "answer": [
+                    "Yes, I did.",
+                    "Yes, I traveled to New York last month.",
+                    "No, I didn't.",
+                    "No, I didn't travel to New York last month."
+                ]
+            },
+            {
+                "question": "Did they open the store early this morning?",
+                "hint": "open",
+                "answer": [
+                    "Yes, they did.",
+                    "Yes, they opened the store early this morning.",
+                    "No, they didn't.",
+                    "No, they didn't open the store early this morning."
+                ]
+            },
+            {
+                "question": "Did you buy groceries yesterday?",
+                "hint": "buy",
+                "answer": [
+                    "Yes, I did.",
+                    "Yes, I bought groceries yesterday.",
+                    "No, I didn't.",
+                    "No, I didn't buy groceries yesterday."
+                ]
+            },
+            {
+                "question": "Did she write a letter to her friend?",
+                "hint": "write",
+                "answer": [
+                    "Yes, she did.",
+                    "Yes, she wrote a letter to her friend.",
+                    "No, she didn't.",
+                    "No, she didn't write a letter to her friend."
+                ]
+            },
+            {
+                "question": "Did he fix the car yesterday?",
+                "hint": "fix",
+                "answer": [
+                    "Yes, he did.",
+                    "Yes, he fixed the car yesterday.",
+                    "No, he didn't.",
+                    "No, he didn't fix the car yesterday."
+                ]
+            },
+            {
+                "question": "Did they celebrate the anniversary last week?",
+                "hint": "celebrate",
+                "answer": [
+                    "Yes, they did.",
+                    "Yes, they celebrated the anniversary last week.",
+                    "No, they didn't.",
+                    "No, they didn't celebrate the anniversary last week."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-011",
+        "label": "Simple Past- Wh-form questions",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "What did you do yesterday?",
+                "hint": "do",
+                "answer": [
+                    "I worked.",
+                    "I worked on a project yesterday."
+                ]
+            },
+            {
+                "question": "Where did they go last weekend?",
+                "hint": "go",
+                "answer": [
+                    "They went to the beach.",
+                    "They went to the beach last weekend."
+                ]
+            },
+            {
+                "question": "Who did she meet at the party?",
+                "hint": "meet",
+                "answer": [
+                    "She met her old friend.",
+                    "She met her old friend at the party."
+                ]
+            },
+            {
+                "question": "When did he arrive home?",
+                "hint": "arrive",
+                "answer": [
+                    "He arrived at 8 PM.",
+                    "He arrived home at 8 PM."
+                ]
+            },
+            {
+                "question": "Why did you leave early?",
+                "hint": "leave",
+                "answer": [
+                    "I left because I was tired.",
+                    "I left early because I was tired."
+                ]
+            },
+            {
+                "question": "How did they solve the problem?",
+                "hint": "solve",
+                "answer": [
+                    "They discussed it.",
+                    "They solved the problem by discussing it together."
+                ]
+            },
+            {
+                "question": "What did you eat for dinner?",
+                "hint": "eat",
+                "answer": [
+                    "I ate pasta.",
+                    "I ate pasta for dinner."
+                ]
+            },
+            {
+                "question": "Where did she buy the dress?",
+                "hint": "buy",
+                "answer": [
+                    "She bought it at the mall.",
+                    "She bought the dress at the mall."
+                ]
+            },
+            {
+                "question": "When did he start the new job?",
+                "hint": "start",
+                "answer": [
+                    "He started last Monday.",
+                    "He started the new job last Monday."
+                ]
+            },
+            {
+                "question": "Why did they cancel the meeting?",
+                "hint": "cancel",
+                "answer": [
+                    "They canceled it due to a conflict.",
+                    "They canceled the meeting due to a scheduling conflict."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-012",
+        "label": "Past continuous- Yes/No questions",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Were you watching TV when I called?",
+                "hint": "watch",
+                "answer": [
+                    "Yes, I was.",
+                    "Yes, I was watching TV when you called.",
+                    "No, I wasn't.",
+                    "No, I wasn't watching TV when you called."
+                ]
+            },
+            {
+                "question": "Was she cooking dinner when the guests arrived?",
+                "hint": "cook",
+                "answer": [
+                    "Yes, she was.",
+                    "Yes, she was cooking dinner when the guests arrived.",
+                    "No, she wasn't.",
+                    "No, she wasn't cooking dinner when the guests arrived."
+                ]
+            },
+            {
+                "question": "Were they playing football in the park yesterday afternoon?",
+                "hint": "play",
+                "answer": [
+                    "Yes, they were.",
+                    "Yes, they were playing football in the park yesterday afternoon.",
+                    "No, they weren't.",
+                    "No, they weren't playing football in the park yesterday afternoon."
+                ]
+            },
+            {
+                "question": "Was he studying when you visited?",
+                "hint": "study",
+                "answer": [
+                    "Yes, he was.",
+                    "Yes, he was studying when I visited.",
+                    "No, he wasn't.",
+                    "No, he wasn't studying when I visited."
+                ]
+            },
+            {
+                "question": "Were you driving when the accident happened?",
+                "hint": "drive",
+                "answer": [
+                    "Yes, I was.",
+                    "Yes, I was driving when the accident happened.",
+                    "No, I wasn't.",
+                    "No, I wasn't driving when the accident happened."
+                ]
+            },
+            {
+                "question": "Was the team practicing for the match?",
+                "hint": "practice",
+                "answer": [
+                    "Yes, they were.",
+                    "Yes, the team was practicing for the match.",
+                    "No, they weren't.",
+                    "No, the team wasn't practicing for the match."
+                ]
+            },
+            {
+                "question": "Were you working on the report last night?",
+                "hint": "work",
+                "answer": [
+                    "Yes, I was.",
+                    "Yes, I was working on the report last night.",
+                    "No, I wasn't.",
+                    "No, I wasn't working on the report last night."
+                ]
+            },
+            {
+                "question": "Was it raining when you left the office?",
+                "hint": "rain",
+                "answer": [
+                    "Yes, it was.",
+                    "Yes, it was raining when I left the office.",
+                    "No, it wasn't.",
+                    "No, it wasn't raining when I left the office."
+                ]
+            },
+            {
+                "question": "Were they having lunch when you arrived?",
+                "hint": "have",
+                "answer": [
+                    "Yes, they were.",
+                    "Yes, they were having lunch when I arrived.",
+                    "No, they weren't.",
+                    "No, they weren't having lunch when I arrived."
+                ]
+            },
+            {
+                "question": "Was she reading a book at that time?",
+                "hint": "read",
+                "answer": [
+                    "Yes, she was.",
+                    "Yes, she was reading a book at that time.",
+                    "No, she wasn't.",
+                    "No, she wasn't reading a book at that time."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-013",
+        "label": "Past continuous- Wh-form questions",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "What were you doing when the phone rang?",
+                "hint": "do",
+                "answer": [
+                    "I was reading.",
+                    "I was reading a book when the phone rang."
+                ]
+            },
+            {
+                "question": "Where were they going when you saw them?",
+                "hint": "go",
+                "answer": [
+                    "They were going to the park.",
+                    "They were going to the park when I saw them."
+                ]
+            },
+            {
+                "question": "Who was she talking to at the party?",
+                "hint": "talk",
+                "answer": [
+                    "She was talking to John.",
+                    "She was talking to John at the party."
+                ]
+            },
+            {
+                "question": "Why were you laughing during the meeting?",
+                "hint": "laugh",
+                "answer": [
+                    "I was laughing because of a joke.",
+                    "I was laughing during the meeting because someone told a joke."
+                ]
+            },
+            {
+                "question": "What were they discussing when you arrived?",
+                "hint": "discuss",
+                "answer": [
+                    "They were discussing the new project.",
+                    "They were discussing the new project when I arrived."
+                ]
+            },
+            {
+                "question": "When was it raining heavily?",
+                "hint": "rain",
+                "answer": [
+                    "It was raining heavily in the afternoon.",
+                    "It was raining heavily yesterday afternoon."
+                ]
+            },
+            {
+                "question": "How were you feeling after the workout?",
+                "hint": "feel",
+                "answer": [
+                    "I was feeling exhausted.",
+                    "I was feeling exhausted after the workout."
+                ]
+            },
+            {
+                "question": "What was she wearing at the party?",
+                "hint": "wear",
+                "answer": [
+                    "She was wearing a red dress.",
+                    "She was wearing a red dress at the party."
+                ]
+            },
+            {
+                "question": "Where was he working before he joined this company?",
+                "hint": "work",
+                "answer": [
+                    "He was working at a startup.",
+                    "He was working at a startup before he joined this company."
+                ]
+            },
+            {
+                "question": "Why were they arguing earlier?",
+                "hint": "argue",
+                "answer": [
+                    "They were arguing about the presentation.",
+                    "They were arguing earlier because they disagreed about the presentation."
                 ]
             }
         ]

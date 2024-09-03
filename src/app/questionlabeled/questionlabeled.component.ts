@@ -342,8 +342,8 @@ export class QuestionLabeledComponent implements OnInit {
       console.log(" Before processing ", str);
       finalStr = finalStr + str + "<BR>";
     }
-    console.log("------------------------------------->", finalStr);
-    console.log("------------------------------------->", this.sanitizer.bypassSecurityTrustHtml(finalStr));
+    //console.log("------------------------------------->", finalStr);
+    // console.log("------------------------------------->", this.sanitizer.bypassSecurityTrustHtml(finalStr));
     return this.sanitizer.bypassSecurityTrustHtml(finalStr);
   }
 
