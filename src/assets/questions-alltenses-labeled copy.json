@@ -294,163 +294,227 @@
         "skipWordHighlighting": false,
         "questions": [
             {
-                "question": "What do I usually do every day?",
-                "hint": "do",
-                "answer": [
-                    "You usually exercise every day.",
-                    "You don't usually exercise every day."
-                ]
-            },
-            {
-                "question": "Where do we go weekly?",
-                "hint": "go",
-                "answer": [
-                    "We go to the gym weekly.",
-                    "We don't go to the gym weekly."
-                ]
-            },
-            {
-                "question": "When do you generally wake up?",
-                "hint": "wake up",
-                "answer": [
-                    "I generally wake up at 6 AM.",
-                    "I don't generally wake up at 6 AM."
-                ]
-            },
-            {
-                "question": "Why does he always arrive early?",
-                "hint": "arrive",
-                "answer": [
-                    "He always arrives early because he likes to prepare in advance.",
-                    "He doesn't always arrive early."
-                ]
-            },
-            {
-                "question": "How often does she call her family?",
-                "hint": "call",
-                "answer": [
-                    "She calls her family monthly.",
-                    "She doesn't call her family monthly."
-                ]
-            },
-            {
-                "question": "Who does it affect regularly?",
-                "hint": "affect",
-                "answer": [
-                    "It regularly affects the team.",
-                    "It doesn't affect the team regularly."
-                ]
-            },
-            {
-                "question": "Which activities do they do occasionally?",
-                "hint": "do",
-                "answer": [
-                    "They occasionally go hiking and camping.",
-                    "They don't do hiking and camping occasionally."
-                ]
-            },
-            {
-                "question": "What do you frequently eat for lunch?",
-                "hint": "eat",
-                "answer": [
-                    "I frequently eat sandwiches for lunch.",
-                    "I don't frequently eat sandwiches for lunch."
-                ]
-            },
-            {
-                "question": "Where does John typically spend his holidays?",
-                "hint": "spend",
-                "answer": [
-                    "John typically spends his holidays at the beach.",
-                    "John doesn't typically spend his holidays at the beach."
-                ]
-            },
-            {
-                "question": "What time does she usually go to bed?",
-                "hint": "go to bed",
-                "answer": [
-                    "She usually goes to bed at 10 PM.",
-                    "She doesn't usually go to bed at 10 PM."
-                ]
-            },
-            {
-                "question": "Why do we never skip breakfast?",
-                "hint": "skip",
-                "answer": [
-                    "We never skip breakfast because it's important for energy.",
-                    "We sometimes skip breakfast."
-                ]
-            },
-            {
-                "question": "How long does he routinely exercise each week?",
+                "question": "What does he do every day?",
                 "hint": "exercise",
                 "answer": [
-                    "He routinely exercises for three hours each week.",
-                    "He doesn't routinely exercise for three hours each week."
+                    "He exercises every day."
                 ]
             },
             {
-                "question": "What do they do daily at work?",
-                "hint": "do",
+                "question": "What does he not do every day?",
+                "hint": "go to the gym",
                 "answer": [
-                    "They check their emails daily at work.",
-                    "They don't check their emails daily at work."
+                    "He does not go to the gym every day."
                 ]
             },
             {
-                "question": "Where do you usually shop for groceries?",
-                "hint": "shop",
+                "question": "What does she do every month?",
+                "hint": "visit her parents",
                 "answer": [
-                    "I usually shop for groceries at the local market.",
-                    "I don't usually shop for groceries at the local market."
+                    "She visits her parents every month."
                 ]
             },
             {
-                "question": "When does she sometimes go jogging?",
-                "hint": "go jogging",
+                "question": "What does she not do every month?",
+                "hint": "travel abroad",
                 "answer": [
-                    "She sometimes goes jogging in the evening.",
-                    "She doesn't go jogging in the evening."
+                    "She does not travel abroad every month."
                 ]
             },
             {
-                "question": "How often do they attend meetings?",
-                "hint": "attend",
+                "question": "What does he do every year?",
+                "hint": "celebrate his birthday",
                 "answer": [
-                    "They attend meetings every week.",
-                    "They don't attend meetings every week."
+                    "He celebrates his birthday every year."
                 ]
             },
             {
-                "question": "What does he never forget to do?",
-                "hint": "forget",
+                "question": "What does he not do every year?",
+                "hint": "go skiing",
                 "answer": [
-                    "He never forgets to take his medication.",
-                    "He sometimes forgets to take his medication."
+                    "He does not go skiing every year."
                 ]
             },
             {
-                "question": "Where do we go every month?",
-                "hint": "go",
+                "question": "How often does she go to the dentist?",
+                "hint": "every two months",
                 "answer": [
-                    "We go to a book club every month.",
-                    "We don't go to a book club every month."
+                    "She goes to the dentist every two months."
                 ]
             },
             {
-                "question": "Why does she seldom use her car?",
-                "hint": "use",
+                "question": "How often does she not go to the dentist?",
+                "hint": "every two months",
                 "answer": [
-                    "She seldom uses her car because she prefers biking.",
-                    "She often uses her car."
+                    "She does not go to the dentist every two months."
                 ]
             },
             {
-                "question": "How do you typically start your day?",
-                "hint": "start",
+                "question": "How often does he arrive early?",
+                "hint": "work",
                 "answer": [
-                    "I typically start my day with a cup of coffee.",
-                    "I don't typically start my day with a cup of coffee."
+                    "He always arrives early at work."
+                ]
+            },
+            {
+                "question": "How often does he arrive early?",
+                "hint": "work",
+                "answer": [
+                    "He never arrives early at work."
+                ]
+            },
+            {
+                "question": "How often does she have coffee in the morning?",
+                "hint": "morning",
+                "answer": [
+                    "She usually has coffee in the morning."
+                ]
+            },
+            {
+                "question": "How often does she have coffee in the morning?",
+                "hint": "morning",
+                "answer": [
+                    "She rarely has coffee in the morning."
+                ]
+            },
+            {
+                "question": "How often does he read books?",
+                "hint": "weekends",
+                "answer": [
+                    "He often reads books on weekends."
+                ]
+            },
+            {
+                "question": "How often does he read books?",
+                "hint": "weekends",
+                "answer": [
+                    "He sometimes reads books on weekends."
+                ]
+            },
+            {
+                "question": "How often does she eat out?",
+                "hint": "restaurants",
+                "answer": [
+                    "She never eats out at restaurants."
+                ]
+            },
+            {
+                "question": "How often does she eat out?",
+                "hint": "restaurants",
+                "answer": [
+                    "She always eats out at restaurants."
+                ]
+            },
+            {
+                "question": "What do they do every day?",
+                "hint": "exercise",
+                "answer": [
+                    "They exercise every day."
+                ]
+            },
+            {
+                "question": "What do they not do every day?",
+                "hint": "go to the gym",
+                "answer": [
+                    "They do not go to the gym every day."
+                ]
+            },
+            {
+                "question": "What do they do every month?",
+                "hint": "visit their parents",
+                "answer": [
+                    "They visit their parents every month."
+                ]
+            },
+            {
+                "question": "What do they not do every month?",
+                "hint": "travel abroad",
+                "answer": [
+                    "They do not travel abroad every month."
+                ]
+            },
+            {
+                "question": "What do they do every year?",
+                "hint": "celebrate their birthdays",
+                "answer": [
+                    "They celebrate their birthdays every year."
+                ]
+            },
+            {
+                "question": "What do they not do every year?",
+                "hint": "go skiing",
+                "answer": [
+                    "They do not go skiing every year."
+                ]
+            },
+            {
+                "question": "How often do they go to the dentist?",
+                "hint": "every two months",
+                "answer": [
+                    "They go to the dentist every two months."
+                ]
+            },
+            {
+                "question": "How often do they not go to the dentist?",
+                "hint": "every two months",
+                "answer": [
+                    "They do not go to the dentist every two months."
+                ]
+            },
+            {
+                "question": "How often do they arrive early?",
+                "hint": "work",
+                "answer": [
+                    "They always arrive early at work."
+                ]
+            },
+            {
+                "question": "How often do they arrive early?",
+                "hint": "work",
+                "answer": [
+                    "They never arrive early at work."
+                ]
+            },
+            {
+                "question": "How often do they have coffee in the morning?",
+                "hint": "morning",
+                "answer": [
+                    "They usually have coffee in the morning."
+                ]
+            },
+            {
+                "question": "How often do they have coffee in the morning?",
+                "hint": "morning",
+                "answer": [
+                    "They rarely have coffee in the morning."
+                ]
+            },
+            {
+                "question": "How often do they read books?",
+                "hint": "weekends",
+                "answer": [
+                    "They often read books on weekends."
+                ]
+            },
+            {
+                "question": "How often do they read books?",
+                "hint": "weekends",
+                "answer": [
+                    "They sometimes read books on weekends."
+                ]
+            },
+            {
+                "question": "How often do they eat out?",
+                "hint": "restaurants",
+                "answer": [
+                    "They never eat out at restaurants."
+                ]
+            },
+            {
+                "question": "How often do they eat out?",
+                "hint": "restaurants",
+                "answer": [
+                    "They always eat out at restaurants."
                 ]
             }
         ]
@@ -964,163 +1028,143 @@
         "skipWordHighlighting": false,
         "questions": [
             {
-                "question": "What have I just finished?",
-                "hint": "finish",
+                "question": "Has he just finished reading his book?",
+                "hint": "finished",
                 "answer": [
-                    "You have just finished your report.",
-                    "You haven't finished your report yet."
+                    "Yes, he has just finished reading his book."
                 ]
             },
             {
-                "question": "Where have we traveled so far?",
-                "hint": "traveled",
+                "question": "Has he not just finished reading his book?",
+                "hint": "not finished",
                 "answer": [
-                    "We have traveled to Paris and Berlin so far.",
-                    "We haven't traveled anywhere so far."
+                    "No, he has not just finished reading his book."
                 ]
             },
             {
-                "question": "When have you seen the latest movie?",
-                "hint": "seen",
-                "answer": [
-                    "I have seen the latest movie recently.",
-                    "I haven't seen the latest movie yet."
-                ]
-            },
-            {
-                "question": "Why has he never visited London?",
-                "hint": "visited",
-                "answer": [
-                    "He has never visited London because of his busy schedule.",
-                    "He has visited London before."
-                ]
-            },
-            {
-                "question": "How long has she worked here?",
-                "hint": "worked",
-                "answer": [
-                    "She has worked here for five years.",
-                    "She hasn't worked here for five years."
-                ]
-            },
-            {
-                "question": "Who has it affected recently?",
-                "hint": "affected",
-                "answer": [
-                    "It has affected the employees recently.",
-                    "It hasn't affected the employees recently."
-                ]
-            },
-            {
-                "question": "Which book have they read lately?",
-                "hint": "read",
-                "answer": [
-                    "They have read 'The Silent Patient' lately.",
-                    "They haven't read any book lately."
-                ]
-            },
-            {
-                "question": "What have you ever wanted to do?",
-                "hint": "wanted",
-                "answer": [
-                    "I have always wanted to travel the world.",
-                    "I have never wanted to travel the world."
-                ]
-            },
-            {
-                "question": "Where has John been since last month?",
-                "hint": "been",
-                "answer": [
-                    "John has been in New York since last month.",
-                    "John hasn't been anywhere since last month."
-                ]
-            },
-            {
-                "question": "What time have they just arrived?",
-                "hint": "arrived",
-                "answer": [
-                    "They have just arrived at 6 PM.",
-                    "They haven't arrived yet."
-                ]
-            },
-            {
-                "question": "Why have we not completed the project yet?",
+                "question": "Has she already completed her work?",
                 "hint": "completed",
                 "answer": [
-                    "We haven't completed the project yet due to technical issues.",
-                    "We have completed the project."
+                    "Yes, she has already completed her work."
                 ]
             },
             {
-                "question": "How often has he visited his family recently?",
-                "hint": "visited",
+                "question": "Has she not already completed her work?",
+                "hint": "not completed",
                 "answer": [
-                    "He has visited his family every month recently.",
-                    "He hasn't visited his family recently."
+                    "No, she has not already completed her work."
                 ]
             },
             {
-                "question": "What have they done since the meeting?",
-                "hint": "done",
+                "question": "Has he finished his work yet?",
+                "hint": "finished",
                 "answer": [
-                    "They have completed the tasks assigned since the meeting.",
-                    "They haven't done anything since the meeting."
+                    "Yes, he has finished his work already."
                 ]
             },
             {
-                "question": "Where have you been lately?",
-                "hint": "been",
+                "question": "Has he not finished his work yet?",
+                "hint": "not finished",
                 "answer": [
-                    "I have been to several conferences lately.",
-                    "I haven't been anywhere lately."
+                    "No, he has not finished his work yet."
                 ]
             },
             {
-                "question": "When have I last spoken to you?",
-                "hint": "spoken",
+                "question": "Has she been working here for three years?",
+                "hint": "three years",
                 "answer": [
-                    "You have last spoken to me a week ago.",
-                    "You haven't spoken to me for a while."
+                    "Yes, she has been working here for three years."
                 ]
             },
             {
-                "question": "What has she achieved so far?",
-                "hint": "achieved",
+                "question": "Has she not been working here for three years?",
+                "hint": "not three years",
                 "answer": [
-                    "She has achieved several milestones so far.",
-                    "She hasn't achieved any milestones so far."
+                    "No, she has not been working here for three years."
                 ]
             },
             {
-                "question": "How long have they been working on the project?",
-                "hint": "been working",
+                "question": "Has he lived in this city since 2015?",
+                "hint": "2015",
                 "answer": [
-                    "They have been working on the project for two months.",
-                    "They haven't been working on the project for two months."
+                    "Yes, he has lived in this city since 2015."
                 ]
             },
             {
-                "question": "What have you never tried before?",
-                "hint": "tried",
+                "question": "Has he not lived in this city since 2015?",
+                "hint": "not 2015",
                 "answer": [
-                    "I have never tried scuba diving before.",
-                    "I have tried scuba diving before."
+                    "No, he has not lived in this city since 2015."
                 ]
             },
             {
-                "question": "Where has he lived since he moved?",
-                "hint": "lived",
+                "question": "Have they just finished reading their books?",
+                "hint": "finished",
                 "answer": [
-                    "He has lived in Seattle since he moved.",
-                    "He hasn't lived anywhere since he moved."
+                    "Yes, they have just finished reading their books."
                 ]
             },
             {
-                "question": "Why has she recently taken up painting?",
-                "hint": "taken up",
+                "question": "Have they not just finished reading their books?",
+                "hint": "not finished",
                 "answer": [
-                    "She has recently taken up painting to relax and be creative.",
-                    "She hasn't taken up painting recently."
+                    "No, they have not just finished reading their books."
+                ]
+            },
+            {
+                "question": "Have they already completed their work?",
+                "hint": "completed",
+                "answer": [
+                    "Yes, they have already completed their work."
+                ]
+            },
+            {
+                "question": "Have they not already completed their work?",
+                "hint": "not completed",
+                "answer": [
+                    "No, they have not already completed their work."
+                ]
+            },
+            {
+                "question": "Have they finished their work yet?",
+                "hint": "finished",
+                "answer": [
+                    "Yes, they have finished their work already."
+                ]
+            },
+            {
+                "question": "Have they not finished their work yet?",
+                "hint": "not finished",
+                "answer": [
+                    "No, they have not finished their work yet."
+                ]
+            },
+            {
+                "question": "Have they been working here for five years?",
+                "hint": "five years",
+                "answer": [
+                    "Yes, they have been working here for five years."
+                ]
+            },
+            {
+                "question": "Have they not been working here for five years?",
+                "hint": "not five years",
+                "answer": [
+                    "No, they have not been working here for five years."
+                ]
+            },
+            {
+                "question": "Have they lived in this city since 2010?",
+                "hint": "2010",
+                "answer": [
+                    "Yes, they have lived in this city since 2010."
+                ]
+            },
+            {
+                "question": "Have they not lived in this city since 2010?",
+                "hint": "not 2010",
+                "answer": [
+                    "No, they have not lived in this city since 2010."
                 ]
             }
         ]
@@ -3222,163 +3266,83 @@
         "skipWordHighlighting": true,
         "questions": [
             {
-                "question": "What did I do yesterday?",
+                "question": "What did you do yesterday?",
                 "hint": "do",
                 "answer": [
-                    "You finished your report yesterday.",
-                    "You didn't finish your report yesterday."
+                    "I worked.",
+                    "I worked on a project yesterday."
                 ]
             },
             {
-                "question": "Where did we go last weekend?",
+                "question": "Where did they go last weekend?",
                 "hint": "go",
                 "answer": [
-                    "We went to the park last weekend.",
-                    "We didn't go to the park last weekend."
+                    "They went to the beach.",
+                    "They went to the beach last weekend."
                 ]
             },
             {
-                "question": "When did you visit your grandparents?",
-                "hint": "visit",
-                "answer": [
-                    "I visited my grandparents last month.",
-                    "I didn't visit my grandparents last month."
-                ]
-            },
-            {
-                "question": "Why did he call you yesterday?",
-                "hint": "call",
-                "answer": [
-                    "He called me yesterday to ask for help.",
-                    "He didn't call me yesterday."
-                ]
-            },
-            {
-                "question": "How often did she travel last year?",
-                "hint": "travel",
-                "answer": [
-                    "She traveled five times last year.",
-                    "She didn't travel much last year."
-                ]
-            },
-            {
-                "question": "Who did it affect last year?",
-                "hint": "affect",
-                "answer": [
-                    "It affected the team last year.",
-                    "It didn't affect the team last year."
-                ]
-            },
-            {
-                "question": "Which book did they read yesterday?",
-                "hint": "read",
-                "answer": [
-                    "They read a mystery novel yesterday.",
-                    "They didn't read any book yesterday."
-                ]
-            },
-            {
-                "question": "What did you eat for lunch yesterday?",
-                "hint": "eat",
-                "answer": [
-                    "I ate a sandwich for lunch yesterday.",
-                    "I didn't eat lunch yesterday."
-                ]
-            },
-            {
-                "question": "Where did John go last night?",
-                "hint": "go",
-                "answer": [
-                    "John went to the movies last night.",
-                    "John didn't go anywhere last night."
-                ]
-            },
-            {
-                "question": "What time did she arrive yesterday?",
-                "hint": "arrive",
-                "answer": [
-                    "She arrived at 10 AM yesterday.",
-                    "She didn't arrive at 10 AM yesterday."
-                ]
-            },
-            {
-                "question": "Why did we cancel the event last month?",
-                "hint": "cancel",
-                "answer": [
-                    "We canceled the event last month due to bad weather.",
-                    "We didn't cancel the event last month."
-                ]
-            },
-            {
-                "question": "How often did he exercise last week?",
-                "hint": "exercise",
-                "answer": [
-                    "He exercised three times last week.",
-                    "He didn't exercise last week."
-                ]
-            },
-            {
-                "question": "What did they do last night?",
-                "hint": "do",
-                "answer": [
-                    "They watched TV last night.",
-                    "They didn't do anything last night."
-                ]
-            },
-            {
-                "question": "Where did you stay during the trip last summer?",
-                "hint": "stay",
-                "answer": [
-                    "I stayed at a hotel during the trip last summer.",
-                    "I didn't stay at a hotel last summer."
-                ]
-            },
-            {
-                "question": "When did I see you last?",
-                "hint": "see",
-                "answer": [
-                    "You saw me last week.",
-                    "You didn't see me last week."
-                ]
-            },
-            {
-                "question": "What did she buy at the store yesterday?",
-                "hint": "buy",
-                "answer": [
-                    "She bought groceries at the store yesterday.",
-                    "She didn't buy anything at the store yesterday."
-                ]
-            },
-            {
-                "question": "How often did they meet last year?",
+                "question": "Who did she meet at the party?",
                 "hint": "meet",
                 "answer": [
-                    "They met every month last year.",
-                    "They didn't meet often last year."
+                    "She met her old friend.",
+                    "She met her old friend at the party."
                 ]
             },
             {
-                "question": "What time did it rain yesterday?",
-                "hint": "rain",
+                "question": "When did he arrive home?",
+                "hint": "arrive",
                 "answer": [
-                    "It rained at 4 PM yesterday.",
-                    "It didn't rain yesterday."
+                    "He arrived at 8 PM.",
+                    "He arrived home at 8 PM."
                 ]
             },
             {
-                "question": "Where did she go on vacation last summer?",
-                "hint": "go",
-                "answer": [
-                    "She went to Hawaii on vacation last summer.",
-                    "She didn't go on vacation last summer."
-                ]
-            },
-            {
-                "question": "Why did they leave early yesterday?",
+                "question": "Why did you leave early?",
                 "hint": "leave",
                 "answer": [
-                    "They left early yesterday to catch a train.",
-                    "They didn't leave early yesterday."
+                    "I left because I was tired.",
+                    "I left early because I was tired."
+                ]
+            },
+            {
+                "question": "How did they solve the problem?",
+                "hint": "solve",
+                "answer": [
+                    "They discussed it.",
+                    "They solved the problem by discussing it together."
+                ]
+            },
+            {
+                "question": "What did you eat for dinner?",
+                "hint": "eat",
+                "answer": [
+                    "I ate pasta.",
+                    "I ate pasta for dinner."
+                ]
+            },
+            {
+                "question": "Where did she buy the dress?",
+                "hint": "buy",
+                "answer": [
+                    "She bought it at the mall.",
+                    "She bought the dress at the mall."
+                ]
+            },
+            {
+                "question": "When did he start the new job?",
+                "hint": "start",
+                "answer": [
+                    "He started last Monday.",
+                    "He started the new job last Monday."
+                ]
+            },
+            {
+                "question": "Why did they cancel the meeting?",
+                "hint": "cancel",
+                "answer": [
+                    "They canceled it due to a conflict.",
+                    "They canceled the meeting due to a scheduling conflict."
                 ]
             }
         ]
@@ -3575,174 +3539,6 @@
                 "answer": [
                     "They were arguing about the presentation.",
                     "They were arguing earlier because they disagreed about the presentation."
-                ]
-            }
-        ]
-    },
-    {
-        "key": "Extras-015",
-        "label": "Simple Future - Wh-form questions",
-        "visibility": true,
-        "skipWordHighlighting": false,
-        "questions": [
-            {
-                "question": "What will I do tomorrow?",
-                "hint": "do",
-                "answer": [
-                    "You will go to the gym tomorrow.",
-                    "You will not go to the gym tomorrow."
-                ]
-            },
-            {
-                "question": "Where shall we meet next week?",
-                "hint": "meet",
-                "answer": [
-                    "We shall meet at the cafe next week.",
-                    "We shall not meet at the cafe next week."
-                ]
-            },
-            {
-                "question": "When are you going to finish the report?",
-                "hint": "finish",
-                "answer": [
-                    "I am going to finish the report by tomorrow.",
-                    "I am not going to finish the report by tomorrow."
-                ]
-            },
-            {
-                "question": "Why will he arrive late?",
-                "hint": "arrive",
-                "answer": [
-                    "He will arrive late because of traffic.",
-                    "He will not arrive late."
-                ]
-            },
-            {
-                "question": "How soon will she start her new job?",
-                "hint": "start",
-                "answer": [
-                    "She will start her new job next month.",
-                    "She will not start her new job next month."
-                ]
-            },
-            {
-                "question": "Who are they going to invite to the party?",
-                "hint": "invite",
-                "answer": [
-                    "They are going to invite all their friends to the party.",
-                    "They are not going to invite all their friends to the party."
-                ]
-            },
-            {
-                "question": "Which project will you work on next?",
-                "hint": "work on",
-                "answer": [
-                    "I will work on the marketing project next.",
-                    "I will not work on the marketing project next."
-                ]
-            },
-            {
-                "question": "What will John do eventually?",
-                "hint": "do",
-                "answer": [
-                    "John will eventually move to a new city.",
-                    "John will not move to a new city eventually."
-                ]
-            },
-            {
-                "question": "Where shall we go in the future?",
-                "hint": "go",
-                "answer": [
-                    "We shall go on a world tour in the future.",
-                    "We shall not go on a world tour in the future."
-                ]
-            },
-            {
-                "question": "When will they announce the results?",
-                "hint": "announce",
-                "answer": [
-                    "They will announce the results in a while.",
-                    "They will not announce the results in a while."
-                ]
-            },
-            {
-                "question": "Why will she leave the company soon?",
-                "hint": "leave",
-                "answer": [
-                    "She will leave the company soon for a new opportunity.",
-                    "She will not leave the company soon."
-                ]
-            },
-            {
-                "question": "How will he get to the airport later?",
-                "hint": "get",
-                "answer": [
-                    "He will get to the airport by taxi later.",
-                    "He will not get to the airport by taxi later."
-                ]
-            },
-            {
-                "question": "What will they do before long?",
-                "hint": "do",
-                "answer": [
-                    "They will start their new project before long.",
-                    "They will not start their new project before long."
-                ]
-            },
-            {
-                "question": "Where are you going to stay during the trip?",
-                "hint": "stay",
-                "answer": [
-                    "I am going to stay at a hotel during the trip.",
-                    "I am not going to stay at a hotel during the trip."
-                ]
-            },
-            {
-                "question": "When shall we have the meeting?",
-                "hint": "have",
-                "answer": [
-                    "We shall have the meeting next Monday.",
-                    "We shall not have the meeting next Monday."
-                ]
-            },
-            {
-                "question": "Why will they finish the project by then?",
-                "hint": "finish",
-                "answer": [
-                    "They will finish the project by then to meet the deadline.",
-                    "They will not finish the project by then."
-                ]
-            },
-            {
-                "question": "How soon will she know the results?",
-                "hint": "know",
-                "answer": [
-                    "She will know the results shortly.",
-                    "She will not know the results shortly."
-                ]
-            },
-            {
-                "question": "What will I learn in the new course?",
-                "hint": "learn",
-                "answer": [
-                    "You will learn advanced programming techniques in the new course.",
-                    "You will not learn advanced programming techniques in the new course."
-                ]
-            },
-            {
-                "question": "Who will you meet someday?",
-                "hint": "meet",
-                "answer": [
-                    "I will meet a famous author someday.",
-                    "I will not meet a famous author someday."
-                ]
-            },
-            {
-                "question": "Which book will he read next?",
-                "hint": "read",
-                "answer": [
-                    "He will read 'To Kill a Mockingbird' next.",
-                    "He will not read 'To Kill a Mockingbird' next."
                 ]
             }
         ]
