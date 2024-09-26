@@ -12,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class QuestionLabeledComponent implements OnInit {
 
-  labeledJsonArrays: { key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[] = [];
+  labeledJsonArrays: { key: string, category: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[] = [];
   jsonArrays: { question: string, hint: string, answer: string[] }[][] = [];
   previousQuestions: number[] = [];
   questionsAndAnswers: { question: string, hint: string, answer: string[] }[] = [];
@@ -35,7 +35,9 @@ export class QuestionLabeledComponent implements OnInit {
   showHint: boolean = false;
 
   displayPatterns: string[] = ['Sequential', 'Random'];
+  categories: string[] = ['Select', 'Present Tense'];
   selecteddisplayPattern: string = '';  // To store the selected option
+  selectedCategory: string = '';  // To store the selected option
 
   sentence: string | undefined;
   boldWord: string | undefined;
@@ -58,6 +60,13 @@ export class QuestionLabeledComponent implements OnInit {
       this.selecteddisplayPattern = localSelectedDisplayPattern;
     } else {
       this.selecteddisplayPattern = "Sequential";
+    }
+
+    const selectedCategoryLocal = sessionStorage.getItem('selectedCategory');
+    if (selectedCategoryLocal) {
+      this.selectedCategory = selectedCategoryLocal;
+    } else {
+      this.selectedCategory = "Select";
     }
   }
 
@@ -111,7 +120,7 @@ export class QuestionLabeledComponent implements OnInit {
     }
     //   this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
     // } else {
-    this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[]>(path)
+    this.http.get<{ key: string, category: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[]>(path)
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
           const isVisible = item.visibility;
@@ -120,6 +129,13 @@ export class QuestionLabeledComponent implements OnInit {
           //  console.log('isVisible || isInEnabledModules', (isVisible || isInEnabledModules));
           //return isVisible || isInEnabledModules || enableModules.includes("all") || isadminValue;
           return isVisible || isadminValue;
+        });
+        // this.categories.push("123");
+
+        this.labeledJsonArrays.forEach(element => {
+          if (!this.categories.includes(element.category)) {
+            this.categories.push(element.category);
+          }
         });
         this.loadSelectedJson();
         this.retrieveSelectedLabel();
@@ -165,6 +181,11 @@ export class QuestionLabeledComponent implements OnInit {
   onDisplayPatternChange(event: any): void {
     this.questionStartIndex = 0;
     sessionStorage.setItem('selecteddisplayPattern', this.selecteddisplayPattern);
+  }
+
+  onCategoryChange(event: any): void {
+    this.questionStartIndex = 0;
+    sessionStorage.setItem('selectedCategory', this.selectedCategory);
   }
 
   onShowAnswerChange(event: any): void {

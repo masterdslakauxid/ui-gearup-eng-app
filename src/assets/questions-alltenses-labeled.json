@@ -1,6 +1,7 @@
 [
     {
         "key": "Present-001",
+        "category": "Present Tense",
         "label": "Simple Present- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -289,6 +290,7 @@
     },
     {
         "key": "Present-002",
+        "category": "Present Tense",
         "label": "Simple Present- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -457,6 +459,7 @@
     },
     {
         "key": "Present-003-1",
+        "category": "Present Tense",
         "label": "Present Continuous- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -565,6 +568,7 @@
     },
     {
         "key": "Present-003",
+        "category": "Present Tense",
         "label": "Present Continuous- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -881,6 +885,7 @@
     },
     {
         "key": "Present-004-1",
+        "category": "Present Tense",
         "label": "Present Perfect- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -959,6 +964,7 @@
     },
     {
         "key": "Present-004",
+        "category": "Present Tense",
         "label": "Present Perfect- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -1127,6 +1133,7 @@
     },
     {
         "key": "Present-005-1",
+        "category": "Present Tense",
         "label": "Present Perfect continuous- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -1235,6 +1242,7 @@
     },
     {
         "key": "Present-005",
+        "category": "Present Tense",
         "label": "Present Perfect continuous- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -1383,6 +1391,7 @@
     },
     {
         "key": "TongueTwisters",
+        "category": "Tongue Twisters",
         "label": "Tongue Twisters",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -1482,6 +1491,7 @@
     },
     {
         "key": "Gerunds",
+        "category": "Gerunds",
         "label": "Gerunds",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -1902,6 +1912,7 @@
     },
     {
         "key": "Extras-005",
+        "category": "Miscellaneous",
         "label": "Transitional words and Phrases",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -2351,6 +2362,7 @@
     },
     {
         "key": "Extras-006",
+        "category": "Miscellaneous",
         "label": "Most used antonyms",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -2702,6 +2714,7 @@
     },
     {
         "key": "Extras-007",
+        "category": "Miscellaneous",
         "label": "Singular and Plural - Workplace",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -2885,6 +2898,7 @@
     },
     {
         "key": "Extras-008",
+        "category": "Miscellaneous",
         "label": "Singular and Plural - General",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -3068,6 +3082,7 @@
     },
     {
         "key": "Extras-009",
+        "category": "Miscellaneous",
         "label": "Special case - Type of, Sort of, Kind of",
         "visibility": false,
         "skipWordHighlighting": true,
@@ -3109,6 +3124,7 @@
     },
     {
         "key": "Extras-010",
+        "category": "Past Tense",
         "label": "Simple Past- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": true,
@@ -3217,6 +3233,7 @@
     },
     {
         "key": "Extras-011",
+        "category": "Past Tense",
         "label": "Simple Past- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": true,
@@ -3385,6 +3402,7 @@
     },
     {
         "key": "Extras-012",
+        "category": "Past Tense",
         "label": "Past continuous- Yes/No questions",
         "visibility": true,
         "skipWordHighlighting": true,
@@ -3493,6 +3511,7 @@
     },
     {
         "key": "Extras-013",
+        "category": "Past Tense",
         "label": "Past continuous- Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": true,
@@ -3581,6 +3600,7 @@
     },
     {
         "key": "Extras-015",
+        "category": "Future Tense",
         "label": "Simple Future - Wh-form questions",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -3743,6 +3763,254 @@
                 "answer": [
                     "He will read 'To Kill a Mockingbird' next.",
                     "He will not read 'To Kill a Mockingbird' next."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-016",
+        "label": "Stativ verbs",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Does he appear confident during meetings?",
+                "hint": "appear",
+                "answer": [
+                    "Yes, he appears very confident.",
+                    "No, he doesn't appear confident at all."
+                ]
+            },
+            {
+                "question": "Does everything seem fine with the project?",
+                "hint": "seem",
+                "answer": [
+                    "Yes, everything seems fine.",
+                    "No, it doesn't seem fine at the moment."
+                ]
+            },
+            {
+                "question": "Do they own a car?",
+                "hint": "own",
+                "answer": [
+                    "Yes, they own a car.",
+                    "No, they don’t own a car."
+                ]
+            },
+            {
+                "question": "What does this word mean?",
+                "hint": "mean",
+                "answer": [
+                    "This word means 'to accomplish.'",
+                    "I don’t know what this word means."
+                ]
+            },
+            {
+                "question": "Does the plan sound feasible to you?",
+                "hint": "sound",
+                "answer": [
+                    "Yes, the plan sounds feasible.",
+                    "No, it doesn't sound feasible at all."
+                ]
+            },
+            {
+                "question": "Does it matter if we finish early?",
+                "hint": "matter",
+                "answer": [
+                    "Yes, it matters a lot.",
+                    "No, it doesn’t matter."
+                ]
+            },
+            {
+                "question": "Do you believe in life after death?",
+                "hint": "believe",
+                "answer": [
+                    "Yes, I believe in life after death.",
+                    "No, I don’t believe in that."
+                ]
+            },
+            {
+                "question": "Does this shirt fit you?",
+                "hint": "fit",
+                "answer": [
+                    "Yes, it fits me perfectly.",
+                    "No, it doesn’t fit me well."
+                ]
+            },
+            {
+                "question": "Does this box contain your personal items?",
+                "hint": "contain",
+                "answer": [
+                    "Yes, it contains my personal items.",
+                    "No, it doesn’t contain my items."
+                ]
+            },
+            {
+                "question": "Does she possess the necessary skills for the job?",
+                "hint": "possess",
+                "answer": [
+                    "Yes, she possesses all the required skills.",
+                    "No, she doesn't possess the necessary skills."
+                ]
+            },
+            {
+                "question": "Does he like coffee?",
+                "hint": "like",
+                "answer": [
+                    "Yes, he likes coffee.",
+                    "No, he doesn't like coffee."
+                ]
+            },
+            {
+                "question": "Do you understand the instructions?",
+                "hint": "understand",
+                "answer": [
+                    "Yes, I understand the instructions perfectly.",
+                    "No, I don't understand the instructions."
+                ]
+            },
+            {
+                "question": "Does this car belong to you?",
+                "hint": "belong",
+                "answer": [
+                    "Yes, this car belongs to me.",
+                    "No, it doesn't belong to me."
+                ]
+            },
+            {
+                "question": "Does she need help with the assignment?",
+                "hint": "need",
+                "answer": [
+                    "Yes, she needs help with the assignment.",
+                    "No, she doesn't need any help."
+                ]
+            },
+            {
+                "question": "Do you prefer tea over coffee?",
+                "hint": "prefer",
+                "answer": [
+                    "Yes, I prefer tea.",
+                    "No, I don't prefer tea over coffee."
+                ]
+            },
+            {
+                "question": "Does he believe in magic?",
+                "hint": "believe",
+                "answer": [
+                    "Yes, he believes in magic.",
+                    "No, he doesn't believe in magic."
+                ]
+            },
+            {
+                "question": "Do these shoes fit you?",
+                "hint": "fit",
+                "answer": [
+                    "Yes, these shoes fit me perfectly.",
+                    "No, they don't fit me well."
+                ]
+            },
+            {
+                "question": "Does this contract include all the necessary details?",
+                "hint": "include",
+                "answer": [
+                    "Yes, the contract includes all the necessary details.",
+                    "No, it doesn't include everything."
+                ]
+            },
+            {
+                "question": "Do you own any property?",
+                "hint": "own",
+                "answer": [
+                    "Yes, I own a property.",
+                    "No, I don't own any property."
+                ]
+            },
+            {
+                "question": "Does this job seem difficult to you?",
+                "hint": "seem",
+                "answer": [
+                    "Yes, it seems difficult.",
+                    "No, it doesn't seem difficult at all."
+                ]
+            },
+            {
+                "question": "Does she recognize him from the party?",
+                "hint": "recognize",
+                "answer": [
+                    "Yes, she recognizes him from the party.",
+                    "No, she doesn't recognize him."
+                ]
+            },
+            {
+                "question": "Do you believe the news is true?",
+                "hint": "believe",
+                "answer": [
+                    "Yes, I believe the news is true.",
+                    "No, I don't believe the news is true."
+                ]
+            },
+            {
+                "question": "Does he own a smartphone?",
+                "hint": "own",
+                "answer": [
+                    "Yes, he owns a smartphone.",
+                    "No, he doesn't own a smartphone."
+                ]
+            },
+            {
+                "question": "Does this perfume smell nice?",
+                "hint": "smell",
+                "answer": [
+                    "Yes, it smells really nice.",
+                    "No, it doesn't smell good."
+                ]
+            },
+            {
+                "question": "Do they know how to swim?",
+                "hint": "know",
+                "answer": [
+                    "Yes, they know how to swim.",
+                    "No, they don't know how to swim."
+                ]
+            },
+            {
+                "question": "Does this solution include all the requirements?",
+                "hint": "include",
+                "answer": [
+                    "Yes, the solution includes all the requirements.",
+                    "No, it doesn't include all the requirements."
+                ]
+            },
+            {
+                "question": "Does this ring belong to her?",
+                "hint": "belong",
+                "answer": [
+                    "Yes, this ring belongs to her.",
+                    "No, it doesn't belong to her."
+                ]
+            },
+            {
+                "question": "Do you remember the password?",
+                "hint": "remember",
+                "answer": [
+                    "Yes, I remember the password.",
+                    "No, I don't remember the password."
+                ]
+            },
+            {
+                "question": "Does it matter if we arrive late?",
+                "hint": "matter",
+                "answer": [
+                    "Yes, it matters if we arrive late.",
+                    "No, it doesn't matter."
+                ]
+            },
+            {
+                "question": "Does this jacket fit you?",
+                "hint": "fit",
+                "answer": [
+                    "Yes, the jacket fits me.",
+                    "No, it doesn't fit me."
                 ]
             }
         ]
