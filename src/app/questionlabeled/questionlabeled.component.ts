@@ -35,7 +35,7 @@ export class QuestionLabeledComponent implements OnInit {
   showHint: boolean = false;
 
   displayPatterns: string[] = ['Sequential', 'Random'];
-  categories: string[] = ['Select', 'Present Tense'];
+  categories: string[] = ['Select'];
   selecteddisplayPattern: string = '';  // To store the selected option
   selectedCategory: string = '';  // To store the selected option
 
@@ -130,8 +130,6 @@ export class QuestionLabeledComponent implements OnInit {
           //return isVisible || isInEnabledModules || enableModules.includes("all") || isadminValue;
           return isVisible || isadminValue;
         });
-        // this.categories.push("123");
-
         this.labeledJsonArrays.forEach(element => {
           if (!this.categories.includes(element.category)) {
             this.categories.push(element.category);
