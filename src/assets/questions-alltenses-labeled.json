@@ -3769,6 +3769,7 @@
     },
     {
         "key": "Extras-016",
+        "category": "Stativ verbs",
         "label": "Stativ verbs",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -4011,6 +4012,224 @@
                 "answer": [
                     "Yes, the jacket fits me.",
                     "No, it doesn't fit me."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-017",
+        "category": "Prepositions used with abstract nouns",
+        "label": "Prepositions used with abstract nouns",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "\"Of\" (used for relationships, causes, or origins)",
+                "hint": "-",
+                "answer": [
+                    "A sense of duty (abstract quality)",
+                    "A lack of confidence (absence of something)",
+                    "A matter of concern (something important)",
+                    "Pride of ownership (feeling related to possession)",
+                    "A state of mind (condition)",
+                    "A sense of responsibility (abstract quality)",
+                    "A feeling of joy (emotional state)",
+                    "An understanding of the problem (comprehension)",
+                    "A fear of failure (emotional state)",
+                    "A level of difficulty (degree or extent)"
+                ]
+            },
+            {
+                "question": "\"In\" (used for states, conditions, or circumstances)",
+                "hint": "-",
+                "answer": [
+                    "In a good mood (state of mind)",
+                    "In love (emotional state)",
+                    "In pain (condition)",
+                    "In trouble (situation)",
+                    "In danger (risk situation)",
+                    "In need (requiring help)",
+                    "In progress (ongoing process)",
+                    "In doubt (uncertain state)",
+                    "In debt (financial obligation)",
+                    "In control (managing situation)",
+                    "In despair (hopeless condition)"
+                ]
+            },
+            {
+                "question": "\"On\" (used for more temporary or specific situations)",
+                "hint": "-",
+                "answer": [
+                    "On leave (temporary situation)",
+                    "On time (specific time)",
+                    "On duty (working period)",
+                    "On edge (emotional state)",
+                    "On vacation (temporary situation)",
+                    "On alert (ready for action)",
+                    "On the move (actively changing)",
+                    "On the rise (increasing)",
+                    "On the decline (decreasing)",
+                    "On track (progressing as expected)"
+                ]
+            },
+            {
+                "question": "\"At\" (used for specific moments or points in time or feelings)",
+                "hint": "-",
+                "answer": [
+                    "At peace (emotional state)",
+                    "At risk (dangerous situation)",
+                    "At fault (guilt or responsibility)",
+                    "At war (state of conflict)",
+                    "At work (engagement in an activity)",
+                    "At a loss (unable to decide or know)",
+                    "At odds (in disagreement)",
+                    "At ease (feeling comfortable)",
+                    "At the peak (at the highest point)",
+                    "At the end (conclusion)"
+                ]
+            },
+            {
+                "question": "\"By\" (used to show means or manner)",
+                "hint": "-",
+                "answer": [
+                    "By chance (happening unexpectedly)",
+                    "By mistake (accidentally)",
+                    "By force (using physical power)",
+                    "By nature (inherent characteristic)",
+                    "By design (intentional)",
+                    "By law (legal requirement)",
+                    "By default (automatic or expected action)",
+                    "By invitation (through being invited)",
+                    "By request (asked for)",
+                    "By example (as demonstrated)"
+                ]
+            },
+            {
+                "question": "\"Under\" (used for conditions or restrictions)",
+                "hint": "-",
+                "answer": [
+                    "Under pressure (stressful condition)",
+                    "Under control (manageable situation)",
+                    "Under obligation (bound by duty)",
+                    "Under the impression (believing something)",
+                    "Under threat (facing danger)",
+                    "Under consideration (being thought about)",
+                    "Under review (being examined)",
+                    "Under construction (being built)",
+                    "Under investigation (being looked into)",
+                    "Under attack (being assaulted)"
+                ]
+            },
+            {
+                "question": "\"For\" (used to indicate purpose or reason)",
+                "hint": "-",
+                "answer": [
+                    "For fun (reason for activity)",
+                    "For good (permanently)",
+                    "For a reason (having a purpose)",
+                    "For the sake of (in benefit of)",
+                    "For peace (aim or goal)",
+                    "For justice (in the pursuit of fairness)",
+                    "For the future (considering later time)",
+                    "For better or worse (accepting outcomes)",
+                    "For protection (serving as defense)",
+                    "For support (in aid of)"
+                ]
+            },
+            {
+                "question": "\"With\" (used for accompaniment or association)",
+                "hint": "-",
+                "answer": [
+                    "With confidence (accompanied by a feeling)",
+                    "With joy (emotion)",
+                    "With care (manner)",
+                    "With sadness (emotion)",
+                    "With caution (method)",
+                    "With enthusiasm (eager attitude)",
+                    "With patience (showing self-control)",
+                    "With effort (hard work)",
+                    "With love (affectionate feeling)",
+                    "With pride (feeling of satisfaction)"
+                ]
+            },
+            {
+                "question": "\"Over\" (used for concerns or authority)",
+                "hint": "-",
+                "answer": [
+                    "Concerned over the results (subject of worry)",
+                    "Arguments over the issue (disagreement topic)",
+                    "Authority over the situation (control)",
+                    "Dominance over rivals (superiority)",
+                    "Victory over the opponent (achievement)",
+                    "Worrying over details (specific concern)",
+                    "Control over finances (management of money)",
+                    "Debate over policies (discussion on a subject)",
+                    "Stress over deadlines (pressure to meet time)",
+                    "Celebration over success (joy over achievement)"
+                ]
+            },
+            {
+                "question": "\"Against\" (used for opposition or conflict)",
+                "hint": "-",
+                "answer": [
+                    "Against the rules (in opposition)",
+                    "Protection against disease (defense)",
+                    "Fight against injustice (conflict)",
+                    "Prejudice against others (bias)",
+                    "Rebellion against authority (opposition)",
+                    "Resistance against change (opposing development)",
+                    "Crimes against humanity (violations against people)",
+                    "Protests against policies (opposing regulations)",
+                    "Discrimination against minorities (unfair treatment)",
+                    "Defenses against attacks (measures of protection)"
+                ]
+            },
+            {
+                "question": "\"Out of\" (used for reasons or conditions)",
+                "hint": "-",
+                "answer": [
+                    "Out of curiosity (motivated by)",
+                    "Out of fear (because of fear)",
+                    "Out of necessity (due to need)",
+                    "Out of control (no longer controlled)",
+                    "Out of respect (showing respect)",
+                    "Out of love (driven by affection)",
+                    "Out of desperation (acting in distress)",
+                    "Out of habit (done automatically)",
+                    "Out of reach (not accessible)",
+                    "Out of danger (safe)"
+                ]
+            },
+            {
+                "question": "\"Beyond\" (used for limits or surpassing something)",
+                "hint": "-",
+                "answer": [
+                    "Beyond understanding (difficult to comprehend)",
+                    "Beyond control (unable to manage)",
+                    "Beyond belief (unbelievable)",
+                    "Beyond repair (unable to fix)",
+                    "Beyond imagination (greater than expected)",
+                    "Beyond expectations (more than anticipated)",
+                    "Beyond recognition (unrecognizable)",
+                    "Beyond reach (out of range)",
+                    "Beyond reason (illogical)",
+                    "Beyond hope (without any possibility)"
+                ]
+            },
+            {
+                "question": "\"In spite of\" (used to show contrast)",
+                "hint": "-",
+                "answer": [
+                    "In spite of difficulties (despite obstacles)",
+                    "In spite of the weather (despite adverse conditions)",
+                    "In spite of opposition (despite resistance)",
+                    "In spite of criticism (despite negative feedback)",
+                    "In spite of failure (despite lack of success)",
+                    "In spite of doubts (despite uncertainty)",
+                    "In spite of rejection (despite being turned down)",
+                    "In spite of risks (despite dangers)",
+                    "In spite of setbacks (despite obstacles)",
+                    "In spite of injuries (despite physical harm)"
                 ]
             }
         ]
