@@ -22,7 +22,7 @@ body {
     align-items: center;
     background-color: #007bff;
     color: white;
-    padding: 15px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -57,6 +57,7 @@ body {
     margin-top: 10px;
     background-color: #e9ecef;
     border-radius: 5px;
+    width: 98%;
 }
 
 footer {
@@ -87,7 +88,7 @@ footer {
     }
 
     .content {
-        padding: 5px;
+        padding: 10px;
     }
 }
 
@@ -98,7 +99,7 @@ footer {
 }
 
 .left-panel {
-    flex: 0 0 30%;
+    flex: 0 0 25%;
     /* 20% width */
     background-color: #f0f0f0;
     /* Optional: Add background color */
@@ -110,7 +111,7 @@ footer {
 }
 
 .right-panel {
-    flex: 0 0 70%;
+    flex: 0 0 75%;
     /* 80% width */
     background-color: #e0e0e0;
     /* Optional: Add background color */

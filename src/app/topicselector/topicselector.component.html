@@ -4,7 +4,6 @@
         <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
     </select>
 
-    <p>Currently selected Category - {{selectedCategory}}</p>
     <div class="radio-group">
         <div *ngFor="let array of labeledJsonArrays">
             <div *ngIf="array.category === selectedCategory" class="radio-option">
