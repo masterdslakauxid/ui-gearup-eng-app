@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Subscription, interval } from 'rxjs';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
+import { DataService } from '../data.service';  // Import the service
 
 @Component({
   selector: 'app-questionlabeled',
@@ -52,7 +53,7 @@ export class QuestionLabeledComponent implements OnInit {
   loadInputFileFromLocal: boolean = false;
 
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
+  constructor(private dataService: DataService, private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
     this.questionStartIndex = 0;
     // Load the selection from sessionStorage if it exists
     const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
@@ -71,6 +72,15 @@ export class QuestionLabeledComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+
+    // Subscribe to the selected value from the service
+    this.dataService.currentValue.subscribe(value => {
+      //this.selectedValue = value;
+      this.onArraySelectionChange(value);
+      console.log("Recevied value ", value);
+    });
+
 
     // Retrieve 'isasmin' query parameter
     this.route.queryParams.subscribe(params => {

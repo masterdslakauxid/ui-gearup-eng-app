@@ -8,6 +8,8 @@ import { QuestionTimedComponent } from './questiontimed/questiontimed.component'
 import { QuestionLabeledComponent } from './questionlabeled/questionlabeled.component';
 import { FormsModule } from '@angular/forms';  // Import FormsModule
 import { UserListComponent } from './user-list/user-list.component';
+import { TopicselectorComponent } from './topicselector/topicselector.component';
+import { DetailsComponent } from './details/details.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { UserListComponent } from './user-list/user-list.component';
     QuestionComponent,
     QuestionTimedComponent,
     QuestionLabeledComponent,
-    UserListComponent
+    UserListComponent,
+    TopicselectorComponent,
+    DetailsComponent
   ],
   imports: [
     FormsModule,

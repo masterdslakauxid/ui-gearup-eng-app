@@ -1,22 +1,30 @@
-<body>
-    <div class="mainbody">
-        <!-- Toolbar -->
-        <div class="toolbar" role="banner">
-            <img width="60" alt="Angular Logo"
-                src="https://gearupengx.s3.ap-south-1.amazonaws.com/images/Logo-EngX.jpg" />
-            <div class="welcome-text">
-                <h3>Welcome to EngX</h3>
-                <p>A platform for mastering your communication skills!</p>
-            </div>
-            <div class="spacer"></div>
+<!-- <body> -->
+<div class="mainbody">
+    <!-- Toolbar -->
+    <div class="toolbar" role="banner">
+        <img width="60" alt="Angular Logo" src="https://gearupengx.s3.ap-south-1.amazonaws.com/images/Logo-EngX.jpg" />
+        <div class="welcome-text">
+            <h3>Welcome to EngX</h3>
+            <p>A platform for mastering your communication skills!</p>
         </div>
-
-        <div class="content" role="main">
-            <app-questionlabeled></app-questionlabeled>
-            <footer>
-                Have a great day ahead!
-            </footer>
-        </div>
-        <router-outlet></router-outlet>
+        <div class="spacer"></div>
     </div>
-</body>
+    <div class="content" role="main">
+        <div class="container">
+            <div class="left-panel">
+                <!-- Content for 25% width goes here -->
+                <app-topicselector></app-topicselector>
+            </div>
+            <div class="right-panel">
+                <!-- Content for 75% width goes here -->
+                <app-details></app-details>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Have a great day ahead!
+    </footer>
+</div>
+<router-outlet></router-outlet>
+
+<!-- </body> -->

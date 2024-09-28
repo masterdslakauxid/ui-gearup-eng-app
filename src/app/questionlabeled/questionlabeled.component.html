@@ -8,24 +8,6 @@
     <div class="tab-content">
         <!-- Selection Tab Content -->
         <div *ngIf="activeTab === 'selection'">
-            <!-- <h3>Select a category to practice</h3> -->
-            <h3>Select a topic to practice</h3>
-            <select [(ngModel)]="selectedCategory" (change)="onCategoryChange($event)">
-                <option *ngFor="let category of categories" [value]="category">{{ category }}
-                </option>
-            </select>
-            <p>Currently selected Category - {{selectedCategory}}</p>
-            <div class="radio-group">
-                <div *ngFor="let array of labeledJsonArrays">
-                    <div *ngIf="array.category === selectedCategory" class="radio-option">
-                        <input type="radio" [id]="array.key" name="questionArray" [value]="array.label"
-                            (change)="onArraySelectionChange(array.key)" [checked]="array.key === selectedKey" />
-                        <label [for]="array.label">{{ array.label }}</label>
-                    </div>
-                </div>
-
-            </div>
-            <Br>
             <div style="background-color: snow">
                 <p class="No: "><span [innerHTML]="(questionStartIndex) + ' of ' + questionsAndAnswers.length"></span>
                 </p>
