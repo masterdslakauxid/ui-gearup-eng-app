@@ -9,22 +9,50 @@
         </div>
         <div class="spacer"></div>
     </div>
-    <div class="content" role="main">
+    <!-- <div>
+        <nav>
+            <ul>
+                <li><a routerLink="/page-one">Page One</a></li>
+                <li><a routerLink="/page-two">Page Two</a></li>
+            </ul>
+        </nav>
+    </div> -->
+    <div>
+        <nav class="navbar">
+            <ul class="menu-bar">
+                <li><a routerLink="/page-one" routerLinkActive="active">Practice Set</a></li>
+                <li><a routerLink="/page-two" routerLinkActive="active">Test Set</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <div class="content" role="main">
         <div class="container">
             <div class="left-panel">
-                <!-- Content for 25% width goes here -->
+                
                 <app-topicselector></app-topicselector>
             </div>
             <div class="right-panel">
-                <!-- Content for 75% width goes here -->
+                
                 <app-details></app-details>
             </div>
         </div>
-    </div>
+    </div> -->
+    <!-- <div>
+        <div *ngFor="let question of questionsArr">
+            <app-quizz [questionId]=question.questionId [questionText]=question.questionText
+                [options]=question.options></app-quizz>
+        </div>
+        <button (click)="showResults = true">Submit</button>
+        <button (click)="showResults = false">Reset</button>
+
+        <app-result *ngIf="showResults"></app-result>
+
+    </div> -->
+    <router-outlet></router-outlet>
     <footer>
         Have a great day ahead!
     </footer>
 </div>
-<router-outlet></router-outlet>
+
 
 <!-- </body> -->

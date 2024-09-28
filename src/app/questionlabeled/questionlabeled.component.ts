@@ -5,6 +5,7 @@ import { Subscription, interval } from 'rxjs';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../data.service';  // Import the service
+import { UtilService } from '../util.service';  // Import the service
 
 @Component({
   selector: 'app-questionlabeled',
@@ -21,7 +22,10 @@ export class QuestionLabeledComponent implements OnInit {
   wordsToBeHighlighted: string[] = ["Consider bringing:", "Avoid eating:", "finished writing:"];
 
   //To highlight the auxillary verbs and pronouns
-  wordsToBeHighlightedGlbl = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may', 'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We', 'they', 'you'];
+  wordsToBeHighlightedGlbl = ['am', 'is', 'are', 'was', 'were', 'being', 'been', 'be', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'shall', 'should', 'may',
+    'might', 'must', 'can', 'could', 'he', 'she', 'it', 'I', 'We',
+    'they', 'you', "isn't", "aren't", "doesn't", "don't", "not", "I'm",
+    "haven't", "hasn't"];
 
   currentQuestion: string | undefined;
   currentHint: string | undefined;
@@ -53,7 +57,8 @@ export class QuestionLabeledComponent implements OnInit {
   loadInputFileFromLocal: boolean = false;
 
 
-  constructor(private dataService: DataService, private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
+  constructor(private dataService: DataService, private utilService: UtilService,
+    private http: HttpClient, private sanitizer: DomSanitizer, private route: ActivatedRoute) {
     this.questionStartIndex = 0;
     // Load the selection from sessionStorage if it exists
     const localSelectedDisplayPattern = sessionStorage.getItem('selectedDisplayPattern');
@@ -108,10 +113,7 @@ export class QuestionLabeledComponent implements OnInit {
     this.boldWord = data.boldWord;
   }
 
-  isLocalhost(): boolean {
-    const hostname = window.location.hostname;
-    return hostname === 'localhost' || hostname === '127.0.0.1';
-  }
+
 
   loadQuestions(): void {  // uncomment this to load from database.
     // Assuming enableModules is stored as a string array in session storage
@@ -122,12 +124,8 @@ export class QuestionLabeledComponent implements OnInit {
     const isadminValue = sessionStorage.getItem('isadmin');
     console.log(isadminValue); // Logs the value of 'isasmin'
 
-    let path = "";
-    if (this.isLocalhost()) {
-      path = 'assets/questions-alltenses-labeled.json';
-    } else {
-      path = 'https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json';
-    }
+    let path = this.utilService.getPath();
+
     //   this.http.get<{ key: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string }[] }[]>('assets/questions-alltenses-labeled.json')
     // } else {
     this.http.get<{ key: string, category: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[]>(path)

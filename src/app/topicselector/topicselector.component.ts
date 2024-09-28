@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';  // Import the service
+import { UtilService } from '../util.service';  // Import the service
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
@@ -16,14 +17,28 @@ export class TopicselectorComponent implements OnInit {
   selectedKey: string = 'PresentTense-YesOrNo-questions'; // Default selection
 
   options = [
-    { id: 1, name: 'Option 1' },
-    { id: 2, name: 'Option 2' },
-    { id: 3, name: 'Option 3' }
+    { id: 1, name: 'Present Tense' },
+    { id: 2, name: 'Past Tense' },
+    { id: 3, name: 'Future tense' }
   ];
+
+  topicOrder = new Map([
+    ["Present Tense", 1],
+    ["Past Tense", 2],
+    ["Future Tense", 3],
+    ["Stativ verbs", 4],
+    ["Prepositions(abstract nouns)", 5],
+    ["Tongue Twisters", 6],
+    ["Gerunds", 7],
+    ["Miscellaneous", 8]]);
+
   selectedCategory: string = '';  // To store the selected option
   categories: string[] = ['Select'];
+  //categoriesNew!: string[];
+  categoriesNew: { id: number, topicName: string }[] = [];
 
-  constructor(private http: HttpClient, private dataService: DataService, private route: ActivatedRoute) {
+  constructor(private http: HttpClient, private utilService: UtilService,
+    private dataService: DataService, private route: ActivatedRoute) {
     const selectedCategoryLocal = sessionStorage.getItem('selectedCategory');
     if (selectedCategoryLocal) {
       this.selectedCategory = selectedCategoryLocal;
@@ -48,12 +63,9 @@ export class TopicselectorComponent implements OnInit {
     console.log(isadminValue); // Logs the value of 'isasmin'
 
 
-    let path = "";
-    if (this.isLocalhost()) {
-      path = 'assets/questions-alltenses-labeled.json';
-    } else {
-      path = 'https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/questions-alltenses-labeled.json';
-    }
+
+    let path = this.utilService.getPath();
+
     this.http.get<{ key: string, category: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { question: string, hint: string, answer: string[] }[] }[]>(path)
       .subscribe(data => {
         this.labeledJsonArrays = data.filter(item => {
@@ -63,8 +75,17 @@ export class TopicselectorComponent implements OnInit {
         this.labeledJsonArrays.forEach(element => {
           if (!this.categories.includes(element.category)) {
             this.categories.push(element.category);
+            let id1 = Number(this.topicOrder.get(element.category));
+            let topicName1 = element.category;
+            // console.log(".....>", id1, topicName1);
+            let item: any = { "id": id1, "topicName": topicName1 };
+            // console.log(item);
+            this.categoriesNew.push(item);
+
           }
         });
+        this.categoriesNew.sort((a, b) => a.id - b.id);
+
       });
   }
 

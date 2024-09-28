@@ -10,6 +10,10 @@ import { FormsModule } from '@angular/forms';  // Import FormsModule
 import { UserListComponent } from './user-list/user-list.component';
 import { TopicselectorComponent } from './topicselector/topicselector.component';
 import { DetailsComponent } from './details/details.component';
+import { QuizzComponent } from './quizz/quizz.component';
+import { ResultComponent } from './result/result.component';
+import { PageOneComponent } from './pageone/pageone.component';
+import { PageTwoComponent } from './pagetwo/pagetwo.component';
 
 
 @NgModule({
@@ -20,7 +24,11 @@ import { DetailsComponent } from './details/details.component';
     QuestionLabeledComponent,
     UserListComponent,
     TopicselectorComponent,
-    DetailsComponent
+    DetailsComponent,
+    QuizzComponent,
+    ResultComponent,
+    PageOneComponent,
+    PageTwoComponent
   ],
   imports: [
     FormsModule,

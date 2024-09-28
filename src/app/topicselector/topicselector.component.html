@@ -1,7 +1,7 @@
 <div class="container">
-    <label for="dropdown">Select a Topic</label>
+    <label for="dropdown"><b>Select a Topic</b></label>
     <select id="dropdown" [(ngModel)]="selectedCategory" (change)="onSelect($event)">
-        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+        <option *ngFor="let category of categoriesNew" [value]="category.topicName">{{ category.topicName }}</option>
     </select>
 
     <div class="radio-group">

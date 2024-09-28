@@ -1,0 +1,9 @@
+<h2>Results</h2>
+<ul>
+    <li *ngFor="let result of results">
+        Question {{ result.questionId }}:
+        <span [ngClass]="{'correct': result.isCorrect, 'wrong': !result.isCorrect}">
+            {{ result.isCorrect ? 'Correct' : 'Wrong' }}
+        </span>
+    </li>
+</ul>
