@@ -51,8 +51,6 @@ export class QuestionLabeledComponent implements OnInit {
   processedCurrentAnswer: SafeHtml | undefined;
   processedCurrentAnswerNew: SafeHtml | undefined;
   questionStartIndex!: number;
-  // enableModules!: string[];
-
   loadInputFileFromServer: boolean = true;
   loadInputFileFromLocal: boolean = false;
 

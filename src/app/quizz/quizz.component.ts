@@ -11,7 +11,7 @@ export class QuizzComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() questionId!: number; // Get question ID via input binding
+  @Input() questionId!: string; // Get question ID via input binding
   @Input() questionText!: string;
   @Input() options: string[] = [];
 

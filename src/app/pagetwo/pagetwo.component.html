@@ -1,11 +1,14 @@
-<div>
-    <div *ngFor="let question of questionsArr">
-        <app-quizz [questionId]=question.questionId [questionText]=question.questionText
-            [options]=question.options></app-quizz>
+<div class="content" role="main"></div>
+<div class="container">
+    <div class="left-panel">
+        <!-- Content for 25% width goes here -->
+        <app-testselector></app-testselector>
     </div>
-    <button (click)="showResults = true">Submit</button>
-    <button (click)="showResults = false">Reset</button>
-
-    <app-result *ngIf="showResults"></app-result>
-
+    <div class="right-panel">
+        <app-testdetails></app-testdetails>
+    </div>
 </div>
+<Br>
+<Br>
+<Br>
+<Br>

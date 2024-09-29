@@ -1,6 +1,5 @@
-<h3>{{ questionText }}</h3>
+{{questionId + ")"}} {{ questionText }}
 
-<label for="dropdown">Select an Option:</label>
 <select id="dropdown" (change)="onSelect($event)">
     <option *ngFor="let option of options" [value]="option">{{ option }}</option>
 </select>
