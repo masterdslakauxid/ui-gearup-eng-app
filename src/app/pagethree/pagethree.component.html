@@ -1,0 +1,18 @@
+<div class="container">
+    <!-- Tab Navigation -->
+    <ul class="tab-nav">
+        <li (click)="setActiveTab('selection')" [class.active]="activeTab === 'selection'">Daily routines</li>
+        <li (click)="setActiveTab('questions')" [class.active]="activeTab === 'questions'">Preferences</li>
+    </ul>
+
+    <div class="tab-content">
+        <!-- Selection Tab Content -->
+        <div *ngIf="activeTab === 'selection'">
+            <img src="https://gearupengx.s3.ap-south-1.amazonaws.com/images/RoutinesforPractice.png" />
+        </div>
+
+        <!-- Questions Tab Content -->
+        <div *ngIf="activeTab === 'questions'">
+        </div>
+    </div>
+</div>

@@ -16,6 +16,7 @@ import { PageOneComponent } from './pageone/pageone.component';
 import { PageTwoComponent } from './pagetwo/pagetwo.component';
 import { TestselectorComponent } from './testselector/testselector.component';
 import { TestdetailsComponent } from './testdetails/testdetails.component';
+import { PagethreeComponent } from './pagethree/pagethree.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { TestdetailsComponent } from './testdetails/testdetails.component';
     PageOneComponent,
     PageTwoComponent,
     TestselectorComponent,
-    TestdetailsComponent
+    TestdetailsComponent,
+    PagethreeComponent
   ],
   imports: [
     FormsModule,
