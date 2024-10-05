@@ -52,7 +52,7 @@ export class QuestionLabeledComponent implements OnInit {
   processedCurrentQuestion: SafeHtml | undefined;
   processedCurrentAnswer: SafeHtml | undefined;
   processedCurrentAnswerNew: SafeHtml | undefined;
-  questionStartIndex!: number;
+  questionStartIndex: number = 0;
   loadInputFileFromServer: boolean = true;
   loadInputFileFromLocal: boolean = false;
 
@@ -264,42 +264,43 @@ export class QuestionLabeledComponent implements OnInit {
     let randomIndex: number;
     let num!: number;
 
-    // if (this.selecteddisplayPattern == "Sequential") {
-    //   num = this.questionStartIndex;
-    //   console.log(" Previous question selection index 0-->", num);
-
-    //   this.questionStartIndex = this.questionStartIndex - 1;
-    //   if (this.questionStartIndex < 0) {
-    //     this.questionStartIndex = 0;
-    //   }
-
-    // }
-    this.questionStartIndex = this.questionStartIndex - 1;
-    if (this.questionStartIndex < 0) {
-      this.questionStartIndex = 0;
+    //console.log("Selected display pattern..................>", this.selecteddisplayPattern);
+    if (this.selecteddisplayPattern == "Sequential") {
+      num = this.questionStartIndex;
+      console.log("Number being set is ..", num);
+      this.questionStartIndex = this.questionStartIndex - 1;
     }
-    console.log(" Previous question selection index -->", this.questionStartIndex);
-
-    randomIndex = this.questionStartIndex;
-    if (this.skipWordHighlighting == false) {
-      this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
-    } else {
-      this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
+    randomIndex = num;
+    if (this.previousQuestions.includes(randomIndex)) {
+      this.previousQuestions.splice(randomIndex);
     }
-    this.retrieveShowHint();
-    if (this.showHint) {
-      this.currentHint = this.questionsAndAnswers[randomIndex].hint;
-    }
-    if (this.showAnswerOption) {
+    //const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);
+    if (!this.previousQuestions.includes(randomIndex)) {
       if (this.skipWordHighlighting == false) {
-        this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
+        this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
       } else {
-        this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
+        this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
       }
+      this.retrieveShowHint();
+      if (this.showHint) {
+        this.currentHint = this.questionsAndAnswers[randomIndex].hint;
+      }
+      if (this.showAnswerOption) {
+        if (this.skipWordHighlighting == false) {
+          this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
+        } else {
+          this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
+        }
+      }
+      this.retrieveShowAnswer();
+      this.showAnswer = this.showAnswerOption; // Hide the answer initially
+      this.showQuestion = this.showQuestionOption; // Hide the answer initially
+      this.previousQuestions.push(randomIndex);
+
+    } else {
+      this.loadRandomQuestion();
     }
-    this.retrieveShowAnswer();
-    this.showAnswer = this.showAnswerOption; // Hide the answer initially
-    this.showQuestion = this.showQuestionOption; // Hide the answer initially
+
   }
 
 
@@ -314,35 +315,42 @@ export class QuestionLabeledComponent implements OnInit {
     let randomIndex: number;
     let num!: number;
 
-    this.questionStartIndex = this.questionStartIndex + 1;
-    randomIndex = this.questionStartIndex;
-    console.log(" current  selection index -->", randomIndex);
+    if (this.selecteddisplayPattern == "Sequential") {
+      num = this.questionStartIndex;
+      console.log(" Next question selection index 0-->", num);
+      this.questionStartIndex = this.questionStartIndex + 1;
+    } else if (this.selecteddisplayPattern == "Random") {
+      this.questionStartIndex = 0;
+      num = Math.floor(Math.random() * this.questionsAndAnswers.length);
+      console.log(" I'm Random block", num);
+    }
+    randomIndex = num;
     //const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);
-    //if (!this.previousQuestions.includes(randomIndex)) {
-    if (this.skipWordHighlighting == false) {
-      this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
-    } else {
-      this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
-    }
-    this.retrieveShowHint();
-    if (this.showHint) {
-      this.currentHint = this.questionsAndAnswers[randomIndex].hint;
-    }
-    if (this.showAnswerOption) {
+    if (!this.previousQuestions.includes(randomIndex)) {
       if (this.skipWordHighlighting == false) {
-        this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
+        this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
       } else {
-        this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
+        this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
       }
-    }
-    this.retrieveShowAnswer();
-    this.showAnswer = this.showAnswerOption; // Hide the answer initially
-    this.showQuestion = this.showQuestionOption; // Hide the answer initially
-    this.previousQuestions.push(randomIndex);
+      this.retrieveShowHint();
+      if (this.showHint) {
+        this.currentHint = this.questionsAndAnswers[randomIndex].hint;
+      }
+      if (this.showAnswerOption) {
+        if (this.skipWordHighlighting == false) {
+          this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
+        } else {
+          this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
+        }
+      }
+      this.retrieveShowAnswer();
+      this.showAnswer = this.showAnswerOption; // Hide the answer initially
+      this.showQuestion = this.showQuestionOption; // Hide the answer initially
+      this.previousQuestions.push(randomIndex);
 
-    // } else {
-    //   this.loadRandomQuestion();
-    // }
+    } else {
+      this.loadRandomQuestion();
+    }
 
   }
 

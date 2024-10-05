@@ -58,7 +58,7 @@ export class TestdetailsComponent implements OnInit {
   }
 
   loadSelectedJson(): void {
-    console.log(" Test details : selectedKey  ", this.selectedKey);
+    // console.log(" Test details : selectedKey  ", this.selectedKey);
     const selectedArray = this.labeledJsonArrays.find(array => array.key === this.selectedKey);
     if (selectedArray) {
       this.questionsAndAnswers = selectedArray.questions;
