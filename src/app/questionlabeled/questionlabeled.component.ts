@@ -305,10 +305,14 @@ export class QuestionLabeledComponent implements OnInit {
 
   loadRandomQuestion(): void {
     if (this.questionsAndAnswers.length === 0) return;
-    if (this.questionsAndAnswers.length == this.previousQuestions.length) {
-      this.previousQuestions = [];
+    // if (this.questionsAndAnswers.length == this.previousQuestions.length) {
+    //   this.previousQuestions = [];
+    //   this.questionStartIndex = 0;
+    //   console.log("Completed all questions.. starting again");
+    // }
+
+    if (this.questionsAndAnswers.length == this.questionStartIndex) {
       this.questionStartIndex = 0;
-      console.log("Completed all questions.. starting again");
     }
 
     let randomIndex: number;
