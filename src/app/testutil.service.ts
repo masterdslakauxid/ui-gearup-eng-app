@@ -40,7 +40,7 @@ export class TestUtilService {
             // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
             path = 'assets/inputs/modules/common/test.json';
         } else {
-            path = 'https://gearupengx.s3.ap-south-1.amazonaws.com/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = 'http://englishroutines.s3-website.ap-south-1.amazonaws.com/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         }
         return path;
     }

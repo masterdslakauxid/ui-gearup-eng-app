@@ -198,8 +198,9 @@ export class QuestionLabeledComponent implements OnInit {
 
   onShowQuestionChange(event: any): void {
     this.showQuestionOption = event.target.value;
+    this.showQuestion = event.target.value;
     console.log("show qustion", this.showQuestionOption);
-    sessionStorage.setItem('showQuestion', this.showQuestionOption.toString());
+    sessionStorage.setItem('showQuestionOption', this.showQuestionOption.toString());
   }
 
   onShowAnswerChange(event: any): void {
@@ -226,10 +227,11 @@ export class QuestionLabeledComponent implements OnInit {
     }
   }
   retrieveQuestion(): void {
-    const showQuestion = sessionStorage.getItem('showQuestion');
-    console.log("Stored in session - show question ", showQuestion);
-    if (showQuestion !== null) {
-      this.showQuestion = JSON.parse(showQuestion);
+    const showQuestionOptionL = sessionStorage.getItem('showQuestionOption');
+    console.log("Stored in session - showOpt question ", showQuestionOptionL);
+    if (showQuestionOptionL !== null) {
+      this.showQuestion = JSON.parse(showQuestionOptionL);
+      this.showAnswerOption = JSON.parse(showQuestionOptionL);
     }
   }
 

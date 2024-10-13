@@ -602,5 +602,810 @@
                 "correctAnswer": "Have"
             }
         ]
+    },
+    {
+        "key": "TransitionalWords-001",
+        "category": "Transitional words",
+        "label": "Transitional words -Set1",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "___ the forecast called for rain, we decided to postpone the event.",
+                "options": [
+                    "Select",
+                    "As",
+                    "Even though",
+                    "Since",
+                    "Because of"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "She was late; ___, she apologized for the delay.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Furthermore",
+                    "Therefore",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "We went to the beach, ___ it was raining.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Although",
+                    "So",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "He studied hard; ___, he passed the exam with flying colors.",
+                "options": [
+                    "Select",
+                    "However",
+                    "As a result",
+                    "Although",
+                    "On the other hand"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "They didn’t win the match ___ they practiced every day.",
+                "options": [
+                    "Select",
+                    "Even though",
+                    "As",
+                    "Because",
+                    "Since"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "The presentation was great; ___, the visuals were impressive.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "Moreover",
+                    "Nevertheless",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "He was tired, ___ he finished the marathon.",
+                "options": [
+                    "Select",
+                    "Besides",
+                    "Yet",
+                    "Therefore",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "They decided to take the shortcut; ___, they got lost.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "On the contrary",
+                    "In contrast",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "I stayed up late studying; ___, I was too tired to focus in class.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Consequently",
+                    "Otherwise",
+                    "Instead"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "You should apologize; ___, things might get worse.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Therefore",
+                    "Similarly",
+                    "On the other hand"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "Since"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "Even though"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "Moreover"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "Yet"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-002",
+        "category": "Transitional words",
+        "label": "Transitional words-Set2",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "11",
+                "questionText": "She is an excellent dancer, ___ she lacks confidence on stage.",
+                "options": [
+                    "Select",
+                    "But",
+                    "So",
+                    "Because",
+                    "As"
+                ]
+            },
+            {
+                "questionId": "12",
+                "questionText": "I love the city; ___, it can be overwhelming at times.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "However",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "13",
+                "questionText": "___ she was busy, she still helped me with the project.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "Since",
+                    "Because",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "14",
+                "questionText": "We must leave early ___ we will miss the train.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "Otherwise",
+                    "As a result",
+                    "Moreover"
+                ]
+            },
+            {
+                "questionId": "15",
+                "questionText": "He is very talented; ___, he lacks the discipline to succeed.",
+                "options": [
+                    "Select",
+                    "In addition",
+                    "On the contrary",
+                    "Similarly",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "16",
+                "questionText": "She worked overtime; ___, she completed the project on time.",
+                "options": [
+                    "Select",
+                    "Nevertheless",
+                    "Similarly",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "17",
+                "questionText": "He didn’t study much, ___ he passed the test easily.",
+                "options": [
+                    "Select",
+                    "Besides",
+                    "Yet",
+                    "Therefore",
+                    "So"
+                ]
+            },
+            {
+                "questionId": "18",
+                "questionText": "The movie was long; ___, it was very interesting.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Because",
+                    "So",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "19",
+                "questionText": "She failed to meet the deadline; ___, she was not given another chance.",
+                "options": [
+                    "Select",
+                    "Yet",
+                    "As a result",
+                    "Even though",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "20",
+                "questionText": "You should work harder; ___, you might not achieve your goals.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Consequently",
+                    "Similarly",
+                    "In contrast"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "11",
+                "correctAnswer": "But"
+            },
+            {
+                "questionId": "12",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "13",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "14",
+                "correctAnswer": "Otherwise"
+            },
+            {
+                "questionId": "15",
+                "correctAnswer": "On the contrary"
+            },
+            {
+                "questionId": "16",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "17",
+                "correctAnswer": "Yet"
+            },
+            {
+                "questionId": "18",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "19",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "20",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-003",
+        "category": "Transitional words",
+        "label": "Transitional words-Set3",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "21",
+                "questionText": "He was extremely tired; ___, he kept working late into the night.",
+                "options": [
+                    "Select",
+                    "Moreover",
+                    "Therefore",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "22",
+                "questionText": "The weather was perfect; ___, they decided to have a picnic.",
+                "options": [
+                    "Select",
+                    "However",
+                    "As a result",
+                    "Nevertheless",
+                    "On the contrary"
+                ]
+            },
+            {
+                "questionId": "23",
+                "questionText": "___ it was raining, they went for a walk in the park.",
+                "options": [
+                    "Select",
+                    "Since",
+                    "Because",
+                    "Although",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "24",
+                "questionText": "She failed the exam the first time; ___, she passed it on her second attempt.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Nevertheless",
+                    "Similarly",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "25",
+                "questionText": "They wanted to finish the project by Friday; ___, they asked everyone to work overtime.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Similarly",
+                    "Even though",
+                    "On the other hand"
+                ]
+            },
+            {
+                "questionId": "26",
+                "questionText": "He didn't feel well, ___ he went to work anyway.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Even though",
+                    "But",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "27",
+                "questionText": "She loves reading fiction; ___, her brother prefers non-fiction.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Consequently",
+                    "Similarly",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "28",
+                "questionText": "We didn't arrive on time; ___, we missed the meeting.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "In contrast",
+                    "Similarly",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "29",
+                "questionText": "He didn't have much experience; ___, he got the job.",
+                "options": [
+                    "Select",
+                    "Nevertheless",
+                    "However",
+                    "As a result",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "30",
+                "questionText": "We were supposed to meet at 6 p.m.; ___, she didn’t show up until 7 p.m.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "Although",
+                    "However",
+                    "Therefore"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "21",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "22",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "23",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "24",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "25",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "26",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "27",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "28",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "29",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "30",
+                "correctAnswer": "However"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-004",
+        "category": "Transitional words",
+        "label": "Transitional words-Set4",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "31",
+                "questionText": "He is a good singer; ___, he plays the piano beautifully.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Moreover",
+                    "Therefore",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "32",
+                "questionText": "She didn't study for the exam; ___, she managed to pass.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Nevertheless",
+                    "Because",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "33",
+                "questionText": "I have never been to Japan; ___, I’ve always wanted to visit.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "On the other hand",
+                    "Therefore",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "34",
+                "questionText": "They planned to go hiking; ___, the weather changed and they stayed home.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "However",
+                    "Because",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "35",
+                "questionText": "___ her effort, she didn’t get the promotion.",
+                "options": [
+                    "Select",
+                    "Despite",
+                    "Because",
+                    "As a result",
+                    "However"
+                ]
+            },
+            {
+                "questionId": "36",
+                "questionText": "He forgot to set his alarm; ___, he woke up late.",
+                "options": [
+                    "Select",
+                    "In contrast",
+                    "As a result",
+                    "Despite",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "37",
+                "questionText": "He speaks Spanish fluently; ___, he struggles with French.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "However",
+                    "Consequently",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "38",
+                "questionText": "The food was delicious; ___, the service was excellent.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "In contrast",
+                    "Because",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "39",
+                "questionText": "They were tired; ___, they continued to work until late at night.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "However",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "40",
+                "questionText": "We should leave now; ___, we might miss the train.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Similarly",
+                    "Otherwise",
+                    "In contrast"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "31",
+                "correctAnswer": "Moreover"
+            },
+            {
+                "questionId": "32",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "33",
+                "correctAnswer": "On the other hand"
+            },
+            {
+                "questionId": "34",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "35",
+                "correctAnswer": "Despite"
+            },
+            {
+                "questionId": "36",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "37",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "38",
+                "correctAnswer": "Similarly"
+            },
+            {
+                "questionId": "39",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "40",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-005",
+        "category": "Transitional words",
+        "label": "Transitional words-Set5",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "41",
+                "questionText": "I forgot my umbrella; ___, I got soaked in the rain.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Moreover",
+                    "Consequently",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "42",
+                "questionText": "The team worked hard all year; ___, they won the championship.",
+                "options": [
+                    "Select",
+                    "In addition",
+                    "As a result",
+                    "On the other hand",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "43",
+                "questionText": "I prefer quiet vacations; ___, my sister enjoys adventure trips.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "Nevertheless",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "44",
+                "questionText": "He didn’t attend the meeting; ___, he missed the important announcement.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Despite",
+                    "In contrast",
+                    "Instead"
+                ]
+            },
+            {
+                "questionId": "45",
+                "questionText": "The teacher explained the concept again; ___, some students were still confused.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "In contrast",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "46",
+                "questionText": "She worked hard for years; ___, she was promoted to manager.",
+                "options": [
+                    "Select",
+                    "For example",
+                    "Consequently",
+                    "In addition",
+                    "Meanwhile"
+                ]
+            },
+            {
+                "questionId": "47",
+                "questionText": "He is very intelligent; ___, he has little practical experience.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Similarly",
+                    "However",
+                    "For instance"
+                ]
+            },
+            {
+                "questionId": "48",
+                "questionText": "___ I was tired, I kept working until the job was done.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "Since",
+                    "For instance",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "49",
+                "questionText": "He saved money for years; ___, he was able to buy a house.",
+                "options": [
+                    "Select",
+                    "Likewise",
+                    "In addition",
+                    "As a result",
+                    "On the contrary"
+                ]
+            },
+            {
+                "questionId": "50",
+                "questionText": "You must submit your assignment by tomorrow; ___, you’ll lose marks.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Similarly",
+                    "Therefore",
+                    "As a result"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "41",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "42",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "43",
+                "correctAnswer": "In contrast"
+            },
+            {
+                "questionId": "44",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "45",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "46",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "47",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "48",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "49",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "50",
+                "correctAnswer": "Otherwise"
+            }
+        ]
     }
 ]

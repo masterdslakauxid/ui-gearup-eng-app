@@ -302,6 +302,56 @@ export class QuestionLabeledComponent implements OnInit {
     this.showQuestion = this.showQuestionOption; // Hide the answer initially
   }
 
+  loadNextQuestion(): void {
+    if (this.questionsAndAnswers.length === 0) return;
+    // if (this.questionsAndAnswers.length == this.previousQuestions.length) {
+    //   this.previousQuestions = [];
+    //   this.questionStartIndex = 0;
+    //   console.log("Completed all questions.. starting again");
+    // }
+
+    if (this.questionsAndAnswers.length == this.questionStartIndex) {
+      this.questionStartIndex = 0;
+    } else {
+      this.questionStartIndex = this.questionStartIndex + 1;
+    }
+
+    let randomIndex: number;
+    let num!: number;
+
+
+    randomIndex = this.questionStartIndex;
+    console.log(" current  selection index -->", randomIndex);
+    //const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);
+    //if (!this.previousQuestions.includes(randomIndex)) {
+    if (this.skipWordHighlighting == false) {
+      this.processedCurrentQuestion = this.processSentence(this.questionsAndAnswers[randomIndex].question);
+    } else {
+      this.processedCurrentQuestion = this.questionsAndAnswers[randomIndex].question;
+    }
+    this.retrieveShowHint();
+    if (this.showHint) {
+      this.currentHint = this.questionsAndAnswers[randomIndex].hint;
+    }
+    if (this.showAnswerOption) {
+      if (this.skipWordHighlighting == false) {
+        this.processedCurrentAnswer = this.processSentenceArray(this.questionsAndAnswers[randomIndex].answer);
+      } else {
+        this.processedCurrentAnswer = this.processSentenceArrayNoHiglighting(this.questionsAndAnswers[randomIndex].answer);
+      }
+    }
+    this.retrieveShowAnswer();
+    this.showAnswer = this.showAnswerOption; // Hide the answer initially
+    this.showQuestion = this.showQuestionOption; // Hide the answer initially
+    this.previousQuestions.push(randomIndex);
+
+    // } else {
+    //   this.loadRandomQuestion();
+    // }
+
+  }
+
+
 
   loadRandomQuestion(): void {
     if (this.questionsAndAnswers.length === 0) return;
@@ -318,7 +368,7 @@ export class QuestionLabeledComponent implements OnInit {
     let randomIndex: number;
     let num!: number;
 
-    this.questionStartIndex = this.questionStartIndex + 1;
+    // this.questionStartIndex = this.questionStartIndex + 1;
     randomIndex = this.questionStartIndex;
     console.log(" current  selection index -->", randomIndex);
     //const randomIndex = Math.floor(Math.random() * this.questionsAndAnswers.length);

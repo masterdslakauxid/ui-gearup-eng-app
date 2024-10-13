@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'page-one', component: PageOneComponent },
   { path: 'page-two', component: PageTwoComponent },
   { path: 'page-three', component: PagethreeComponent },
-  { path: '', redirectTo: '/page-one', pathMatch: 'full' }, // Default route
+  { path: '', redirectTo: '/', pathMatch: 'full' }, // Default route 
 ];
 
 

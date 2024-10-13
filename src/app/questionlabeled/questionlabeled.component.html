@@ -17,8 +17,8 @@
                 <BR>
                 <div class="button-group">
                     <!-- <button (click)="revealAnswer()">Show Answer</button> -->
-                    <button [hidden]="questionStartIndex==0" (click)="loadPreviousQuestion()">Previous</button>
-                    <button (click)="loadRandomQuestion()">Next</button>
+                    <button [disabled]="questionStartIndex==0" (click)="loadPreviousQuestion()">Previous</button>
+                    <button (click)="loadNextQuestion()">Next</button>
                 </div>
             </div>
         </div>
