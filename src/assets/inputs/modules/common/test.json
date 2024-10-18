@@ -1410,8 +1410,8 @@
     },
     {
         "key": "CountableVsUnCountableNouns-001",
-        "category": "Countable and uncountable adjectives",
-        "label": "Countable and Uncountable-Set1",
+        "category": "Countable & Uncountable adj",
+        "label": "Countable/Uncountable-Set1",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
@@ -1561,8 +1561,8 @@
     },
     {
         "key": "CountableVsUnCountableNouns-002",
-        "category": "Countable and uncountable adjectives",
-        "label": "Countable and Uncountable-Set2",
+        "category": "Countable & Uncountable adj",
+        "label": "Countable/Uncountable-Set2",
         "visibility": true,
         "skipWordHighlighting": false,
         "questions": [
