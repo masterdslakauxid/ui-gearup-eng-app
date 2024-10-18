@@ -1407,5 +1407,307 @@
                 "correctAnswer": "Otherwise"
             }
         ]
+    },
+    {
+        "key": "CountableVsUnCountableNouns-001",
+        "category": "Countable and uncountable adjectives",
+        "label": "Countable and Uncountable-Set1",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "There is ___ sugar in the jar.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "I have ___ books on my desk.",
+                "options": [
+                    "Select",
+                    "much",
+                    "a few",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "She has ___ advice for you.",
+                "options": [
+                    "Select",
+                    "some",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "There are ___ chairs in the room.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "a little"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "Can I have ___ water?",
+                "options": [
+                    "Select",
+                    "a little",
+                    "many",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "I don’t need ___ help with this project.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "How ___ apples are in the basket?",
+                "options": [
+                    "Select",
+                    "much",
+                    "many",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "He bought ___ furniture for his new apartment.",
+                "options": [
+                    "Select",
+                    "many",
+                    "some",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "I need ___ information about the trip.",
+                "options": [
+                    "Select",
+                    "many",
+                    "a few",
+                    "some"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "There were ___ people at the event.",
+                "options": [
+                    "Select",
+                    "a little",
+                    "much",
+                    "a lot of"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "a few"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "a little"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "a lot of"
+            }
+        ]
+    },
+    {
+        "key": "CountableVsUnCountableNouns-002",
+        "category": "Countable and uncountable adjectives",
+        "label": "Countable and Uncountable-Set2",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "11",
+                "questionText": "We have ___ time left to finish this.",
+                "options": [
+                    "Select",
+                    "a little",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "12",
+                "questionText": "How ___ money do we need?",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "13",
+                "questionText": "He has ___ friends in the city.",
+                "options": [
+                    "Select",
+                    "a lot of",
+                    "much",
+                    "a little"
+                ]
+            },
+            {
+                "questionId": "14",
+                "questionText": "Can you lend me ___ sugar?",
+                "options": [
+                    "Select",
+                    "a few",
+                    "some",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "15",
+                "questionText": "She has ___ patience with her students.",
+                "options": [
+                    "Select",
+                    "a lot of",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "16",
+                "questionText": "There are only ___ cars on the road today.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "17",
+                "questionText": "He has ___ knowledge about this subject.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "18",
+                "questionText": "I don’t have ___ milk left.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "19",
+                "questionText": "How ___ chairs do we need?",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "20",
+                "questionText": "He has only ___ bread in the pantry.",
+                "options": [
+                    "Select",
+                    "much",
+                    "a little",
+                    "many"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "11",
+                "correctAnswer": "a little"
+            },
+            {
+                "questionId": "12",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "13",
+                "correctAnswer": "a lot of"
+            },
+            {
+                "questionId": "14",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "15",
+                "correctAnswer": "a lot of"
+            },
+            {
+                "questionId": "16",
+                "correctAnswer": "a few"
+            },
+            {
+                "questionId": "17",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "18",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "19",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "20",
+                "correctAnswer": "a little"
+            }
+        ]
     }
 ]
