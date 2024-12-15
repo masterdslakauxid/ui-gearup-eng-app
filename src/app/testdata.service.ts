@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
     providedIn: 'root'
 })
 
-export class DataService {
+export class TestDataService {
 
     private usersUrl = 'assets/users.json';
     private modulesUrl = 'assets/modules.json';
@@ -28,6 +28,6 @@ export class DataService {
 
     changeSelectedValue(value: string) {
         this.selectedValue.next(value);  // Updates the selected value
-        console.log(" the selected value is ", value);
+        // console.log(" the selected value is ", value);
     }
 }

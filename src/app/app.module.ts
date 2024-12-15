@@ -8,6 +8,15 @@ import { QuestionTimedComponent } from './questiontimed/questiontimed.component'
 import { QuestionLabeledComponent } from './questionlabeled/questionlabeled.component';
 import { FormsModule } from '@angular/forms';  // Import FormsModule
 import { UserListComponent } from './user-list/user-list.component';
+import { TopicselectorComponent } from './topicselector/topicselector.component';
+import { DetailsComponent } from './details/details.component';
+import { QuizzComponent } from './quizz/quizz.component';
+import { ResultComponent } from './result/result.component';
+import { PageOneComponent } from './pageone/pageone.component';
+import { PageTwoComponent } from './pagetwo/pagetwo.component';
+import { TestselectorComponent } from './testselector/testselector.component';
+import { TestdetailsComponent } from './testdetails/testdetails.component';
+import { PagethreeComponent } from './pagethree/pagethree.component';
 
 
 @NgModule({
@@ -16,7 +25,16 @@ import { UserListComponent } from './user-list/user-list.component';
     QuestionComponent,
     QuestionTimedComponent,
     QuestionLabeledComponent,
-    UserListComponent
+    UserListComponent,
+    TopicselectorComponent,
+    DetailsComponent,
+    QuizzComponent,
+    ResultComponent,
+    PageOneComponent,
+    PageTwoComponent,
+    TestselectorComponent,
+    TestdetailsComponent,
+    PagethreeComponent
   ],
   imports: [
     FormsModule,

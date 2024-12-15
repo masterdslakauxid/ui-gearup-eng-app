@@ -51,6 +51,15 @@ body {
     flex-grow: 1;
 }
 
+/* Content Area */
+.content {
+    padding: 0px;
+    margin-top: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    width: 98%;
+}
+
 footer {
     margin-top: 20px;
     text-align: center;
@@ -83,41 +92,35 @@ footer {
     }
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+    /* Makes the container fill the viewport height */
+}
+
+.left-panel {
+    flex: 0 0 25%;
+    /* 20% width */
+    background-color: #f0f0f0;
+    /* Optional: Add background color */
+    padding: 5px;
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    height: 100vh;
+    /* Ensures the panel takes full height of the viewport */
+}
+
+.right-panel {
+    flex: 0 0 75%;
+    /* 80% width */
+    background-color: #e0e0e0;
+    /* Optional: Add background color */
+    padding: 5px;
+}
+
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-/* Menu Bar Styling */
-.navbar {
-    background-color: whitesmoke;
-    overflow: hidden;
-}
-
-.menu-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu-bar li {
-    float: left;
-}
-
-.menu-bar li a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menu-bar li a:hover {
-    background-color: burlywood;
-}
-
-.active {
-    background-color: bisque;
 }

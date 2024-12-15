@@ -1,0 +1,5 @@
+{{questionId + ")"}} {{ questionText }}
+
+<select id="dropdown" (change)="onSelect($event)">
+    <option *ngFor="let option of options" [value]="option">{{ option }}</option>
+</select>

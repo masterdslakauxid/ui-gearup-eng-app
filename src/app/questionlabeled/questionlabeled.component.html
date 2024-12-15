@@ -8,45 +8,28 @@
     <div class="tab-content">
         <!-- Selection Tab Content -->
         <div *ngIf="activeTab === 'selection'">
-            <!-- <h3>Select a category to practice</h3> -->
-            <h3>Select a topic to practice</h3>
-            <select [(ngModel)]="selectedCategory" (change)="onCategoryChange($event)">
-                <option *ngFor="let category of categories" [value]="category">{{ category }}
-                </option>
-            </select>
-            <p>Currently selected Category - {{selectedCategory}}</p>
-            <div class="radio-group">
-                <div *ngFor="let array of labeledJsonArrays">
-                    <div *ngIf="array.category === selectedCategory" class="radio-option">
-                        <input type="radio" [id]="array.key" name="questionArray" [value]="array.label"
-                            (change)="onArraySelectionChange(array.key)" [checked]="array.key === selectedKey" />
-                        <label [for]="array.label">{{ array.label }}</label>
-                    </div>
-                </div>
-
-            </div>
-            <Br>
             <div style="background-color: snow">
                 <p class="No: "><span [innerHTML]="(questionStartIndex) + ' of ' + questionsAndAnswers.length"></span>
                 </p>
-                <p class="question"><span [innerHTML]="processedCurrentQuestion"></span></p>
+                <p *ngIf="showQuestion" class="question"><span [innerHTML]="processedCurrentQuestion"></span></p>
                 <p *ngIf="showHint" class="hint"><strong>Hint:</strong> {{ currentHint }}</p>
                 <p *ngIf="showAnswer" class="answer"><span [innerHTML]="processedCurrentAnswer"></span></p>
                 <BR>
                 <div class="button-group">
-                    <button (click)="revealAnswer()">Show Answer</button>
-                    <button (click)="loadRandomQuestion()">Next Question</button>
+                    <!-- <button (click)="revealAnswer()">Show Answer</button> -->
+                    <button [disabled]="questionStartIndex==0" (click)="loadPreviousQuestion()">Previous</button>
+                    <button (click)="loadNextQuestion()">Next</button>
                 </div>
             </div>
         </div>
 
         <!-- Questions Tab Content -->
         <div *ngIf="activeTab === 'questions'">
-            <h3>Select display pattern (Sequential or Random)</h3>
+            <!-- <h3>Select display pattern (Sequential or Random)</h3>
             <select [(ngModel)]="selecteddisplayPattern" (change)="onDisplayPatternChange($event)">
                 <option *ngFor="let displayPattern of displayPatterns" [value]="displayPattern">{{ displayPattern }}
                 </option>
-            </select>
+            </select> -->
             <p>Current display pattern - {{selecteddisplayPattern}}</p>
 
             <h3>Select speed (Seconds)</h3>
@@ -54,6 +37,15 @@
                 <option *ngFor="let interval of [5, 10, 15, 20, 30]" [value]="interval">{{ interval }}</option>
             </select>
             <p>Current Interval - {{selectedInterval}}</p>
+
+            <h3>Select the Question visibility</h3>
+            <select (change)="onShowQuestionChange($event)" [value]="showQuestionOption">
+                <option [defaultSelected]="true" [value]="">Select</option>
+                <option [value]="true">Yes</option>
+                <option [value]="false">No</option>
+            </select>
+            <p>Current show Question value - {{showQuestion}}</p>
+
 
             <h3>Select the answer visibility</h3>
             <select (change)="onShowAnswerChange($event)" [value]="showAnswerOption">

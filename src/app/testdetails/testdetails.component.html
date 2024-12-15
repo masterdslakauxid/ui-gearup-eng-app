@@ -1,0 +1,18 @@
+<div *ngIf="questionsAndAnswers.length > 0">
+
+    <div *ngFor="let question of questionsAndAnswers">
+        <app-quizz [questionId]=question.questionId [questionText]=question.questionText
+            [options]=question.options></app-quizz>
+    </div>
+    <button (click)="showResults = true">Submit</button> &nbsp;
+    <button (click)="showResults = false">Reset</button>
+
+    <app-result *ngIf="showResults"></app-result>
+</div>
+<div *ngIf="questionsAndAnswers.length == 0">
+    Select an option from the left menu
+</div>
+<Br>
+<Br>
+<Br>
+<Br>

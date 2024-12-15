@@ -7,10 +7,13 @@ import { BehaviorSubject } from 'rxjs';
     providedIn: 'root'
 })
 
-export class DataService {
+export class UtilService {
 
     private usersUrl = 'assets/users.json';
     private modulesUrl = 'assets/modules.json';
+
+    moduleName: string = 'common';
+    dataFile: string = "data.json";
 
     constructor(private http: HttpClient) { }
 
@@ -29,5 +32,20 @@ export class DataService {
     changeSelectedValue(value: string) {
         this.selectedValue.next(value);  // Updates the selected value
         console.log(" the selected value is ", value);
+    }
+
+    getPath() {
+        let path = "";
+        if (this.isLocalhost()) {
+            path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+        } else {
+            path = 'http://englishroutines.s3-website.ap-south-1.amazonaws.com/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+        }
+        return path;
+    }
+
+    isLocalhost(): boolean {
+        const hostname = window.location.hostname;
+        return hostname === 'localhost' || hostname === '127.0.0.1';
     }
 }

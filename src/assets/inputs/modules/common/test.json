@@ -1,0 +1,1713 @@
+[
+    {
+        "key": "Present-001",
+        "category": "Present Tense",
+        "label": "Present Tense- Pre-assessment",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "___ I exercise every day?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "___ she visit her parents on weekends?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "Where ___ they live?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "___ you go to work by bus?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "What time ___ the meeting start?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "Why ___ he always late?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "___ you know how to solve this problem?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "When ___ the store open every day?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "How often ___ they meet?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "What ___ you usually eat for breakfast?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "Do"
+            }
+        ]
+    },
+    {
+        "key": "Present-002",
+        "category": "Present Tense",
+        "label": "Present Tense- Pre-assessment",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "11",
+                "questionText": "___ it rain a lot here?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "12",
+                "questionText": "Why ___ we always have to wait?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "13",
+                "questionText": "What time ___ you go to bed?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "14",
+                "questionText": "Where ___ he work?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "15",
+                "questionText": "___ they like the new movie?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "16",
+                "questionText": "How ___ she know my name?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "17",
+                "questionText": "___ it usually snow in December?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "18",
+                "questionText": "What ___ they want to eat?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "19",
+                "questionText": "Why ___ I need to finish this today?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "20",
+                "questionText": "___ we have a meeting every Monday?",
+                "options": [
+                    "Select",
+                    "Do",
+                    "Does",
+                    "Are"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "11",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "12",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "13",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "14",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "15",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "16",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "17",
+                "correctAnswer": "Does"
+            },
+            {
+                "questionId": "18",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "19",
+                "correctAnswer": "Do"
+            },
+            {
+                "questionId": "20",
+                "correctAnswer": "Do"
+            }
+        ]
+    },
+    {
+        "key": "Present-003",
+        "category": "Present Tense",
+        "label": "Present continuous",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "___ she working on the new project right now?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "What ___ you doing at the moment?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "___ they coming to the meeting?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "Why ___ it raining so much these days?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "___ you listening to the news?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "___ they planning to visit us soon?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "Where ___ we going tomorrow?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "___ he playing football right now?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "Who ___ they meeting later today?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "Why ___ you always talking during class?",
+                "options": [
+                    "Select",
+                    "Is",
+                    "Are",
+                    "Am"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "Is"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "Is"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "Is"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "Are"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "Are"
+            }
+        ]
+    },
+    {
+        "key": "Present-004",
+        "category": "Present Tense",
+        "label": "Present perfect",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "___ you finished your homework yet?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "___ she visited that museum before?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "What ___ they decided about the project?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "___ he ever traveled to Europe?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "How many times ___ you seen that movie?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "___ they completed the assignment yet?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "Where ___ she gone?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Is"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "What ___ you learned in class today?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Am"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "___ we met before this event?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Are"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "Why ___ they not replied to your message?",
+                "options": [
+                    "Select",
+                    "Have",
+                    "Has",
+                    "Is"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "Has"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "Has"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "Has"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "Have"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "Have"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-001",
+        "category": "Transitional words",
+        "label": "Transitional words -Set1",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "___ the forecast called for rain, we decided to postpone the event.",
+                "options": [
+                    "Select",
+                    "As",
+                    "Even though",
+                    "Since",
+                    "Because of"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "She was late; ___, she apologized for the delay.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Furthermore",
+                    "Therefore",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "We went to the beach, ___ it was raining.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Although",
+                    "So",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "He studied hard; ___, he passed the exam with flying colors.",
+                "options": [
+                    "Select",
+                    "However",
+                    "As a result",
+                    "Although",
+                    "On the other hand"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "They didn’t win the match ___ they practiced every day.",
+                "options": [
+                    "Select",
+                    "Even though",
+                    "As",
+                    "Because",
+                    "Since"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "The presentation was great; ___, the visuals were impressive.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "Moreover",
+                    "Nevertheless",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "He was tired, ___ he finished the marathon.",
+                "options": [
+                    "Select",
+                    "Besides",
+                    "Yet",
+                    "Therefore",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "They decided to take the shortcut; ___, they got lost.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "On the contrary",
+                    "In contrast",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "I stayed up late studying; ___, I was too tired to focus in class.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Consequently",
+                    "Otherwise",
+                    "Instead"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "You should apologize; ___, things might get worse.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Therefore",
+                    "Similarly",
+                    "On the other hand"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "Since"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "Even though"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "Moreover"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "Yet"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-002",
+        "category": "Transitional words",
+        "label": "Transitional words-Set2",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "11",
+                "questionText": "She is an excellent dancer, ___ she lacks confidence on stage.",
+                "options": [
+                    "Select",
+                    "But",
+                    "So",
+                    "Because",
+                    "As"
+                ]
+            },
+            {
+                "questionId": "12",
+                "questionText": "I love the city; ___, it can be overwhelming at times.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "However",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "13",
+                "questionText": "___ she was busy, she still helped me with the project.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "Since",
+                    "Because",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "14",
+                "questionText": "We must leave early ___ we will miss the train.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "Otherwise",
+                    "As a result",
+                    "Moreover"
+                ]
+            },
+            {
+                "questionId": "15",
+                "questionText": "He is very talented; ___, he lacks the discipline to succeed.",
+                "options": [
+                    "Select",
+                    "In addition",
+                    "On the contrary",
+                    "Similarly",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "16",
+                "questionText": "She worked overtime; ___, she completed the project on time.",
+                "options": [
+                    "Select",
+                    "Nevertheless",
+                    "Similarly",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "17",
+                "questionText": "He didn’t study much, ___ he passed the test easily.",
+                "options": [
+                    "Select",
+                    "Besides",
+                    "Yet",
+                    "Therefore",
+                    "So"
+                ]
+            },
+            {
+                "questionId": "18",
+                "questionText": "The movie was long; ___, it was very interesting.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Because",
+                    "So",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "19",
+                "questionText": "She failed to meet the deadline; ___, she was not given another chance.",
+                "options": [
+                    "Select",
+                    "Yet",
+                    "As a result",
+                    "Even though",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "20",
+                "questionText": "You should work harder; ___, you might not achieve your goals.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Consequently",
+                    "Similarly",
+                    "In contrast"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "11",
+                "correctAnswer": "But"
+            },
+            {
+                "questionId": "12",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "13",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "14",
+                "correctAnswer": "Otherwise"
+            },
+            {
+                "questionId": "15",
+                "correctAnswer": "On the contrary"
+            },
+            {
+                "questionId": "16",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "17",
+                "correctAnswer": "Yet"
+            },
+            {
+                "questionId": "18",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "19",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "20",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-003",
+        "category": "Transitional words",
+        "label": "Transitional words-Set3",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "21",
+                "questionText": "He was extremely tired; ___, he kept working late into the night.",
+                "options": [
+                    "Select",
+                    "Moreover",
+                    "Therefore",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "22",
+                "questionText": "The weather was perfect; ___, they decided to have a picnic.",
+                "options": [
+                    "Select",
+                    "However",
+                    "As a result",
+                    "Nevertheless",
+                    "On the contrary"
+                ]
+            },
+            {
+                "questionId": "23",
+                "questionText": "___ it was raining, they went for a walk in the park.",
+                "options": [
+                    "Select",
+                    "Since",
+                    "Because",
+                    "Although",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "24",
+                "questionText": "She failed the exam the first time; ___, she passed it on her second attempt.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Nevertheless",
+                    "Similarly",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "25",
+                "questionText": "They wanted to finish the project by Friday; ___, they asked everyone to work overtime.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Similarly",
+                    "Even though",
+                    "On the other hand"
+                ]
+            },
+            {
+                "questionId": "26",
+                "questionText": "He didn't feel well, ___ he went to work anyway.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Even though",
+                    "But",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "27",
+                "questionText": "She loves reading fiction; ___, her brother prefers non-fiction.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Consequently",
+                    "Similarly",
+                    "Therefore"
+                ]
+            },
+            {
+                "questionId": "28",
+                "questionText": "We didn't arrive on time; ___, we missed the meeting.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "In contrast",
+                    "Similarly",
+                    "Even though"
+                ]
+            },
+            {
+                "questionId": "29",
+                "questionText": "He didn't have much experience; ___, he got the job.",
+                "options": [
+                    "Select",
+                    "Nevertheless",
+                    "However",
+                    "As a result",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "30",
+                "questionText": "We were supposed to meet at 6 p.m.; ___, she didn’t show up until 7 p.m.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "Although",
+                    "However",
+                    "Therefore"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "21",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "22",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "23",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "24",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "25",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "26",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "27",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "28",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "29",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "30",
+                "correctAnswer": "However"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-004",
+        "category": "Transitional words",
+        "label": "Transitional words-Set4",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "31",
+                "questionText": "He is a good singer; ___, he plays the piano beautifully.",
+                "options": [
+                    "Select",
+                    "However",
+                    "Moreover",
+                    "Therefore",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "32",
+                "questionText": "She didn't study for the exam; ___, she managed to pass.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Nevertheless",
+                    "Because",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "33",
+                "questionText": "I have never been to Japan; ___, I’ve always wanted to visit.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "On the other hand",
+                    "Therefore",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "34",
+                "questionText": "They planned to go hiking; ___, the weather changed and they stayed home.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "However",
+                    "Because",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "35",
+                "questionText": "___ her effort, she didn’t get the promotion.",
+                "options": [
+                    "Select",
+                    "Despite",
+                    "Because",
+                    "As a result",
+                    "However"
+                ]
+            },
+            {
+                "questionId": "36",
+                "questionText": "He forgot to set his alarm; ___, he woke up late.",
+                "options": [
+                    "Select",
+                    "In contrast",
+                    "As a result",
+                    "Despite",
+                    "Nevertheless"
+                ]
+            },
+            {
+                "questionId": "37",
+                "questionText": "He speaks Spanish fluently; ___, he struggles with French.",
+                "options": [
+                    "Select",
+                    "Because",
+                    "However",
+                    "Consequently",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "38",
+                "questionText": "The food was delicious; ___, the service was excellent.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "In contrast",
+                    "Because",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "39",
+                "questionText": "They were tired; ___, they continued to work until late at night.",
+                "options": [
+                    "Select",
+                    "Consequently",
+                    "However",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "40",
+                "questionText": "We should leave now; ___, we might miss the train.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Similarly",
+                    "Otherwise",
+                    "In contrast"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "31",
+                "correctAnswer": "Moreover"
+            },
+            {
+                "questionId": "32",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "33",
+                "correctAnswer": "On the other hand"
+            },
+            {
+                "questionId": "34",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "35",
+                "correctAnswer": "Despite"
+            },
+            {
+                "questionId": "36",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "37",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "38",
+                "correctAnswer": "Similarly"
+            },
+            {
+                "questionId": "39",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "40",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "TransitionalWords-005",
+        "category": "Transitional words",
+        "label": "Transitional words-Set5",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "41",
+                "questionText": "I forgot my umbrella; ___, I got soaked in the rain.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Moreover",
+                    "Consequently",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "42",
+                "questionText": "The team worked hard all year; ___, they won the championship.",
+                "options": [
+                    "Select",
+                    "In addition",
+                    "As a result",
+                    "On the other hand",
+                    "Despite"
+                ]
+            },
+            {
+                "questionId": "43",
+                "questionText": "I prefer quiet vacations; ___, my sister enjoys adventure trips.",
+                "options": [
+                    "Select",
+                    "Similarly",
+                    "Nevertheless",
+                    "In contrast",
+                    "Consequently"
+                ]
+            },
+            {
+                "questionId": "44",
+                "questionText": "He didn’t attend the meeting; ___, he missed the important announcement.",
+                "options": [
+                    "Select",
+                    "As a result",
+                    "Despite",
+                    "In contrast",
+                    "Instead"
+                ]
+            },
+            {
+                "questionId": "45",
+                "questionText": "The teacher explained the concept again; ___, some students were still confused.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "In contrast",
+                    "Nevertheless",
+                    "Similarly"
+                ]
+            },
+            {
+                "questionId": "46",
+                "questionText": "She worked hard for years; ___, she was promoted to manager.",
+                "options": [
+                    "Select",
+                    "For example",
+                    "Consequently",
+                    "In addition",
+                    "Meanwhile"
+                ]
+            },
+            {
+                "questionId": "47",
+                "questionText": "He is very intelligent; ___, he has little practical experience.",
+                "options": [
+                    "Select",
+                    "Therefore",
+                    "Similarly",
+                    "However",
+                    "For instance"
+                ]
+            },
+            {
+                "questionId": "48",
+                "questionText": "___ I was tired, I kept working until the job was done.",
+                "options": [
+                    "Select",
+                    "Although",
+                    "Since",
+                    "For instance",
+                    "Because"
+                ]
+            },
+            {
+                "questionId": "49",
+                "questionText": "He saved money for years; ___, he was able to buy a house.",
+                "options": [
+                    "Select",
+                    "Likewise",
+                    "In addition",
+                    "As a result",
+                    "On the contrary"
+                ]
+            },
+            {
+                "questionId": "50",
+                "questionText": "You must submit your assignment by tomorrow; ___, you’ll lose marks.",
+                "options": [
+                    "Select",
+                    "Otherwise",
+                    "Similarly",
+                    "Therefore",
+                    "As a result"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "41",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "42",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "43",
+                "correctAnswer": "In contrast"
+            },
+            {
+                "questionId": "44",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "45",
+                "correctAnswer": "Nevertheless"
+            },
+            {
+                "questionId": "46",
+                "correctAnswer": "Consequently"
+            },
+            {
+                "questionId": "47",
+                "correctAnswer": "However"
+            },
+            {
+                "questionId": "48",
+                "correctAnswer": "Although"
+            },
+            {
+                "questionId": "49",
+                "correctAnswer": "As a result"
+            },
+            {
+                "questionId": "50",
+                "correctAnswer": "Otherwise"
+            }
+        ]
+    },
+    {
+        "key": "CountableVsUnCountableNouns-001",
+        "category": "Countable & Uncountable adj",
+        "label": "Countable/Uncountable-Set1",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "1",
+                "questionText": "There is ___ sugar in the jar.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "2",
+                "questionText": "I have ___ books on my desk.",
+                "options": [
+                    "Select",
+                    "much",
+                    "a few",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "3",
+                "questionText": "She has ___ advice for you.",
+                "options": [
+                    "Select",
+                    "some",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "4",
+                "questionText": "There are ___ chairs in the room.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "a little"
+                ]
+            },
+            {
+                "questionId": "5",
+                "questionText": "Can I have ___ water?",
+                "options": [
+                    "Select",
+                    "a little",
+                    "many",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "6",
+                "questionText": "I don’t need ___ help with this project.",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "7",
+                "questionText": "How ___ apples are in the basket?",
+                "options": [
+                    "Select",
+                    "much",
+                    "many",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "8",
+                "questionText": "He bought ___ furniture for his new apartment.",
+                "options": [
+                    "Select",
+                    "many",
+                    "some",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "9",
+                "questionText": "I need ___ information about the trip.",
+                "options": [
+                    "Select",
+                    "many",
+                    "a few",
+                    "some"
+                ]
+            },
+            {
+                "questionId": "10",
+                "questionText": "There were ___ people at the event.",
+                "options": [
+                    "Select",
+                    "a little",
+                    "much",
+                    "a lot of"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "1",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "2",
+                "correctAnswer": "a few"
+            },
+            {
+                "questionId": "3",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "4",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "5",
+                "correctAnswer": "a little"
+            },
+            {
+                "questionId": "6",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "7",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "8",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "9",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "10",
+                "correctAnswer": "a lot of"
+            }
+        ]
+    },
+    {
+        "key": "CountableVsUnCountableNouns-002",
+        "category": "Countable & Uncountable adj",
+        "label": "Countable/Uncountable-Set2",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "questionId": "11",
+                "questionText": "We have ___ time left to finish this.",
+                "options": [
+                    "Select",
+                    "a little",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "12",
+                "questionText": "How ___ money do we need?",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "a few"
+                ]
+            },
+            {
+                "questionId": "13",
+                "questionText": "He has ___ friends in the city.",
+                "options": [
+                    "Select",
+                    "a lot of",
+                    "much",
+                    "a little"
+                ]
+            },
+            {
+                "questionId": "14",
+                "questionText": "Can you lend me ___ sugar?",
+                "options": [
+                    "Select",
+                    "a few",
+                    "some",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "15",
+                "questionText": "She has ___ patience with her students.",
+                "options": [
+                    "Select",
+                    "a lot of",
+                    "many",
+                    "few"
+                ]
+            },
+            {
+                "questionId": "16",
+                "questionText": "There are only ___ cars on the road today.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "17",
+                "questionText": "He has ___ knowledge about this subject.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "18",
+                "questionText": "I don’t have ___ milk left.",
+                "options": [
+                    "Select",
+                    "a few",
+                    "much",
+                    "many"
+                ]
+            },
+            {
+                "questionId": "19",
+                "questionText": "How ___ chairs do we need?",
+                "options": [
+                    "Select",
+                    "many",
+                    "much",
+                    "little"
+                ]
+            },
+            {
+                "questionId": "20",
+                "questionText": "He has only ___ bread in the pantry.",
+                "options": [
+                    "Select",
+                    "much",
+                    "a little",
+                    "many"
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "questionId": "11",
+                "correctAnswer": "a little"
+            },
+            {
+                "questionId": "12",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "13",
+                "correctAnswer": "a lot of"
+            },
+            {
+                "questionId": "14",
+                "correctAnswer": "some"
+            },
+            {
+                "questionId": "15",
+                "correctAnswer": "a lot of"
+            },
+            {
+                "questionId": "16",
+                "correctAnswer": "a few"
+            },
+            {
+                "questionId": "17",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "18",
+                "correctAnswer": "much"
+            },
+            {
+                "questionId": "19",
+                "correctAnswer": "many"
+            },
+            {
+                "questionId": "20",
+                "correctAnswer": "a little"
+            }
+        ]
+    }
+]
