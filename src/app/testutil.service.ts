@@ -34,14 +34,19 @@ export class TestUtilService {
         console.log(" the selected value is ", value);
     }
 
+    getDomain(): string {
+        return window.location.hostname;
+    }
+
     getPath() {
         let path = "";
         if (this.isLocalhost()) {
             // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
             path = 'assets/inputs/modules/common/test.json';
         } else {
-            path = 'http://englishroutines.s3-website.ap-south-1.amazonaws.com/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = this.getDomain() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         }
+        console.log("Dynamically loading the test set from the domain = " + path);
         return path;
     }
 
