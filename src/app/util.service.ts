@@ -34,8 +34,8 @@ export class UtilService {
         console.log(" the selected value is ", value);
     }
 
-    getDomain(): string {
-        return window.location.hostname;
+    getOrigin(): string {
+        return window.location.origin;
     }
 
     getPath() {
@@ -43,7 +43,7 @@ export class UtilService {
         if (this.isLocalhost()) {
             path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         } else {
-            path = this.getDomain() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = this.getOrigin() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         }
         console.log("Dynamically loading the practice set from the domain = " + path);
         return path;

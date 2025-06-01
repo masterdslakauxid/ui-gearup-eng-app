@@ -34,8 +34,8 @@ export class TestUtilService {
         console.log(" the selected value is ", value);
     }
 
-    getDomain(): string {
-        return window.location.hostname;
+    getOrigin(): string {
+        return window.location.origin;
     }
 
     getPath() {
@@ -44,7 +44,7 @@ export class TestUtilService {
             // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
             path = 'assets/inputs/modules/common/test.json';
         } else {
-            path = this.getDomain() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = this.getOrigin() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         }
         console.log("Dynamically loading the test set from the domain = " + path);
         return path;
