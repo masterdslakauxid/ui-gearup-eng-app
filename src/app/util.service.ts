@@ -35,7 +35,7 @@ export class UtilService {
     }
 
     getOrigin(): string {
-        return window.location.origin;
+        return "http://englishroutines.com.s3-website.ap-south-1.amazonaws.com"
     }
 
     getPath() {
