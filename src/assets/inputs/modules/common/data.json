@@ -1553,7 +1553,7 @@
         "key": "TongueTwisters",
         "category": "Tongue Twisters",
         "label": "Tongue Twisters",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -1653,7 +1653,7 @@
         "key": "Gerunds",
         "category": "Gerunds",
         "label": "Gerunds",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "wordsToBeHighlighted": [
             "Consider bringing:",
@@ -2074,7 +2074,7 @@
         "key": "Extras-005",
         "category": "Miscellaneous",
         "label": "Transitional words and Phrases",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -2524,7 +2524,7 @@
         "key": "Extras-006",
         "category": "Miscellaneous",
         "label": "Most used antonyms",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -2876,7 +2876,7 @@
         "key": "Extras-007",
         "category": "Miscellaneous",
         "label": "Singular and Plural - Workplace",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -3060,7 +3060,7 @@
         "key": "Extras-008",
         "category": "Miscellaneous",
         "label": "Singular and Plural - General",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -3244,7 +3244,7 @@
         "key": "Extras-009",
         "category": "Miscellaneous",
         "label": "Special case - Type of, Sort of, Kind of",
-        "visibility": false,
+        "visibility": true,
         "skipWordHighlighting": true,
         "questions": [
             {
@@ -4550,6 +4550,223 @@
                     "In spite of risks (despite dangers)",
                     "In spite of setbacks (despite obstacles)",
                     "In spite of injuries (despite physical harm)"
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Extras-018",
+        "category": "Prepositional verbs",
+        "label": "Prepositional verbs",
+        "visibility": true,
+        "skipWordHighlighting": true,
+        "questions": [
+            {
+                "question": "Verbs with 'about'",
+                "hint": "-",
+                "answer": [
+                    "Ask about - He asked about your health.",
+                    "Boast about - She boasted about her promotion.",
+                    "Care about - I care about my family.",
+                    "Complain about - He complained about the food.",
+                    "Forget about - Don't forget about the meeting.",
+                    "Hear about - I heard about the news yesterday.",
+                    "Know about - Do you know about this issue?",
+                    "Laugh about - We laughed about the situation.",
+                    "Read about - She read about the new discovery.",
+                    "Talk about - We talked about our future plans."
+                ]
+            },
+            {
+                "question": "Verbs with 'to'",
+                "hint": "-",
+                "answer": [
+                    "Listen to - She listens to music every morning.",
+                    "Belong to - This book belongs to me.",
+                    "Respond to - He didn't respond to my email.",
+                    "Refer to - He often refers to his notes.",
+                    "Talk to - I need to talk to my manager.",
+                    "Apologize to - She apologized to her friend.",
+                    "Explain to - He explained the problem to me.",
+                    "Object to - They objected to the new policy.",
+                    "Lead to - Hard work leads to success.",
+                    "Admit to - He admitted to making a mistake."
+                ]
+            },
+            {
+                "question": "Verbs with 'for'",
+                "hint": "-",
+                "answer": [
+                    "Wait for - I am waiting for the bus.",
+                    "Ask for - He asked for a glass of water.",
+                    "Apologize for - She apologized for being late.",
+                    "Look for - I'm looking for my keys.",
+                    "Pay for - Who will pay for the meal?",
+                    "Thank for - I thanked him for his help.",
+                    "Care for - She cares for her elderly parents.",
+                    "Apply for - She applied for a job.",
+                    "Blame for - He blamed me for the mistake.",
+                    "Vote for - They voted for the best candidate."
+                ]
+            },
+            {
+                "question": "Verbs with 'on'",
+                "hint": "-",
+                "answer": [
+                    "Depend on - Success depends on hard work.",
+                    "Focus on - He focused on his studies.",
+                    "Rely on - You can rely on him.",
+                    "Agree on - They agreed on a solution.",
+                    "Insist on - She insisted on paying the bill.",
+                    "Work on - I am working on a new project.",
+                    "Base on - This movie is based on a true story.",
+                    "Count on - You can count on me.",
+                    "Experiment on - Scientists experiment on animals.",
+                    "Concentrate on - She concentrated on her studies."
+                ]
+            },
+            {
+                "question": "Verbs with 'in'",
+                "hint": "-",
+                "answer": [
+                    "Arrive in - We arrived in London last night.",
+                    "Believe in - I believe in second chances.",
+                    "Get in - He got in the car.",
+                    "Invest in - They invested in real estate.",
+                    "Succeed in - She succeeded in her goals.",
+                    "Engage in - They engaged in a long conversation.",
+                    "Trust in - He trusts in his abilities.",
+                    "Participate in - He participated in the competition.",
+                    "Specialize in - He specializes in data science.",
+                    "Involve in - She was involved in a new project."
+                ]
+            },
+            {
+                "question": "Verbs with 'with'",
+                "hint": "-",
+                "answer": [
+                    "Agree with - I agree with your opinion.",
+                    "Argue with - He argued with his brother.",
+                    "Charge with - He was charged with theft.",
+                    "Help with - Can you help with the report?",
+                    "Provide with - They provided us with food.",
+                    "Trust with - I trusted him with my secret.",
+                    "Deal with - I will deal with this issue.",
+                    "Cope with - She copes with stress well.",
+                    "Interfere with - Don't interfere with their work.",
+                    "Replace with - He replaced the old phone with a new one."
+                ]
+            },
+            {
+                "question": "Verbs with 'at'",
+                "hint": "-",
+                "answer": [
+                    "Aim at - She aimed at the target.",
+                    "Arrive at - We arrived at the airport.",
+                    "Glance at - He glanced at his watch.",
+                    "Look at - She looked at the painting.",
+                    "Smile at - He smiled at me.",
+                    "Stare at - Don't stare at people.",
+                    "Throw at - He threw the ball at me.",
+                    "Yell at - She yelled at her brother.",
+                    "Shout at - He shouted at the dog.",
+                    "Point at - She pointed at the mistake."
+                ]
+            },
+            {
+                "question": "Verbs with 'by'",
+                "hint": "-",
+                "answer": [
+                    "Arrive by - We will arrive by 6 PM.",
+                    "Stand by - She stood by her decision.",
+                    "Pass by - He passed by the park.",
+                    "Sit by - He sat by the window.",
+                    "Travel by - We traveled by train.",
+                    "Backed by - The project is backed by investors.",
+                    "Led by - The team is led by a skilled manager.",
+                    "Surprised by - I was surprised by the news.",
+                    "Supported by - The idea was supported by the committee.",
+                    "Judged by - They were judged by their performance."
+                ]
+            },
+            {
+                "question": "Verbs with 'of'",
+                "hint": "-",
+                "answer": [
+                    "Approve of - I don't approve of his actions.",
+                    "Dream of - I dream of traveling the world.",
+                    "Remind of - That song reminds me of my childhood.",
+                    "Consist of - The team consists of 10 members.",
+                    "Think of - Think of a solution to the problem.",
+                    "Accuse of - She accused him of stealing.",
+                    "Take care of - I'll take care of the arrangements.",
+                    "Talk of - We were talking of the upcoming event.",
+                    "Be fond of - He is fond of painting.",
+                    "Boast of - She boasted of her achievements."
+                ]
+            },
+            {
+                "question": "Verbs with 'to' and 'from'",
+                "hint": "-",
+                "answer": [
+                    "Send to - I will send the email to you.",
+                    "Return from - He returned from the conference.",
+                    "Borrow from - She borrowed a book from the library.",
+                    "Separate from - She was separated from her family.",
+                    "Distinguish from - It is hard to distinguish one from the other.",
+                    "Depart from - We depart from the airport at noon.",
+                    "Transfer to - He transferred to another department.",
+                    "Escape from - The prisoner escaped from jail.",
+                    "Learn from - We learn from our mistakes.",
+                    "Protect from - The umbrella protects us from the rain."
+                ]
+            },
+            {
+                "question": "Verbs with 'under'",
+                "hint": "-",
+                "answer": [
+                    "Believe under - I believe under pressure, I perform better.",
+                    "Hide under - The cat is hiding under the table.",
+                    "Work under - She works under tight deadlines.",
+                    "Go under - The business went under due to mismanagement.",
+                    "Come under - This topic comes under the category of research.",
+                    "Think under - He thinks under pressure and does his best.",
+                    "Underestimate - Don't underestimate her abilities.",
+                    "Look under - Look under the bed for the missing book.",
+                    "Be under - She is under a lot of stress right now.",
+                    "Subject to - All policies are subject to review under new guidelines."
+                ]
+            },
+            {
+                "question": "Verbs with 'over'",
+                "hint": "-",
+                "answer": [
+                    "Look over - He looked over the documents carefully.",
+                    "Think over - Think over the proposal before deciding.",
+                    "Go over - She went over the report several times.",
+                    "Have control over - He has control over the project.",
+                    "Turn over - He turned over the page of the book.",
+                    "Frown over - She frowned over the disappointing results.",
+                    "Argue over - They argued over the details of the plan.",
+                    "Take over - He took over the role of manager.",
+                    "Get over - It took her months to get over the breakup.",
+                    "Win over - She won over the crowd with her speech."
+                ]
+            },
+            {
+                "question": "Verbs with 'through'",
+                "hint": "-",
+                "answer": [
+                    "Go through - I went through all the documents.",
+                    "Look through - She looked through the magazine.",
+                    "Work through - They are working through the issues one by one.",
+                    "Get through - We need to get through this challenge together.",
+                    "See through - She saw through his lies.",
+                    "Pass through - We passed through the city on our way to the airport.",
+                    "Talk through - He talked through his plan for the presentation.",
+                    "Think through - Think through your decision carefully.",
+                    "Break through - She broke through the barriers in her career.",
+                    "Move through - We moved through the crowd quickly."
                 ]
             }
         ]
