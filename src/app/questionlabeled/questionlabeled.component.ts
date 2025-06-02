@@ -36,6 +36,7 @@ export class QuestionLabeledComponent implements OnInit {
   activeTab: string = 'selection'; // Default active tab
   selectedKey: string = 'PresentTense-YesOrNo-questions'; // Default selection
   selectedInterval: number = 10; // Default interval in seconds
+  selectedModule: string = "common";
   showAnswerOption: boolean = true;
   showHint: boolean = false;
   showQuestion: boolean = false;
@@ -237,6 +238,11 @@ export class QuestionLabeledComponent implements OnInit {
     this.selectedInterval = event.target.value;
     sessionStorage.setItem('selectedInterval', this.selectedInterval.toString());
     this.startTimer();
+  }
+
+  onModuleChange(event: any): void {
+    this.selectedModule = event.target.value;
+    sessionStorage.setItem('selectedModule', this.selectedModule.toLowerCase());
   }
 
   retrieveSelectedArrayIndex(): void {

@@ -12,10 +12,12 @@ export class UtilService {
     private usersUrl = 'assets/users.json';
     private modulesUrl = 'assets/modules.json';
 
-    moduleName: string = 'common';
+    moduleName: string = 'Common';
     dataFile: string = "data.json";
 
     constructor(private http: HttpClient) { }
+
+
 
     getUsers(): Observable<any> {
         return this.http.get(this.usersUrl);
@@ -35,15 +37,25 @@ export class UtilService {
     }
 
     getOrigin(): string {
-        return "http://englishroutines.com.s3-website.ap-south-1.amazonaws.com"
+        return "http://englishroutines.s3-website.ap-south-1.amazonaws.com";
     }
+
+    getModuleName(): string {
+        const selectedModuleLocal = sessionStorage.getItem('selectedModule');
+        if (selectedModuleLocal) {
+            this.moduleName = selectedModuleLocal;
+        }
+        console.log("module name  ----> " + this.moduleName);
+        return this.moduleName;
+    }
+
 
     getPath() {
         let path = "";
         if (this.isLocalhost()) {
-            path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = 'assets/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
         } else {
-            path = this.getOrigin() + '/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+            path = this.getOrigin() + '/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
         }
         console.log("Dynamically loading the practice set from the domain = " + path);
         return path;

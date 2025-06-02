@@ -32,6 +32,14 @@
             </select> -->
             <p>Current display pattern - {{selecteddisplayPattern}}</p>
 
+            <h3>Select the module </h3>
+            <select (change)="onModuleChange($event)" [value]="selectedModule">
+                <option *ngFor="let interval of ['Common', 'Travel', 'Office', 'Climate']" [value]="interval">{{
+                    interval }}</option>
+            </select>
+            <p>Currently selected Module- {{selectedModule}}</p>
+
+
             <h3>Select speed (Seconds)</h3>
             <select (change)="onIntervalChange($event)" [value]="selectedInterval">
                 <option *ngFor="let interval of [5, 10, 15, 20, 30]" [value]="interval">{{ interval }}</option>
@@ -60,6 +68,9 @@
                 <option [value]="false">No</option>
             </select>
             <p>Current show hint value - {{showHint}}</p>
+
+
+
         </div>
     </div>
 </div>
