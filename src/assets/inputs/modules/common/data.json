@@ -1557,14 +1557,14 @@
         "skipWordHighlighting": true,
         "questions": [
             {
-                "question": "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where’s the peck of pickled peppers Peter Piper picked?",
+                "question": "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, Where's the peck of pickled peppers Peter Piper picked?",
                 "hint": "Plosive sounds like /p/ and /k/, and /l/ sounds.",
                 "answer": [
                     "-"
                 ]
             },
             {
-                "question": "Betty Botter bought some butter. But she said the butter’s bitter. If I put it in my batter, it will make my batter bitter. But a bit of better butter will make my batter better. So ‘twas better Betty Botter bought a bit of better butter",
+                "question": "Betty bought a bit of butter, but she said this butter's bitter. If I put it in my batter it will make my batter bitter. But a bit of better butter will make my bitter batter better.",
                 "hint": "The /b/ sound, the /t/ sound, and the contrast between 'bitter' and 'better'",
                 "answer": [
                     "-."
@@ -4767,6 +4767,555 @@
                     "Think through - Think through your decision carefully.",
                     "Break through - She broke through the barriers in her career.",
                     "Move through - We moved through the crowd quickly."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Sentence Structures",
+        "category": "Sentence Structures",
+        "label": "Sentence Structures",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Neither…nor (used to connect two negative ideas)",
+                "hint": "Structure: Neither + noun/pronoun + nor + noun/pronoun + verb",
+                "answer": [
+                    "Neither Ravi nor his brother knows the answer.",
+                    "She likes neither tea nor coffee.",
+                    "Neither the teacher nor the students were prepared."
+                ]
+            },
+            {
+                "question": "Either…or (used to present a choice)",
+                "hint": "Structure: Either + noun/pronoun + or + noun/pronoun + verb",
+                "answer": [
+                    "Either you or your friend has to speak.",
+                    "We can go either by car or by train.",
+                    "Either my sister or I will attend the event."
+                ]
+            },
+            {
+                "question": "So do I / So does he (agreement with positive statements)",
+                "hint": "Structure: So + auxiliary/modal verb + subject",
+                "answer": [
+                    "She likes music. So do I.",
+                    "He is tired. So is she.",
+                    "They have finished. So have we."
+                ]
+            },
+            {
+                "question": "Neither do I / Neither does she (agreement with negative statements)",
+                "hint": "Structure: Neither + auxiliary/modal verb + subject",
+                "answer": [
+                    "I don’t like spicy food. Neither do I.",
+                    "She isn’t ready. Neither is he.",
+                    "They haven’t finished. Neither have we."
+                ]
+            },
+            {
+                "question": "If I were you (used to give advice)",
+                "hint": "Structure: If I were you, I would + base verb",
+                "answer": [
+                    "If I were you, I would talk to him.",
+                    "If I were you, I wouldn’t ignore this.",
+                    "If I were you, I’d rest now."
+                ]
+            },
+            {
+                "question": "Would you mind + verb-ing (polite request)",
+                "hint": "Structure: Would you mind + verb-ing?",
+                "answer": [
+                    "Would you mind closing the window?",
+                    "Would you mind helping me?",
+                    "Would you mind waiting here?"
+                ]
+            },
+            {
+                "question": "Let me + base verb (offering to do something)",
+                "hint": "Structure: Let me + base verb",
+                "answer": [
+                    "Let me explain.",
+                    "Let me handle it.",
+                    "Let me show you something."
+                ]
+            },
+            {
+                "question": "I’d like to + base verb (polite desire)",
+                "hint": "Structure: I’d like to + base verb",
+                "answer": [
+                    "I’d like to join the meeting.",
+                    "I’d like to speak with you.",
+                    "I’d like to help."
+                ]
+            },
+            {
+                "question": "I’m used to + verb-ing (showing familiarity)",
+                "hint": "Structure: I’m used to + verb-ing",
+                "answer": [
+                    "I’m used to waking up early.",
+                    "I’m used to working late.",
+                    "I’m used to this noise."
+                ]
+            },
+            {
+                "question": "As far as I know (limited knowledge)",
+                "hint": "Structure: As far as I know, + statement",
+                "answer": [
+                    "As far as I know, she’s on leave.",
+                    "As far as I know, they agreed.",
+                    "As far as I know, the project is on track."
+                ]
+            },
+            {
+                "question": "I’m looking forward to + verb-ing",
+                "hint": "Structure: I’m looking forward to + verb-ing",
+                "answer": [
+                    "I’m looking forward to meeting you.",
+                    "I’m looking forward to the weekend.",
+                    "I’m looking forward to your reply."
+                ]
+            },
+            {
+                "question": "It's time to + base verb",
+                "hint": "Structure: It's time to + base verb",
+                "answer": [
+                    "It’s time to leave.",
+                    "It’s time to talk seriously.",
+                    "It’s time to make a decision."
+                ]
+            },
+            {
+                "question": "How about + verb-ing (suggestion)",
+                "hint": "Structure: How about + verb-ing?",
+                "answer": [
+                    "How about going for a walk?",
+                    "How about meeting tomorrow?",
+                    "How about trying something new?"
+                ]
+            },
+            {
+                "question": "I’m not sure if + clause (uncertainty)",
+                "hint": "Structure: I’m not sure if + subject + verb",
+                "answer": [
+                    "I’m not sure if he will come.",
+                    "I’m not sure if this will work.",
+                    "I’m not sure if they know."
+                ]
+            },
+            {
+                "question": "As soon as + clause",
+                "hint": "Structure: As soon as + subject + verb",
+                "answer": [
+                    "Call me as soon as you arrive.",
+                    "We’ll leave as soon as she comes.",
+                    "He left as soon as the meeting ended."
+                ]
+            },
+            {
+                "question": "Do you mind if I + present verb",
+                "hint": "Structure: Do you mind if I + present verb?",
+                "answer": [
+                    "Do you mind if I join you?",
+                    "Do you mind if I open the window?",
+                    "Do you mind if I call you later?"
+                ]
+            },
+            {
+                "question": "What if + clause (imaginary situation)",
+                "hint": "Structure: What if + subject + verb",
+                "answer": [
+                    "What if it rains tomorrow?",
+                    "What if he doesn’t come?",
+                    "What if we fail?"
+                ]
+            },
+            {
+                "question": "I'd rather + base verb (preference)",
+                "hint": "Structure: I'd rather + base verb",
+                "answer": [
+                    "I’d rather stay home.",
+                    "I’d rather talk later.",
+                    "I’d rather not say anything."
+                ]
+            },
+            {
+                "question": "Make sure + clause/verb",
+                "hint": "Structure: Make sure + subject + verb",
+                "answer": [
+                    "Make sure you lock the door.",
+                    "Make sure she gets the message.",
+                    "Make sure everything is ready."
+                ]
+            },
+            {
+                "question": "Be supposed to + verb (expectation/duty)",
+                "hint": "Structure: Subject + be supposed to + verb",
+                "answer": [
+                    "You are supposed to attend the meeting.",
+                    "He is supposed to call me back.",
+                    "We are supposed to finish it today."
+                ]
+            },
+            {
+                "question": "Be good at + verb-ing (ability)",
+                "hint": "Structure: Subject + be good at + verb-ing",
+                "answer": [
+                    "She is good at drawing.",
+                    "He is good at managing people.",
+                    "I am good at solving problems."
+                ]
+            },
+            {
+                "question": "Not only… but also (emphasis)",
+                "hint": "Structure: Not only + A + but also + B",
+                "answer": [
+                    "She is not only smart but also kind.",
+                    "He plays not only football but also cricket.",
+                    "Not only the team but also the manager was praised."
+                ]
+            },
+            {
+                "question": "Be interested in + noun/verb-ing",
+                "hint": "Structure: Subject + be interested in + noun/verb-ing",
+                "answer": [
+                    "I’m interested in learning Spanish.",
+                    "She is interested in history.",
+                    "He’s interested in working abroad."
+                ]
+            },
+            {
+                "question": "Be about to + base verb (immediate future)",
+                "hint": "Structure: Subject + be about to + verb",
+                "answer": [
+                    "I’m about to leave.",
+                    "He is about to call you.",
+                    "They are about to announce the results."
+                ]
+            },
+            {
+                "question": "Feel like + verb-ing (desire)",
+                "hint": "Structure: Subject + feel like + verb-ing",
+                "answer": [
+                    "I feel like eating something sweet.",
+                    "She feels like dancing.",
+                    "We feel like watching a movie."
+                ]
+            },
+            {
+                "question": "Have got to + base verb (necessity)",
+                "hint": "Structure: Subject + have got to + verb",
+                "answer": [
+                    "I’ve got to go now.",
+                    "You’ve got to see this!",
+                    "We’ve got to finish the work today."
+                ]
+            },
+            {
+                "question": "The more…, the more… (comparison)",
+                "hint": "Structure: The more + clause, the more + clause",
+                "answer": [
+                    "The more you read, the more you learn.",
+                    "The more I exercise, the better I feel.",
+                    "The more he talks, the more confused I get."
+                ]
+            },
+            {
+                "question": "Used to + base verb (past habit)",
+                "hint": "Structure: Subject + used to + base verb",
+                "answer": [
+                    "I used to play cricket every weekend.",
+                    "She used to live in Delhi.",
+                    "He used to smoke, but not anymore."
+                ]
+            },
+            {
+                "question": "Be likely to + base verb (probability)",
+                "hint": "Structure: Subject + be likely to + verb",
+                "answer": [
+                    "It is likely to rain today.",
+                    "She is likely to win.",
+                    "They are likely to be late."
+                ]
+            },
+            {
+                "question": "Be able to + base verb (ability)",
+                "hint": "Structure: Subject + be able to + base verb",
+                "answer": [
+                    "She is able to solve the puzzle.",
+                    "I’m able to finish this task on time.",
+                    "They were able to fix the issue."
+                ]
+            },
+            {
+                "question": "It depends on + noun/phrase",
+                "hint": "Structure: It depends on + noun/phrase",
+                "answer": [
+                    "It depends on the weather.",
+                    "It depends on how he reacts.",
+                    "It depends on your decision."
+                ]
+            },
+            {
+                "question": "I didn’t mean to + base verb (To express something was unintentional)",
+                "hint": "Structure: I didn’t mean to + base verb",
+                "answer": [
+                    "I didn’t mean to offend you.",
+                    "I didn’t mean to interrupt.",
+                    "I didn’t mean to hurt your feelings."
+                ]
+            },
+            {
+                "question": "By the time + subject + verb (past), subject + had + past participle",
+                "hint": "Structure: By the time + subject + verb (past), subject + had + past participle",
+                "answer": [
+                    "By the time I arrived, they had left.",
+                    "By the time she finished, we had started dinner.",
+                    "By the time he called, I had gone to bed."
+                ]
+            },
+            {
+                "question": "The moment / As soon as + subject + verb",
+                "hint": "Structure: The moment/As soon as + subject + verb, subject + verb",
+                "answer": [
+                    "The moment I heard the news, I called her.",
+                    "As soon as he saw me, he smiled.",
+                    "The moment she arrived, the meeting started."
+                ]
+            },
+            {
+                "question": "Have you ever + past participle? (To ask about life experiences)",
+                "hint": "Structure: Have you ever + past participle?",
+                "answer": [
+                    "Have you ever been to Kerala?",
+                    "Have you ever tried skydiving?",
+                    "Have you ever eaten sushi?"
+                ]
+            },
+            {
+                "question": "There’s no point in + verb-ing",
+                "hint": "Structure: There’s no point in + verb-ing",
+                "answer": [
+                    "There’s no point in arguing.",
+                    "There’s no point in waiting any longer.",
+                    "There’s no point in complaining."
+                ]
+            },
+            {
+                "question": "I’m looking forward to + noun/verb-ing",
+                "hint": "Structure: I’m looking forward to + noun/verb-ing",
+                "answer": [
+                    "I’m looking forward to meeting you.",
+                    "I’m looking forward to the weekend.",
+                    "I’m looking forward to seeing the results."
+                ]
+            },
+            {
+                "question": "I can’t help + verb-ing (Something you can’t stop yourself from doing)",
+                "hint": "Structure: I can’t help + verb-ing",
+                "answer": [
+                    "I can’t help laughing at that.",
+                    "I can’t help thinking about it.",
+                    "I can’t help feeling nervous."
+                ]
+            },
+            {
+                "question": "So far + present perfect tense",
+                "hint": "Structure: So far + subject + has/have + past participle",
+                "answer": [
+                    "So far, I have completed five chapters.",
+                    "So far, he hasn’t replied.",
+                    "So far, we’ve made good progress."
+                ]
+            },
+            {
+                "question": "As if / As though + subject + past tense (To express unreal comparison)",
+                "hint": "Structure: Subject + verb + as if/as though + subject + past tense",
+                "answer": [
+                    "He talks as if he knew everything.",
+                    "She smiled as though nothing had happened.",
+                    "They acted as if they were the winners."
+                ]
+            },
+            {
+                "question": "I’d rather you + past tense (Polite suggestion or preference)",
+                "hint": "Structure: I’d rather + you + past tense verb",
+                "answer": [
+                    "I’d rather you didn’t come today.",
+                    "I’d rather you spoke to him yourself.",
+                    "I’d rather you stayed here tonight."
+                ]
+            },
+            {
+                "question": "Hardly had + subject + past participle + when + subject + verb",
+                "hint": "Structure: Hardly had + subject + past participle + when + subject + verb (past)",
+                "answer": [
+                    "Hardly had I left when it started raining.",
+                    "Hardly had she finished speaking when he interrupted.",
+                    "Hardly had they arrived when the show began."
+                ]
+            },
+            {
+                "question": "I’m not sure if… (Uncertainty or doubt)",
+                "hint": "Structure: I’m not sure if + subject + verb",
+                "answer": [
+                    "I’m not sure if he’ll agree.",
+                    "I’m not sure if I can join tomorrow.",
+                    "I’m not sure if this will work."
+                ]
+            },
+            {
+                "question": "In case + subject + verb (As a precaution)",
+                "hint": "Structure: In case + subject + verb",
+                "answer": [
+                    "Take your umbrella in case it rains.",
+                    "Call me in case you need help.",
+                    "Write it down in case you forget."
+                ]
+            },
+            {
+                "question": "The best thing about… is that…",
+                "hint": "Structure: The best thing about + noun/verb-ing + is that + clause",
+                "answer": [
+                    "The best thing about working from home is that I save time.",
+                    "The best thing about her is that she listens well.",
+                    "The best thing about this place is that it's peaceful."
+                ]
+            },
+            {
+                "question": "Would you mind + verb-ing (Polite request)",
+                "hint": "Structure: Would you mind + verb-ing?",
+                "answer": [
+                    "Would you mind closing the door?",
+                    "Would you mind waiting a few minutes?",
+                    "Would you mind helping me with this?"
+                ]
+            },
+            {
+                "question": "Let me + base verb (Offering or deciding to do something)",
+                "hint": "Structure: Let me + base verb",
+                "answer": [
+                    "Let me help you with that.",
+                    "Let me check and get back to you.",
+                    "Let me explain the situation."
+                ]
+            },
+            {
+                "question": "I’d like to + base verb (Polite way to express desire)",
+                "hint": "Structure: I’d like to + base verb",
+                "answer": [
+                    "I’d like to join the meeting early.",
+                    "I’d like to share something important.",
+                    "I’d like to ask a question."
+                ]
+            },
+            {
+                "question": "I’m used to + noun/verb-ing (Describing habit or familiarity)",
+                "hint": "Structure: I’m used to + noun/verb-ing",
+                "answer": [
+                    "I’m used to working late.",
+                    "I’m used to cold weather.",
+                    "I’m used to speaking in public."
+                ]
+            },
+            {
+                "question": "It’s been a long time since + subject + verb (past)",
+                "hint": "Structure: It’s been a long time since + subject + verb (past)",
+                "answer": [
+                    "It’s been a long time since we met.",
+                    "It’s been a long time since I played cricket.",
+                    "It’s been a long time since she visited us."
+                ]
+            },
+            {
+                "question": "As far as I know… (To show personal knowledge)",
+                "hint": "Structure: As far as I know, + clause",
+                "answer": [
+                    "As far as I know, he’s not coming today.",
+                    "As far as I know, the file was submitted yesterday.",
+                    "As far as I know, everything is fine."
+                ]
+            },
+            {
+                "question": "The reason why… is because…",
+                "hint": "Structure: The reason why + clause + is because + clause",
+                "answer": [
+                    "The reason why I left early is because I wasn’t feeling well.",
+                    "The reason why she’s upset is because of the delay.",
+                    "The reason why we’re late is because of traffic."
+                ]
+            },
+            {
+                "question": "I was about to + base verb (To show something was just going to happen)",
+                "hint": "Structure: I was about to + base verb",
+                "answer": [
+                    "I was about to call you.",
+                    "I was about to send the email.",
+                    "I was about to leave the office."
+                ]
+            },
+            {
+                "question": "I’d rather + base verb",
+                "hint": "Structure: I’d rather + base verb",
+                "answer": [
+                    "I’d rather stay home tonight.",
+                    "I’d rather speak to him directly.",
+                    "I’d rather wait for a while."
+                ]
+            },
+            {
+                "question": "It’s high time + subject + verb (past tense) (To say something should have happened already)",
+                "hint": "Structure: It’s high time + subject + past tense verb",
+                "answer": [
+                    "It’s high time we left.",
+                    "It’s high time you took this seriously.",
+                    "It’s high time he made a decision."
+                ]
+            },
+            {
+                "question": "No matter + wh-word",
+                "hint": "Structure: No matter + wh-word + clause",
+                "answer": [
+                    "No matter what happens, I’m with you.",
+                    "No matter how hard it is, don’t give up.",
+                    "No matter where you go, I’ll support you."
+                ]
+            },
+            {
+                "question": "What if + subject + verb",
+                "hint": "Structure: What if + subject + verb (simple present/future)",
+                "answer": [
+                    "What if he doesn’t come?",
+                    "What if we miss the train?",
+                    "What if it rains tomorrow?"
+                ]
+            },
+            {
+                "question": "So that + subject + can/will",
+                "hint": "Structure: Clause + so that + subject + can/will + base verb",
+                "answer": [
+                    "I’m explaining it again so that you can understand better.",
+                    "She left early so that she could catch the bus.",
+                    "He practices every day so that he will improve."
+                ]
+            },
+            {
+                "question": "I feel like + verb-ing (Talking about mood or desire)",
+                "hint": "Structure: I feel like + verb-ing",
+                "answer": [
+                    "I feel like sleeping all day.",
+                    "I feel like watching a movie tonight.",
+                    "I feel like eating something spicy."
+                ]
+            },
+            {
+                "question": "It looks like / It seems like",
+                "hint": "Structure: It looks/seems like + clause",
+                "answer": [
+                    "It looks like it’s going to rain.",
+                    "It seems like he’s in a bad mood.",
+                    "It looks like they’ve finished the work."
                 ]
             }
         ]

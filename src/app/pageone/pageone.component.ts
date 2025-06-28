@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './pageone.component.html',
   styleUrls: ['./pageone.component.css']
 })
-export class PageOneComponent { }
+export class PageOneComponent {
+  showLeftPanel: boolean = false;
+}

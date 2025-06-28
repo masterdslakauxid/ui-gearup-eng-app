@@ -1,12 +1,22 @@
 <div class="content" role="main">
     <div class="container">
-        <div class="left-panel">
-            <!-- Content for 25% width goes here -->
+        <!-- Hamburger Toggle Button -->
+        <button class="menu-toggle" (click)="showLeftPanel = !showLeftPanel">
+            ☰
+        </button>
+
+        <!-- Left Panel -->
+        <div class="left-panel" [class.show]="showLeftPanel">
             <app-topicselector></app-topicselector>
         </div>
+        <br>
+        <!-- Right Panel -->
         <div class="right-panel">
-            <!-- Content for 75% width goes here -->
             <app-details></app-details>
         </div>
+        <footer>
+            Have a great day ahead!
+        </footer>
+
     </div>
 </div>
