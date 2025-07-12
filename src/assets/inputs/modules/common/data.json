@@ -5319,5 +5319,448 @@
                 ]
             }
         ]
+    },
+    {
+        "key": "Describe people's behavior or qualities",
+        "category": "Behavior or Qualities",
+        "label": "Behavior or Qualities",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Attentive: Paying close attention to something",
+                "hint": "-",
+                "answer": [
+                    "She is very attentive during meetings"
+                ]
+            },
+            {
+                "question": "Proactive: Creating or controlling a situation by causing something to happen rather than responding to it after it has happened",
+                "hint": "-",
+                "answer": [
+                    "He is proactive in addressing issues"
+                ]
+            },
+            {
+                "question": "Dedicated: Devoted to a task or purpose",
+                "hint": "-",
+                "answer": [
+                    "She is dedicated to her job"
+                ]
+            },
+            {
+                "question": "Prompt: Done without delay; immediate",
+                "hint": "-",
+                "answer": [
+                    "He is always prompt in responding to emails"
+                ]
+            },
+            {
+                "question": "Trustworthy: Able to be relied on as honest or truthful",
+                "hint": "-",
+                "answer": [
+                    "She is trustworthy and can be relied on to keep confidential information"
+                ]
+            },
+            {
+                "question": "Steadfast: Resolutely or dutifully firm and unwavering",
+                "hint": "-",
+                "answer": [
+                    "He is steadfast in his beliefs"
+                ]
+            },
+            {
+                "question": "Tidy: Arranged neatly and in order",
+                "hint": "-",
+                "answer": [
+                    "She is always tidy and keeps her workspace clean"
+                ]
+            },
+            {
+                "question": "Effervescent: Vivacious and enthusiastic",
+                "hint": "-",
+                "answer": [
+                    "He is effervescent and brings energy to the team"
+                ]
+            },
+            {
+                "question": "Innovative: Featuring new methods; advanced and original",
+                "hint": "-",
+                "answer": [
+                    "She is innovative in her approach to problem-solving"
+                ]
+            },
+            {
+                "question": "Zealous: Having or showing zeal; passionate",
+                "hint": "-",
+                "answer": [
+                    "He is zealous in his advocacy for the environment"
+                ]
+            },
+            {
+                "question": "Adaptable: Able to adjust to new conditions",
+                "hint": "-",
+                "answer": [
+                    "She is adaptable and handles change well"
+                ]
+            },
+            {
+                "question": "Ambitious: Having a strong desire for success or achievement",
+                "hint": "-",
+                "answer": [
+                    "He is ambitious and aims for high goals"
+                ]
+            },
+            {
+                "question": "Approachable: Friendly and easy to talk to",
+                "hint": "-",
+                "answer": [
+                    "She is approachable, and everyone feels comfortable speaking with her"
+                ]
+            },
+            {
+                "question": "Courteous: Polite, respectful, or considerate in manner",
+                "hint": "-",
+                "answer": [
+                    "He is always courteous to clients"
+                ]
+            },
+            {
+                "question": "Determined: Having made a firm decision and being resolved not to change it",
+                "hint": "-",
+                "answer": [
+                    "She is determined to finish the project on time"
+                ]
+            },
+            {
+                "question": "Empathetic: Showing an ability to understand and share the feelings of another",
+                "hint": "-",
+                "answer": [
+                    "He is empathetic and always listens to others’ concerns"
+                ]
+            },
+            {
+                "question": "Flexible: Willing to change or compromise",
+                "hint": "-",
+                "answer": [
+                    "She is flexible with her schedule to accommodate others"
+                ]
+            },
+            {
+                "question": "Generous: Showing a readiness to give more of something, such as money or time, than is strictly necessary or expected",
+                "hint": "-",
+                "answer": [
+                    "He is generous with his time and often volunteers"
+                ]
+            },
+            {
+                "question": "Honest: Free of deceit; truthful and sincere",
+                "hint": "-",
+                "answer": [
+                    "She is honest and always tells the truth"
+                ]
+            },
+            {
+                "question": "Innovative: Introducing new ideas; original and creative in thinking",
+                "hint": "-",
+                "answer": [
+                    "He is innovative and often comes up with creative solutions"
+                ]
+            },
+            {
+                "question": "Patient: Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious",
+                "hint": "-",
+                "answer": [
+                    "She is patient and never gets frustrated with difficult tasks"
+                ]
+            },
+            {
+                "question": "Persevering: Continuing in a course of action despite difficulty or delay in achieving success",
+                "hint": "-",
+                "answer": [
+                    "He is persevering and never gives up"
+                ]
+            },
+            {
+                "question": "Resourceful: Having the ability to find quick and clever ways to overcome difficulties",
+                "hint": "-",
+                "answer": [
+                    "She is resourceful and always finds a way to solve problems"
+                ]
+            },
+            {
+                "question": "Respectful: Feeling or showing deference and respect",
+                "hint": "-",
+                "answer": [
+                    "He is respectful to everyone, regardless of their position"
+                ]
+            },
+            {
+                "question": "Self-motivated: Motivated to do or achieve something because of one's own enthusiasm or interest, without needing pressure from others",
+                "hint": "-",
+                "answer": [
+                    "She is self-motivated and needs little supervision"
+                ]
+            },
+            {
+                "question": "Sincere: Free from pretense or deceit; proceeding from genuine feelings",
+                "hint": "-",
+                "answer": [
+                    "He is sincere and always means what he says"
+                ]
+            },
+            {
+                "question": "Supportive: Providing encouragement or emotional help",
+                "hint": "-",
+                "answer": [
+                    "She is supportive of her colleagues and always offers help"
+                ]
+            },
+            {
+                "question": "Tactful: Having or showing tact; able to deal with people in a sensitive manner",
+                "hint": "-",
+                "answer": [
+                    "He is tactful and handles sensitive situations well"
+                ]
+            },
+            {
+                "question": "Thorough: Taking great care to do something in a detailed and accurate way",
+                "hint": "-",
+                "answer": [
+                    "She is thorough in her research"
+                ]
+            },
+            {
+                "question": "Visionary: Thinking about or planning the future with imagination or wisdom",
+                "hint": "-",
+                "answer": [
+                    "He is a visionary leader with great plans for the company"
+                ]
+            },
+            {
+                "question": "Due to",
+                "hint": "",
+                "answer": [
+                    "The flight delay was due to inclement weather conditions at the destination airport.",
+                    "The cancellation of the event was due to unforeseen circumstances beyond our control.",
+                    "Her success in the project was due to her excellent leadership skills and dedication.",
+                    "The increase in sales was due to the implementation of effective marketing strategies.",
+                    "The disruption in public transportation was due to a strike by the transit workers' union."
+                ]
+            },
+            {
+                "question": "Because",
+                "hint": "",
+                "answer": [
+                    "I couldn't attend the meeting because I was feeling unwell.",
+                    "She succeeded in her exams because she studied diligently every day.",
+                    "The event was canceled because of the heavy rainstorm.",
+                    "He missed the deadline because his computer crashed unexpectedly.",
+                    "The project failed because of a lack of communication among team members."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Conjunction",
+        "category": "Join two parts of a sentence",
+        "label": "Joins two parts of a sentence",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "Coordinating Conjunctions",
+                "hint": "",
+                "answer": [
+                    "And: I woke up early today, and I had a productive morning workout.",
+                    "But: The weather was cloudy, but it turned out to be a beautiful day.",
+                    "Or: You can have pancakes for breakfast, or you can enjoy a smoothie bowl.",
+                    "Nor: She does not only excel in her studies, nor does she forget to help her friends.",
+                    "Yet: It was a busy day at work, yet I managed to finish all my tasks on time."
+                ]
+            },
+            {
+                "question": "Subordinating Conjunctions",
+                "hint": "",
+                "answer": [
+                    "Because: I feel great because I followed a healthy diet today.",
+                    "Although: Although it was a hectic day, I found time to relax and read a book.",
+                    "Since: Since I started practicing meditation, my stress levels have significantly decreased.",
+                    "If: If I continue this routine, I'll achieve my fitness goals soon.",
+                    "While: While I was working from home, I also managed to clean and organize my space."
+                ]
+            },
+            {
+                "question": "Correlative Conjunctions",
+                "hint": "",
+                "answer": [
+                    "Either...or: You can either go for a walk in the park, or you can ride your bike around the neighborhood.",
+                    "Neither...nor: Neither the rain nor the traffic could ruin my good mood today.",
+                    "Not only...but also: Not only did I finish my project ahead of schedule, but I also helped a colleague with theirs.",
+                    "Both...and: Both the morning meeting and the afternoon presentation went exceptionally well.",
+                    "Whether...or: Whether I cook dinner or order takeout, tonight will be a relaxing evening."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Quantifiers",
+        "category": "Quantifiers",
+        "label": "Quantifiers",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "All / Some / None / Most of us + [verb] - Useful for talking about a group.",
+                "hint": "",
+                "answer": [
+                    "All of us live in Chennai.",
+                    "Some of us work remotely.",
+                    "None of us have met in person yet.",
+                    "Most of us prefer working in the morning."
+                ]
+            },
+            {
+                "question": "Both / Either / Neither of us - Used when referring to two people.",
+                "hint": "",
+                "answer": [
+                    "Both of us are from Tamil Nadu.",
+                    "Neither of us speaks Hindi fluently.",
+                    "Either of us can present tomorrow."
+                ]
+            },
+            {
+                "question": "One of us / Each of us / Every one of us - Used for emphasizing individuals in the group.",
+                "hint": "",
+                "answer": [
+                    "One of us is from Bangalore.",
+                    "Each of us has a different skillset.",
+                    "Every one of us contributed to the project."
+                ]
+            },
+            {
+                "question": "Some are… others are… - Used to contrast group members.",
+                "hint": "",
+                "answer": [
+                    "Some are developers, others are testers.",
+                    "Some of us joined early, others came later."
+                ]
+            },
+            {
+                "question": "Not all of us / Only a few of us - Used for partial truths.",
+                "hint": "",
+                "answer": [
+                    "Not all of us are engineers.",
+                    "Only a few of us are attending in person."
+                ]
+            },
+            {
+                "question": "As for me / As for us - Used for clarifying your part in the group.",
+                "hint": "",
+                "answer": [
+                    "As for me, I’m from Coimbatore.",
+                    "As for us, we’re joining the event virtually."
+                ]
+            },
+            {
+                "question": "All - Refers to the entire group or quantity.",
+                "hint": "",
+                "answer": [
+                    "All of us are ready.",
+                    "All students must submit their forms.",
+                    "All the lights were turned off before leaving."
+                ]
+            },
+            {
+                "question": "Some - Refers to part of a group or quantity.",
+                "hint": "",
+                "answer": [
+                    "Some of them arrived late.",
+                    "She ate some of the cake.",
+                    "Some people prefer tea over coffee."
+                ]
+            },
+            {
+                "question": "None - Indicates zero or nothing.",
+                "hint": "",
+                "answer": [
+                    "None of the answers were correct.",
+                    "None of us were invited.",
+                    "He has none left in his wallet."
+                ]
+            },
+            {
+                "question": "Most - Refers to a large part or majority.",
+                "hint": "",
+                "answer": [
+                    "Most students completed the assignment.",
+                    "Most of us enjoy working remotely.",
+                    "Most of the food was delicious."
+                ]
+            },
+            {
+                "question": "Each - Emphasizes individuals in a group.",
+                "hint": "",
+                "answer": [
+                    "Each of us has a role.",
+                    "Each student received a certificate.",
+                    "Each item was carefully packed."
+                ]
+            },
+            {
+                "question": "Every - Refers to all members of a group individually.",
+                "hint": "",
+                "answer": [
+                    "Every member contributed.",
+                    "He greeted every guest personally.",
+                    "Every seat was taken."
+                ]
+            },
+            {
+                "question": "Few - Refers to a small number (positive tone).",
+                "hint": "",
+                "answer": [
+                    "Few people understood the question.",
+                    "A few students stayed after class.",
+                    "There are few problems with the design."
+                ]
+            },
+            {
+                "question": "Many - Refers to a large number.",
+                "hint": "",
+                "answer": [
+                    "Many of them were excited.",
+                    "She has many friends.",
+                    "Many people supported the idea."
+                ]
+            },
+            {
+                "question": "Several - Means more than a few, but not many.",
+                "hint": "",
+                "answer": [
+                    "Several guests canceled.",
+                    "I’ve read several books on the topic.",
+                    "He made several attempts to contact her."
+                ]
+            },
+            {
+                "question": "Any - Refers to one, some, or all (used in questions/negatives).",
+                "hint": "",
+                "answer": [
+                    "Do you have any questions?",
+                    "I don't have any time today.",
+                    "You may choose any option."
+                ]
+            },
+            {
+                "question": "Both - Refers to two people or things together.",
+                "hint": "",
+                "answer": [
+                    "Both options are available.",
+                    "Both of them agreed.",
+                    "She invited both her cousins."
+                ]
+            }
+        ]
     }
 ]
