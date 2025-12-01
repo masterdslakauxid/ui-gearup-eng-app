@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pagetwo.component.css']
 })
 export class PageTwoComponent {
+  showLeftPanel: boolean = false;
 }

@@ -1,14 +1,21 @@
-<div class="content" role="main"></div>
-<div class="container">
-    <div class="left-panel">
-        <!-- Content for 25% width goes here -->
-        <app-testselector></app-testselector>
-    </div>
-    <div class="right-panel">
-        <app-testdetails></app-testdetails>
+<div class="content" role="main">
+    <div class="container">
+        <!-- Hamburger Toggle Button -->
+        <button class="menu-toggle" (click)="showLeftPanel = !showLeftPanel">
+            ☰
+        </button>
+        <br>
+        <!-- Left Panel -->
+        <div class="left-panel" [class.show]="showLeftPanel">
+            <app-testselector></app-testselector>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <app-testdetails></app-testdetails>
+        </div>
+        <!-- <footer>
+            Have a great day ahead!
+        </footer> -->
     </div>
 </div>
-<Br>
-<Br>
-<Br>
-<Br>

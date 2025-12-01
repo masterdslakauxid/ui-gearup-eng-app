@@ -132,3 +132,61 @@ body {
 .wrong {
     color: red;
 }
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Left Panel default styles */
+.left-panel {
+    width: 25%;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Right Panel default styles */
+.right-panel {
+    width: 75%;
+    padding: 10px;
+}
+
+.menu-toggle {
+    display: none;
+    position: relative;
+    /* fixed so it stays on screen */
+    top: 15px;
+    left: 10px;
+    z-index: 1000;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Responsive for small screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .left-panel {
+        display: none;
+        width: 100%;
+    }
+
+    .left-panel.show {
+        display: block;
+        background-color: #f2f2f2;
+    }
+
+    .right-panel {
+        width: 100%;
+    }
+}
