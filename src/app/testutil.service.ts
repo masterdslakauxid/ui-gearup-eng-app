@@ -49,12 +49,13 @@ export class TestUtilService {
 
     getPath() {
         let path = "";
-        if (this.isLocalhost()) {
-            // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
-            path = 'assets/inputs/modules/' + this.getModuleName() + '/test.json';
-        } else {
-            path = this.getOrigin() + '/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
-        }
+        path = 'assets/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
+        // if (this.isLocalhost()) {
+        //     // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
+        //     path = 'assets/inputs/modules/' + this.getModuleName() + '/test.json';
+        // } else {
+        //     path = this.getOrigin() + '/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
+        // }
         console.log("Dynamically loading the test set from the domain = " + path);
         return path;
     }
