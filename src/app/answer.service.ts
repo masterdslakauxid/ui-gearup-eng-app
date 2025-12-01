@@ -34,6 +34,8 @@ export class AnswerService {
         this.resetUserAnswers();
         let path = this.testUtilService.getPath();
 
+        console.log("Full path of the files to be loaded.....  " + path);
+
         this.http.get<{ key: string, category: string, label: string, visibility: boolean, skipWordHighlighting: boolean, wordsToBeHighlighted: string[], questions: { questionId: string, questionText: string, options: string[] }[], answers: { questionId: string, correctAnswer: string }[] }[]>(path)
             .subscribe(data => {
                 this.labeledJsonArrays = data.filter(item => {

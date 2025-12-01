@@ -12,7 +12,7 @@ export class TestUtilService {
     private usersUrl = 'assets/users.json';
     private modulesUrl = 'assets/modules.json';
 
-    moduleName: string = 'Common';
+    moduleName: string = 'common';
     dataFile: string = "test.json";
 
     constructor(private http: HttpClient) { }
