@@ -2,12 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
+import { environment } from '../environments/environment';
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class TestUtilService {
+
+    environment = environment;   // expose environment to HTML
 
     private usersUrl = 'assets/users.json';
     private modulesUrl = 'assets/modules.json';
@@ -49,7 +52,8 @@ export class TestUtilService {
 
     getPath() {
         let path = "";
-        path = 'assets/inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
+        //path = 'inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
+        path = environment.assetBaseUrl + 'inputs/modules/' + this.getModuleName() + '/' + this.dataFile;
         // if (this.isLocalhost()) {
         //     // path = 'assets/inputs/modules/' + this.moduleName + '/' + this.dataFile;
         //     path = 'assets/inputs/modules/' + this.getModuleName() + '/test.json';

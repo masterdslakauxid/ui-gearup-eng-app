@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { DataService } from './data.service';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ export class AppComponent implements OnInit {
   modules: any = {};
   selectedUserModules: any[] = [];
   selectedUser: any = null;
+  environment = environment;   // expose environment to HTML
 
   constructor(private dataService: DataService) { }
 

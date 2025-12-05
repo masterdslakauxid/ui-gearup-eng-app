@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-pagethree',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pagethree.component.css']
 })
 export class PagethreeComponent implements OnInit {
+  environment = environment;   // expose environment to HTML
 
   constructor() { }
 

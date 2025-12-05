@@ -8,13 +8,12 @@
     <div class="tab-content">
         <!-- Selection Tab Content -->
         <div *ngIf="activeTab === 'selection'">
-            <img
-                src="http://englishroutines.s3-website.ap-south-1.amazonaws.com/inputs/images/RoutinesforPractice.png" />
+            <img [src]="environment.assetBaseUrl + 'inputs/images/' + 'RoutinesforPractice.png'" alt="logo" />
         </div>
 
         <!-- Questions Tab Content -->
         <div *ngIf="activeTab === 'questions'">
-            <img src="http://englishroutines.s3-website.ap-south-1.amazonaws.com/inputs/images/Recurrence.png" />
+            <img [src]="environment.assetBaseUrl + 'inputs/images/' + 'Recurrence.png'" alt="logo" />
         </div>
     </div>
 </div>
