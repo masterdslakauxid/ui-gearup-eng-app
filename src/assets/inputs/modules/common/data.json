@@ -4115,7 +4115,7 @@
                 "hint": "own",
                 "answer": [
                     "Yes, they own a car.",
-                    "No, they don’t own a car."
+                    "No, they don't own a car."
                 ]
             },
             {
@@ -4123,7 +4123,7 @@
                 "hint": "mean",
                 "answer": [
                     "This word means 'to accomplish.'",
-                    "I don’t know what this word means."
+                    "I don't know what this word means."
                 ]
             },
             {
@@ -4139,7 +4139,7 @@
                 "hint": "matter",
                 "answer": [
                     "Yes, it matters a lot.",
-                    "No, it doesn’t matter."
+                    "No, it doesn't matter."
                 ]
             },
             {
@@ -4147,7 +4147,7 @@
                 "hint": "believe",
                 "answer": [
                     "Yes, I believe in life after death.",
-                    "No, I don’t believe in that."
+                    "No, I don't believe in that."
                 ]
             },
             {
@@ -4155,7 +4155,7 @@
                 "hint": "fit",
                 "answer": [
                     "Yes, it fits me perfectly.",
-                    "No, it doesn’t fit me well."
+                    "No, it doesn't fit me well."
                 ]
             },
             {
@@ -4163,7 +4163,7 @@
                 "hint": "contain",
                 "answer": [
                     "Yes, it contains my personal items.",
-                    "No, it doesn’t contain my items."
+                    "No, it doesn't contain my items."
                 ]
             },
             {
@@ -4809,9 +4809,9 @@
                 "question": "Neither do I / Neither does she (agreement with negative statements)",
                 "hint": "Structure: Neither + auxiliary/modal verb + subject",
                 "answer": [
-                    "I don’t like spicy food. Neither do I.",
-                    "She isn’t ready. Neither is he.",
-                    "They haven’t finished. Neither have we."
+                    "I don't like spicy food. Neither do I.",
+                    "She isn't ready. Neither is he.",
+                    "They haven't finished. Neither have we."
                 ]
             },
             {
@@ -4819,8 +4819,8 @@
                 "hint": "Structure: If I were you, I would + base verb",
                 "answer": [
                     "If I were you, I would talk to him.",
-                    "If I were you, I wouldn’t ignore this.",
-                    "If I were you, I’d rest now."
+                    "If I were you, I wouldn't ignore this.",
+                    "If I were you, I'd rest now."
                 ]
             },
             {
@@ -4842,48 +4842,48 @@
                 ]
             },
             {
-                "question": "I’d like to + base verb (polite desire)",
-                "hint": "Structure: I’d like to + base verb",
+                "question": "I'd like to + base verb (polite desire)",
+                "hint": "Structure: I'd like to + base verb",
                 "answer": [
-                    "I’d like to join the meeting.",
-                    "I’d like to speak with you.",
-                    "I’d like to help."
+                    "I'd like to join the meeting.",
+                    "I'd like to speak with you.",
+                    "I'd like to help."
                 ]
             },
             {
-                "question": "I’m used to + verb-ing (showing familiarity)",
-                "hint": "Structure: I’m used to + verb-ing",
+                "question": "I'm used to + verb-ing (showing familiarity)",
+                "hint": "Structure: I'm used to + verb-ing",
                 "answer": [
-                    "I’m used to waking up early.",
-                    "I’m used to working late.",
-                    "I’m used to this noise."
+                    "I'm used to waking up early.",
+                    "I'm used to working late.",
+                    "I'm used to this noise."
                 ]
             },
             {
                 "question": "As far as I know (limited knowledge)",
                 "hint": "Structure: As far as I know, + statement",
                 "answer": [
-                    "As far as I know, she’s on leave.",
+                    "As far as I know, she's on leave.",
                     "As far as I know, they agreed.",
                     "As far as I know, the project is on track."
                 ]
             },
             {
-                "question": "I’m looking forward to + verb-ing",
-                "hint": "Structure: I’m looking forward to + verb-ing",
+                "question": "I'm looking forward to + verb-ing",
+                "hint": "Structure: I'm looking forward to + verb-ing",
                 "answer": [
-                    "I’m looking forward to meeting you.",
-                    "I’m looking forward to the weekend.",
-                    "I’m looking forward to your reply."
+                    "I'm looking forward to meeting you.",
+                    "I'm looking forward to the weekend.",
+                    "I'm looking forward to your reply."
                 ]
             },
             {
                 "question": "It's time to + base verb",
                 "hint": "Structure: It's time to + base verb",
                 "answer": [
-                    "It’s time to leave.",
-                    "It’s time to talk seriously.",
-                    "It’s time to make a decision."
+                    "It's time to leave.",
+                    "It's time to talk seriously.",
+                    "It's time to make a decision."
                 ]
             },
             {
@@ -4896,12 +4896,12 @@
                 ]
             },
             {
-                "question": "I’m not sure if + clause (uncertainty)",
-                "hint": "Structure: I’m not sure if + subject + verb",
+                "question": "I'm not sure if + clause (uncertainty)",
+                "hint": "Structure: I'm not sure if + subject + verb",
                 "answer": [
-                    "I’m not sure if he will come.",
-                    "I’m not sure if this will work.",
-                    "I’m not sure if they know."
+                    "I'm not sure if he will come.",
+                    "I'm not sure if this will work.",
+                    "I'm not sure if they know."
                 ]
             },
             {
@@ -4909,7 +4909,7 @@
                 "hint": "Structure: As soon as + subject + verb",
                 "answer": [
                     "Call me as soon as you arrive.",
-                    "We’ll leave as soon as she comes.",
+                    "We'll leave as soon as she comes.",
                     "He left as soon as the meeting ended."
                 ]
             },
@@ -4927,7 +4927,7 @@
                 "hint": "Structure: What if + subject + verb",
                 "answer": [
                     "What if it rains tomorrow?",
-                    "What if he doesn’t come?",
+                    "What if he doesn't come?",
                     "What if we fail?"
                 ]
             },
@@ -4935,9 +4935,9 @@
                 "question": "I'd rather + base verb (preference)",
                 "hint": "Structure: I'd rather + base verb",
                 "answer": [
-                    "I’d rather stay home.",
-                    "I’d rather talk later.",
-                    "I’d rather not say anything."
+                    "I'd rather stay home.",
+                    "I'd rather talk later.",
+                    "I'd rather not say anything."
                 ]
             },
             {
@@ -4980,16 +4980,16 @@
                 "question": "Be interested in + noun/verb-ing",
                 "hint": "Structure: Subject + be interested in + noun/verb-ing",
                 "answer": [
-                    "I’m interested in learning Spanish.",
+                    "I'm interested in learning Spanish.",
                     "She is interested in history.",
-                    "He’s interested in working abroad."
+                    "He's interested in working abroad."
                 ]
             },
             {
                 "question": "Be about to + base verb (immediate future)",
                 "hint": "Structure: Subject + be about to + verb",
                 "answer": [
-                    "I’m about to leave.",
+                    "I'm about to leave.",
                     "He is about to call you.",
                     "They are about to announce the results."
                 ]
@@ -5007,9 +5007,9 @@
                 "question": "Have got to + base verb (necessity)",
                 "hint": "Structure: Subject + have got to + verb",
                 "answer": [
-                    "I’ve got to go now.",
-                    "You’ve got to see this!",
-                    "We’ve got to finish the work today."
+                    "I've got to go now.",
+                    "You've got to see this!",
+                    "We've got to finish the work today."
                 ]
             },
             {
@@ -5044,7 +5044,7 @@
                 "hint": "Structure: Subject + be able to + base verb",
                 "answer": [
                     "She is able to solve the puzzle.",
-                    "I’m able to finish this task on time.",
+                    "I'm able to finish this task on time.",
                     "They were able to fix the issue."
                 ]
             },
@@ -5058,12 +5058,12 @@
                 ]
             },
             {
-                "question": "I didn’t mean to + base verb (To express something was unintentional)",
-                "hint": "Structure: I didn’t mean to + base verb",
+                "question": "I didn't mean to + base verb (To express something was unintentional)",
+                "hint": "Structure: I didn't mean to + base verb",
                 "answer": [
-                    "I didn’t mean to offend you.",
-                    "I didn’t mean to interrupt.",
-                    "I didn’t mean to hurt your feelings."
+                    "I didn't mean to offend you.",
+                    "I didn't mean to interrupt.",
+                    "I didn't mean to hurt your feelings."
                 ]
             },
             {
@@ -5094,30 +5094,30 @@
                 ]
             },
             {
-                "question": "There’s no point in + verb-ing",
-                "hint": "Structure: There’s no point in + verb-ing",
+                "question": "There's no point in + verb-ing",
+                "hint": "Structure: There's no point in + verb-ing",
                 "answer": [
-                    "There’s no point in arguing.",
-                    "There’s no point in waiting any longer.",
-                    "There’s no point in complaining."
+                    "There's no point in arguing.",
+                    "There's no point in waiting any longer.",
+                    "There's no point in complaining."
                 ]
             },
             {
-                "question": "I’m looking forward to + noun/verb-ing",
-                "hint": "Structure: I’m looking forward to + noun/verb-ing",
+                "question": "I'm looking forward to + noun/verb-ing",
+                "hint": "Structure: I'm looking forward to + noun/verb-ing",
                 "answer": [
-                    "I’m looking forward to meeting you.",
-                    "I’m looking forward to the weekend.",
-                    "I’m looking forward to seeing the results."
+                    "I'm looking forward to meeting you.",
+                    "I'm looking forward to the weekend.",
+                    "I'm looking forward to seeing the results."
                 ]
             },
             {
-                "question": "I can’t help + verb-ing (Something you can’t stop yourself from doing)",
-                "hint": "Structure: I can’t help + verb-ing",
+                "question": "I can't help + verb-ing (Something you can't stop yourself from doing)",
+                "hint": "Structure: I can't help + verb-ing",
                 "answer": [
-                    "I can’t help laughing at that.",
-                    "I can’t help thinking about it.",
-                    "I can’t help feeling nervous."
+                    "I can't help laughing at that.",
+                    "I can't help thinking about it.",
+                    "I can't help feeling nervous."
                 ]
             },
             {
@@ -5125,8 +5125,8 @@
                 "hint": "Structure: So far + subject + has/have + past participle",
                 "answer": [
                     "So far, I have completed five chapters.",
-                    "So far, he hasn’t replied.",
-                    "So far, we’ve made good progress."
+                    "So far, he hasn't replied.",
+                    "So far, we've made good progress."
                 ]
             },
             {
@@ -5139,12 +5139,12 @@
                 ]
             },
             {
-                "question": "I’d rather you + past tense (Polite suggestion or preference)",
-                "hint": "Structure: I’d rather + you + past tense verb",
+                "question": "I'd rather you + past tense (Polite suggestion or preference)",
+                "hint": "Structure: I'd rather + you + past tense verb",
                 "answer": [
-                    "I’d rather you didn’t come today.",
-                    "I’d rather you spoke to him yourself.",
-                    "I’d rather you stayed here tonight."
+                    "I'd rather you didn't come today.",
+                    "I'd rather you spoke to him yourself.",
+                    "I'd rather you stayed here tonight."
                 ]
             },
             {
@@ -5157,12 +5157,12 @@
                 ]
             },
             {
-                "question": "I’m not sure if… (Uncertainty or doubt)",
-                "hint": "Structure: I’m not sure if + subject + verb",
+                "question": "I'm not sure if… (Uncertainty or doubt)",
+                "hint": "Structure: I'm not sure if + subject + verb",
                 "answer": [
-                    "I’m not sure if he’ll agree.",
-                    "I’m not sure if I can join tomorrow.",
-                    "I’m not sure if this will work."
+                    "I'm not sure if he'll agree.",
+                    "I'm not sure if I can join tomorrow.",
+                    "I'm not sure if this will work."
                 ]
             },
             {
@@ -5202,37 +5202,37 @@
                 ]
             },
             {
-                "question": "I’d like to + base verb (Polite way to express desire)",
-                "hint": "Structure: I’d like to + base verb",
+                "question": "I'd like to + base verb (Polite way to express desire)",
+                "hint": "Structure: I'd like to + base verb",
                 "answer": [
-                    "I’d like to join the meeting early.",
-                    "I’d like to share something important.",
-                    "I’d like to ask a question."
+                    "I'd like to join the meeting early.",
+                    "I'd like to share something important.",
+                    "I'd like to ask a question."
                 ]
             },
             {
-                "question": "I’m used to + noun/verb-ing (Describing habit or familiarity)",
-                "hint": "Structure: I’m used to + noun/verb-ing",
+                "question": "I'm used to + noun/verb-ing (Describing habit or familiarity)",
+                "hint": "Structure: I'm used to + noun/verb-ing",
                 "answer": [
-                    "I’m used to working late.",
-                    "I’m used to cold weather.",
-                    "I’m used to speaking in public."
+                    "I'm used to working late.",
+                    "I'm used to cold weather.",
+                    "I'm used to speaking in public."
                 ]
             },
             {
-                "question": "It’s been a long time since + subject + verb (past)",
-                "hint": "Structure: It’s been a long time since + subject + verb (past)",
+                "question": "It's been a long time since + subject + verb (past)",
+                "hint": "Structure: It's been a long time since + subject + verb (past)",
                 "answer": [
-                    "It’s been a long time since we met.",
-                    "It’s been a long time since I played cricket.",
-                    "It’s been a long time since she visited us."
+                    "It's been a long time since we met.",
+                    "It's been a long time since I played cricket.",
+                    "It's been a long time since she visited us."
                 ]
             },
             {
                 "question": "As far as I know… (To show personal knowledge)",
                 "hint": "Structure: As far as I know, + clause",
                 "answer": [
-                    "As far as I know, he’s not coming today.",
+                    "As far as I know, he's not coming today.",
                     "As far as I know, the file was submitted yesterday.",
                     "As far as I know, everything is fine."
                 ]
@@ -5241,9 +5241,9 @@
                 "question": "The reason why… is because…",
                 "hint": "Structure: The reason why + clause + is because + clause",
                 "answer": [
-                    "The reason why I left early is because I wasn’t feeling well.",
-                    "The reason why she’s upset is because of the delay.",
-                    "The reason why we’re late is because of traffic."
+                    "The reason why I left early is because I wasn't feeling well.",
+                    "The reason why she's upset is because of the delay.",
+                    "The reason why we're late is because of traffic."
                 ]
             },
             {
@@ -5256,37 +5256,37 @@
                 ]
             },
             {
-                "question": "I’d rather + base verb",
-                "hint": "Structure: I’d rather + base verb",
+                "question": "I'd rather + base verb",
+                "hint": "Structure: I'd rather + base verb",
                 "answer": [
-                    "I’d rather stay home tonight.",
-                    "I’d rather speak to him directly.",
-                    "I’d rather wait for a while."
+                    "I'd rather stay home tonight.",
+                    "I'd rather speak to him directly.",
+                    "I'd rather wait for a while."
                 ]
             },
             {
-                "question": "It’s high time + subject + verb (past tense) (To say something should have happened already)",
-                "hint": "Structure: It’s high time + subject + past tense verb",
+                "question": "It's high time + subject + verb (past tense) (To say something should have happened already)",
+                "hint": "Structure: It's high time + subject + past tense verb",
                 "answer": [
-                    "It’s high time we left.",
-                    "It’s high time you took this seriously.",
-                    "It’s high time he made a decision."
+                    "It's high time we left.",
+                    "It's high time you took this seriously.",
+                    "It's high time he made a decision."
                 ]
             },
             {
                 "question": "No matter + wh-word",
                 "hint": "Structure: No matter + wh-word + clause",
                 "answer": [
-                    "No matter what happens, I’m with you.",
-                    "No matter how hard it is, don’t give up.",
-                    "No matter where you go, I’ll support you."
+                    "No matter what happens, I'm with you.",
+                    "No matter how hard it is, don't give up.",
+                    "No matter where you go, I'll support you."
                 ]
             },
             {
                 "question": "What if + subject + verb",
                 "hint": "Structure: What if + subject + verb (simple present/future)",
                 "answer": [
-                    "What if he doesn’t come?",
+                    "What if he doesn't come?",
                     "What if we miss the train?",
                     "What if it rains tomorrow?"
                 ]
@@ -5295,7 +5295,7 @@
                 "question": "So that + subject + can/will",
                 "hint": "Structure: Clause + so that + subject + can/will + base verb",
                 "answer": [
-                    "I’m explaining it again so that you can understand better.",
+                    "I'm explaining it again so that you can understand better.",
                     "She left early so that she could catch the bus.",
                     "He practices every day so that he will improve."
                 ]
@@ -5313,9 +5313,9 @@
                 "question": "It looks like / It seems like",
                 "hint": "Structure: It looks/seems like + clause",
                 "answer": [
-                    "It looks like it’s going to rain.",
-                    "It seems like he’s in a bad mood.",
-                    "It looks like they’ve finished the work."
+                    "It looks like it's going to rain.",
+                    "It seems like he's in a bad mood.",
+                    "It looks like they've finished the work."
                 ]
             }
         ]
@@ -5436,7 +5436,7 @@
                 "question": "Empathetic: Showing an ability to understand and share the feelings of another",
                 "hint": "-",
                 "answer": [
-                    "He is empathetic and always listens to others’ concerns"
+                    "He is empathetic and always listens to others' concerns"
                 ]
             },
             {
@@ -5604,8 +5604,350 @@
         ]
     },
     {
+        "key": "100+ collocations",
+        "category": "100+ collocations",
+        "label": "100+ collocations",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "run / host / conduct a meeting - Useful for talking about meetings.",
+                "hint": "",
+                "answer": [
+                    "We usually run our weekly team meetings on Monday.",
+                    "TM John hosted the recap meeting flawlessly.",
+                    "He conducted the evaluation session professionally."
+                ]
+            },
+            {
+                "question": "make / take / have a decision - Useful for talking about decision-making.",
+                "hint": "",
+                "answer": [
+                    "I had to make a difficult decision yesterday.",
+                    "The team took a decision to implement the new system.",
+                    "We have a decision pending regarding the budget."
+                ]
+            },
+            {
+                "question": "express / share / raise an opinion - Useful for talking about communication.",
+                "hint": "",
+                "answer": [
+                    "She expressed her opinion clearly during the meeting.",
+                    "Please feel free to share your opinion with the group.",
+                    "He raised an opinion about improving the workflow."
+                ]
+            },
+            {
+                "question": "deliver / give / present a speech - Useful for talking about speaking.",
+                "hint": "",
+                "answer": [
+                    "TM Jemy delivered a speech on leadership.",
+                    "She gave a speech about time management.",
+                    "He presented a speech on effective communication."
+                ]
+            },
+            {
+                "question": "take responsibility / ownership - Useful for talking about accountability.",
+                "hint": "",
+                "answer": [
+                    "She took responsibility for organizing the meeting.",
+                    "He owns the project and takes full accountability.",
+                    "We must take ownership of our actions."
+                ]
+            },
+            {
+                "question": "learn from / gain experience / reflect on - Useful for learning and growth.",
+                "hint": "",
+                "answer": [
+                    "We learned from last month's mistakes.",
+                    "I gained experience by attending the evaluation session.",
+                    "She reflected on her previous speeches to improve."
+                ]
+            },
+            {
+                "question": "make progress / stay focused / follow through - Useful for work and results.",
+                "hint": "",
+                "answer": [
+                    "We are making progress on the club project.",
+                    "He stayed focused during the entire Table Topics session.",
+                    "It's important to follow through on action items."
+                ]
+            },
+            {
+                "question": "step up / lead by example / handle challenges - Useful for leadership.",
+                "hint": "",
+                "answer": [
+                    "John stepped up to conduct the impromptu session.",
+                    "She leads by example in every meeting.",
+                    "He handled challenges gracefully during the event."
+                ]
+            },
+            {
+                "question": "participate in / attend / join meetings - Useful for engagement.",
+                "hint": "",
+                "answer": [
+                    "We should participate in our buddy club meetings.",
+                    "He attended a workshop to learn new techniques.",
+                    "She joined the evaluation session to gain insights."
+                ]
+            },
+            {
+                "question": "add value / highlight / emphasize points - Useful for enhancing discussions.",
+                "hint": "",
+                "answer": [
+                    "Her feedback added value to the session.",
+                    "He highlighted key points from the speech.",
+                    "I want to emphasize the importance of consistent practice."
+                ]
+            },
+            {
+                "question": "make an effort / take initiative / push yourself - Useful for motivation.",
+                "hint": "",
+                "answer": [
+                    "She made an effort to improve her speech delivery.",
+                    "He took initiative to organize the Table Topics session.",
+                    "I need to push myself to practice every day."
+                ]
+            },
+            {
+                "question": "keep in mind / remember / note that - Useful for instructions.",
+                "hint": "",
+                "answer": [
+                    "Keep in mind the time limit for speeches.",
+                    "Remember to give constructive feedback.",
+                    "Note that the evaluation session starts at 6 PM."
+                ]
+            },
+            {
+                "question": "stay consistent / stay focused / stay engaged - Useful for habits and attention.",
+                "hint": "",
+                "answer": [
+                    "Stay consistent with your practice to improve.",
+                    "He stayed focused throughout the evaluation session.",
+                    "Participants should stay engaged in Table Topics."
+                ]
+            },
+            {
+                "question": "meet expectations / achieve goals / set targets - Useful for performance.",
+                "hint": "",
+                "answer": [
+                    "We need to meet expectations for our club projects.",
+                    "She achieved her goals through disciplined practice.",
+                    "The team set targets for the next quarter."
+                ]
+            },
+            {
+                "question": "handle pressure / manage stress / stay calm - Useful for resilience.",
+                "hint": "",
+                "answer": [
+                    "He handled pressure well during the impromptu session.",
+                    "She manages stress effectively before giving speeches.",
+                    "Staying calm is essential during evaluations."
+                ]
+            },
+            {
+                "question": "learn new skills / develop abilities / improve performance - Useful for growth.",
+                "hint": "",
+                "answer": [
+                    "I want to learn new skills from the Table Topics sessions.",
+                    "She developed abilities in public speaking quickly.",
+                    "He improved performance by practicing regularly."
+                ]
+            },
+            {
+                "question": "give feedback / receive feedback / provide input - Useful for evaluation.",
+                "hint": "",
+                "answer": [
+                    "Please give feedback to your peers after the speech.",
+                    "He received feedback to improve his speech structure.",
+                    "She provided input during the evaluation session."
+                ]
+            },
+            {
+                "question": "step out of your comfort zone / take risks / embrace challenges - Useful for personal growth.",
+                "hint": "",
+                "answer": [
+                    "Stepping out of your comfort zone improves confidence.",
+                    "He took risks to try a new speech style.",
+                    "We should embrace challenges to learn faster."
+                ]
+            },
+            {
+                "question": "keep track of / follow up on / stay updated - Useful for organization.",
+                "hint": "",
+                "answer": [
+                    "Keep track of your speech timings.",
+                    "Follow up on pending action items after the meeting.",
+                    "Stay updated with the club's announcements."
+                ]
+            },
+            {
+                "question": "make suggestions / offer advice / propose ideas - Useful for collaboration.",
+                "hint": "",
+                "answer": [
+                    "She made suggestions to improve the meeting flow.",
+                    "He offered advice to a new member.",
+                    "I proposed ideas during the planning session."
+                ]
+            },
+            {
+                "question": "gain confidence / build trust / earn respect - Useful for relationships.",
+                "hint": "",
+                "answer": [
+                    "He gained confidence after delivering multiple speeches.",
+                    "Building trust with team members is crucial.",
+                    "She earned respect through consistent performance."
+                ]
+            },
+            {
+                "question": "highlight achievements / recognize contributions / celebrate success - Useful for motivation.",
+                "hint": "",
+                "answer": [
+                    "We highlighted achievements in the annual recap meeting.",
+                    "The club recognized contributions of each member.",
+                    "They celebrated success after completing the project."
+                ]
+            },
+            {
+                "question": "stay positive / maintain attitude / keep motivated - Useful for mindset.",
+                "hint": "",
+                "answer": [
+                    "Stay positive even if the speech didn't go well.",
+                    "Maintain a professional attitude during evaluations.",
+                    "Keep motivated by focusing on progress."
+                ]
+            },
+            {
+                "question": "draw inspiration from / take lessons from / learn from experience - Useful for learning.",
+                "hint": "",
+                "answer": [
+                    "We drew inspiration from Tim's presentation.",
+                    "He took lessons from previous sessions to improve.",
+                    "She learned from experience to handle impromptu speeches."
+                ]
+            },
+            {
+                "question": "plan ahead / organize effectively / prioritize tasks - Useful for planning.",
+                "hint": "",
+                "answer": [
+                    "We need to plan ahead for the annual meeting.",
+                    "She organized the session effectively.",
+                    "Prioritize tasks to complete work on time."
+                ]
+            },
+            {
+                "question": "make time for / schedule meetings / allocate resources - Useful for time management.",
+                "hint": "",
+                "answer": [
+                    "Make time for practice before the next session.",
+                    "Schedule meetings to discuss the upcoming event.",
+                    "Allocate resources efficiently for the project."
+                ]
+            },
+            {
+                "question": "follow instructions / obey rules / adhere to guidelines - Useful for compliance.",
+                "hint": "",
+                "answer": [
+                    "Follow instructions carefully during Table Topics.",
+                    "Obey rules to ensure smooth club operations.",
+                    "Adhere to guidelines when submitting speeches."
+                ]
+            },
+            {
+                "question": "bring learnings back / apply knowledge / implement strategies - Useful for application.",
+                "hint": "",
+                "answer": [
+                    "We bring learnings back from buddy club meetings.",
+                    "Apply knowledge gained from workshops immediately.",
+                    "Implement strategies discussed in team sessions."
+                ]
+            },
+            {
+                "question": "face challenges / overcome obstacles / solve problems - Useful for problem-solving.",
+                "hint": "",
+                "answer": [
+                    "We face challenges during impromptu speeches.",
+                    "She overcame obstacles to complete her speech successfully.",
+                    "He solved problems creatively during the session."
+                ]
+            },
+            {
+                "question": "focus on / concentrate on / pay attention to - Useful for attention.",
+                "hint": "",
+                "answer": [
+                    "Focus on key points during your speech.",
+                    "Concentrate on timing to avoid overruns.",
+                    "Pay attention to feedback for improvement."
+                ]
+            },
+            {
+                "question": "share experiences / exchange ideas / collaborate effectively - Useful for teamwork.",
+                "hint": "",
+                "answer": [
+                    "We shared experiences during the meeting.",
+                    "Members exchanged ideas to improve club activities.",
+                    "We collaborate effectively to run successful sessions."
+                ]
+            },
+            {
+                "question": "set clear goals / define objectives / establish priorities - Useful for planning.",
+                "hint": "",
+                "answer": [
+                    "Set clear goals before starting the project.",
+                    "Define objectives for the next club year.",
+                    "Establish priorities to focus on important tasks."
+                ]
+            },
+            {
+                "question": "stay motivated / keep engaged / maintain discipline - Useful for consistency.",
+                "hint": "",
+                "answer": [
+                    "Stay motivated to continue improving speeches.",
+                    "Keep engaged in every session to learn fully.",
+                    "Maintain discipline in practicing regularly."
+                ]
+            },
+            {
+                "question": "take part in / join activities / participate actively - Useful for engagement.",
+                "hint": "",
+                "answer": [
+                    "Take part in Table Topics to improve impromptu skills.",
+                    "Join activities to interact with other members.",
+                    "Participate actively in club projects."
+                ]
+            },
+            {
+                "question": "set expectations / communicate clearly / provide guidance - Useful for leadership.",
+                "hint": "",
+                "answer": [
+                    "Set expectations for the upcoming session.",
+                    "Communicate clearly during the meeting.",
+                    "Provide guidance to new members."
+                ]
+            },
+            {
+                "question": "acknowledge efforts / recognize achievements / appreciate contributions - Useful for motivation.",
+                "hint": "",
+                "answer": [
+                    "Acknowledge efforts of each speaker.",
+                    "Recognize achievements during the recap meeting.",
+                    "Appreciate contributions of every member."
+                ]
+            },
+            {
+                "question": "stay prepared / be ready / get organized - Useful for preparation.",
+                "hint": "",
+                "answer": [
+                    "Stay prepared for your evaluation role.",
+                    "Be ready to deliver your speech confidently.",
+                    "Get organized before the meeting starts."
+                ]
+            }
+        ]
+    },
+    {
         "key": "Quantifiers",
-        "category": "Quantifiers",
+        "category": "20 Most frequent Quantifiers",
         "label": "Quantifiers",
         "visibility": true,
         "skipWordHighlighting": false,
@@ -5658,8 +6000,8 @@
                 "question": "As for me / As for us - Used for clarifying your part in the group.",
                 "hint": "",
                 "answer": [
-                    "As for me, I’m from Coimbatore.",
-                    "As for us, we’re joining the event virtually."
+                    "As for me, I'm from Coimbatore.",
+                    "As for us, we're joining the event virtually."
                 ]
             },
             {
@@ -5739,7 +6081,7 @@
                 "hint": "",
                 "answer": [
                     "Several guests canceled.",
-                    "I’ve read several books on the topic.",
+                    "I've read several books on the topic.",
                     "He made several attempts to contact her."
                 ]
             },
@@ -5759,6 +6101,2868 @@
                     "Both options are available.",
                     "Both of them agreed.",
                     "She invited both her cousins."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Phrasal Verbs",
+        "category": "50 Most Frequent Phrasal Verbs",
+        "label": "Phrasal Verbs",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "look after - Useful for taking care of someone or something.",
+                "hint": "",
+                "answer": [
+                    "She looks after her younger brother every evening.",
+                    "Can you look after the meeting notes while I'm away?",
+                    "He looks after the club's social media accounts."
+                ]
+            },
+            {
+                "question": "step up - Useful for taking responsibility or initiative.",
+                "hint": "",
+                "answer": [
+                    "TM John stepped up to conduct the impromptu session.",
+                    "She stepped up when the team needed a leader.",
+                    "He stepped up to present the project report."
+                ]
+            },
+            {
+                "question": "give up - Useful for quitting or stopping something.",
+                "hint": "",
+                "answer": [
+                    "He gave up trying to memorize all speeches at once.",
+                    "She never gives up, no matter the challenges.",
+                    "I decided to give up on bad habits."
+                ]
+            },
+            {
+                "question": "catch up - Useful for meeting or updating someone.",
+                "hint": "",
+                "answer": [
+                    "I need to catch up with TM Caroline after the meeting.",
+                    "We caught up over coffee to discuss the project.",
+                    "Let's catch up later to review the notes."
+                ]
+            },
+            {
+                "question": "bring up - Useful for introducing a topic.",
+                "hint": "",
+                "answer": [
+                    "He brought up the issue during the discussion.",
+                    "TM Mercy brought up a great point about teamwork.",
+                    "She brought up a new idea for the recap session."
+                ]
+            },
+            {
+                "question": "carry out - Useful for performing tasks or actions.",
+                "hint": "",
+                "answer": [
+                    "We need to carry out the evaluation as planned.",
+                    "She carried out the experiment successfully.",
+                    "The team carried out the project according to schedule."
+                ]
+            },
+            {
+                "question": "stick to - Useful for following rules or plans.",
+                "hint": "",
+                "answer": [
+                    "Stick to the time limit for each speech.",
+                    "He stuck to his plan and finished the task on time.",
+                    "We should stick to the agenda during meetings."
+                ]
+            },
+            {
+                "question": "look forward to - Useful for expressing excitement or anticipation.",
+                "hint": "",
+                "answer": [
+                    "I look forward to attending the next workshop.",
+                    "She looks forward to learning from the evaluation.",
+                    "We look forward to hosting the next club event."
+                ]
+            },
+            {
+                "question": "take over - Useful for assuming control or responsibility.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline took over the meeting when the host was late.",
+                    "He will take over the project next month.",
+                    "She took over the club's social media account temporarily."
+                ]
+            },
+            {
+                "question": "run into - Useful for meeting someone unexpectedly.",
+                "hint": "",
+                "answer": [
+                    "I ran into TM Jemy at the café.",
+                    "We ran into our old club members at the conference.",
+                    "She ran into her mentor while shopping."
+                ]
+            },
+            {
+                "question": "bring back - Useful for restoring or reminding.",
+                "hint": "",
+                "answer": [
+                    "This exercise brings back memories of our first meeting.",
+                    "TM Mercy's recap brings back all the highlights.",
+                    "The old slides bring back useful lessons for us."
+                ]
+            },
+            {
+                "question": "hand in - Useful for submitting.",
+                "hint": "",
+                "answer": [
+                    "Please hand in your evaluation forms by the end of the day.",
+                    "She handed in the report before the deadline.",
+                    "He handed in his application for the contest."
+                ]
+            },
+            {
+                "question": "hand out - Useful for distributing.",
+                "hint": "",
+                "answer": [
+                    "The host handed out the meeting agenda to all members.",
+                    "She handed out feedback sheets after the session.",
+                    "He handed out badges to the participants."
+                ]
+            },
+            {
+                "question": "bring in - Useful for introducing someone or something.",
+                "hint": "",
+                "answer": [
+                    "They brought in a guest speaker for the workshop.",
+                    "She brought in new ideas for improving the club.",
+                    "We brought in a volunteer to assist with the event."
+                ]
+            },
+            {
+                "question": "call off - Useful for canceling an event.",
+                "hint": "",
+                "answer": [
+                    "The meeting was called off due to unexpected circumstances.",
+                    "They called off the outdoor activity because of rain.",
+                    "We had to call off the session at the last minute."
+                ]
+            },
+            {
+                "question": "come across - Useful for finding or meeting unexpectedly.",
+                "hint": "",
+                "answer": [
+                    "I came across an interesting article about public speaking.",
+                    "She came across her old speech notes in a drawer.",
+                    "He came across a solution while reading the guide."
+                ]
+            },
+            {
+                "question": "figure out - Useful for solving or understanding.",
+                "hint": "",
+                "answer": [
+                    "I need to figure out how to manage my time better.",
+                    "She figured out the best way to structure her speech.",
+                    "They figured out a solution to the technical problem."
+                ]
+            },
+            {
+                "question": "carry on - Useful for continuing.",
+                "hint": "",
+                "answer": [
+                    "Carry on with your speech even if you make a mistake.",
+                    "She carried on despite being nervous.",
+                    "We carried on the discussion until all points were covered."
+                ]
+            },
+            {
+                "question": "go over - Useful for reviewing or checking.",
+                "hint": "",
+                "answer": [
+                    "Let's go over the agenda before starting.",
+                    "She went over her speech one last time.",
+                    "He went over the evaluation points carefully."
+                ]
+            },
+            {
+                "question": "set up - Useful for arranging or preparing.",
+                "hint": "",
+                "answer": [
+                    "They set up the room for the meeting.",
+                    "She set up her slides before presenting.",
+                    "He set up the projector for the session."
+                ]
+            },
+            {
+                "question": "come up with - Useful for creating ideas or solutions.",
+                "hint": "",
+                "answer": [
+                    "She came up with a brilliant idea for the recap session.",
+                    "He came up with a solution to the timing issue.",
+                    "They came up with a new format for Table Topics."
+                ]
+            },
+            {
+                "question": "look into - Useful for investigating or checking.",
+                "hint": "",
+                "answer": [
+                    "We need to look into the reason for the delay.",
+                    "She looked into the feedback carefully.",
+                    "He will look into improving the club's process."
+                ]
+            },
+            {
+                "question": "bring out - Useful for highlighting or revealing.",
+                "hint": "",
+                "answer": [
+                    "Her speech brought out important lessons from 2025.",
+                    "The evaluation brought out the strengths and weaknesses.",
+                    "This activity brings out the hidden talent of participants."
+                ]
+            },
+            {
+                "question": "turn up - Useful for appearing or attending.",
+                "hint": "",
+                "answer": [
+                    "Only a few members turned up for the workshop.",
+                    "He turned up on time for his speech.",
+                    "She turned up at the meeting unexpectedly."
+                ]
+            },
+            {
+                "question": "point out - Useful for indicating or explaining.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline pointed out areas of improvement.",
+                    "She pointed out the main takeaway from the session.",
+                    "He pointed out a mistake in the evaluation."
+                ]
+            },
+            {
+                "question": "put off - Useful for postponing.",
+                "hint": "",
+                "answer": [
+                    "We had to put off the meeting due to scheduling conflicts.",
+                    "She put off finishing her speech prep until evening.",
+                    "He put off the evaluation for another day."
+                ]
+            },
+            {
+                "question": "take up - Useful for starting a role, activity, or challenge.",
+                "hint": "",
+                "answer": [
+                    "She took up the TMOD role during the recap session.",
+                    "He took up speaking opportunities to gain confidence.",
+                    "They took up organizing the workshop together."
+                ]
+            },
+            {
+                "question": "bring together - Useful for uniting people or things.",
+                "hint": "",
+                "answer": [
+                    "The meeting brought together members from different clubs.",
+                    "TM Mercy brought together ideas from all speakers.",
+                    "The project brought together volunteers and coordinators."
+                ]
+            },
+            {
+                "question": "call on - Useful for asking someone to do something.",
+                "hint": "",
+                "answer": [
+                    "The chair called on TM Jemy to give her speech.",
+                    "She was called on to share her feedback.",
+                    "He called on the members to participate in Table Topics."
+                ]
+            },
+            {
+                "question": "run out of - Useful for finishing a supply or resource.",
+                "hint": "",
+                "answer": [
+                    "We ran out of feedback forms during the meeting.",
+                    "She ran out of ideas halfway through her speech.",
+                    "They ran out of time for the last activity."
+                ]
+            },
+            {
+                "question": "come down to - Useful for being the main point or result.",
+                "hint": "",
+                "answer": [
+                    "Success in Toastmasters comes down to consistent practice.",
+                    "The decision comes down to team agreement.",
+                    "It comes down to preparation and confidence."
+                ]
+            },
+            {
+                "question": "fill in - Useful for substituting or completing.",
+                "hint": "",
+                "answer": [
+                    "She filled in for the absent TMOD.",
+                    "He filled in the evaluation form carefully.",
+                    "Can you fill in the details on this report?"
+                ]
+            },
+            {
+                "question": "go through - Useful for examining or experiencing.",
+                "hint": "",
+                "answer": [
+                    "We went through all the speeches before the session.",
+                    "She went through her notes one last time.",
+                    "He went through a lot of practice to improve."
+                ]
+            },
+            {
+                "question": "bring forward - Useful for presenting ideas or proposals.",
+                "hint": "",
+                "answer": [
+                    "TM Mercy brought forward a new format for the recap.",
+                    "She brought forward an important suggestion.",
+                    "He brought forward the concerns raised by members."
+                ]
+            },
+            {
+                "question": "carry over - Useful for continuing or transferring.",
+                "hint": "",
+                "answer": [
+                    "The points from last meeting carried over to this session.",
+                    "She carried over her learnings to the next speech.",
+                    "He carried over unfinished tasks to the next week."
+                ]
+            },
+            {
+                "question": "come in - Useful for joining or entering.",
+                "hint": "",
+                "answer": [
+                    "He came in late for the evaluation session.",
+                    "New members came in during the break.",
+                    "She came in with useful notes for the discussion."
+                ]
+            },
+            {
+                "question": "look out for - Useful for being alert or cautious.",
+                "hint": "",
+                "answer": [
+                    "Look out for timing issues during the session.",
+                    "She looked out for mistakes in the speech.",
+                    "He looked out for new learning opportunities."
+                ]
+            },
+            {
+                "question": "back up - Useful for supporting or providing evidence.",
+                "hint": "",
+                "answer": [
+                    "He backed up his points with examples.",
+                    "She backed up her evaluation with evidence.",
+                    "The slides backed up the main message of the speech."
+                ]
+            },
+            {
+                "question": "set aside - Useful for reserving or saving.",
+                "hint": "",
+                "answer": [
+                    "We set aside time for Table Topics practice.",
+                    "She set aside her doubts and focused on the speech.",
+                    "He set aside the evaluation forms for later."
+                ]
+            },
+            {
+                "question": "turn down - Useful for rejecting or refusing.",
+                "hint": "",
+                "answer": [
+                    "She turned down the opportunity politely.",
+                    "He turned down the invitation to attend the other club.",
+                    "They turned down the proposal after discussion."
+                ]
+            },
+            {
+                "question": "look into - Useful for investigating or checking.",
+                "hint": "",
+                "answer": [
+                    "We need to look into the feedback from last session.",
+                    "She looked into the issue carefully before responding.",
+                    "He looked into ways to improve the club process."
+                ]
+            },
+            {
+                "question": "bring about - Useful for causing a change or result.",
+                "hint": "",
+                "answer": [
+                    "Her idea brought about a positive change in the session.",
+                    "The new format brought about more participation.",
+                    "The evaluation brought about improvements in speech delivery."
+                ]
+            },
+            {
+                "question": "fill out - Useful for completing a form or document.",
+                "hint": "",
+                "answer": [
+                    "Please fill out the evaluation form.",
+                    "She filled out the membership application.",
+                    "He filled out the feedback sheet carefully."
+                ]
+            },
+            {
+                "question": "run into trouble - Useful for facing problems.",
+                "hint": "",
+                "answer": [
+                    "We ran into trouble with the projector during the session.",
+                    "She ran into trouble understanding the speech format.",
+                    "He ran into trouble completing the agenda on time."
+                ]
+            },
+            {
+                "question": "call back - Useful for returning a phone call.",
+                "hint": "",
+                "answer": [
+                    "I will call back the guest speaker later.",
+                    "She called back to confirm the meeting details.",
+                    "He called back the member who had questions."
+                ]
+            },
+            {
+                "question": "put together - Useful for assembling or organizing.",
+                "hint": "",
+                "answer": [
+                    "We put together a summary of the year's highlights.",
+                    "She put together the slides for her presentation.",
+                    "He put together the agenda for the next meeting."
+                ]
+            },
+            {
+                "question": "get along with - Useful for having a good relationship.",
+                "hint": "",
+                "answer": [
+                    "She gets along with all club members.",
+                    "He gets along well with the evaluation team.",
+                    "They get along with new members easily."
+                ]
+            },
+            {
+                "question": "bring down - Useful for reducing or lowering.",
+                "hint": "",
+                "answer": [
+                    "The new timing brought down the session duration.",
+                    "She brought down her speech errors after practice.",
+                    "He brought down the level of stress in the team."
+                ]
+            },
+            {
+                "question": "carry through - Useful for completing successfully.",
+                "hint": "",
+                "answer": [
+                    "She carried through the Table Topics session successfully.",
+                    "He carried through the evaluation despite technical issues.",
+                    "The team carried through the project on schedule."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "Idioms",
+        "category": "50 most frequent Idioms",
+        "label": "Idioms",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "break the ice - Useful for starting a conversation comfortably.",
+                "hint": "",
+                "answer": [
+                    "He told a joke to break the ice at the beginning of the session.",
+                    "Sharing an interesting fact helped break the ice with new members.",
+                    "TM Caroline broke the ice by asking everyone to introduce themselves."
+                ]
+            },
+            {
+                "question": "hit the nail on the head - Useful for describing something accurately.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline hit the nail on the head with her feedback.",
+                    "Your summary really hit the nail on the head.",
+                    "She hit the nail on the head when describing the main problem."
+                ]
+            },
+            {
+                "question": "a piece of cake - Useful for describing something very easy.",
+                "hint": "",
+                "answer": [
+                    "Delivering a short speech is a piece of cake for her.",
+                    "Completing the evaluation form was a piece of cake.",
+                    "Memorizing a one-minute speech is a piece of cake."
+                ]
+            },
+            {
+                "question": "burn the midnight oil - Useful for working late at night.",
+                "hint": "",
+                "answer": [
+                    "She burned the midnight oil to prepare her speech.",
+                    "He burned the midnight oil finishing the evaluation notes.",
+                    "We burned the midnight oil to complete the club report."
+                ]
+            },
+            {
+                "question": "call it a day - Useful for stopping work.",
+                "hint": "",
+                "answer": [
+                    "After finishing all evaluations, we called it a day.",
+                    "She called it a day after completing her speech prep.",
+                    "He called it a day once the meeting ended."
+                ]
+            },
+            {
+                "question": "back to square one - Useful for starting over.",
+                "hint": "",
+                "answer": [
+                    "After the tech failure, we were back to square one.",
+                    "She realized her speech needed revision, so she was back to square one.",
+                    "We were back to square one after losing the draft notes."
+                ]
+            },
+            {
+                "question": "bent out of shape - Useful for getting upset or angry.",
+                "hint": "",
+                "answer": [
+                    "Don't get bent out of shape over minor mistakes.",
+                    "She was bent out of shape when the slides didn't work.",
+                    "He got bent out of shape when the timing was wrong."
+                ]
+            },
+            {
+                "question": "cut corners - Useful for doing something in a cheap or easy way.",
+                "hint": "",
+                "answer": [
+                    "Don't cut corners while preparing your speech.",
+                    "They cut corners in setting up the meeting and it showed.",
+                    "She cut corners in her evaluation notes."
+                ]
+            },
+            {
+                "question": "under the weather - Useful for feeling unwell.",
+                "hint": "",
+                "answer": [
+                    "He was under the weather, so he missed the session.",
+                    "She felt under the weather and skipped Table Topics.",
+                    "Some members were under the weather and couldn't attend."
+                ]
+            },
+            {
+                "question": "the ball is in your court - Useful for indicating responsibility.",
+                "hint": "",
+                "answer": [
+                    "The ball is in your court to complete the next speech.",
+                    "Now the ball is in your court to send the evaluation.",
+                    "The ball is in your court to decide the meeting date."
+                ]
+            },
+            {
+                "question": "hit the books - Useful for studying.",
+                "hint": "",
+                "answer": [
+                    "She hit the books to prepare for the speech contest.",
+                    "He hit the books before the next evaluation session.",
+                    "We all need to hit the books to improve our skills."
+                ]
+            },
+            {
+                "question": "jump the gun - Useful for acting too early.",
+                "hint": "",
+                "answer": [
+                    "Don't jump the gun before checking your notes.",
+                    "He jumped the gun and started the meeting early.",
+                    "She jumped the gun and delivered her speech without preparation."
+                ]
+            },
+            {
+                "question": "keep an eye on - Useful for watching or monitoring.",
+                "hint": "",
+                "answer": [
+                    "Keep an eye on the timer during Table Topics.",
+                    "She kept an eye on the audience's reactions.",
+                    "He kept an eye on the slides to avoid mistakes."
+                ]
+            },
+            {
+                "question": "let the cat out of the bag - Useful for revealing a secret.",
+                "hint": "",
+                "answer": [
+                    "Don't let the cat out of the bag about the surprise guest.",
+                    "She accidentally let the cat out of the bag.",
+                    "He almost let the cat out of the bag during his speech."
+                ]
+            },
+            {
+                "question": "miss the boat - Useful for missing an opportunity.",
+                "hint": "",
+                "answer": [
+                    "He missed the boat by submitting the report late.",
+                    "Don't miss the boat on volunteering for the next role.",
+                    "She realized she had missed the boat on early registration."
+                ]
+            },
+            {
+                "question": "on cloud nine - Useful for feeling extremely happy.",
+                "hint": "",
+                "answer": [
+                    "She was on cloud nine after receiving her award.",
+                    "He felt on cloud nine after delivering a perfect speech.",
+                    "They were on cloud nine when the meeting ended successfully."
+                ]
+            },
+            {
+                "question": "once in a blue moon - Useful for something rare.",
+                "hint": "",
+                "answer": [
+                    "We meet once in a blue moon for evaluation workshops.",
+                    "She takes a break from speaking once in a blue moon.",
+                    "Opportunities like this come once in a blue moon."
+                ]
+            },
+            {
+                "question": "play it by ear - Useful for improvising.",
+                "hint": "",
+                "answer": [
+                    "Let's play it by ear if the guest doesn't arrive.",
+                    "She prefers to play it by ear rather than follow strict notes.",
+                    "We played it by ear during the technical glitch."
+                ]
+            },
+            {
+                "question": "pull someone's leg - Useful for teasing someone.",
+                "hint": "",
+                "answer": [
+                    "He was just pulling your leg about missing the speech.",
+                    "She pulled my leg during Table Topics.",
+                    "They pulled his leg when he forgot his cue."
+                ]
+            },
+            {
+                "question": "put all your eggs in one basket - Useful for relying on a single plan.",
+                "hint": "",
+                "answer": [
+                    "Don't put all your eggs in one basket for the contest.",
+                    "She avoided putting all her eggs in one basket for practice.",
+                    "He realized he had put all his eggs in one basket with one role."
+                ]
+            },
+            {
+                "question": "see eye to eye - Useful for agreeing with someone.",
+                "hint": "",
+                "answer": [
+                    "We see eye to eye on the importance of practice.",
+                    "She and TM John see eye to eye on evaluation standards.",
+                    "He doesn't always see eye to eye with his speech coach."
+                ]
+            },
+            {
+                "question": "spill the beans - Useful for revealing secret information.",
+                "hint": "",
+                "answer": [
+                    "Don't spill the beans about the surprise theme.",
+                    "She accidentally spilled the beans during the meeting.",
+                    "He promised not to spill the beans about the next speech topic."
+                ]
+            },
+            {
+                "question": "take with a grain of salt - Useful for being skeptical.",
+                "hint": "",
+                "answer": [
+                    "Take his advice with a grain of salt.",
+                    "She takes rumors with a grain of salt.",
+                    "I took the warning with a grain of salt until I verified it."
+                ]
+            },
+            {
+                "question": "the tip of the iceberg - Useful for a small visible part of a bigger problem.",
+                "hint": "",
+                "answer": [
+                    "This minor issue is just the tip of the iceberg.",
+                    "The speech mistakes were only the tip of the iceberg.",
+                    "The problem he mentioned was the tip of the iceberg."
+                ]
+            },
+            {
+                "question": "under the table - Useful for secretly or illegally.",
+                "hint": "",
+                "answer": [
+                    "He was paid under the table for his extra work.",
+                    "Some arrangements were made under the table.",
+                    "Avoid handling things under the table to stay ethical."
+                ]
+            },
+            {
+                "question": "up in the air - Useful for being undecided or uncertain.",
+                "hint": "",
+                "answer": [
+                    "The timing of the next meeting is still up in the air.",
+                    "Her speech topic is up in the air.",
+                    "The final decision about awards is up in the air."
+                ]
+            },
+            {
+                "question": "weather the storm - Useful for surviving difficult times.",
+                "hint": "",
+                "answer": [
+                    "She weathered the storm and completed her speech.",
+                    "The team weathered the storm despite technical issues.",
+                    "He weathered the storm of criticism and improved."
+                ]
+            },
+            {
+                "question": "your guess is as good as mine - Useful for expressing uncertainty.",
+                "hint": "",
+                "answer": [
+                    "Your guess is as good as mine about the next meeting date.",
+                    "She shrugged; your guess is as good as mine.",
+                    "I don't know either; your guess is as good as mine."
+                ]
+            },
+            {
+                "question": "bite the bullet - Useful for facing a difficult situation bravely.",
+                "hint": "",
+                "answer": [
+                    "He bit the bullet and delivered the speech despite nerves.",
+                    "She bit the bullet and gave constructive feedback.",
+                    "They bit the bullet and started the session without tech support."
+                ]
+            },
+            {
+                "question": "hit the sack - Useful for going to bed or resting.",
+                "hint": "",
+                "answer": [
+                    "After the long meeting, I hit the sack immediately.",
+                    "She hit the sack after preparing her slides.",
+                    "He hit the sack early to get enough sleep before the contest."
+                ]
+            },
+            {
+                "question": "keep your fingers crossed - Useful for hoping for good luck.",
+                "hint": "",
+                "answer": [
+                    "Keep your fingers crossed for the Table Topics winners.",
+                    "We keep our fingers crossed for her speech.",
+                    "He kept his fingers crossed during the evaluation."
+                ]
+            },
+            {
+                "question": "call the shots - Useful for being in control or making decisions.",
+                "hint": "",
+                "answer": [
+                    "The TMOD calls the shots during the meeting.",
+                    "She calls the shots on the timing of speeches.",
+                    "He called the shots for organizing the event."
+                ]
+            },
+            {
+                "question": "jump on the bandwagon - Useful for joining a popular activity.",
+                "hint": "",
+                "answer": [
+                    "Many members jumped on the bandwagon to try Table Topics.",
+                    "She jumped on the bandwagon and prepared her speech early.",
+                    "They jumped on the bandwagon after seeing others' success."
+                ]
+            },
+            {
+                "question": "let sleeping dogs lie - Useful for avoiding old problems.",
+                "hint": "",
+                "answer": [
+                    "Let sleeping dogs lie; don't reopen old conflicts.",
+                    "She preferred to let sleeping dogs lie during the feedback session.",
+                    "He let sleeping dogs lie instead of arguing over past mistakes."
+                ]
+            },
+            {
+                "question": "make a long story short - Useful for summarizing.",
+                "hint": "",
+                "answer": [
+                    "To make a long story short, the meeting was a success.",
+                    "He made a long story short and gave key points only.",
+                    "She made a long story short and focused on the main feedback."
+                ]
+            },
+            {
+                "question": "miss the mark - Useful for failing to achieve the goal.",
+                "hint": "",
+                "answer": [
+                    "His evaluation missed the mark on timing suggestions.",
+                    "The joke missed the mark and no one laughed.",
+                    "She missed the mark in explaining her idea."
+                ]
+            },
+            {
+                "question": "on the ball - Useful for being alert and effective.",
+                "hint": "",
+                "answer": [
+                    "TM John is always on the ball during evaluations.",
+                    "She was on the ball in noticing errors.",
+                    "He stayed on the ball throughout the Table Topics session."
+                ]
+            },
+            {
+                "question": "pull yourself together - Useful for regaining composure.",
+                "hint": "",
+                "answer": [
+                    "She pulled herself together before starting the speech.",
+                    "He pulled himself together despite being nervous.",
+                    "They pulled themselves together after a technical glitch."
+                ]
+            },
+            {
+                "question": "rock the boat - Useful for causing trouble or disturbance.",
+                "hint": "",
+                "answer": [
+                    "Don't rock the boat during team discussions.",
+                    "She avoided rocking the boat while giving feedback.",
+                    "He didn't want to rock the boat in front of the guests."
+                ]
+            },
+            {
+                "question": "scratch the surface - Useful for beginning to understand.",
+                "hint": "",
+                "answer": [
+                    "We have only scratched the surface of Toastmasters opportunities.",
+                    "She scratched the surface of evaluation techniques.",
+                    "He scratched the surface of speech writing skills."
+                ]
+            },
+            {
+                "question": "speak of the devil - Useful for talking about someone who appears unexpectedly.",
+                "hint": "",
+                "answer": [
+                    "Speak of the devil, here comes TM Jemy!",
+                    "We were just talking about him, speak of the devil.",
+                    "Speak of the devil, she entered the room at that moment."
+                ]
+            },
+            {
+                "question": "take it with a pinch of salt - Useful for being skeptical (same as grain of salt).",
+                "hint": "",
+                "answer": [
+                    "Take that feedback with a pinch of salt.",
+                    "She takes every rumor with a pinch of salt.",
+                    "I took the warning with a pinch of salt until verified."
+                ]
+            },
+            {
+                "question": "the last straw - Useful for the final problem causing frustration.",
+                "hint": "",
+                "answer": [
+                    "The last straw was when the timer failed again.",
+                    "She felt it was the last straw after repeated technical issues.",
+                    "He considered the missed cue the last straw."
+                ]
+            },
+            {
+                "question": "through thick and thin - Useful for staying loyal in all circumstances.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline supported the team through thick and thin.",
+                    "She stayed loyal through thick and thin.",
+                    "They helped each other through thick and thin."
+                ]
+            },
+            {
+                "question": "time flies - Useful for noticing quick passage of time.",
+                "hint": "",
+                "answer": [
+                    "Time flies during a good Toastmasters session.",
+                    "She noticed time flies when preparing speeches.",
+                    "He realized time flies during evaluation."
+                ]
+            },
+            {
+                "question": "turn a blind eye - Useful for ignoring mistakes.",
+                "hint": "",
+                "answer": [
+                    "Don't turn a blind eye to mistakes in the evaluation.",
+                    "She turned a blind eye to minor errors.",
+                    "He turned a blind eye to timing issues during Table Topics."
+                ]
+            },
+            {
+                "question": "under your nose - Useful for being very obvious.",
+                "hint": "",
+                "answer": [
+                    "The mistake was right under your nose.",
+                    "She found the error under her nose in the slides.",
+                    "He realized the solution was under his nose all along."
+                ]
+            },
+            {
+                "question": "your heart sinks - Useful for feeling sudden disappointment.",
+                "hint": "",
+                "answer": [
+                    "Her heart sank when she forgot her lines.",
+                    "His heart sank at the sight of a technical failure.",
+                    "Our hearts sank when the timer malfunctioned."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "50 Sentence Frames",
+        "category": "50 practical Sentence Frames",
+        "label": "Sentence Frames",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "I think… - Useful for expressing an opinion.",
+                "hint": "",
+                "answer": [
+                    "I think we should start the meeting on time.",
+                    "I think TM Jemy did a great job in her speech.",
+                    "I think we can improve our evaluation process."
+                ]
+            },
+            {
+                "question": "I believe… - Useful for expressing a stronger opinion or conviction.",
+                "hint": "",
+                "answer": [
+                    "I believe that preparation is the key to success.",
+                    "I believe our club can achieve higher participation.",
+                    "I believe constructive feedback helps members grow."
+                ]
+            },
+            {
+                "question": "In my opinion… - Useful for polite opinion expression.",
+                "hint": "",
+                "answer": [
+                    "In my opinion, the Table Topics session was excellent.",
+                    "In my opinion, we need more practice for timing.",
+                    "In my opinion, the evaluation could focus more on body language."
+                ]
+            },
+            {
+                "question": "It seems to me that… - Useful for suggesting an idea or perception.",
+                "hint": "",
+                "answer": [
+                    "It seems to me that our meetings are very well organized.",
+                    "It seems to me that the new format worked better.",
+                    "It seems to me that members enjoyed the Table Topics session."
+                ]
+            },
+            {
+                "question": "As far as I know… - Useful for sharing knowledge or information.",
+                "hint": "",
+                "answer": [
+                    "As far as I know, the club has never missed a meeting.",
+                    "As far as I know, TM Mercy prepared an excellent recap.",
+                    "As far as I know, this method improves speech delivery."
+                ]
+            },
+            {
+                "question": "From my experience… - Useful for giving advice based on personal experience.",
+                "hint": "",
+                "answer": [
+                    "From my experience, practicing daily improves fluency.",
+                    "From my experience, feedback sessions help more than reading alone.",
+                    "From my experience, joining other club meetings is very useful."
+                ]
+            },
+            {
+                "question": "I would suggest… - Useful for giving polite recommendations.",
+                "hint": "",
+                "answer": [
+                    "I would suggest practicing timing before the speech.",
+                    "I would suggest providing more examples in the evaluation.",
+                    "I would suggest participating in buddy club meetings."
+                ]
+            },
+            {
+                "question": "It's important to… - Useful for emphasizing key actions or advice.",
+                "hint": "",
+                "answer": [
+                    "It's important to maintain eye contact during a speech.",
+                    "It's important to stay calm under pressure.",
+                    "It's important to review your notes before presenting."
+                ]
+            },
+            {
+                "question": "One thing to keep in mind is… - Useful for highlighting advice or caution.",
+                "hint": "",
+                "answer": [
+                    "One thing to keep in mind is not to exceed the time limit.",
+                    "One thing to keep in mind is to speak clearly and confidently.",
+                    "One thing to keep in mind is to respect the audience's attention."
+                ]
+            },
+            {
+                "question": "I noticed that… - Useful for observations.",
+                "hint": "",
+                "answer": [
+                    "I noticed that TM John used gestures effectively.",
+                    "I noticed that the timing was well managed.",
+                    "I noticed that members were very engaged during the session."
+                ]
+            },
+            {
+                "question": "I appreciate… - Useful for expressing gratitude or recognition.",
+                "hint": "",
+                "answer": [
+                    "I appreciate TM Mercy's effort in preparing the recap.",
+                    "I appreciate the evaluators' constructive feedback.",
+                    "I appreciate members who volunteered for roles."
+                ]
+            },
+            {
+                "question": "I was impressed by… - Useful for complimenting someone.",
+                "hint": "",
+                "answer": [
+                    "I was impressed by TM Jemy's confidence.",
+                    "I was impressed by the way the session was organized.",
+                    "I was impressed by the evaluation delivered by TM Caroline."
+                ]
+            },
+            {
+                "question": "I'm not sure, but… - Useful for cautious or tentative opinions.",
+                "hint": "",
+                "answer": [
+                    "I'm not sure, but the session could have been slightly shorter.",
+                    "I'm not sure, but maybe more examples would help.",
+                    "I'm not sure, but we could try a different format next time."
+                ]
+            },
+            {
+                "question": "I strongly recommend… - Useful for giving firm advice.",
+                "hint": "",
+                "answer": [
+                    "I strongly recommend practicing Table Topics daily.",
+                    "I strongly recommend attending buddy club meetings.",
+                    "I strongly recommend preparing slides carefully before a presentation."
+                ]
+            },
+            {
+                "question": "It's clear that… - Useful for stating obvious conclusions.",
+                "hint": "",
+                "answer": [
+                    "It's clear that everyone enjoyed the session.",
+                    "It's clear that preparation makes a big difference.",
+                    "It's clear that TM John handled the Table Topics very well."
+                ]
+            },
+            {
+                "question": "I have observed that… - Useful for sharing insights.",
+                "hint": "",
+                "answer": [
+                    "I have observed that members improve faster with regular practice.",
+                    "I have observed that eye contact helps maintain audience engagement.",
+                    "I have observed that feedback sessions boost confidence."
+                ]
+            },
+            {
+                "question": "It's worth noting that… - Useful for highlighting important points.",
+                "hint": "",
+                "answer": [
+                    "It's worth noting that TM Caroline handled both Timer and GE roles.",
+                    "It's worth noting that the audience reacted positively.",
+                    "It's worth noting that preparation made the session smooth."
+                ]
+            },
+            {
+                "question": "I couldn't agree more - Useful for showing strong agreement.",
+                "hint": "",
+                "answer": [
+                    "I couldn't agree more with TM John's observation.",
+                    "I couldn't agree more about the importance of practice.",
+                    "I couldn't agree more that feedback is crucial."
+                ]
+            },
+            {
+                "question": "One way to… is to… - Useful for giving advice or instructions.",
+                "hint": "",
+                "answer": [
+                    "One way to improve is to practice in front of a mirror.",
+                    "One way to stay confident is to prepare thoroughly.",
+                    "One way to manage time is to rehearse the speech multiple times."
+                ]
+            },
+            {
+                "question": "I feel that… - Useful for expressing personal feelings or impressions.",
+                "hint": "",
+                "answer": [
+                    "I feel that the session was very engaging.",
+                    "I feel that more practice could help improve timing.",
+                    "I feel that TM Mercy's recap was very thorough."
+                ]
+            },
+            {
+                "question": "It seems like… - Useful for giving tentative observations.",
+                "hint": "",
+                "answer": [
+                    "It seems like everyone enjoyed the impromptu session.",
+                    "It seems like the new format worked well.",
+                    "It seems like members were more confident this time."
+                ]
+            },
+            {
+                "question": "I noticed a difference in… - Useful for comparisons or observations.",
+                "hint": "",
+                "answer": [
+                    "I noticed a difference in confidence compared to the last meeting.",
+                    "I noticed a difference in audience engagement this session.",
+                    "I noticed a difference in timing management this time."
+                ]
+            },
+            {
+                "question": "It's my belief that… - Useful for expressing opinion politely.",
+                "hint": "",
+                "answer": [
+                    "It's my belief that preparation is key to success.",
+                    "It's my belief that constructive feedback helps members grow.",
+                    "It's my belief that we should focus on quality over quantity."
+                ]
+            },
+            {
+                "question": "I would like to point out… - Useful for highlighting something important.",
+                "hint": "",
+                "answer": [
+                    "I would like to point out TM John's excellent handling of Table Topics.",
+                    "I would like to point out the improvement in timing management.",
+                    "I would like to point out the thoroughness of the recap session."
+                ]
+            },
+            {
+                "question": "A good example of this is… - Useful for supporting a point.",
+                "hint": "",
+                "answer": [
+                    "A good example of this is TM Caroline handling dual roles effectively.",
+                    "A good example of this is the audience responding well to Table Topics.",
+                    "A good example of this is TM Mercy's detailed recap."
+                ]
+            },
+            {
+                "question": "I was particularly impressed by… - Useful for highlighting specific achievement.",
+                "hint": "",
+                "answer": [
+                    "I was particularly impressed by TM Jemy's confidence.",
+                    "I was particularly impressed by the team's coordination.",
+                    "I was particularly impressed by the clear timing management."
+                ]
+            },
+            {
+                "question": "It might be helpful to… - Useful for polite suggestions.",
+                "hint": "",
+                "answer": [
+                    "It might be helpful to practice more before the next session.",
+                    "It might be helpful to give feedback in writing.",
+                    "It might be helpful to watch other club meetings for ideas."
+                ]
+            },
+            {
+                "question": "I am of the opinion that… - Useful for formal opinion expression.",
+                "hint": "",
+                "answer": [
+                    "I am of the opinion that Table Topics can be more challenging.",
+                    "I am of the opinion that evaluation should focus on constructive advice.",
+                    "I am of the opinion that the session ran very smoothly."
+                ]
+            },
+            {
+                "question": "A key takeaway is… - Useful for summarizing.",
+                "hint": "",
+                "answer": [
+                    "A key takeaway is that preparation ensures smooth delivery.",
+                    "A key takeaway is that feedback strengthens confidence.",
+                    "A key takeaway is that engaging the audience is crucial."
+                ]
+            },
+            {
+                "question": "It's clear from… that… - Useful for drawing conclusions.",
+                "hint": "",
+                "answer": [
+                    "It's clear from the reactions that the audience enjoyed the session.",
+                    "It's clear from the timing that members improved.",
+                    "It's clear from the feedback that the recap was well received."
+                ]
+            },
+            {
+                "question": "I'd like to emphasize… - Useful for stressing a point.",
+                "hint": "",
+                "answer": [
+                    "I'd like to emphasize the importance of preparation.",
+                    "I'd like to emphasize teamwork in Table Topics.",
+                    "I'd like to emphasize giving constructive feedback."
+                ]
+            },
+            {
+                "question": "Another point to consider is… - Useful for adding points.",
+                "hint": "",
+                "answer": [
+                    "Another point to consider is timing management.",
+                    "Another point to consider is clarity in speech.",
+                    "Another point to consider is audience engagement."
+                ]
+            },
+            {
+                "question": "From what I observed… - Useful for giving insights based on observation.",
+                "hint": "",
+                "answer": [
+                    "From what I observed, members participated actively.",
+                    "From what I observed, preparation improved performance.",
+                    "From what I observed, feedback sessions were very helpful."
+                ]
+            },
+            {
+                "question": "I would like to add… - Useful for adding information.",
+                "hint": "",
+                "answer": [
+                    "I would like to add that TM John's evaluation was insightful.",
+                    "I would like to add that timing was managed perfectly.",
+                    "I would like to add that audience engagement was excellent."
+                ]
+            },
+            {
+                "question": "It's obvious that… - Useful for stating clear conclusions.",
+                "hint": "",
+                "answer": [
+                    "It's obvious that preparation paid off.",
+                    "It's obvious that members are improving steadily.",
+                    "It's obvious that teamwork enhances session quality."
+                ]
+            },
+            {
+                "question": "It's fair to say that… - Useful for polite conclusion.",
+                "hint": "",
+                "answer": [
+                    "It's fair to say that the recap session was highly effective.",
+                    "It's fair to say that Table Topics helped build confidence.",
+                    "It's fair to say that the evaluation highlighted key points."
+                ]
+            },
+            {
+                "question": "I'm convinced that… - Useful for strong opinion.",
+                "hint": "",
+                "answer": [
+                    "I'm convinced that preparation is the secret to success.",
+                    "I'm convinced that feedback improves performance.",
+                    "I'm convinced that active participation builds confidence."
+                ]
+            },
+            {
+                "question": "It would be beneficial to… - Useful for polite advice.",
+                "hint": "",
+                "answer": [
+                    "It would be beneficial to practice every week.",
+                    "It would be beneficial to observe other club meetings.",
+                    "It would be beneficial to review notes before each session."
+                ]
+            },
+            {
+                "question": "I can't help but notice… - Useful for pointing out observations.",
+                "hint": "",
+                "answer": [
+                    "I can't help but notice the improvement in timing.",
+                    "I can't help but notice how engaged the audience was.",
+                    "I can't help but notice TM Jemy's confidence in delivery."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "50 Adjective + Noun pairs",
+        "category": "50 Adjective + Noun pairs",
+        "label": "Adjective + Noun pairs",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "strong opinion - Useful for expressing firm beliefs.",
+                "hint": "",
+                "answer": [
+                    "She gave a strong opinion on the best approach.",
+                    "TM John shared his strong opinion about timing.",
+                    "I have a strong opinion about improving speech delivery."
+                ]
+            },
+            {
+                "question": "constructive feedback - Useful for helpful evaluation.",
+                "hint": "",
+                "answer": [
+                    "She provided constructive feedback to improve my speech.",
+                    "The evaluator gave constructive feedback on gestures.",
+                    "I appreciate constructive feedback for my Table Topics."
+                ]
+            },
+            {
+                "question": "valuable experience - Useful for describing meaningful learning.",
+                "hint": "",
+                "answer": [
+                    "Attending the session was a valuable experience.",
+                    "Delivering a speech in front of a large audience is a valuable experience.",
+                    "Participating in evaluations is a valuable experience."
+                ]
+            },
+            {
+                "question": "clear message - Useful for expressing clarity in communication.",
+                "hint": "",
+                "answer": [
+                    "Her speech had a clear message.",
+                    "It's important to convey a clear message during presentations.",
+                    "The recap provided a clear message about the club's achievements."
+                ]
+            },
+            {
+                "question": "active participation - Useful for engagement.",
+                "hint": "",
+                "answer": [
+                    "Active participation improves confidence.",
+                    "Members showed active participation during Table Topics.",
+                    "Active participation makes meetings more enjoyable."
+                ]
+            },
+            {
+                "question": "key point - Useful for emphasizing important ideas.",
+                "hint": "",
+                "answer": [
+                    "She highlighted the key point in her speech.",
+                    "It's important to focus on the key points during evaluation.",
+                    "The recap covered every key point of the year."
+                ]
+            },
+            {
+                "question": "timely feedback - Useful for suggestions given at the right time.",
+                "hint": "",
+                "answer": [
+                    "Timely feedback helps improve speech delivery.",
+                    "I appreciated the timely feedback on my Table Topics speech.",
+                    "Timely feedback makes a big difference in preparation."
+                ]
+            },
+            {
+                "question": "great effort - Useful for acknowledging hard work.",
+                "hint": "",
+                "answer": [
+                    "TM Mercy put in great effort for the recap.",
+                    "I appreciate the great effort of all role players.",
+                    "Great effort was visible in every prepared speech."
+                ]
+            },
+            {
+                "question": "effective strategy - Useful for describing successful methods.",
+                "hint": "",
+                "answer": [
+                    "Using cue cards is an effective strategy for speeches.",
+                    "Her effective strategy ensured smooth timing.",
+                    "The team adopted an effective strategy to manage Table Topics."
+                ]
+            },
+            {
+                "question": "active role - Useful for describing contribution.",
+                "hint": "",
+                "answer": [
+                    "He played an active role in organizing the session.",
+                    "TM Caroline took an active role as Timer and GE.",
+                    "Active role in evaluation improves member learning."
+                ]
+            },
+            {
+                "question": "positive outcome - Useful for describing good results.",
+                "hint": "",
+                "answer": [
+                    "The speech contest had a positive outcome.",
+                    "Active participation leads to positive outcomes.",
+                    "The session ended with a positive outcome for all."
+                ]
+            },
+            {
+                "question": "key achievement - Useful for highlighting success.",
+                "hint": "",
+                "answer": [
+                    "The recap highlighted the key achievements of 2025.",
+                    "Delivering an excellent speech is a key achievement.",
+                    "Timely preparation is a key achievement for members."
+                ]
+            },
+            {
+                "question": "valuable insight - Useful for important understanding.",
+                "hint": "",
+                "answer": [
+                    "The evaluation provided valuable insight on body language.",
+                    "Her speech gave valuable insight into effective delivery.",
+                    "We gained valuable insight from the Table Topics session."
+                ]
+            },
+            {
+                "question": "productive discussion - Useful for effective conversation.",
+                "hint": "",
+                "answer": [
+                    "The post-session meeting was a productive discussion.",
+                    "Constructive feedback leads to productive discussion.",
+                    "The buddy club session encouraged productive discussion."
+                ]
+            },
+            {
+                "question": "impressive performance - Useful for praising achievements.",
+                "hint": "",
+                "answer": [
+                    "TM Jemy delivered an impressive performance in Table Topics.",
+                    "Her prepared speech was an impressive performance.",
+                    "The evaluation by TM John was an impressive performance."
+                ]
+            },
+            {
+                "question": "important lesson - Useful for teaching or learning points.",
+                "hint": "",
+                "answer": [
+                    "The session taught an important lesson about confidence.",
+                    "Active participation gives an important lesson in leadership.",
+                    "Timely preparation is an important lesson for all members."
+                ]
+            },
+            {
+                "question": "strong impact - Useful for significant influence.",
+                "hint": "",
+                "answer": [
+                    "Her speech had a strong impact on the audience.",
+                    "Constructive feedback makes a strong impact on members.",
+                    "The recap created a strong impact on the buddy club."
+                ]
+            },
+            {
+                "question": "excellent example - Useful for illustrating a point.",
+                "hint": "",
+                "answer": [
+                    "TM Mercy's recap is an excellent example of preparation.",
+                    "The Table Topics session is an excellent example of spontaneity.",
+                    "TM John's evaluation is an excellent example of insight."
+                ]
+            },
+            {
+                "question": "timely preparation - Useful for readiness.",
+                "hint": "",
+                "answer": [
+                    "Timely preparation ensures smooth execution of speeches.",
+                    "She showed timely preparation in her Table Topics.",
+                    "Timely preparation helps in delivering effective evaluations."
+                ]
+            },
+            {
+                "question": "valuable contribution - Useful for acknowledging efforts.",
+                "hint": "",
+                "answer": [
+                    "TM John made a valuable contribution during the session.",
+                    "TM Caroline's dual role was a valuable contribution.",
+                    "Every member's effort is a valuable contribution to the club."
+                ]
+            },
+            {
+                "question": "high quality - Useful for describing excellence.",
+                "hint": "",
+                "answer": [
+                    "The DTM Sathish Menon's speeches are of high quality.",
+                    "Evaluations of high quality help members improve.",
+                    "TM Mercy's recap was of high quality."
+                ]
+            },
+            {
+                "question": "focused attention - Useful for concentration.",
+                "hint": "",
+                "answer": [
+                    "The audience gave focused attention to every speaker.",
+                    "Focused attention improves learning during evaluation.",
+                    "She maintained focused attention while delivering the speech."
+                ]
+            },
+            {
+                "question": "clear structure - Useful for organization.",
+                "hint": "",
+                "answer": [
+                    "Her speech had a clear structure.",
+                    "Evaluation with clear structure helps understanding.",
+                    "The recap presentation had a clear structure."
+                ]
+            },
+            {
+                "question": "effective communication - Useful for conveying ideas well.",
+                "hint": "",
+                "answer": [
+                    "Effective communication is key in public speaking.",
+                    "Her evaluation showed effective communication skills.",
+                    "Table Topics improve effective communication in members."
+                ]
+            },
+            {
+                "question": "confident speaker - Useful for praising abilities.",
+                "hint": "",
+                "answer": [
+                    "TM Jemy is a confident speaker.",
+                    "A confident speaker engages the audience better.",
+                    "Confident speakers manage timing efficiently."
+                ]
+            },
+            {
+                "question": "strong connection - Useful for engagement.",
+                "hint": "",
+                "answer": [
+                    "The speaker created a strong connection with the audience.",
+                    "Evaluation helps build a strong connection with the team.",
+                    "Strong connection improves learning in Table Topics."
+                ]
+            },
+            {
+                "question": "useful technique - Useful for helpful methods.",
+                "hint": "",
+                "answer": [
+                    "Gestures are a useful technique for speeches.",
+                    "Using notes is a useful technique for beginners.",
+                    "Evaluation frameworks are a useful technique for feedback."
+                ]
+            },
+            {
+                "question": "smooth delivery - Useful for effective presentation.",
+                "hint": "",
+                "answer": [
+                    "Her speech had smooth delivery.",
+                    "Evaluation with smooth delivery engages members better.",
+                    "TM Mercy's recap showed smooth delivery."
+                ]
+            },
+            {
+                "question": "key insight - Useful for important understanding.",
+                "hint": "",
+                "answer": [
+                    "TM John provided a key insight during evaluation.",
+                    "The session gave key insight into speech techniques.",
+                    "Key insight helps members improve effectively."
+                ]
+            },
+            {
+                "question": "active role - Useful for describing involvement.",
+                "hint": "",
+                "answer": [
+                    "She took an active role in organizing the meeting.",
+                    "TM Caroline played an active role in evaluation and timing.",
+                    "Active role ensures smooth functioning of meetings."
+                ]
+            },
+            {
+                "question": "valuable learning - Useful for important knowledge.",
+                "hint": "",
+                "answer": [
+                    "Table Topics sessions provide valuable learning.",
+                    "Evaluation sessions offer valuable learning for members.",
+                    "Observing other clubs gives valuable learning opportunities."
+                ]
+            },
+            {
+                "question": "important factor - Useful for contributing element.",
+                "hint": "",
+                "answer": [
+                    "Confidence is an important factor in speech delivery.",
+                    "Timing is an important factor in evaluation.",
+                    "Audience engagement is an important factor for success."
+                ]
+            },
+            {
+                "question": "excellent performance - Useful for praising work.",
+                "hint": "",
+                "answer": [
+                    "TM Jemy gave an excellent performance.",
+                    "Her Table Topics speech was an excellent performance.",
+                    "Evaluation delivered by TM John was an excellent performance."
+                ]
+            },
+            {
+                "question": "focused effort - Useful for concentrated work.",
+                "hint": "",
+                "answer": [
+                    "Focused effort improves speech quality.",
+                    "She showed focused effort in preparing her slides.",
+                    "Focused effort by all members ensured a successful meeting."
+                ]
+            },
+            {
+                "question": "clear understanding - Useful for comprehension.",
+                "hint": "",
+                "answer": [
+                    "She demonstrated clear understanding of the topic.",
+                    "Evaluation requires clear understanding of speech objectives.",
+                    "Clear understanding helps deliver effective feedback."
+                ]
+            },
+            {
+                "question": "active engagement - Useful for participation.",
+                "hint": "",
+                "answer": [
+                    "Active engagement makes meetings more productive.",
+                    "Members showed active engagement during Table Topics.",
+                    "Active engagement improves learning and confidence."
+                ]
+            },
+            {
+                "question": "strong foundation - Useful for basics or preparation.",
+                "hint": "",
+                "answer": [
+                    "Preparation builds a strong foundation for speaking.",
+                    "A strong foundation is important for effective evaluation.",
+                    "TM Mercy's recap showed a strong foundation in planning."
+                ]
+            },
+            {
+                "question": "important role - Useful for describing responsibility.",
+                "hint": "",
+                "answer": [
+                    "TMOD plays an important role in every meeting.",
+                    "Evaluation is an important role for member growth.",
+                    "Timer has an important role in managing time."
+                ]
+            },
+            {
+                "question": "useful resource - Useful for something that helps learning.",
+                "hint": "",
+                "answer": [
+                    "Observing other clubs is a useful resource.",
+                    "Feedback forms are a useful resource for improvement.",
+                    "The club website is a useful resource for members."
+                ]
+            },
+            {
+                "question": "productive session - Useful for effective meetings.",
+                "hint": "",
+                "answer": [
+                    "The evaluation session was productive.",
+                    "Table Topics session turned out to be a productive session.",
+                    "Buddy club meetings provide productive sessions for learning."
+                ]
+            },
+            {
+                "question": "excellent example - Useful for illustrating ideas.",
+                "hint": "",
+                "answer": [
+                    "TM Mercy's recap is an excellent example of planning.",
+                    "TM John's evaluation is an excellent example of clarity.",
+                    "The Table Topics session is an excellent example of spontaneity."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "50 Linking Words",
+        "category": "50 Linking Words",
+        "label": "Linking Words",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "However - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "I wanted to attend the meeting; however, I was traveling.",
+                    "The speech was good; however, it could be shorter.",
+                    "We prepared well; however, some points were missed."
+                ]
+            },
+            {
+                "question": "Therefore - Useful to show result.",
+                "hint": "",
+                "answer": [
+                    "She prepared thoroughly; therefore, her speech was excellent.",
+                    "The timing was perfect; therefore, the session ran smoothly.",
+                    "We practiced daily; therefore, members improved fast."
+                ]
+            },
+            {
+                "question": "Moreover - Useful to add extra information.",
+                "hint": "",
+                "answer": [
+                    "The speech was engaging; moreover, it was informative.",
+                    "TM Mercy’s recap was detailed; moreover, it was inspiring.",
+                    "The evaluation was constructive; moreover, it was encouraging."
+                ]
+            },
+            {
+                "question": "Although - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "Although I was nervous, I delivered the speech confidently.",
+                    "Although the topic was difficult, she handled it well.",
+                    "Although the timing was tight, the session was successful."
+                ]
+            },
+            {
+                "question": "In addition - Useful to add points.",
+                "hint": "",
+                "answer": [
+                    "In addition to Table Topics, we had a prepared speech session.",
+                    "In addition to evaluation, TM Jemy gave tips on gestures.",
+                    "In addition to planning, practice improves confidence."
+                ]
+            },
+            {
+                "question": "As a result - Useful to show outcomes.",
+                "hint": "",
+                "answer": [
+                    "She practiced daily; as a result, her speech was fluent.",
+                    "The team coordinated well; as a result, the session went smoothly.",
+                    "He observed other clubs; as a result, he improved his skills."
+                ]
+            },
+            {
+                "question": "Furthermore - Useful to add information formally.",
+                "hint": "",
+                "answer": [
+                    "The speech was clear; furthermore, it was engaging.",
+                    "The evaluation was insightful; furthermore, it was encouraging.",
+                    "The preparation was excellent; furthermore, the timing was perfect."
+                ]
+            },
+            {
+                "question": "On the other hand - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "The speech was long; on the other hand, it was very detailed.",
+                    "Some members were confident; on the other hand, some were nervous.",
+                    "The timing was strict; on the other hand, it taught discipline."
+                ]
+            },
+            {
+                "question": "Similarly - Useful to compare.",
+                "hint": "",
+                "answer": [
+                    "TM John handled Table Topics well; similarly, TM Caroline managed dual roles perfectly.",
+                    "The first speech was clear; similarly, the second one was precise.",
+                    "Our preparation was thorough; similarly, the buddy club prepared well."
+                ]
+            },
+            {
+                "question": "In contrast - Useful to compare opposites.",
+                "hint": "",
+                "answer": [
+                    "In contrast to the first session, this one was very interactive.",
+                    "In contrast to previous meetings, the timing was managed better.",
+                    "In contrast to other clubs, our club emphasizes evaluations highly."
+                ]
+            },
+            {
+                "question": "Meanwhile - Useful to show simultaneous events.",
+                "hint": "",
+                "answer": [
+                    "I was preparing my speech; meanwhile, TM Jemy was reviewing notes.",
+                    "The Timer was counting seconds; meanwhile, the evaluator observed carefully.",
+                    "Members were practicing; meanwhile, the speaker finished early."
+                ]
+            },
+            {
+                "question": "Nevertheless - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "The speech was long; nevertheless, it was engaging.",
+                    "The topic was difficult; nevertheless, she performed well.",
+                    "Timing was short; nevertheless, the session went smoothly."
+                ]
+            },
+            {
+                "question": "Consequently - Useful to show result.",
+                "hint": "",
+                "answer": [
+                    "He practiced daily; consequently, his confidence improved.",
+                    "The team coordinated perfectly; consequently, the session was successful.",
+                    "She followed the tips; consequently, her speech was effective."
+                ]
+            },
+            {
+                "question": "As well as - Useful to add information.",
+                "hint": "",
+                "answer": [
+                    "She is talented as well as hardworking.",
+                    "TM John is engaging as well as insightful.",
+                    "The session was informative as well as entertaining."
+                ]
+            },
+            {
+                "question": "Otherwise - Useful to show consequence of inaction.",
+                "hint": "",
+                "answer": [
+                    "We must practice daily, otherwise we will struggle in Table Topics.",
+                    "Prepare in advance, otherwise you will run out of time.",
+                    "Follow the guidelines, otherwise your evaluation may not be effective."
+                ]
+            },
+            {
+                "question": "In other words - Useful to clarify.",
+                "hint": "",
+                "answer": [
+                    "He is an experienced speaker; in other words, he knows how to engage the audience.",
+                    "She prepared thoroughly; in other words, the session was smooth.",
+                    "TM John explained the feedback clearly; in other words, everyone understood the points."
+                ]
+            },
+            {
+                "question": "In fact - Useful to emphasize.",
+                "hint": "",
+                "answer": [
+                    "In fact, this was the best session of the year.",
+                    "In fact, members improved a lot from last meeting.",
+                    "In fact, the Table Topics session exceeded expectations."
+                ]
+            },
+            {
+                "question": "Meanwhile - Useful to indicate simultaneous events.",
+                "hint": "",
+                "answer": [
+                    "I was preparing the slides; meanwhile, TM Caroline handled the Timer role.",
+                    "She was speaking; meanwhile, the audience took notes.",
+                    "Members were reviewing their notes; meanwhile, the evaluation started."
+                ]
+            },
+            {
+                "question": "Thus - Useful to indicate conclusion.",
+                "hint": "",
+                "answer": [
+                    "She practiced a lot; thus, her speech was confident.",
+                    "The team coordinated well; thus, the session ran smoothly.",
+                    "He followed all tips; thus, the performance improved."
+                ]
+            },
+            {
+                "question": "Even though - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "Even though she was nervous, she delivered the speech confidently.",
+                    "Even though timing was short, the speech was clear.",
+                    "Even though preparation was limited, the evaluation was helpful."
+                ]
+            },
+            {
+                "question": "In summary - Useful for concluding.",
+                "hint": "",
+                "answer": [
+                    "In summary, the session was productive and engaging.",
+                    "In summary, members learned a lot from Table Topics.",
+                    "In summary, preparation and feedback are key to improvement."
+                ]
+            },
+            {
+                "question": "Above all - Useful to emphasize priority.",
+                "hint": "",
+                "answer": [
+                    "Above all, confidence matters in public speaking.",
+                    "Above all, practice ensures smooth delivery.",
+                    "Above all, engaging the audience is essential."
+                ]
+            },
+            {
+                "question": "In conclusion - Useful to summarize.",
+                "hint": "",
+                "answer": [
+                    "In conclusion, the meeting was well organized.",
+                    "In conclusion, members improved significantly.",
+                    "In conclusion, preparation and teamwork made it successful."
+                ]
+            },
+            {
+                "question": "Even if - Useful to show hypothetical contrast.",
+                "hint": "",
+                "answer": [
+                    "Even if the topic is difficult, try to stay confident.",
+                    "Even if time is short, you can deliver an effective speech.",
+                    "Even if nerves are high, practice helps a lot."
+                ]
+            },
+            {
+                "question": "As long as - Useful to show condition.",
+                "hint": "",
+                "answer": [
+                    "As long as you prepare, your speech will be effective.",
+                    "As long as members participate, meetings are productive.",
+                    "As long as feedback is constructive, members grow faster."
+                ]
+            },
+            {
+                "question": "Provided that - Useful to show condition.",
+                "hint": "",
+                "answer": [
+                    "You will succeed provided that you practice regularly.",
+                    "The evaluation will help provided that it is honest.",
+                    "The session will be smooth provided that everyone arrives on time."
+                ]
+            },
+            {
+                "question": "As soon as - Useful to show immediate action.",
+                "hint": "",
+                "answer": [
+                    "As soon as the Timer started, the speech began.",
+                    "As soon as the role players arrived, the session started.",
+                    "As soon as feedback was given, members made notes."
+                ]
+            },
+            {
+                "question": "In the meantime - Useful for simultaneous events.",
+                "hint": "",
+                "answer": [
+                    "The evaluator prepared; in the meantime, the speaker reviewed notes.",
+                    "The audience read the agenda; in the meantime, the Timer adjusted the clock.",
+                    "Members discussed roles; in the meantime, the session setup was completed."
+                ]
+            },
+            {
+                "question": "In order to - Useful to show purpose.",
+                "hint": "",
+                "answer": [
+                    "In order to improve, practice regularly.",
+                    "In order to deliver a confident speech, prepare in advance.",
+                    "In order to finish on time, start the session promptly."
+                ]
+            },
+            {
+                "question": "Due to - Useful to show reason.",
+                "hint": "",
+                "answer": [
+                    "Due to technical issues, the session was delayed.",
+                    "Due to practice, the speech was fluent.",
+                    "Due to proper planning, the session ran smoothly."
+                ]
+            },
+            {
+                "question": "Thanks to - Useful to show reason/credit.",
+                "hint": "",
+                "answer": [
+                    "Thanks to TM Mercy, the recap was excellent.",
+                    "Thanks to preparation, the timing was perfect.",
+                    "Thanks to teamwork, the session was productive."
+                ]
+            },
+            {
+                "question": "In spite of - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "In spite of limited preparation, she delivered a good speech.",
+                    "In spite of nerves, TM Jemy was confident.",
+                    "In spite of short timing, the evaluation was detailed."
+                ]
+            },
+            {
+                "question": "As well - Useful to add information.",
+                "hint": "",
+                "answer": [
+                    "She is talented as well as hardworking.",
+                    "TM John is insightful as well as encouraging.",
+                    "The session was fun as well as educational."
+                ]
+            },
+            {
+                "question": "Likewise - Useful to compare.",
+                "hint": "",
+                "answer": [
+                    "The first evaluation was constructive; likewise, the second was helpful.",
+                    "TM Caroline managed dual roles well; likewise, TM Jemy performed excellently.",
+                    "The speech was clear; likewise, the Table Topics were engaging."
+                ]
+            },
+            {
+                "question": "In reality - Useful to emphasize fact.",
+                "hint": "",
+                "answer": [
+                    "In reality, practice is the key to confidence.",
+                    "In reality, feedback helps members improve faster.",
+                    "In reality, preparation makes a huge difference."
+                ]
+            },
+            {
+                "question": "On the contrary - Useful to oppose.",
+                "hint": "",
+                "answer": [
+                    "The session seemed difficult; on the contrary, it was enjoyable.",
+                    "The topic looked challenging; on the contrary, it was simple.",
+                    "It seemed short; on the contrary, it was comprehensive."
+                ]
+            },
+            {
+                "question": "By the way - Useful to add extra info.",
+                "hint": "",
+                "answer": [
+                    "By the way, TM Jemy will give another speech next week.",
+                    "By the way, the Timer role is open for volunteers.",
+                    "By the way, the evaluation sheet has new guidelines."
+                ]
+            },
+            {
+                "question": "In brief - Useful to summarize.",
+                "hint": "",
+                "answer": [
+                    "In brief, the session was engaging and informative.",
+                    "In brief, members learned valuable lessons.",
+                    "In brief, preparation and teamwork led to success."
+                ]
+            },
+            {
+                "question": "In particular - Useful to highlight.",
+                "hint": "",
+                "answer": [
+                    "In particular, TM Mercy’s recap was excellent.",
+                    "In particular, TM John’s evaluation was insightful.",
+                    "In particular, timing management was impressive."
+                ]
+            },
+            {
+                "question": "For instance - Useful to give example.",
+                "hint": "",
+                "answer": [
+                    "For instance, TM Jemy handled Table Topics flawlessly.",
+                    "For instance, the evaluation emphasized body language.",
+                    "For instance, preparation improved confidence."
+                ]
+            },
+            {
+                "question": "That is to say - Useful to clarify.",
+                "hint": "",
+                "answer": [
+                    "That is to say, practice improves speech quality.",
+                    "That is to say, teamwork enhances session effectiveness.",
+                    "That is to say, feedback is essential for growth."
+                ]
+            },
+            {
+                "question": "As a matter of fact - Useful to emphasize truth.",
+                "hint": "",
+                "answer": [
+                    "As a matter of fact, the session exceeded expectations.",
+                    "As a matter of fact, members improved significantly.",
+                    "As a matter of fact, preparation is the key to confidence."
+                ]
+            },
+            {
+                "question": "In comparison - Useful to compare.",
+                "hint": "",
+                "answer": [
+                    "In comparison to the last session, timing was better.",
+                    "In comparison to other clubs, our evaluations are detailed.",
+                    "In comparison to earlier speeches, this one was more confident."
+                ]
+            },
+            {
+                "question": "As a result of - Useful to show cause-effect.",
+                "hint": "",
+                "answer": [
+                    "As a result of practice, her speech was fluent.",
+                    "As a result of teamwork, the session was smooth.",
+                    "As a result of feedback, members improved quickly."
+                ]
+            },
+            {
+                "question": "In short - Useful to summarize.",
+                "hint": "",
+                "answer": [
+                    "In short, the session was successful.",
+                    "In short, members improved their skills.",
+                    "In short, preparation and teamwork made it smooth."
+                ]
+            },
+            {
+                "question": "Not only… but also - Useful to add emphasis.",
+                "hint": "",
+                "answer": [
+                    "Not only did she prepare well, but she also delivered confidently.",
+                    "Not only was the timing perfect, but the evaluation was excellent.",
+                    "Not only did TM John participate, but he also helped others."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "50 Prepositional Phrases",
+        "category": "50 Prepositional Phrases",
+        "label": "Prepositional Phrases",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "in front of - Useful for position or location.",
+                "hint": "",
+                "answer": [
+                    "She delivered the speech in front of the audience confidently.",
+                    "He presented the evaluation in front of the club members.",
+                    "I felt nervous speaking in front of everyone."
+                ]
+            },
+            {
+                "question": "on behalf of - Useful for representation.",
+                "hint": "",
+                "answer": [
+                    "I spoke on behalf of my team.",
+                    "TM Jemy delivered feedback on behalf of the evaluation team.",
+                    "She accepted the award on behalf of all members."
+                ]
+            },
+            {
+                "question": "in addition to - Useful to add information.",
+                "hint": "",
+                "answer": [
+                    "In addition to the prepared speech, we had Table Topics.",
+                    "In addition to his role, he helped organize the session.",
+                    "In addition to evaluations, members shared tips on body language."
+                ]
+            },
+            {
+                "question": "with regard to - Useful for reference.",
+                "hint": "",
+                "answer": [
+                    "With regard to timing, the session was perfect.",
+                    "With regard to feedback, the evaluator provided helpful suggestions.",
+                    "With regard to speech structure, her preparation was excellent."
+                ]
+            },
+            {
+                "question": "in terms of - Useful to express aspect.",
+                "hint": "",
+                "answer": [
+                    "In terms of delivery, the speech was excellent.",
+                    "In terms of clarity, the evaluation was helpful.",
+                    "In terms of preparation, TM Mercy set a good example."
+                ]
+            },
+            {
+                "question": "according to - Useful to cite sources.",
+                "hint": "",
+                "answer": [
+                    "According to TM Caroline, preparation is key to success.",
+                    "According to the evaluation sheet, timing was perfect.",
+                    "According to the guidelines, every role must be covered."
+                ]
+            },
+            {
+                "question": "as a result of - Useful to show cause-effect.",
+                "hint": "",
+                "answer": [
+                    "As a result of practice, her speech was fluent.",
+                    "As a result of teamwork, the session ran smoothly.",
+                    "As a result of feedback, members improved significantly."
+                ]
+            },
+            {
+                "question": "on the basis of - Useful for reason or criteria.",
+                "hint": "",
+                "answer": [
+                    "The awards were given on the basis of performance.",
+                    "Evaluation scores were decided on the basis of timing and content.",
+                    "Members were selected on the basis of participation."
+                ]
+            },
+            {
+                "question": "in accordance with - Useful for rules or standards.",
+                "hint": "",
+                "answer": [
+                    "The meeting was conducted in accordance with club guidelines.",
+                    "Evaluation followed in accordance with Toastmasters standards.",
+                    "Roles were assigned in accordance with members’ experience."
+                ]
+            },
+            {
+                "question": "in place of - Useful for substitution.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline acted in place of TM Jemy as Timer.",
+                    "He attended in place of the absent member.",
+                    "She spoke in place of the scheduled speaker."
+                ]
+            },
+            {
+                "question": "for the sake of - Useful for purpose or benefit.",
+                "hint": "",
+                "answer": [
+                    "She practiced daily for the sake of improvement.",
+                    "For the sake of clarity, TM John repeated the points.",
+                    "He gave feedback for the sake of growth of all members."
+                ]
+            },
+            {
+                "question": "in terms of - Useful for perspective.",
+                "hint": "",
+                "answer": [
+                    "In terms of engagement, Table Topics were effective.",
+                    "In terms of quality, prepared speeches were excellent.",
+                    "In terms of timing, the session was well managed."
+                ]
+            },
+            {
+                "question": "on account of - Useful to show reason.",
+                "hint": "",
+                "answer": [
+                    "The session was delayed on account of technical issues.",
+                    "The speech was clear on account of careful preparation.",
+                    "The meeting ran smoothly on account of teamwork."
+                ]
+            },
+            {
+                "question": "with respect to - Useful for reference.",
+                "hint": "",
+                "answer": [
+                    "With respect to evaluation, timing is crucial.",
+                    "With respect to gestures, TM Jemy gave useful tips.",
+                    "With respect to speech topics, preparation is key."
+                ]
+            },
+            {
+                "question": "in connection with - Useful to show relation.",
+                "hint": "",
+                "answer": [
+                    "The discussion was in connection with Table Topics.",
+                    "The session was held in connection with the club anniversary.",
+                    "Feedback was given in connection with speech delivery."
+                ]
+            },
+            {
+                "question": "in favor of - Useful to show support.",
+                "hint": "",
+                "answer": [
+                    "The audience voted in favor of the speaker.",
+                    "Members spoke in favor of the new timing rules.",
+                    "The motion was passed in favor of increasing participation."
+                ]
+            },
+            {
+                "question": "in comparison with - Useful to show difference.",
+                "hint": "",
+                "answer": [
+                    "In comparison with last session, timing was better.",
+                    "In comparison with other clubs, ours is more structured.",
+                    "In comparison with her previous speeches, this one was more confident."
+                ]
+            },
+            {
+                "question": "in relation to - Useful to show relevance.",
+                "hint": "",
+                "answer": [
+                    "In relation to evaluations, feedback is essential.",
+                    "In relation to Table Topics, preparation helps a lot.",
+                    "In relation to timing, the session was perfectly executed."
+                ]
+            },
+            {
+                "question": "in spite of - Useful to show contrast.",
+                "hint": "",
+                "answer": [
+                    "In spite of short preparation, the speech was excellent.",
+                    "In spite of nervousness, TM Jemy performed confidently.",
+                    "In spite of timing challenges, the session ran smoothly."
+                ]
+            },
+            {
+                "question": "on top of - Useful to show addition.",
+                "hint": "",
+                "answer": [
+                    "On top of giving a speech, she also evaluated other members.",
+                    "On top of timing, TM Caroline managed the role of GE.",
+                    "On top of preparation, practice ensured success."
+                ]
+            },
+            {
+                "question": "in the event of - Useful to indicate possibility.",
+                "hint": "",
+                "answer": [
+                    "In the event of a delay, TM Jemy will take over.",
+                    "In the event of technical issues, we will use a backup plan.",
+                    "In the event of absence, another member will cover the role."
+                ]
+            },
+            {
+                "question": "with the exception of - Useful to indicate exclusion.",
+                "hint": "",
+                "answer": [
+                    "With the exception of one member, all arrived on time.",
+                    "With the exception of minor mistakes, the speech was excellent.",
+                    "With the exception of TM John, everyone submitted reports."
+                ]
+            },
+            {
+                "question": "in the light of - Useful to indicate reason.",
+                "hint": "",
+                "answer": [
+                    "In the light of recent feedback, improvements were made.",
+                    "In the light of timing issues, adjustments were done.",
+                    "In the light of members’ requests, topics were changed."
+                ]
+            },
+            {
+                "question": "on behalf of - Useful to represent.",
+                "hint": "",
+                "answer": [
+                    "I spoke on behalf of the team.",
+                    "She accepted the award on behalf of everyone.",
+                    "He delivered feedback on behalf of the committee."
+                ]
+            },
+            {
+                "question": "in accordance with - Useful to follow rules.",
+                "hint": "",
+                "answer": [
+                    "The evaluation was conducted in accordance with Toastmasters rules.",
+                    "Roles were assigned in accordance with members’ experience.",
+                    "The meeting was organized in accordance with club regulations."
+                ]
+            },
+            {
+                "question": "in order to - Useful to show purpose.",
+                "hint": "",
+                "answer": [
+                    "In order to improve, members practiced daily.",
+                    "In order to finish on time, the session started promptly.",
+                    "In order to participate, she prepared thoroughly."
+                ]
+            },
+            {
+                "question": "for the purpose of - Useful to indicate reason.",
+                "hint": "",
+                "answer": [
+                    "For the purpose of evaluation, we recorded the session.",
+                    "For the purpose of learning, members observed carefully.",
+                    "For the purpose of clarity, the slides were detailed."
+                ]
+            },
+            {
+                "question": "in connection with - Useful to indicate relation.",
+                "hint": "",
+                "answer": [
+                    "The discussion was in connection with club activities.",
+                    "The session was organized in connection with an award ceremony.",
+                    "Feedback was given in connection with the speech performance."
+                ]
+            },
+            {
+                "question": "on account of - Useful to indicate reason.",
+                "hint": "",
+                "answer": [
+                    "The delay happened on account of technical issues.",
+                    "The speech was excellent on account of preparation.",
+                    "The timing was perfect on account of the Timer."
+                ]
+            },
+            {
+                "question": "by means of - Useful to indicate method.",
+                "hint": "",
+                "answer": [
+                    "The evaluation was conducted by means of a scoring sheet.",
+                    "The speech was delivered by means of a teleprompter.",
+                    "The timing was managed by means of a digital clock."
+                ]
+            },
+            {
+                "question": "in respect of - Useful to indicate reference.",
+                "hint": "",
+                "answer": [
+                    "In respect of Table Topics, practice is essential.",
+                    "In respect of evaluation, constructive comments help growth.",
+                    "In respect of speech delivery, preparation is key."
+                ]
+            },
+            {
+                "question": "with regard to - Useful to indicate relevance.",
+                "hint": "",
+                "answer": [
+                    "With regard to timing, the session ran smoothly.",
+                    "With regard to gestures, TM Jemy gave useful tips.",
+                    "With regard to evaluation, members were attentive."
+                ]
+            },
+            {
+                "question": "in terms of - Useful to show perspective.",
+                "hint": "",
+                "answer": [
+                    "In terms of clarity, the speech was excellent.",
+                    "In terms of engagement, Table Topics were effective.",
+                    "In terms of timing, the session was perfect."
+                ]
+            },
+            {
+                "question": "in favor of - Useful to show support.",
+                "hint": "",
+                "answer": [
+                    "The motion was passed in favor of increasing participation.",
+                    "The audience voted in favor of the speaker.",
+                    "Members spoke in favor of the new timing rules."
+                ]
+            },
+            {
+                "question": "with the help of - Useful to indicate assistance.",
+                "hint": "",
+                "answer": [
+                    "She completed the session with the help of TM John.",
+                    "With the help of practice, her speech improved.",
+                    "With the help of notes, the evaluation was detailed."
+                ]
+            },
+            {
+                "question": "on top of - Useful to indicate addition.",
+                "hint": "",
+                "answer": [
+                    "On top of giving a speech, she also evaluated others.",
+                    "On top of timing, TM Caroline managed the GE role.",
+                    "On top of preparation, practice improved delivery."
+                ]
+            },
+            {
+                "question": "in light of - Useful to indicate reason.",
+                "hint": "",
+                "answer": [
+                    "In light of feedback, members improved their speeches.",
+                    "In light of time constraints, adjustments were made.",
+                    "In light of participation, the session was successful."
+                ]
+            },
+            {
+                "question": "in the course of - Useful to indicate time.",
+                "hint": "",
+                "answer": [
+                    "In the course of the meeting, several points were discussed.",
+                    "In the course of practice, mistakes were corrected.",
+                    "In the course of evaluation, feedback was given."
+                ]
+            },
+            {
+                "question": "in the presence of - Useful to indicate audience.",
+                "hint": "",
+                "answer": [
+                    "She delivered the speech in the presence of all members.",
+                    "Evaluation was conducted in the presence of the Toastmaster.",
+                    "The award was received in the presence of the committee."
+                ]
+            },
+            {
+                "question": "for the benefit of - Useful to indicate purpose.",
+                "hint": "",
+                "answer": [
+                    "Feedback was provided for the benefit of all members.",
+                    "The session was recorded for the benefit of absentees.",
+                    "Tips were shared for the benefit of new speakers."
+                ]
+            },
+            {
+                "question": "with reference to - Useful to indicate context.",
+                "hint": "",
+                "answer": [
+                    "With reference to the evaluation sheet, all points were covered.",
+                    "With reference to timing, the speech was perfect.",
+                    "With reference to the guidelines, the session was conducted properly."
+                ]
+            },
+            {
+                "question": "in pursuit of - Useful to indicate goal.",
+                "hint": "",
+                "answer": [
+                    "Members practiced daily in pursuit of excellence.",
+                    "The team organized activities in pursuit of growth.",
+                    "Speeches were prepared in pursuit of clarity and confidence."
+                ]
+            },
+            {
+                "question": "on the occasion of - Useful for special events.",
+                "hint": "",
+                "answer": [
+                    "The session was held on the occasion of the club anniversary.",
+                    "Awards were distributed on the occasion of the year-end meeting.",
+                    "The speech was delivered on the occasion of a special ceremony."
+                ]
+            }
+        ]
+    },
+    {
+        "key": "50 Verb + Object + Preposition",
+        "category": "50 Verb + Object + Preposition",
+        "label": "Verb + Object + Preposition",
+        "visibility": true,
+        "skipWordHighlighting": false,
+        "questions": [
+            {
+                "question": "interested in - Useful to express interest.",
+                "hint": "",
+                "answer": [
+                    "I am interested in joining the Toastmasters evaluation team.",
+                    "She is interested in giving impromptu speeches.",
+                    "Members are interested in learning public speaking techniques."
+                ]
+            },
+            {
+                "question": "good at - Useful to describe skill.",
+                "hint": "",
+                "answer": [
+                    "TM Jemy is good at Table Topics.",
+                    "She is good at evaluating speeches.",
+                    "He is good at managing time effectively."
+                ]
+            },
+            {
+                "question": "responsible for - Useful to assign duty.",
+                "hint": "",
+                "answer": [
+                    "TM Caroline is responsible for timing.",
+                    "I am responsible for keeping the notes.",
+                    "He is responsible for coordinating the session."
+                ]
+            },
+            {
+                "question": "capable of - Useful to describe ability.",
+                "hint": "",
+                "answer": [
+                    "TM Mercy is capable of delivering a great recap.",
+                    "He is capable of managing multiple roles.",
+                    "She is capable of giving constructive feedback."
+                ]
+            },
+            {
+                "question": "aware of - Useful to describe knowledge.",
+                "hint": "",
+                "answer": [
+                    "I am aware of the club’s guidelines.",
+                    "She is aware of her strengths and weaknesses.",
+                    "Members should be aware of timing requirements."
+                ]
+            },
+            {
+                "question": "familiar with - Useful to describe experience.",
+                "hint": "",
+                "answer": [
+                    "I am familiar with the Toastmasters evaluation process.",
+                    "He is familiar with Table Topics techniques.",
+                    "She is familiar with using timers during meetings."
+                ]
+            },
+            {
+                "question": "concerned about - Useful to express care.",
+                "hint": "",
+                "answer": [
+                    "TM John was concerned about member participation.",
+                    "She is concerned about the timing of speeches.",
+                    "I am concerned about maintaining engagement in the session."
+                ]
+            },
+            {
+                "question": "dependent on - Useful to describe reliance.",
+                "hint": "",
+                "answer": [
+                    "The success of the meeting is dependent on preparation.",
+                    "Evaluation scores are dependent on content and delivery.",
+                    "Timing management is dependent on the Timer."
+                ]
+            },
+            {
+                "question": "excited about - Useful to express enthusiasm.",
+                "hint": "",
+                "answer": [
+                    "I am excited about participating in the next Table Topics.",
+                    "She is excited about giving her first speech.",
+                    "Members are excited about the upcoming contest."
+                ]
+            },
+            {
+                "question": "proud of - Useful to express achievement.",
+                "hint": "",
+                "answer": [
+                    "I am proud of the members’ progress.",
+                    "She is proud of her speech delivery.",
+                    "We are proud of the club’s achievements in 2025."
+                ]
+            },
+            {
+                "question": "interested in - Useful to show preference.",
+                "hint": "",
+                "answer": [
+                    "He is interested in learning evaluation techniques.",
+                    "Members are interested in practicing more impromptu speeches.",
+                    "She is interested in attending workshops."
+                ]
+            },
+            {
+                "question": "capable of - Useful to show ability.",
+                "hint": "",
+                "answer": [
+                    "She is capable of handling dual roles efficiently.",
+                    "He is capable of giving constructive feedback spontaneously.",
+                    "Members are capable of managing time well during speeches."
+                ]
+            },
+            {
+                "question": "responsible for - Useful for accountability.",
+                "hint": "",
+                "answer": [
+                    "The Timer is responsible for tracking speech duration.",
+                    "The evaluator is responsible for providing feedback.",
+                    "The Toastmaster is responsible for coordinating the session."
+                ]
+            },
+            {
+                "question": "aware of - Useful to describe understanding.",
+                "hint": "",
+                "answer": [
+                    "Speakers should be aware of the evaluation criteria.",
+                    "Members should be aware of the club’s meeting structure.",
+                    "I am aware of my own strengths and weaknesses."
+                ]
+            },
+            {
+                "question": "familiar with - Useful to indicate knowledge.",
+                "hint": "",
+                "answer": [
+                    "She is familiar with Table Topics procedures.",
+                    "He is familiar with using speech timers effectively.",
+                    "I am familiar with Toastmasters’ role rotation system."
+                ]
+            },
+            {
+                "question": "concerned about - Useful to express worry.",
+                "hint": "",
+                "answer": [
+                    "The Toastmaster was concerned about meeting timing.",
+                    "She is concerned about new members participating.",
+                    "He is concerned about missing key points in his speech."
+                ]
+            },
+            {
+                "question": "dependent on - Useful to express reliance.",
+                "hint": "",
+                "answer": [
+                    "The success of the contest is dependent on preparation.",
+                    "Evaluation feedback is dependent on observation.",
+                    "Speech quality is dependent on practice."
+                ]
+            },
+            {
+                "question": "excited about - Useful for anticipation.",
+                "hint": "",
+                "answer": [
+                    "Members are excited about upcoming contests.",
+                    "She is excited about giving her first evaluation.",
+                    "I am excited about learning from other clubs."
+                ]
+            },
+            {
+                "question": "proud of - Useful for satisfaction.",
+                "hint": "",
+                "answer": [
+                    "I am proud of TM John’s Table Topics session.",
+                    "She is proud of her club’s achievements.",
+                    "The team is proud of the successful year-end meeting."
+                ]
+            },
+            {
+                "question": "capable of - Useful to describe competence.",
+                "hint": "",
+                "answer": [
+                    "He is capable of multitasking during meetings.",
+                    "She is capable of inspiring the team through speeches.",
+                    "Members are capable of improving with regular practice."
+                ]
+            },
+            {
+                "question": "interested in - Useful to describe curiosity.",
+                "hint": "",
+                "answer": [
+                    "I am interested in learning new evaluation techniques.",
+                    "She is interested in participating in leadership roles.",
+                    "Members are interested in exploring creative speech topics."
+                ]
+            },
+            {
+                "question": "aware of - Useful to indicate mindfulness.",
+                "hint": "",
+                "answer": [
+                    "We must be aware of the time limit for speeches.",
+                    "She is aware of her presentation style.",
+                    "I am aware of the audience’s expectations."
+                ]
+            },
+            {
+                "question": "responsible for - Useful to indicate duty.",
+                "hint": "",
+                "answer": [
+                    "I am responsible for introducing the speaker.",
+                    "The Timer is responsible for giving warnings.",
+                    "The Toastmaster is responsible for keeping the meeting on track."
+                ]
+            },
+            {
+                "question": "concerned about - Useful for expressing attention.",
+                "hint": "",
+                "answer": [
+                    "He was concerned about members not participating.",
+                    "She is concerned about time management.",
+                    "I am concerned about effective communication during meetings."
+                ]
+            },
+            {
+                "question": "dependent on - Useful for expressing requirement.",
+                "hint": "",
+                "answer": [
+                    "Success is dependent on member engagement.",
+                    "The smooth flow of the session is dependent on preparation.",
+                    "Feedback quality is dependent on observation skills."
+                ]
+            },
+            {
+                "question": "excited about - Useful for anticipation.",
+                "hint": "",
+                "answer": [
+                    "She is excited about giving her first speech evaluation.",
+                    "Members are excited about learning new speaking techniques.",
+                    "I am excited about participating in upcoming contests."
+                ]
+            },
+            {
+                "question": "proud of - Useful to indicate satisfaction.",
+                "hint": "",
+                "answer": [
+                    "I am proud of the members’ progress throughout the year.",
+                    "She is proud of completing her speech on time.",
+                    "The team is proud of achieving club goals successfully."
+                ]
+            },
+            {
+                "question": "capable of - Useful to indicate potential.",
+                "hint": "",
+                "answer": [
+                    "He is capable of leading the meeting effectively.",
+                    "She is capable of managing multiple roles simultaneously.",
+                    "Members are capable of delivering excellent speeches with practice."
+                ]
+            },
+            {
+                "question": "interested in - Useful for motivation.",
+                "hint": "",
+                "answer": [
+                    "Members are interested in improving their evaluation skills.",
+                    "She is interested in exploring creative speech topics.",
+                    "I am interested in joining leadership roles in the club."
+                ]
+            },
+            {
+                "question": "familiar with - Useful to indicate knowledge.",
+                "hint": "",
+                "answer": [
+                    "She is familiar with the Table Topics rules.",
+                    "He is familiar with the evaluation criteria.",
+                    "I am familiar with the club’s role rotation process."
+                ]
+            },
+            {
+                "question": "aware of - Useful to indicate alertness.",
+                "hint": "",
+                "answer": [
+                    "Members should be aware of speech timing.",
+                    "She is aware of her gestures and posture.",
+                    "I am aware of audience feedback during presentations."
+                ]
+            },
+            {
+                "question": "responsible for - Useful to assign tasks.",
+                "hint": "",
+                "answer": [
+                    "He is responsible for starting the meeting on time.",
+                    "She is responsible for summarizing the session.",
+                    "I am responsible for coordinating with all role players."
+                ]
+            },
+            {
+                "question": "concerned about - Useful to express focus.",
+                "hint": "",
+                "answer": [
+                    "I am concerned about member engagement.",
+                    "She is concerned about the clarity of evaluation.",
+                    "He is concerned about proper timing during speeches."
+                ]
+            },
+            {
+                "question": "dependent on - Useful to indicate reliance.",
+                "hint": "",
+                "answer": [
+                    "The meeting’s success is dependent on preparation.",
+                    "Speech quality is dependent on practice.",
+                    "Feedback effectiveness is dependent on observation."
+                ]
+            },
+            {
+                "question": "excited about - Useful to show enthusiasm.",
+                "hint": "",
+                "answer": [
+                    "Members are excited about upcoming speech contests.",
+                    "She is excited about learning new leadership skills.",
+                    "I am excited about trying new Table Topics exercises."
+                ]
+            },
+            {
+                "question": "proud of - Useful to show accomplishment.",
+                "hint": "",
+                "answer": [
+                    "I am proud of our club’s achievements in 2025.",
+                    "She is proud of completing her speech successfully.",
+                    "The team is proud of its coordinated session execution."
+                ]
+            },
+            {
+                "question": "capable of - Useful to show expertise.",
+                "hint": "",
+                "answer": [
+                    "He is capable of improvising during speeches.",
+                    "She is capable of providing spontaneous evaluations.",
+                    "Members are capable of handling multiple tasks in meetings."
+                ]
+            },
+            {
+                "question": "interested in - Useful for learning.",
+                "hint": "",
+                "answer": [
+                    "I am interested in observing other club meetings.",
+                    "She is interested in participating in leadership projects.",
+                    "Members are interested in improving their Table Topics skills."
+                ]
+            },
+            {
+                "question": "familiar with - Useful for comfort level.",
+                "hint": "",
+                "answer": [
+                    "I am familiar with the speech evaluation format.",
+                    "He is familiar with Toastmasters’ role rotation.",
+                    "She is familiar with Table Topics strategies."
+                ]
+            },
+            {
+                "question": "aware of - Useful for consciousness.",
+                "hint": "",
+                "answer": [
+                    "I am aware of my speech timing.",
+                    "She is aware of the audience’s reactions.",
+                    "He is aware of his gestures during delivery."
+                ]
+            },
+            {
+                "question": "responsible for - Useful to assign duty.",
+                "hint": "",
+                "answer": [
+                    "I am responsible for managing the Timer role.",
+                    "She is responsible for summarizing key points.",
+                    "He is responsible for guiding new members."
+                ]
+            },
+            {
+                "question": "concerned about - Useful to show care.",
+                "hint": "",
+                "answer": [
+                    "I am concerned about members’ participation levels.",
+                    "She is concerned about the clarity of speech content.",
+                    "He is concerned about timing for evaluations."
+                ]
+            },
+            {
+                "question": "dependent on - Useful to show reliance.",
+                "hint": "",
+                "answer": [
+                    "The evaluation outcome is dependent on observation.",
+                    "The speech delivery is dependent on preparation.",
+                    "The success of the meeting is dependent on teamwork."
+                ]
+            },
+            {
+                "question": "excited about - Useful to express eagerness.",
+                "hint": "",
+                "answer": [
+                    "I am excited about giving my first speech evaluation.",
+                    "She is excited about learning new communication techniques.",
+                    "Members are excited about upcoming contests and workshops."
+                ]
+            },
+            {
+                "question": "proud of - Useful to express accomplishment.",
+                "hint": "",
+                "answer": [
+                    "I am proud of completing my speech successfully.",
+                    "She is proud of helping new members learn roles.",
+                    "The team is proud of executing a smooth session."
                 ]
             }
         ]
